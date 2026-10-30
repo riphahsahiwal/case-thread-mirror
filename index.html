@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/case-thread-mirror/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="case_thread">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>case_thread</title>
+  <link rel="manifest" href="manifest.json">
+  <style>
+    /* Shown instantly while the Flutter bundle downloads and starts;
+       without it the page is blank for the whole cold load. Removed
+       on the first Flutter frame (see the script below). */
+    #ct-loading {
+      position: fixed; inset: 0; z-index: 9999;
+      display: flex; flex-direction: column; gap: 16px;
+      align-items: center; justify-content: center;
+      background: #0e0e12; color: #e8e8ec;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    #ct-loading .ct-spinner {
+      width: 36px; height: 36px; border-radius: 50%;
+      border: 3px solid #3a3a44; border-top-color: #e8e8ec;
+      animation: ct-spin 0.9s linear infinite;
+    }
+    #ct-loading p { margin: 0; font-size: 14px; opacity: 0.8; }
+    @keyframes ct-spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+  <div id="ct-loading" role="status" aria-label="CaseThread is loading">
+    <div class="ct-spinner"></div>
+    <p>Loading CaseThread&hellip;</p>
+  </div>
+  <script>
+    (function () {
+      var overlayRemoved = false;
+      function removeLoading() {
+        if (overlayRemoved) return;
+        overlayRemoved = true;
+        if (diagTimer) clearInterval(diagTimer);
+        var el = document.getElementById('ct-loading');
+        if (el) el.remove();
+      }
+      // What the browser actually managed to download, so a stuck
+      // load stops being a guess: files that finished show their
+      // size/time, files still missing never arrived. Cross-origin
+      // sizes (CanvasKit) are hidden by the browser, but presence
+      // and duration still show. No extra downloads are made.
+      function loadDiagnostics() {
+        var lines = [];
+        try {
+          var conn =
+            navigator.connection ||
+            navigator.mozConnection ||
+            navigator.webkitConnection;
+          if (conn) {
+            lines.push(
+              'Connection: ' +
+                (conn.effectiveType || '?') +
+                (conn.downlink ? ', ~' + conn.downlink + ' Mbps' : '') +
+                (conn.saveData ? ', data saver on' : ''),
+            );
+          }
+          var entries = performance.getEntriesByType('resource');
+          var wanted = [
+            'flutter_bootstrap.js',
+            'flutter.js',
+            'main.dart.js',
+            'canvaskit.js',
+            'canvaskit.wasm',
+          ];
+          var seen = {};
+          for (var i = 0; i < entries.length; i++) {
+            var name = entries[i].name || '';
+            for (var j = 0; j < wanted.length; j++) {
+              if (name.indexOf(wanted[j]) !== -1) seen[wanted[j]] = entries[i];
+            }
+          }
+          for (var k = 0; k < wanted.length; k++) {
+            var e = seen[wanted[k]];
+            if (e) {
+              var kb = e.transferSize
+                ? Math.round(e.transferSize / 1024) + ' KB'
+                : 'size hidden';
+              lines.push(
+                wanted[k] + ': loaded, ' + kb + ', ' + Math.round(e.duration) + ' ms',
+              );
+            } else {
+              lines.push(wanted[k] + ': NOT loaded yet');
+            }
+          }
+        } catch (err) {
+          lines.push('Diagnostics unavailable.');
+        }
+        return lines.join('<br>');
+      }
+      function showLoadError(message) {
+        var el = document.getElementById('ct-loading');
+        if (!el || overlayRemoved) return;
+        el.innerHTML =
+          '<p style="max-width:280px;text-align:center;line-height:1.5">' +
+          message +
+          '</p><p style="max-width:320px;text-align:center;line-height:1.6;font-size:12px;opacity:0.75">' +
+          loadDiagnostics() +
+          '</p><p style="max-width:280px;text-align:center;line-height:1.5;font-size:12px;opacity:0.8">You can also just wait on this screen — the app will still appear if the download finishes. Screenshot this screen and send it, so we can see exactly what got stuck.</p><button id="ct-retry" style="margin-top:4px;padding:10px 22px;border:0;border-radius:8px;background:#3b82f6;color:#fff;font-size:14px;cursor:pointer">Retry</button>';
+        document.getElementById('ct-retry').addEventListener('click', function () {
+          window.location.reload();
+        });
+      }
+      // Refresh the diagnostics line every 30s while the overlay
+      // is up, so a later screenshot shows whether the download is
+      // progressing (files appearing) or stalled (nothing changing).
+      var diagTimer = null;
+      function startDiagRefresh() {
+        if (diagTimer) return;
+        diagTimer = setInterval(function () {
+          if (overlayRemoved) {
+            clearInterval(diagTimer);
+            return;
+          }
+          var diag = document.getElementById('ct-diag');
+          if (diag) diag.innerHTML = loadDiagnostics();
+        }, 30000);
+      }
+      function showStillLoading() {
+        var el = document.getElementById('ct-loading');
+        if (!el || overlayRemoved) return;
+        var p = el.querySelector('p');
+        if (p) {
+          p.textContent =
+            'Still loading — slow connections can take a while. ' +
+            'The app will appear when the download finishes.';
+        }
+        var existing = document.getElementById('ct-diag');
+        if (existing) {
+          existing.innerHTML = loadDiagnostics();
+        } else if (!document.getElementById('ct-retry')) {
+          var diag = document.createElement('p');
+          diag.id = 'ct-diag';
+          diag.style.cssText =
+            'margin:0;max-width:320px;text-align:center;line-height:1.6;font-size:12px;opacity:0.75';
+          diag.innerHTML = loadDiagnostics();
+          el.appendChild(diag);
+        }
+        if (!document.getElementById('ct-retry')) {
+          var btn = document.createElement('button');
+          btn.id = 'ct-retry';
+          btn.textContent = 'Retry';
+          btn.style.cssText =
+            'margin-top:4px;padding:10px 22px;border:0;border-radius:8px;' +
+            'background:#3b82f6;color:#fff;font-size:14px;cursor:pointer';
+          btn.addEventListener('click', function () {
+            window.location.reload();
+          });
+          el.appendChild(btn);
+        }
+      }
+      window.addEventListener('flutter-first-frame', removeLoading);
+      // Fallback: if the event is missed, drop the overlay as soon as
+      // the Flutter glass pane exists. No give-up: a slow load must
+      // still clear the overlay when it arrives.
+      var timer = setInterval(function () {
+        if (document.querySelector('flt-glass-pane')) {
+          clearInterval(timer);
+          removeLoading();
+        }
+      }, 500);
+      // Two stages, but no failure declaration: on a very slow
+      // connection the download can legitimately take several
+      // minutes, and the app still appears whenever it finishes
+      // (the first-frame listener clears this overlay whenever that
+      // happens). At 60s say the load is still going and start
+      // refreshing the diagnostics; at 180s only reword to
+      // "unusually long". The only true failure shown is a
+      // bootstrap download error (__ctLoadFailed).
+      setTimeout(function () {
+        if (!overlayRemoved && !document.querySelector('flt-glass-pane')) {
+          showStillLoading();
+          startDiagRefresh();
+        }
+      }, 60000);
+      setTimeout(function () {
+        if (!overlayRemoved && !document.querySelector('flt-glass-pane')) {
+          var el = document.getElementById('ct-loading');
+          var p = el ? el.querySelector('p') : null;
+          if (p) {
+            p.textContent =
+              'Still loading — this is taking unusually long. ' +
+              'The download may still be going; you can keep waiting, ' +
+              'or try a faster connection.';
+          }
+          var diag = document.getElementById('ct-diag');
+          if (diag) diag.innerHTML = loadDiagnostics();
+        }
+      }, 180000);
+      // A bootstrap download failure must surface too, immediately.
+      window.__ctLoadFailed = function () {
+        clearInterval(timer);
+        showLoadError('CaseThread failed to load. Check your connection, then try again.');
+      };
+    })();
+  </script>
+  <!--
+    You can customize the "flutter_bootstrap.js" script.
+    This is useful to provide a custom configuration to the Flutter loader
+    or to give the user feedback during the initialization process.
+
+    For more details:
+    * https://docs.flutter.dev/platform-integration/web/initialization
+  -->
+  <script src="flutter_bootstrap.js" async onerror="window.__ctLoadFailed && window.__ctLoadFailed()"></script>
+</body>
+</html>
