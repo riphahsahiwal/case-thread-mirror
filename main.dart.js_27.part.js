@@ -1,12 +1,12 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B={c2I:function c2I(){},B6:function B6(d){this.a=d},
-cNt(d){var w
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B={c2K:function c2K(){},B6:function B6(d){this.a=d},
+cNv(d){var w
 A:{if("signed"===d){w=C.a5Y
-break A}if("declined"===d){w=C.fjt
-break A}if("cancelled"===d){w=C.fju
+break A}if("declined"===d){w=C.fju
+break A}if("cancelled"===d){w=C.fjv
 break A}w=C.t3
 break A}return w},
-cny(d){var w
+cnC(d){var w
 switch(d.a){case 0:w="Pending"
 break
 case 1:w="Signed"
@@ -16,7 +16,7 @@ break
 case 3:w="Cancelled"
 break
 default:w=null}return w},
-c70(d){var w,v,u,t,s,r,q=A.U(d.h(0,"id")),p=A.a9(d.h(0,"room_id"))
+c73(d){var w,v,u,t,s,r,q=A.U(d.h(0,"id")),p=A.a9(d.h(0,"room_id"))
 if(p==null)p=""
 w=A.U(d.h(0,"title"))
 v=A.a9(d.h(0,"document_text"))
@@ -26,7 +26,7 @@ t=A.a9(d.h(0,"signer_email"))
 s=A.a9(d.h(0,"message"))
 if(s==null)s=""
 r=A.a9(d.h(0,"status"))
-r=B.cNt(r==null?"pending":r)
+r=B.cNv(r==null?"pending":r)
 A.dY(A.U(d.h(0,"created_at")))
 return new B.nq(q,p,w,v,u,t,s,r,A.a9(d.h(0,"evidence_id")),A.a9(d.h(0,"evidence_filename")))},
 NA:function NA(d,e){this.a=d
@@ -45,7 +45,7 @@ _.z=m}},C
 J=c[1]
 A=c[0]
 B=a.updateHolder(c[68],B)
-C=c[194]
+C=c[195]
 B.B6.prototype={
 jR(d){return this.bt9(d)},
 bt9(d){var w=0,v=A.m(x.F),u,t=this,s,r,q,p,o,n,m,l
@@ -57,7 +57,7 @@ l=A.c([],x.n)
 for(s=J.aJ(m),r=x.B,q=x.w,p=x.b;s.q();){o=A.aM(r.a(s.gI()),q,p)
 n=o.h(0,"evidence_items")
 if(r.b(n))o.l(0,"evidence_filename",A.a9(n.h(0,"filename")))
-l.push(B.c70(o))}u=l
+l.push(B.c73(o))}u=l
 w=1
 break
 case 1:return A.k(u,v)}})
@@ -86,7 +86,7 @@ m=B
 l=A
 w=3
 return A.e(p.e3(0,r).bn(y.d).i3(0),$async$j1)
-case 3:u=m.c70(l.aM(f,o,s))
+case 3:u=m.c73(l.aM(f,o,s))
 w=1
 break
 case 1:return A.k(u,v)}})
@@ -112,7 +112,7 @@ if(p==null)p=[]
 s=J.av(p)
 if(s.gW(p)){u=null
 w=1
-break}u=B.c70(A.aM(x.B.a(s.ga8(p)),r,q))
+break}u=B.c73(A.aM(x.B.a(s.ga8(p)),r,q))
 w=1
 break
 case 1:return A.k(u,v)}})
@@ -136,19 +136,19 @@ B.nq.prototype={
 gbE(){return this.a},
 gcw(){return this.c}}
 var z=a.updateTypes(["B6(al)"])
-B.c2I.prototype={
+B.c2K.prototype={
 $1(d){return new B.B6(d.S($.dB(),x.k))},
 $S:z+0};(function inheritance(){var w=a.inherit,v=a.inheritMany
-w(B.c2I,A.cg)
+w(B.c2K,A.cg)
 v(A.E,[B.B6,B.nq])
 w(B.NA,A.fU)})()
 var y={d:"id, room_id, title, document_text, signer_name, signer_email, message, status, created_at, evidence_id, evidence_items(filename)"}
 var x=(function rtii(){var w=A.J
-return{n:w("x<nq>"),F:w("v<nq>"),B:w("ad<@,@>"),c:w("nq"),w:w("f"),k:w("h6"),b:w("@"),d:w("v<@>?"),C:w("nq?"),v:w("~")}})();(function constants(){C.NE=new A.ah(57791,"MaterialIcons",null,!1)
-C.Os=new A.aL(C.NE,18,null,null,null)
+return{n:w("x<nq>"),F:w("v<nq>"),B:w("ad<@,@>"),c:w("nq"),w:w("f"),k:w("h6"),b:w("@"),d:w("v<@>?"),C:w("nq?"),v:w("~")}})();(function constants(){C.NF=new A.ah(57791,"MaterialIcons",null,!1)
+C.Os=new A.aL(C.NF,18,null,null,null)
 C.t3=new B.NA(0,"pending")
 C.a5Y=new B.NA(1,"signed")
-C.fjt=new B.NA(2,"declined")
-C.fju=new B.NA(3,"cancelled")})();(function lazyInitializers(){var w=a.lazyFinal
-w($,"cXV","aap",()=>A.er(new B.c2I(),A.J("B6")))})()};
-(a=>{a["MeOvDP+fv5okF60IrBJQi+u7TtM="]=a.current})($__dart_deferred_initializers__);
+C.fju=new B.NA(2,"declined")
+C.fjv=new B.NA(3,"cancelled")})();(function lazyInitializers(){var w=a.lazyFinal
+w($,"cXX","aap",()=>A.er(new B.c2K(),A.J("B6")))})()};
+(a=>{a["JyFApXYmKpxrfQbKqKV2TebFIDY="]=a.current})($__dart_deferred_initializers__);

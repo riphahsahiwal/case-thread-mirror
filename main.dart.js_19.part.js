@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,B={
-cMH(d){var x,w,v,u,t,s,r=A.c([],y.g),q=y.x,p=A.c([],q),o=new A.dM("")
+cMJ(d){var x,w,v,u,t,s,r=A.c([],y.g),q=y.x,p=A.c([],q),o=new A.dM("")
 for(x=d.length,w=!1,v=0;v<x;){u=d[v]
 if(w)if(u==='"'){t=v+1
 w=t<x&&d[t]==='"'
@@ -13,14 +13,14 @@ p.push(D.n.aI(s.charCodeAt(0)==0?s:s))
 o.a="";++v}else if(u==="\n"){s=o.a
 p.push(D.n.aI(s.charCodeAt(0)==0?s:s))
 o.a=""
-if(D.h.dI(p,new B.c0R()))r.push(p)
+if(D.h.dI(p,new B.c0T()))r.push(p)
 p=A.c([],q);++v}else{++v
 if(u!=="\r")o.a+=u}}}q=o.a
 p.push(D.n.aI(q.charCodeAt(0)==0?q:q))
 o.a=""
-if(D.h.dI(p,new B.c0S()))r.push(p)
+if(D.h.dI(p,new B.c0U()))r.push(p)
 return r},
-cI8(d){var x
+cIa(d){var x
 switch(d.a){case 0:x="Import matters"
 break
 case 1:x="Import contacts"
@@ -28,7 +28,7 @@ break
 case 2:x="Import time entries"
 break
 default:x=null}return x},
-cI7(d){var x
+cI9(d){var x
 switch(d.a){case 0:x="CSV columns: name, case_type (optional). One row per matter."
 break
 case 1:x="CSV columns: name, type (person/org/location), room_name. Contacts are added to the matching room."
@@ -36,9 +36,9 @@ break
 case 2:x="CSV columns: room_name, description, date (YYYY-MM-DD), minutes, billable (true/false), hourly_rate (optional)."
 break
 default:x=null}return x},
-cxl(){return new B.zn(null)},
-c0R:function c0R(){},
-c0S:function c0S(){},
+cxn(){return new B.zn(null)},
+c0T:function c0T(){},
+c0U:function c0U(){},
 W_:function W_(d,e){this.a=d
 this.b=e},
 zn:function zn(d){this.a=d},
@@ -51,14 +51,14 @@ _.w=!1
 _.y=_.x=null
 _.d=$
 _.c=_.a=null},
-bEc:function bEc(d){this.a=d},
-bEd:function bEd(d){this.a=d},
-bEe:function bEe(d,e){this.a=d
+bEe:function bEe(d){this.a=d},
+bEf:function bEf(d){this.a=d},
+bEg:function bEg(d,e){this.a=d
 this.b=e},
-bEf:function bEf(d,e){this.a=d
+bEh:function bEh(d,e){this.a=d
 this.b=e},
-bEg:function bEg(){},
-bEh:function bEh(d){this.a=d},
+bEi:function bEi(){},
+bEj:function bEj(d){this.a=d},
 QY:function QY(d,e,f,g){var _=this
 _.f=d
 _.r=e
@@ -77,47 +77,47 @@ J=c[1]
 A=c[0]
 D=c[2]
 B=a.updateHolder(c[6],B)
-C=c[131]
+C=c[132]
 E=c[35]
-F=c[132]
+F=c[133]
 B.W_.prototype={
 H(){return"ImportType."+this.b}}
 B.zn.prototype={
 Y(){return new B.asJ()}}
 B.asJ.prototype={
 C(d){var x=null
-return new B.Ua(3,A.hy(A.m_(x,x,x,C.fmw,x,x,x,x,C.fuY),x,C.fmv,x,x),x)}}
+return new B.Ua(3,A.hy(A.m_(x,x,x,C.fmx,x,x,x,x,C.fv_),x,C.fmw,x,x),x)}}
 B.HT.prototype={
 Y(){return new B.a43()}}
 B.a43.prototype={
 D0(){var x=0,w=A.m(y.v),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j
 var $async$D0=A.i(function(d,e){if(d===1){t.push(e)
-x=u}for(;;)switch(x){case 0:s.v(new B.bEc(s))
+x=u}for(;;)switch(x){case 0:s.v(new B.bEe(s))
 u=4
 x=7
-return A.e(E.aQU(A.c(["csv"],y.x),D.Np,!0),$async$D0)
+return A.e(E.aQW(A.c(["csv"],y.x),D.Nq,!0),$async$D0)
 case 7:r=e
 l=r
 q=l==null?null:A.ic(l)
-if(q==null){s.v(new B.bEd(s))
+if(q==null){s.v(new B.bEf(s))
 x=1
 break}x=8
 return A.e(q.gO_().o7(),$async$D0)
 case 8:p=e
 if(J.aY(p)===0){l=A.du("The file is empty.")
-throw A.n(l)}o=B.cMH(D.b9.bR(p))
+throw A.n(l)}o=B.cMJ(D.b9.bR(p))
 if(J.aY(o)<2){l=A.du("CSV needs a header row plus at least one data row.")
 throw A.n(l)}x=9
 return A.e(s.w7(o),$async$D0)
 case 9:n=e
-s.v(new B.bEe(s,n))
+s.v(new B.bEg(s,n))
 u=2
 x=6
 break
 case 4:u=3
 j=t.pop()
 m=A.G(j)
-s.v(new B.bEf(s,m))
+s.v(new B.bEh(s,m))
 x=6
 break
 case 3:x=2
@@ -125,15 +125,15 @@ break
 case 6:case 1:return A.k(v,w)
 case 2:return A.j(t.at(-1),w)}})
 return A.l($async$D0,w)},
-w7(d){return this.bc4(d)},
-bc4(b4){var x=0,w=A.m(y.e),v,u=this,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
+w7(d){return this.bc3(d)},
+bc3(b4){var x=0,w=A.m(y.e),v,u=this,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
 var $async$w7=A.i(function(b5,b6){if(b5===1)return A.j(b6,w)
 for(;;)switch(x){case 0:a7=u.gar().X($.dB(),y.k)
 a8=D.h.ga8(b4)
 a9=A.a6(a8).i("a7<1,f>")
-b0=A.K(new A.a7(a8,new B.bEg(),a9),a9.i("ai.E"))
+b0=A.K(new A.a7(a8,new B.bEi(),a9),a9.i("ai.E"))
 b1=D.h.iU(b4,1)
-b2=new B.bEh(b0)
+b2=new B.bEj(b0)
 case 3:switch(u.a.d.a){case 0:x=5
 break
 case 1:x=6
@@ -252,10 +252,10 @@ x=1
 break
 case 4:case 1:return A.k(v,w)}})
 return A.l($async$w7,w)},
-C(d){var x,w,v,u=this,t=null,s=A.d(d).ok,r=u.a.d,q=A.o(B.cI8(r),t,t,t,t,t,s.f,t,t,t),p=s.z
-r=A.o(B.cI7(r),t,t,t,t,t,p,t,t,t)
+C(d){var x,w,v,u=this,t=null,s=A.d(d).ok,r=u.a.d,q=A.o(B.cIa(r),t,t,t,t,t,s.f,t,t,t),p=s.z
+r=A.o(B.cI9(r),t,t,t,t,t,p,t,t,t)
 x=u.w
-w=x?t:u.gb98()
+w=x?t:u.gb97()
 v=y.u
 w=A.c([q,D.Q,r,D.aV,A.o0(F.Op,t,A.o(x?"Importing\u2026":"Choose CSV file",t,t,t,t,t,t,t,t,t),w)],v)
 if(u.w)D.h.J(w,A.c([D.Z,D.bd],v))
@@ -286,14 +286,14 @@ gu(d){return this.c}}
 B.aqP.prototype={
 au(){var x=this
 x.aR()
-x.d=A.bid(null,0,x.a.c,x)},
+x.d=A.bif(null,0,x.a.c,x)},
 m(){var x=this.d
 x===$&&A.b()
 x.m()
 this.aLj()},
 C(d){var x=this.d
 x===$&&A.b()
-return new B.QY(x,A.c7n(d),this.a.f,null)},
+return new B.QY(x,A.c7q(d),this.a.f,null)},
 b0(d){var x,w,v,u,t,s=this
 s.bd(d)
 x=s.a.c
@@ -313,43 +313,43 @@ c1(){this.cL()
 this.cE()
 this.hv()}}
 var z=a.updateTypes(["N<~>()"])
-B.c0R.prototype={
+B.c0T.prototype={
 $1(d){return d.length!==0},
 $S:11}
-B.c0S.prototype={
+B.c0U.prototype={
 $1(d){return d.length!==0},
 $S:11}
-B.bEc.prototype={
+B.bEe.prototype={
 $0(){var x=this.a
 x.w=!0
 x.y=x.x=null},
 $S:0}
-B.bEd.prototype={
+B.bEf.prototype={
 $0(){return this.a.w=!1},
 $S:0}
-B.bEe.prototype={
+B.bEg.prototype={
 $0(){var x=this.a,w=this.b,v=w===1?"":"s"
 x.x="Imported "+w+" row"+v+"."
 x.w=!1},
 $S:0}
-B.bEf.prototype={
+B.bEh.prototype={
 $0(){var x=this.a
 x.y="Import failed: "+A.q(this.b)
 x.w=!1},
 $S:0}
-B.bEg.prototype={
+B.bEi.prototype={
 $1(d){return d.toLowerCase()},
 $S:18}
-B.bEh.prototype={
+B.bEj.prototype={
 $1(d){return D.h.fR(this.a,d)},
 $S:186};(function aliases(){var x=B.a8w.prototype
 x.aLj=x.m})();(function installTearOffs(){var x=a._instance_0u
-x(B.a43.prototype,"gb98","D0",0)})();(function inheritance(){var x=a.mixinHard,w=a.inheritMany,v=a.inherit
-w(A.cg,[B.c0R,B.c0S,B.bEg,B.bEh])
+x(B.a43.prototype,"gb97","D0",0)})();(function inheritance(){var x=a.mixinHard,w=a.inheritMany,v=a.inherit
+w(A.cg,[B.c0T,B.c0U,B.bEi,B.bEj])
 v(B.W_,A.fU)
 w(A.hG,[B.zn,B.HT])
 w(A.hq,[B.asJ,B.a43])
-w(A.dg,[B.bEc,B.bEd,B.bEe,B.bEf])
+w(A.dg,[B.bEe,B.bEf,B.bEg,B.bEh])
 v(B.QY,A.bD)
 v(B.Ua,A.O)
 v(B.a8w,A.a_)
@@ -358,24 +358,24 @@ x(B.a8w,A.h5)})()
 A.cC(b.typeUniverse,JSON.parse('{"HT":{"O":[],"h":[]},"zn":{"O":[],"h":[]},"asJ":{"a_":["zn"]},"a43":{"a_":["HT"]},"Ua":{"O":[],"h":[]},"QY":{"bD":[],"bv":[],"h":[]},"aqP":{"a_":["Ua"]}}'))
 var y=(function rtii(){var x=A.J
 return{g:x("x<v<f>>"),x:x("x<f>"),u:x("x<h>"),B:x("ad<@,@>"),w:x("f"),k:x("h6"),b:x("@"),e:x("w"),q:x("E?"),v:x("~")}})();(function constants(){var x=a.makeConstList
-C.e2Y=new B.W_(0,"matters")
-C.fE2=new B.HT(C.e2Y,null)
-C.e2Z=new B.W_(1,"contacts")
-C.fE3=new B.HT(C.e2Z,null)
-C.e3_=new B.W_(2,"timeEntries")
-C.fE4=new B.HT(C.e3_,null)
-C.f_N=x([C.fE2,C.fE3,C.fE4],y.u)
-C.fmv=new A.Ok(null,C.f_N,null)
+C.e2Z=new B.W_(0,"matters")
+C.fE7=new B.HT(C.e2Z,null)
+C.e3_=new B.W_(1,"contacts")
+C.fE8=new B.HT(C.e3_,null)
+C.e30=new B.W_(2,"timeEntries")
+C.fE9=new B.HT(C.e30,null)
+C.f_O=x([C.fE7,C.fE8,C.fE9],y.u)
+C.fmw=new A.Ok(null,C.f_O,null)
 C.e_p=new A.ah(58019,"MaterialIcons",null,!1)
-C.e0N=new A.aL(C.e_p,null,null,null,null)
-C.fmz=new A.rA("Matters",C.e0N,null)
+C.e0O=new A.aL(C.e_p,null,null,null,null)
+C.fmA=new A.rA("Matters",C.e0O,null)
 C.e_D=new A.ah(58502,"MaterialIcons",null,!1)
-C.e0W=new A.aL(C.e_D,null,null,null,null)
-C.fmC=new A.rA("Contacts",C.e0W,null)
+C.e0X=new A.aL(C.e_D,null,null,null,null)
+C.fmD=new A.rA("Contacts",C.e0X,null)
 C.e_O=new A.ah(58978,"MaterialIcons",null,!1)
-C.e1M=new A.aL(C.e_O,null,null,null,null)
-C.fmA=new A.rA("Time",C.e1M,null)
-C.ePl=x([C.fmz,C.fmC,C.fmA],y.u)
-C.fmw=new A.Oi(C.ePl,null,!1,null,null,null,null,null,null,null,null)
-C.fuY=new A.a0("Import data",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["BR4+Gss9tB7QsmHNu+oLp+huXl4="]=a.current})($__dart_deferred_initializers__);
+C.e1N=new A.aL(C.e_O,null,null,null,null)
+C.fmB=new A.rA("Time",C.e1N,null)
+C.ePm=x([C.fmA,C.fmD,C.fmB],y.u)
+C.fmx=new A.Oi(C.ePm,null,!1,null,null,null,null,null,null,null,null)
+C.fv_=new A.a0("Import data",null,null,null,null,null,null,null,null,null,null)})()};
+(a=>{a["z5vmaU1DIBChtZb4T8owqPY3hnI="]=a.current})($__dart_deferred_initializers__);

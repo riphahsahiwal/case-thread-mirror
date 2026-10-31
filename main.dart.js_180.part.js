@@ -1,29 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,D,C={vE:function vE(d){this.a=d},
-cvT(d,e,f){if(D.n.aI(d).length===0)throw B.n(A.N0)
-if(d.length>200)throw B.n(A.MZ)
-if(f>209715200)throw B.n(A.N_)
-if(f<=0)throw B.n(A.MY)
-if(!A.a5H.n(0,e))throw B.n(new C.vE('Files of type "'+e+y.a))},
-cvS(d,e,f){var x=d.length
-if(D.n.aI(e).length===0)B.ab(A.N0)
-if(e.length>200)B.ab(A.MZ)
-if(x>209715200)B.ab(A.N_)
-if(x<=0)B.ab(A.MY)
-if(!A.a5H.n(0,f))B.ab(new C.vE('Files of type "'+f+y.a))
-return new B.Yh(e,f,d,x,B.Iq(D.lE.b9(d).a))}},A
-B=c[0]
-D=c[2]
-C=a.updateHolder(c[65],C)
-A=c[206]
-C.vE.prototype={}
-var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(C.vE,B.e6)})()
-B.cC(b.typeUniverse,JSON.parse('{"vE":{"aI":[]}}'))
-var y={a:"\" aren't supported. Supported: PDF, DOC/DOCX, images, text, common audio."};(function constants(){A.MY=new C.vE("That file is empty.")
-A.MZ=new C.vE("The file name is too long (over 200 characters).")
-A.N_=new C.vE("That file is over the 200MB limit.")
-A.N0=new C.vE("Pick a file to upload.")
-A.fbf={"application/pdf":0,"application/vnd.openxmlformats-officedocument.wordprocessingml.document":1,"application/msword":2,"image/png":3,"image/jpeg":4,"image/webp":5,"text/plain":6,"audio/mpeg":7,"audio/mp4":8,"audio/wav":9,"audio/x-wav":10,"audio/webm":11,"audio/ogg":12}
-A.a5H=new B.fc(A.fbf,13,B.J("fc<f>"))})()};
-(a=>{a["YZIWbXee+ll6/Apojq8KKTJnEME="]=a.current})($__dart_deferred_initializers__);
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B
+A=c[0]
+B=c[177]
+var z=a.updateTypes([]);(function constants(){B.NI=new A.ah(57926,"MaterialIcons",null,!1)})()};
+(a=>{a["SysYnsWERq930qz7Msu3FqwXNo4="]=a.current})($__dart_deferred_initializers__);
