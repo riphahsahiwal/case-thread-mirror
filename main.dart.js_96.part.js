@@ -1,8 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,C,B
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B
 A=c[0]
-C=c[2]
-B=c[120]
-var z=a.updateTypes([]);(function constants(){B.Cv=new A.ag(57499,"MaterialIcons",null,!0)
-B.CN=new A.aK(C.lW,18,null,null,null)})()};
-(a=>{a["BEGejxI5UxqtsqpT9X4HJuO7UrE="]=a.current})($__dart_deferred_initializers__);
+B=c[129]
+var z=a.updateTypes([]);(function constants(){B.CL=new A.ag(62625,"MaterialIcons",null,!1)})()};
+(a=>{a["sv9b3u6md+gIC1IHfZ+H2jAhRBM="]=a.current})($__dart_deferred_initializers__);
