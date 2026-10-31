@@ -1,8 +1,8 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A,C,E,F,G,B={
-c_J(){return new B.yb(null)},
+c_N(){return new B.yb(null)},
 yb:function yb(d){this.a=d},
-a16:function a16(d,e,f){var _=this
+a17:function a17(d,e,f){var _=this
 _.w=d
 _.x=e
 _.y=f
@@ -10,17 +10,17 @@ _.z=!1
 _.as=_.Q=null
 _.d=$
 _.c=_.a=null},
-bq2:function bq2(){},
-bq3:function bq3(){},
-bq0:function bq0(d){this.a=d},
-bq1:function bq1(d){this.a=d},
+bq5:function bq5(){},
+bq6:function bq6(){},
+bq3:function bq3(d){this.a=d},
 bq4:function bq4(d){this.a=d},
-bq5:function bq5(d){this.a=d},
-bq6:function bq6(d,e){this.a=d
+bq7:function bq7(d){this.a=d},
+bq8:function bq8(d){this.a=d},
+bq9:function bq9(d,e){this.a=d
 this.b=e},
-bq7:function bq7(d,e){this.a=d
+bqa:function bqa(d,e){this.a=d
 this.b=e},
-bq8:function bq8(d){this.a=d}},D
+bqb:function bqb(d){this.a=d}},D
 A=c[0]
 C=c[2]
 E=c[71]
@@ -30,8 +30,8 @@ B=a.updateHolder(c[26],B)
 D=c[126]
 B.yb.prototype={
 Y(){var x=$.ae()
-return new B.a16(new A.bt(null,y.o),new A.bX(C.aK,x),new A.bX(C.aK,x))}}
-B.a16.prototype={
+return new B.a17(new A.bt(null,y.o),new A.bX(C.aK,x),new A.bX(C.aK,x))}}
+B.a17.prototype={
 m(){var x=this.x,w=$.ae()
 x.P$=w
 x.N$=0
@@ -39,7 +39,7 @@ x=this.y
 x.P$=w
 x.N$=0
 this.ap()},
-D(d){var x,w,v,u,t,s,r,q=this,p=null,o=q.gao().V($.BV(),y.D),n=o.gp(),m=n==null?p:n.f,l=o.gkp()!=null
+D(d){var x,w,v,u,t,s,r,q=this,p=null,o=q.gao().V($.BU(),y.D),n=o.gp(),m=n==null?p:n.f,l=o.gkp()!=null
 n=A.e(d)
 x=q.as==null
 w=A.p(x?"New case room":"Room created",p,p,p,p,p,p,p,p,p)
@@ -64,41 +64,41 @@ n=v}n=A.a8(A.c([x,C.a1,u,C.ao,A.p("This code is shown only once \u2014 copy it n
 if(q.as==null){x=q.aPv()
 v=q.z
 u=v||!l||m==null?p:q.gaQO()
-x=A.c([x,A.oR(v?C.lU:G.a6z,D.fwG,u)],y.u)}else x=A.c([q.aSx()],y.u)
+x=A.c([x,A.oR(v?C.lU:G.a6z,D.fwH,u)],y.u)}else x=A.c([q.aSx()],y.u)
 return A.dE(x,n,p,w)},
-aUv(d,e){var x,w,v=this,u=null,t=y.u,s=A.c([A.mk(u,!0,v.x,D.e2t,!1,u,u,D.fvv,u,u,1,!1,u,u,u,u,u,u,C.ag,C.aJ,u,new B.bq2()),C.a1],t)
+aUv(d,e){var x,w,v=this,u=null,t=y.u,s=A.c([A.mk(u,!0,v.x,D.e2t,!1,u,u,D.fvw,u,u,1,!1,u,u,u,u,u,u,C.ag,C.aJ,u,new B.bq5()),C.a1],t)
 if(!e)s.push(F.pp)
 else if(d==null){x=v.c
 x.toString
-s.push(A.p("Set your niche in your profile before creating a room \u2014 a room's case type comes from your niche.",D.fwU,u,u,u,u,A.d_(u,u,A.e(x).ax.fy,u,u,u,u,u,u,u,u,u,u,u,u,u,u,!0,u,u,u,u,u,u,u,u),u,u,u))}else{x=E.a8l(d)
+s.push(A.p("Set your niche in your profile before creating a room \u2014 a room's case type comes from your niche.",D.fwV,u,u,u,u,A.d_(u,u,A.e(x).ax.fy,u,u,u,u,u,u,u,u,u,u,u,u,u,u,!0,u,u,u,u,u,u,u,u),u,u,u))}else{x=E.a8m(d)
 w=v.c
 w.toString
-s.push(A.p("Case type: "+x+" (from your niche)",D.fzg,u,u,u,u,A.e(w).ok.z,u,u,u))}s.push(A.mk(u,!1,v.y,D.e2d,!1,u,u,D.a7y,u,16,1,!1,u,u,u,u,u,u,C.ag,D.fkR,u,new B.bq3()))
+s.push(A.p("Case type: "+x+" (from your niche)",D.fzh,u,u,u,u,A.e(w).ok.z,u,u,u))}s.push(A.mk(u,!1,v.y,D.e2d,!1,u,u,D.a7y,u,16,1,!1,u,u,u,u,u,u,C.ag,D.fkS,u,new B.bq6()))
 x=v.Q
 if(x!=null){w=v.c
 w.toString
 C.i.L(s,A.c([C.V,A.p(x,u,u,u,u,u,A.d_(u,u,A.e(w).ax.fy,u,u,u,u,u,u,u,u,u,u,u,u,u,u,!0,u,u,u,u,u,u,u,u),u,u,u)],t))}return A.yw(u,A.a8(s,C.bd,C.r,C.W,0,C.A),v.w)},
 aPv(){var x=null
-return A.bI(C.bs,x,x,x,this.z?x:new B.bq0(this),x,x)},
-aSx(){return A.oR(C.fpD,null,new B.bq1(this))},
-Q_(){var x=0,w=A.n(y.v),v,u=2,t=[],s=[],r=this,q,p,o,n,m,l,k,j
-var $async$Q_=A.j(function(d,e){if(d===1){t.push(e)
+return A.bI(C.bs,x,x,x,this.z?x:new B.bq3(this),x,x)},
+aSx(){return A.oR(C.fpE,null,new B.bq4(this))},
+Q0(){var x=0,w=A.n(y.v),v,u=2,t=[],s=[],r=this,q,p,o,n,m,l,k,j
+var $async$Q0=A.j(function(d,e){if(d===1){t.push(e)
 x=u}for(;;)switch(x){case 0:if(!r.w.gaf().o1()){x=1
 break}n=r.gao()
-m=n.W($.BV(),y.D).gp()
+m=n.W($.BU(),y.D).gp()
 q=m==null?null:m.f
-if(q==null){r.A(new B.bq4(r))
+if(q==null){r.A(new B.bq7(r))
 x=1
-break}r.A(new B.bq5(r))
+break}r.A(new B.bq8(r))
 u=4
 n=n.W($.iT(),y.f)
 m=C.o.aK(r.x.a.a)
 l=C.o.aK(r.y.a.a)
 if(l.length===0)l=null
 x=7
-return A.d(n.Kr(l,q,m),$async$Q_)
+return A.d(n.Ks(l,q,m),$async$Q0)
 case 7:p=e
-r.A(new B.bq6(r,p))
+r.A(new B.bq9(r,p))
 s.push(6)
 x=5
 break
@@ -106,72 +106,72 @@ case 4:u=3
 j=t.pop()
 n=A.H(j)
 if(y.g.b(n)){o=n
-r.A(new B.bq7(r,o))}else throw j
+r.A(new B.bqa(r,o))}else throw j
 s.push(6)
 x=5
 break
 case 3:s=[2]
 case 5:u=2
-if(r.c!=null)r.A(new B.bq8(r))
+if(r.c!=null)r.A(new B.bqb(r))
 x=s.pop()
 break
 case 6:case 1:return A.l(v,w)
 case 2:return A.k(t.at(-1),w)}})
-return A.m($async$Q_,w)}}
+return A.m($async$Q0,w)}}
 var z=a.updateTypes(["N<~>()"])
-B.bq2.prototype={
+B.bq5.prototype={
 $1(d){var x=d==null?null:C.o.aK(d),w=(x==null?"":x).length
 if(w===0)return"Give the room a name."
 if(w>120)return"Keep the name under 120 characters."
 return null},
-$S:36}
-B.bq3.prototype={
+$S:34}
+B.bq6.prototype={
 $1(d){var x,w=d==null?null:C.o.aK(d)
 if(w==null)w=""
 if(w.length===0)return null
 x=A.cf("^[A-HJ-NP-Za-hj-np-z2-9]{6,16}$",!0,!1)
 if(!x.b.test(w))return"6\u201316 characters: A\u2013Z (no I/O) and digits 2\u20139."
 return null},
-$S:36}
-B.bq0.prototype={
+$S:34}
+B.bq3.prototype={
 $0(){var x=this.a.c
 x.toString
 return A.au(x,!1).bT()},
 $S:0}
-B.bq1.prototype={
+B.bq4.prototype={
 $0(){var x=this.a,w=x.c
 w.toString
 return A.au(w,!1).b3(x.as)},
 $S:0}
-B.bq4.prototype={
+B.bq7.prototype={
 $0(){this.a.Q="Set your niche in your profile before creating a room."},
 $S:0}
-B.bq5.prototype={
+B.bq8.prototype={
 $0(){var x=this.a
 x.z=!0
 x.Q=null},
 $S:0}
-B.bq6.prototype={
+B.bq9.prototype={
 $0(){return this.a.as=this.b},
 $S:0}
-B.bq7.prototype={
+B.bqa.prototype={
 $0(){return this.a.Q=A.aE(this.b).a},
 $S:0}
-B.bq8.prototype={
+B.bqb.prototype={
 $0(){return this.a.z=!1},
 $S:0};(function installTearOffs(){var x=a._instance_0u
-x(B.a16.prototype,"gaQO","Q_",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(B.a17.prototype,"gaQO","Q0",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(B.yb,A.ig)
-x(B.a16,A.hV)
-w(A.cx,[B.bq2,B.bq3])
-w(A.dz,[B.bq0,B.bq1,B.bq4,B.bq5,B.bq6,B.bq7,B.bq8])})()
-A.d1(b.typeUniverse,JSON.parse('{"yb":{"M":[],"h":[]},"a16":{"Z":["yb"]}}'))
-var y={D:A.L("aY<iu?>"),g:A.L("aG"),u:A.L("y<h>"),o:A.L("bt<yx>"),f:A.L("Ys"),q:A.L("O<f>"),v:A.L("~")};(function constants(){D.e2d=new A.cn(null,null,null,"Access code (optional)",null,null,null,null,null,null,"Leave empty to auto-generate \xb7 e.g. ROBBERY2",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"",null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+x(B.a17,A.hV)
+w(A.cx,[B.bq5,B.bq6])
+w(A.dz,[B.bq3,B.bq4,B.bq7,B.bq8,B.bq9,B.bqa,B.bqb])})()
+A.d1(b.typeUniverse,JSON.parse('{"yb":{"M":[],"h":[]},"a17":{"Z":["yb"]}}'))
+var y={D:A.L("aT<iu?>"),g:A.L("aG"),u:A.L("y<h>"),o:A.L("bt<yx>"),f:A.L("Yt"),q:A.L("O<f>"),v:A.L("~")};(function constants(){D.e2d=new A.cn(null,null,null,"Access code (optional)",null,null,null,null,null,null,"Leave empty to auto-generate \xb7 e.g. ROBBERY2",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"",null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 D.e2t=new A.cn(null,null,null,"Room name",null,null,null,null,null,null,"e.g. Contract dispute \u2014 Q3",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-D.fkR=new A.Nx(2,"characters")
-D.fvv=new A.O("create-room-name",y.q)
-D.fwG=new A.O("create-room-submit",y.q)
-D.fwU=new A.O("create-room-niche-missing",y.q)
+D.fkS=new A.Nx(2,"characters")
+D.fvw=new A.O("create-room-name",y.q)
+D.fwH=new A.O("create-room-submit",y.q)
+D.fwV=new A.O("create-room-niche-missing",y.q)
 D.a7y=new A.O("create-room-code",y.q)
-D.fzg=new A.O("create-room-type-from-niche",y.q)})()};
-(a=>{a["DVkCbjdlHRIWN6X839eVvEpdbDY="]=a.current})($__dart_deferred_initializers__);
+D.fzh=new A.O("create-room-type-from-niche",y.q)})()};
+(a=>{a["galYi6cHvS1WCAMRRRV8gq7YKg8="]=a.current})($__dart_deferred_initializers__);
