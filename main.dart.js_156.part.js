@@ -1,58 +1,7 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,C,B={
-c3Y(d,e,f,g,h,i,j,k){return new B.T8(k,h,j,i,!0,e,d,g)},
-brT:function brT(d,e){this.a=d
-this.b=e},
-T8:function T8(d,e,f,g,h,i,j,k){var _=this
-_.c=d
-_.d=e
-_.db=f
-_.dx=g
-_.fx=h
-_.go=i
-_.id=j
-_.a=k}},E,D
-A=c[0]
-C=c[2]
-B=a.updateHolder(c[63],B)
-E=c[203]
-D=c[75]
-B.brT.prototype={
-H(){return"_CheckboxType."+this.b}}
-B.T8.prototype={
-b1S(){var x=this
-switch(x.c){case!1:x.d.$1(!0)
-break
-case!0:x.d.$1(!1)
-break
-case null:case void 0:x.d.$1(!1)
-break}},
-C(d){var x,w,v,u,t,s,r,q,p,o,n,m=this,l=null
-switch(0){case 0:x=new A.DK(!0,D.cbS(l,!1,l,l,l,!1,C.mC,l,m.d,l,l,l,l,l,!1,m.c),l)
-break}w=A.agF(d)
-v=m.go
-u=v==null?w.db:v
-if(u==null)u=C.P7
-A:{if(C.P6===u){v=new A.ad(x,l)
-break A}if(C.e4H===u||C.P7===u){v=new A.ad(l,x)
-break A}v=l}t=v.a
-s=l
-r=v.b
-s=r
-q=A.d(d)
-p=D.cbT(d)
-v=p.b
-v=v==null?l:v.a_(A.aP(y.c))
-o=v
-if(o==null)o=q.ax.y
-v=m.d!=null
-n=v?m.gb1R():l
-return new A.tR(A.ew(!1,m.id,!0,l,v,l,l,l,!1,l,l,t,l,l,l,l,n,!1,o,l,l,l,m.dx,l,m.db,l,s,l),l)},
-gcw(){return this.db}}
-var z=a.updateTypes(["~()"]);(function installTearOffs(){var x=a._instance_0u
-x(B.T8.prototype,"gb1R","b1S",0)})();(function inheritance(){var x=a.inherit
-x(B.brT,A.h6)
-x(B.T8,A.a5)})()
-A.cD(b.typeUniverse,JSON.parse('{"T8":{"a5":[],"h":[]}}'))
-var y={c:A.J("dz")};(function constants(){E.fGs=new B.brT(0,"material")})()};
-(a=>{a["fQGMfRO7qj60WrgNbigvkIMeFP0="]=a.current})($__dart_deferred_initializers__);
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,A
+B=c[0]
+A=c[191]
+var z=a.updateTypes([]);(function constants(){A.e_c=new B.ah(57704,"MaterialIcons",null,!1)
+A.CU=new B.aL(A.e_c,18,null,null,null)})()};
+(a=>{a["mMJOIYXEvmLQvl1k/Jr7Nn3zdxM="]=a.current})($__dart_deferred_initializers__);
