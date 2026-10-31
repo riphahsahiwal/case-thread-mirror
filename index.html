@@ -18,18 +18,18 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="CaseThread — track every detail of your dispute or claim: evidence, timeline, team chat, and AI analysis in one place.">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="case_thread">
+  <meta name="apple-mobile-web-app-title" content="CaseThread">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>case_thread</title>
+  <title>CaseThread</title>
   <link rel="manifest" href="manifest.json">
   <style>
     /* Shown instantly while the Flutter bundle downloads and starts;
@@ -47,12 +47,14 @@
       border: 3px solid #3a3a44; border-top-color: #e8e8ec;
       animation: ct-spin 0.9s linear infinite;
     }
+    #ct-loading img { width: 120px; height: 120px; }
     #ct-loading p { margin: 0; font-size: 14px; opacity: 0.8; }
     @keyframes ct-spin { to { transform: rotate(360deg); } }
   </style>
 </head>
 <body>
   <div id="ct-loading" role="status" aria-label="CaseThread is loading">
+    <img src="casethread-mark.png" alt="" width="120" height="120">
     <div class="ct-spinner"></div>
     <p>Loading CaseThread&hellip;</p>
   </div>

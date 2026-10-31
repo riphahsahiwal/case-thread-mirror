@@ -1,11 +1,11 @@
 {
-    "name": "case_thread",
-    "short_name": "case_thread",
+    "name": "CaseThread",
+    "short_name": "CaseThread",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#0A1E32",
+    "theme_color": "#0A1E32",
+    "description": "CaseThread — track every detail of your dispute or claim: evidence, timeline, team chat, and AI analysis in one place.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
