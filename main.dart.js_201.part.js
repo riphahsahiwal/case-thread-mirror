@@ -1,15 +1,15 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A={
-c2o(d,e,f){return new A.aVx(d,e,f)},
-aVx:function aVx(d,e,f){this.a=d
+c2x(d,e,f){return new A.aVz(d,e,f)},
+aVz:function aVz(d,e,f){this.a=d
 this.b=e
 this.c=f},
-caF(d){return $.a8I().v0(d)}}
+caO(d){return $.a8K().v0(d)}}
 B=c[0]
 A=a.updateHolder(c[14],A)
-A.aVx.prototype={
+A.aVz.prototype={
 dU(){return B.Q(["accuracy",this.a.a,"distanceFilter",this.b],y.g,y.b)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inherit
-x(A.aVx,B.C)})()
+x(A.aVz,B.C)})()
 var y={g:B.I("h"),b:B.I("@")}};
-(a=>{a["EApDTiK9XAqNK/N+1Nm+2A22GLU="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["5JNFO081CIwqo7PmBx8D9tnjg2E="]=a.current})($__dart_deferred_initializers__);
