@@ -1,18 +1,152 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,A={bYP:function bYP(){},bZG:function bZG(){}}
-B=c[0]
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={
+crH(d){var x,w,v,u,t,s,r,q,p,o="reviewed_at",n=d.h(0,"output"),m=y.P.b(n)?n:C.di,l=m.h(0,"sources"),k=A.U(d.h(0,"id"))
+A.U(d.h(0,"room_id"))
+x=A.U(d.h(0,"agent_type"))
+w=A.U(d.h(0,"status"))
+v=A.a8(m.h(0,"title"))
+u=A.a8(m.h(0,"detail"))
+t=A.a8(m.h(0,"provider"))
+s=A.dg(m.h(0,"confidence"))
+if(s==null)s=null
+if(y.j.b(l)){r=A.c([],y.s)
+for(q=J.aK(l);q.q();){p=q.gI()
+if(p!=null)r.push(J.bd(p))}}else r=C.as
+q=A.dX(A.U(d.h(0,"created_at")))
+if(d.h(0,o)!=null)A.kG(A.U(d.h(0,o)))
+return new B.lX(k,x,w,v,u,t,q,s,r)},
+lX:function lX(d,e,f,g,h,i,j,k,l){var _=this
+_.a=d
+_.c=e
+_.d=f
+_.e=g
+_.f=h
+_.r=i
+_.w=j
+_.y=k
+_.z=l},
+k2:function k2(d,e){this.a=d
+this.b=e},
+NN:function NN(d){this.a=d},
+bfS:function bfS(){},
+bfU:function bfU(){},
+bfT:function bfT(){},
+bYu:function bYu(){},
+cdd(d,e,f,g){var x=null
+return new A.DU(C.a8W,!0,g,x,x,x,x,C.F,x,!1,x,!0,x,new A.a3d(f,d,x,x,x),e)}}
+J=c[1]
+A=c[0]
 C=c[2]
-A=a.updateHolder(c[76],A)
-var z=a.updateTypes([])
-A.bYP.prototype={
-$2(d,e){return d.T($.RN(),y.b).M2(e)},
-$S:1183}
-A.bZG.prototype={
-$1(d){return d.T($.RN(),y.b).H0()},
-$S:1184};(function inheritance(){var x=a.inherit
-x(A.bYP,B.dn)
-x(A.bZG,B.ci)})()
-var y={b:B.J("vu")};(function lazyInitializers(){var x=a.lazyFinal
-x($,"cUQ","aa_",()=>C.bE.$2$1(new A.bYP(),B.J("bl<f>"),B.J("f")))
-x($,"cVj","aa1",()=>B.ls(new A.bZG(),B.J("qz")))})()};
-(a=>{a["USe9XZ8qA4XeT5HvMCOdXPTLLO4="]=a.current})($__dart_deferred_initializers__);
+B=a.updateHolder(c[72],B)
+B.lX.prototype={
+gbE(){return this.a},
+gcw(){return this.e}}
+B.k2.prototype={
+gbE(){return this.a}}
+B.NN.prototype={
+Mq(d){return this.bsM(d)},
+bsM(d){var x=0,w=A.m(y.k),v,u=this,t,s
+var $async$Mq=A.i(function(e,f){if(e===1)return A.j(f,w)
+for(;;)switch(x){case 0:s=J
+x=3
+return A.e(u.a.az("ai_agents").bn("id, display_name, description, case_type").aY("is_active",!0).aax("case_type.is.null,case_type.eq."+d).o0("display_name"),$async$Mq)
+case 3:t=s.bX(f,new B.bfS(),y.Y)
+t=A.K(t,t.$ti.i("aj.E"))
+v=t
+x=1
+break
+case 1:return A.k(v,w)}})
+return A.l($async$Mq,w)},
+bA2(d){var x=this.a.az("ai_suggestions").a_T(A.c(["id"],y.s)).aY("room_id",d).o0("created_at")
+return new A.d7(new B.bfU(),x,A.t(x).i("d7<aU.T,w<lX>>"))},
+Nv(d,e,f){return this.byr(d,e,f)},
+byq(d,e){return this.Nv(d,null,e)},
+byr(d,e,f){var x=0,w=A.m(y.T),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j,i
+var $async$Nv=A.i(function(g,h){if(g===1){t.push(h)
+x=u}for(;;)switch(x){case 0:u=4
+l=s.a.ax
+l===$&&A.b()
+k=y.N
+r=A.C(k,k)
+J.bg(r,"agent_id",d)
+J.bg(r,"room_id",f)
+q="evidence_item_id"
+p=e
+if(p!=null)J.bg(r,q,p)
+x=7
+return A.e(l.jp("ai-agent",r),$async$Nv)
+case 7:o=h
+n=A.aM(y.f.a(C.aI.hQ(C.aI.jn(o.a,null),null)),k,y.z)
+if(J.p(J.A(n,"status"),"no_findings")){v=null
+x=1
+break}if(J.p(J.A(n,"status"),"suggestion_created")){r=A.U(J.A(n,"suggestion_id"))
+v=r
+x=1
+break}if(J.p(J.A(n,"code"),"forbidden")){r=A.du(J.A(n,"message"))
+throw A.n(r)}r=A.du("The agent run failed. Try again.")
+throw A.n(r)
+u=2
+x=6
+break
+case 4:u=3
+i=t.pop()
+m=A.G(i)
+r=A.aC(m)
+throw A.n(r)
+x=6
+break
+case 3:x=2
+break
+case 6:case 1:return A.k(v,w)
+case 2:return A.j(t.at(-1),w)}})
+return A.l($async$Nv,w)},
+Z5(d,e,f){return this.byf(d,e,f)},
+byf(d,e,f){var x=0,w=A.m(y.H),v=1,u=[],t=this,s,r,q,p
+var $async$Z5=A.i(function(g,h){if(g===1){u.push(h)
+x=v}for(;;)switch(x){case 0:v=3
+r=y.z
+x=6
+return A.e(t.a.d5("review_suggestion",A.Q(["suggestion",f,"decision",d,"edited_output",e],y.N,r),r),$async$Z5)
+case 6:v=1
+x=5
+break
+case 3:v=2
+p=u.pop()
+s=A.G(p)
+r=A.aC(s)
+throw A.n(r)
+x=5
+break
+case 2:x=1
+break
+case 5:return A.k(null,w)
+case 1:return A.j(u.at(-1),w)}})
+return A.l($async$Z5,w)},
+$iaD2:1}
+var z=a.updateTypes(["k2(@)","w<lX>(w<ac<f,@>>)","lX(ac<f,@>)","NN(al)"])
+B.bfS.prototype={
+$1(d){var x=A.aM(d,y.N,y.z),w=A.U(x.h(0,"id")),v=A.U(x.h(0,"display_name"))
+A.a8(x.h(0,"description"))
+A.a8(x.h(0,"case_type"))
+return new B.k2(w,v)},
+$S:z+0}
+B.bfU.prototype={
+$1(d){var x,w=J.bX(d,new B.bfT(),y.m)
+w=A.K(w,w.$ti.i("aj.E"))
+x=A.a6(w).i("cB<1>")
+w=A.K(new A.cB(w,x),x.i("aj.E"))
+return w},
+$S:z+1}
+B.bfT.prototype={
+$1(d){return B.crH(A.aM(d,y.N,y.z))},
+$S:z+2}
+B.bYu.prototype={
+$1(d){return new B.NN(d.T($.dB(),y.A))},
+$S:z+3};(function inheritance(){var x=a.inheritMany
+x(A.E,[B.lX,B.k2,B.NN])
+x(A.ci,[B.bfS,B.bfU,B.bfT,B.bYu])})()
+A.cD(b.typeUniverse,JSON.parse('{"NN":{"aD2":[]}}'))
+var y=(function rtii(){var x=A.J
+return{Y:x("k2"),m:x("lX"),s:x("x<f>"),k:x("w<k2>"),j:x("w<@>"),P:x("ac<f,@>"),f:x("ac<@,@>"),N:x("f"),A:x("h4"),z:x("@"),T:x("f?"),H:x("~")}})();(function lazyInitializers(){var x=a.lazyFinal
+x($,"cUE","a9Z",()=>A.eo(new B.bYu(),A.J("aD2")))})()};
+(a=>{a["SuPCxihk4zViwkHd+an4VIIF/uw="]=a.current})($__dart_deferred_initializers__);
