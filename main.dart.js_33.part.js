@@ -1,40 +1,40 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={a9L:function a9L(d,e){this.a=d
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={aao:function aao(d,e){this.a=d
 this.b=e},
-c8E(d,e,f){var w=new B.Ic(d,C.f.ap(Date.now(),1000),e)
-w.as=new B.adb(f)
-w.Q=new B.adb(f)
+ca8(d,e,f){var w=new B.IK(d,C.f.ao(Date.now(),1000),e)
+w.as=new B.adQ(f)
+w.Q=new B.adQ(f)
 return w},
-Ic:function Ic(d,e,f){var _=this
+IK:function IK(d,e,f){var _=this
 _.a=d
 _.e=e
 _.f=$
 _.as=_.Q=null
 _.at=f},
-abq:function abq(d,e){this.a=d
+ac3:function ac3(d,e){this.a=d
 this.b=e},
-chO(d){if(d==null)return null
-return((A.fb(d)<<3|A.kO(d)>>>3)&255)<<8|((A.kO(d)&7)<<5|A.c3e(d)/2|0)&255},
-chK(d){if(d==null)return null
-return(((A.b6(d)-1980&127)<<1|A.bk(d)>>>3)&255)<<8|((A.bk(d)&7)<<5|A.c_(d))&255},
-ayN:function ayN(d){var _=this
+cjm(d){if(d==null)return null
+return((A.ev(d)<<3|A.iv(d)>>>3)&255)<<8|((A.iv(d)&7)<<5|A.Mf(d)/2|0)&255},
+cji(d){if(d==null)return null
+return(((A.b2(d)-1980&127)<<1|A.b8(d)>>>3)&255)<<8|((A.b8(d)&7)<<5|A.bN(d))&255},
+azE:function azE(d){var _=this
 _.a=$
 _.f=_.e=_.d=_.c=_.b=0
 _.r=null
 _.w=d
 _.x=""
 _.z=_.y=0},
-bTF:function bTF(d,e){var _=this
+bUW:function bUW(d,e){var _=this
 _.a=d
 _.c=_.b=$
 _.e=_.d=0
 _.r=e},
-bjN:function bjN(d){var _=this
+bkV:function bkV(d){var _=this
 _.a=$
 _.b=null
 _.d=d
 _.r=_.f=null},
-c10:function c10(d,e,f,g){var _=this
+c2r:function c2r(d,e,f,g){var _=this
 _.a=1
 _.b=d
 _.c=e
@@ -42,78 +42,78 @@ _.d=f
 _.f=g
 _.r=null
 _.x=_.w=$},
-b0j:function b0j(){},
-c2Y:function c2Y(d){var _=this
+b13:function b13(){},
+c4o:function c4o(d){var _=this
 _.a=0
 _.b=$
 _.c=!1
 _.d=d},
-aOK:function aOK(){},
-adb:function adb(d){this.a=d},
-cJF(d,e){var w,v,u,t,s,r,q,p,o,n,m="BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//CaseThread//Deadlines//EN\n"+("X-WR-CALNAME:"+e+"\n")
-for(w=J.aI(d),v=x.k;w.q();){u=w.gI()
-t=v.a(u.gVz())
-s=C.o.cC(C.f.j(A.bk(t)),2,"0")
-r=C.o.cC(C.f.j(A.c_(t)),2,"0")
-q=new A.aH(Date.now(),0,!1).eb().cY()
-p=A.ck("[-:]",!0,!1)
-o=C.i.ga7(A.d1(q,p,"").split("."))
-q=A.q(u.gbG())
-p=A.T(u.gcP())
-p=A.d1(p,"\\","\\\\")
-p=A.d1(p,";","\\;")
-p=A.d1(p,",","\\,")
-p=A.d1(p,"\n","\\n")
-n=A.q(u.guO())
-n=A.d1("Case: "+n,"\\","\\\\")
-n=A.d1(n,";","\\;")
-n=A.d1(n,",","\\,")
-m=m+"BEGIN:VEVENT\n"+("UID:"+q+"@casethread\n")+("DTSTAMP:"+o+"Z\n")+("DTSTART;VALUE=DATE:"+(""+A.b6(t)+s+r)+"\n")+("SUMMARY:"+p+"\n")+("DESCRIPTION:"+A.d1(n,"\n","\\n")+"\n")+"END:VEVENT\n"}m+="END:VCALENDAR\n"
+aPu:function aPu(){},
+adQ:function adQ(d){this.a=d},
+cLp(d,e){var w,v,u,t,s,r,q,p,o,n,m="BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//CaseThread//Deadlines//EN\n"+("X-WR-CALNAME:"+e+"\n")
+for(w=J.aL(d),v=x.k;w.q();){u=w.gI()
+t=v.a(u.gVU())
+s=C.o.bL(C.f.j(A.b8(t)),2,"0")
+r=C.o.bL(C.f.j(A.bN(t)),2,"0")
+q=new A.aE(Date.now(),0,!1).d9().cZ()
+p=A.cc("[-:]",!0,!1)
+o=C.i.ga9(A.cy(q,p,"").split("."))
+q=A.q(u.gbE())
+p=A.U(u.gcE())
+p=A.cy(p,"\\","\\\\")
+p=A.cy(p,";","\\;")
+p=A.cy(p,",","\\,")
+p=A.cy(p,"\n","\\n")
+n=A.q(u.gBr())
+n=A.cy("Case: "+n,"\\","\\\\")
+n=A.cy(n,";","\\;")
+n=A.cy(n,",","\\,")
+m=m+"BEGIN:VEVENT\n"+("UID:"+q+"@casethread\n")+("DTSTAMP:"+o+"Z\n")+("DTSTART;VALUE=DATE:"+(""+A.b2(t)+s+r)+"\n")+("SUMMARY:"+p+"\n")+("DESCRIPTION:"+A.cy(n,"\n","\\n")+"\n")+"END:VEVENT\n"}m+="END:VCALENDAR\n"
 return m.charCodeAt(0)==0?m:m},
-cI_(d){var w,v,u,t,s,r,q,p,o,n,m
-for(w=d.length,v=0,u=y.a;v<d.length;d.length===w||(0,A.H)(d),++v){t=d[v]
-s=C.o.a8(A.T(t.h(0,"id")),0,8)
-r=A.a7(t.h(0,"room_name"))
+cJI(d){var w,v,u,t,s,r,q,p,o,n,m
+for(w=d.length,v=0,u=y.a;v<d.length;d.length===w||(0,A.E)(d),++v){t=d[v]
+s=C.o.a6(A.U(t.h(0,"id")),0,8)
+r=A.a8(t.h(0,"room_name"))
 if(r==null)r="Client"
-q=A.a7(t.h(0,"created_at"))
-p=q==null?null:C.i.ga7(q.split("T"))
+q=A.a8(t.h(0,"created_at"))
+p=q==null?null:C.i.ga9(q.split("T"))
 if(p==null)p=""
-q=A.hv(t.h(0,"total_cents"))
-o=C.m.aq((q==null?0:q)/100,2)
+q=A.hC(t.h(0,"total_cents"))
+o=C.l.aq((q==null?0:q)/100,2)
 q=t.h(0,"period_start")
 q=A.q(q==null?"":q)
 n=t.h(0,"period_end")
 n=A.q(n==null?"":n)
-m=A.d1(r,'"','""')
-u+=s+',"'+m+'",'+p+',,"'+A.d1("Legal services "+q+" to "+n,'"','""')+'",'+o+"\n"}return u.charCodeAt(0)==0?u:u},
-cH8(d){var w,v,u,t,s,r,q,p,o,n
-for(w=d.length,v=0,u=y.f;v<d.length;d.length===w||(0,A.H)(d),++v){t=d[v]
-s=A.a7(t.h(0,"expense_date"))
+m=A.cy(r,'"','""')
+u+=s+',"'+m+'",'+p+',,"'+A.cy("Legal services "+q+" to "+n,'"','""')+'",'+o+"\n"}return u.charCodeAt(0)==0?u:u},
+cIN(d){var w,v,u,t,s,r,q,p,o,n
+for(w=d.length,v=0,u=y.f;v<d.length;d.length===w||(0,A.E)(d),++v){t=d[v]
+s=A.a8(t.h(0,"expense_date"))
 if(s==null)s=""
-r=A.a7(t.h(0,"description"))
+r=A.a8(t.h(0,"description"))
 if(r==null)r=""
-q=A.d1(r,'"','""')
-p=A.a7(t.h(0,"category"))
+q=A.cy(r,'"','""')
+p=A.a8(t.h(0,"category"))
 if(p==null)p=""
-r=A.dB(t.h(0,"amount"))
-o=r==null?null:C.m.aq(r,2)
+r=A.dp(t.h(0,"amount"))
+o=r==null?null:C.l.aq(r,2)
 if(o==null)o="0.00"
-r=A.hu(t.h(0,"billable"))
+r=A.hB(t.h(0,"billable"))
 n=r!==!1?"Yes":"No"
 u+=s+',"'+q+'",'+p+","+o+","+n+"\n"}return u.charCodeAt(0)==0?u:u},
-ctI(){return new B.DR(null)},
-DR:function DR(d){this.a=d},
-aU1:function aU1(d,e,f){this.a=d
+cvm(){return new B.El(null)},
+El:function El(d){this.a=d},
+aUN:function aUN(d,e,f){this.a=d
 this.b=e
 this.c=f},
-aU2:function aU2(d,e,f){this.a=d
+aUO:function aUO(d,e,f){this.a=d
 this.b=e
 this.c=f},
-aU3:function aU3(d,e){this.a=d
+aUP:function aUP(d,e){this.a=d
 this.b=e},
-aU0:function aU0(){},
-aU_:function aU_(d){this.a=d},
-OY:function OY(d,e,f,g,h,i){var _=this
+aUM:function aUM(){},
+aUL:function aUL(d){this.a=d},
+Py:function Py(d,e,f,g,h,i){var _=this
 _.c=d
 _.d=e
 _.e=f
@@ -124,71 +124,71 @@ J=c[1]
 A=c[0]
 C=c[2]
 B=a.updateHolder(c[8],B)
-D=c[129]
-F=c[120]
-E=c[76]
-G=c[130]
-B.a9L.prototype={
+D=c[132]
+F=c[124]
+E=c[81]
+G=c[133]
+B.aao.prototype={
 B(d,e){var w,v=this.b,u=e.a,t=v.h(0,u)
 if(t!=null){this.a[t]=e
 return}w=this.a
 w.push(e)
-v.m(0,u,w.length-1)},
+v.l(0,u,w.length-1)},
 gu(d){return this.a.length},
 h(d,e){return this.a[e]},
-m(d,e,f){var w,v
+l(d,e,f){var w,v
 if(e<0||e>=this.a.length)return
 w=this.b
 v=this.a
 w.M(0,v[e].a)
 v[e]=f
-w.m(0,f.a,e)},
-ga7(d){return C.i.ga7(this.a)},
-gaH(d){return C.i.gaH(this.a)},
+w.l(0,f.a,e)},
+ga9(d){return C.i.ga9(this.a)},
+gaJ(d){return C.i.gaJ(this.a)},
 gW(d){return this.a.length===0},
-gbW(d){return this.a.length!==0},
+gbY(d){return this.a.length!==0},
 gU(d){var w=this.a
-return new J.f3(w,w.length,A.a6(w).i("f3<1>"))}}
-B.Ic.prototype={}
-B.abq.prototype={
+return new J.f7(w,w.length,A.a6(w).i("f7<1>"))}}
+B.IK.prototype={}
+B.ac3.prototype={
 H(){return"CompressionType."+this.b}}
-B.ayN.prototype={}
-B.bTF.prototype={}
-B.bjN.prototype={
-bn4(a7,a8,a9,b0,b1,b2){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3=this,a4=null,a5=4294967295,a6=new B.bTF(b1,A.c([],x.m))
-a6.b=B.chO(b2)
-a6.c=B.chK(b2)
+B.azE.prototype={}
+B.bUW.prototype={}
+B.bkV.prototype={
+bo6(a7,a8,a9,b0,b1,b2){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3=this,a4=null,a5=4294967295,a6=new B.bUW(b1,A.c([],x.m))
+a6.b=B.cjm(b2)
+a6.c=B.cji(b2)
 a3.a=a6
 a3.b=a8
-for(a6=a7.a,w=A.a6(a6),a6=new J.f3(a6,a6.length,w.i("f3<1>")),v=x.t,w=w.c;a6.q();){u=a6.d
+for(a6=a7.a,w=A.a6(a6),a6=new J.f7(a6,a6.length,w.i("f7<1>")),v=x.t,w=w.c;a6.q();){u=a6.d
 if(u==null)u=w.a(u)
-t=new B.ayN(D.uw)
+t=new B.azE(D.uG)
 a3.a.r.push(t)
 s=u.f
-r=new A.aH(A.lU((s===$?u.f=C.f.ap(Date.now(),1000):s)*1000,0,!1),0,!1)
+r=new A.aE(A.m5((s===$?u.f=C.f.ao(Date.now(),1000):s)*1000,0,!1),0,!1)
 q=u.a
 t.a=q
 p=a3.a.b
 p===$&&A.b()
-if(p==null){p=B.chO(r)
+if(p==null){p=B.cjm(r)
 p.toString}t.b=p
 p=a3.a.c
 p===$&&A.b()
-if(p==null){p=B.chK(r)
+if(p==null){p=B.cji(r)
 p.toString}t.c=p
 t.z=420
-o=a3.aBx(u)
+o=a3.aCa(u)
 n=u.Q
-a8=new A.EC(new Uint8Array(32768),C.e5)
+a8=new A.F6(new Uint8Array(32768),C.e8)
 p=n.a
 if(p==null)p=new Uint8Array(0)
-m=new A.V2(C.e5)
-m.aex(p,C.e5,a4,a4)
+m=new A.VH(C.e8)
+m.aeY(p,C.e8,a4,a4)
 p=a3.a
-C.tV.bn3(m,a8,p.a,!0)
-l=new A.V2(C.e5)
-l.aex(J.cy(C.P.gad(a8.c),a8.c.byteOffset,a8.b),C.e5,a4,a4)
-k=C.bA.bc(q)
+C.u4.bo5(m,a8,p.a,!0)
+l=new A.VH(C.e8)
+l.aeY(J.ce(C.K.ga0(a8.c),a8.c.byteOffset,a8.b),C.e8,a4,a4)
+k=C.bw.b9(q)
 if(l==null)q=a4
 else{q=l.b
 q=q==null?0:q.length-l.c}if(q==null)q=0
@@ -209,68 +209,68 @@ t.d=o
 t.e=i
 t.r=l
 t.f=u.at
-t.w=D.uw
+t.w=D.uG
 t.x=null
 u=a3.b
 t.y=u.b
 q=t.a
-u.dh(67324752)
+u.dk(67324752)
 h=t.e
 g=h>4294967295||t.f>4294967295
 p=t.w
-if(p===D.uw)f=8
-else{p=p===D.Jg?12:0
+if(p===D.uG)f=8
+else{p=p===D.Ju?12:0
 f=p}e=t.b
 d=t.c
 o=t.d
 if(g)h=a5
 a0=g?a5:t.f
 a1=A.c([],v)
-if(g){a2=new A.EC(new Uint8Array(32768),C.e5)
+if(g){a2=new A.F6(new Uint8Array(32768),C.e8)
 a2.aO(1)
 a2.aO(0)
 a2.aO(16)
 a2.aO(0)
-a2.qx(t.f)
-a2.qx(t.e)
-C.i.L(a1,J.cy(C.P.gad(a2.c),a2.c.byteOffset,a2.b))}l=t.r
-k=C.bA.bc(q)
-u.dr(20)
-u.dr(2048)
-u.dr(f)
-u.dr(e)
-u.dr(d)
-u.dh(o)
-u.dh(h)
-u.dh(a0)
-u.dr(k.length)
-u.dr(a1.length)
-u.i_(k)
-u.i_(a1)
-if(l!=null)u.aAo(l)
+a2.qF(t.f)
+a2.qF(t.e)
+C.i.L(a1,J.ce(C.K.ga0(a2.c),a2.c.byteOffset,a2.b))}l=t.r
+k=C.bw.b9(q)
+u.ds(20)
+u.ds(2048)
+u.ds(f)
+u.ds(e)
+u.ds(d)
+u.dk(o)
+u.dk(h)
+u.dk(a0)
+u.ds(k.length)
+u.ds(a1.length)
+u.i1(k)
+u.i1(a1)
+if(l!=null)u.aB0(l)
 t.r=null}a6=a3.a
 w=a3.b
 w.toString
-a3.bgQ(a6.r,a4,w)},
-aBx(d){var w,v,u,t,s,r=d.Q,q=r.aCc(!1)
+a3.bhU(a6.r,a4,w)},
+aCa(d){var w,v,u,t,s,r=d.Q,q=r.aCR(!1)
 q.c=0
 w=q.gu(0)
-for(v=0;w>1048576;){u=q.adf(1048576,q.c)
+for(v=0;w>1048576;){u=q.adG(1048576,q.c)
 t=q.c
 s=u.b
 q.c=t+(s==null?0:s.length-u.c)
-v=A.pZ(u.ex(),v)
-w-=1048576}if(w>0)v=A.pZ(q.fO(w).ex(),v)
+v=A.q9(u.eB(),v)
+w-=1048576}if(w>0)v=A.q9(q.fR(w).eB(),v)
 q.c=0
 return v},
-bgQ(a4,a5,a6){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1=4294967295,a2=C.bA.bc(""),a3=a6.b
-for(w=a4.length,v=x.t,u=!1,t=0;s=a4.length,t<s;a4.length===w||(0,A.H)(a4),++t){r=a4[t]
+bhU(a4,a5,a6){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1=4294967295,a2=C.bw.b9(""),a3=a6.b
+for(w=a4.length,v=x.t,u=!1,t=0;s=a4.length,t<s;a4.length===w||(0,A.E)(a4),++t){r=a4[t]
 q=r.e
 p=q>4294967295||r.f>4294967295||r.y>4294967295
-u=C.cD.qA(u,p)
+u=C.cG.qI(u,p)
 s=r.w
-if(s===D.uw)o=8
-else{s=s===D.Jg?12:0
+if(s===D.uG)o=8
+else{s=s===D.Ju?12:0
 o=s}n=r.b
 m=r.c
 l=r.d
@@ -279,145 +279,145 @@ k=p?a1:r.f
 s=r.z
 j=p?a1:r.y
 i=A.c([],v)
-if(p){h=new A.EC(new Uint8Array(32768),C.e5)
+if(p){h=new A.F6(new Uint8Array(32768),C.e8)
 h.aO(1)
 h.aO(0)
 h.aO(24)
 h.aO(0)
-h.qx(r.f)
-h.qx(r.e)
-h.qx(r.y)
-C.i.L(i,J.cy(C.P.gad(h.c),h.c.byteOffset,h.b))}g=r.x
+h.qF(r.f)
+h.qF(r.e)
+h.qF(r.y)
+C.i.L(i,J.ce(C.K.ga0(h.c),h.c.byteOffset,h.b))}g=r.x
 if(g==null)g=""
 f=r.a
 f===$&&A.b()
-e=C.bA.bc(f)
-d=C.bA.bc(g)
-a6.dh(33639248)
-a6.dr(20)
-a6.dr(20)
-a6.dr(2048)
-a6.dr(o)
-a6.dr(n)
-a6.dr(m)
-a6.dh(l)
-a6.dh(q)
-a6.dh(k)
-a6.dr(e.length)
-a6.dr(i.length)
-a6.dr(d.length)
-a6.dr(0)
-a6.dr(0)
-a6.dh(s<<16>>>0)
-a6.dh(j)
-a6.i_(e)
-a6.i_(i)
-a6.i_(d)}w=a6.b
+e=C.bw.b9(f)
+d=C.bw.b9(g)
+a6.dk(33639248)
+a6.ds(20)
+a6.ds(20)
+a6.ds(2048)
+a6.ds(o)
+a6.ds(n)
+a6.ds(m)
+a6.dk(l)
+a6.dk(q)
+a6.dk(k)
+a6.ds(e.length)
+a6.ds(i.length)
+a6.ds(d.length)
+a6.ds(0)
+a6.ds(0)
+a6.dk(s<<16>>>0)
+a6.dk(j)
+a6.i1(e)
+a6.i1(i)
+a6.i1(d)}w=a6.b
 a0=w-a3
 p=u||s>65535||a0>4294967295||a3>4294967295
-if(p){a6.dh(101075792)
-a6.qx(44)
-a6.dr(45)
-a6.dr(45)
-a6.dh(0)
-a6.dh(0)
-a6.qx(s)
-a6.qx(s)
-a6.qx(a0)
-a6.qx(a3)
-a6.dh(117853008)
-a6.dh(0)
-a6.qx(w)
-a6.dh(1)}a6.dh(101010256)
-a6.dr(0)
-a6.dr(p?65535:0)
-a6.dr(p?65535:s)
-a6.dr(p?65535:s)
-a6.dh(p?a1:a0)
-a6.dh(p?a1:a3)
-a6.dr(a2.length)
-a6.i_(a2)}}
-B.c10.prototype={}
-B.b0j.prototype={}
-B.c2Y.prototype={}
-B.aOK.prototype={}
-B.adb.prototype={
+if(p){a6.dk(101075792)
+a6.qF(44)
+a6.ds(45)
+a6.ds(45)
+a6.dk(0)
+a6.dk(0)
+a6.qF(s)
+a6.qF(s)
+a6.qF(a0)
+a6.qF(a3)
+a6.dk(117853008)
+a6.dk(0)
+a6.qF(w)
+a6.dk(1)}a6.dk(101010256)
+a6.ds(0)
+a6.ds(p?65535:0)
+a6.ds(p?65535:s)
+a6.ds(p?65535:s)
+a6.dk(p?a1:a0)
+a6.dk(p?a1:a3)
+a6.ds(a2.length)
+a6.i1(a2)}}
+B.c2r.prototype={}
+B.b13.prototype={}
+B.c4o.prototype={}
+B.aPu.prototype={}
+B.adQ.prototype={
 gu(d){var w=this.a
 w=w==null?null:w.length
 return w==null?0:w},
-aCc(d){var w=this.a
+aCR(d){var w=this.a
 if(w==null)w=new Uint8Array(0)
-return A.V3(w,C.e5,null,null)}}
-B.DR.prototype={
-cq(d,e){var w=null,v=A.d(d)
-return A.hp(A.lL(w,w,w,w,w,w,w,w,D.frJ),w,A.ft(A.c([A.o("Connect CaseThread to your tools. File-based exports work now \u2014 no setup needed.",w,w,w,w,w,v.ok.z,w,w,w),C.aZ,new B.OY(C.O2,"Google Calendar / Outlook / Apple","Export all task deadlines as an ICS file. Import it into any calendar app.","Export deadlines (.ics)",new B.aU1(this,d,e),w),new B.OY(D.e_z,"QuickBooks","Export invoices and expenses as CSV for QuickBooks import.","Export for QuickBooks (.zip)",new B.aU2(this,d,e),w),new B.OY(F.nz,"Microsoft 365","Direct sync needs a free Entra app registration. Use the ICS export above with Outlook today.","How to set up",new B.aU3(this,d),w)],x.p),w,C.br,w,C.a5,!1),w,w)},
-HX(d,e){return this.aUq(d,e)},
-aUq(d,e){var w=0,v=A.m(x.H),u,t=2,s=[],r,q,p,o,n,m
-var $async$HX=A.i(function(f,g){if(f===1){s.push(g)
+return A.VI(w,C.e8,null,null)}}
+B.El.prototype={
+ct(d,e){var w=null,v=A.d(d)
+return A.hx(A.lW(w,w,w,w,w,w,w,w,D.fsf),w,A.fM(A.c([A.p("Connect CaseThread to your tools. File-based exports work now \u2014 no setup needed.",w,w,w,w,w,v.ok.z,w,w,w),C.b_,new B.Py(C.Og,"Google Calendar / Outlook / Apple","Export all task deadlines as an ICS file. Import it into any calendar app.","Export deadlines (.ics)",new B.aUN(this,d,e),w),new B.Py(D.e_P,"QuickBooks","Export invoices and expenses as CSV for QuickBooks import.","Export for QuickBooks (.zip)",new B.aUO(this,d,e),w),new B.Py(F.nJ,"Microsoft 365","Direct sync needs a free Entra app registration. Use the ICS export above with Outlook today.","How to set up",new B.aUP(this,d),w)],x.p),w,C.bt,w,C.a6,!1),w,w)},
+Ig(d,e){return this.aVc(d,e)},
+aVc(d,e){var w=0,v=A.m(x.H),u,t=2,s=[],r,q,p,o,n,m
+var $async$Ig=A.i(function(f,g){if(f===1){s.push(g)
 w=t}for(;;)switch(w){case 0:t=4
 w=7
-return A.e(e.X($.c7H().glJ(),x.i),$async$HX)
+return A.e(e.X($.c9b().glO(),x.i),$async$Ig)
 case 7:r=g
-if(J.f1(r)){if(d.e!=null)d.S(x.q).f.aS(D.fkO)
+if(J.f5(r)){if(d.e!=null)d.S(x.q).f.aS(D.fll)
 w=1
-break}q=B.cJF(r,"CaseThread Deadlines")
-p=new Uint8Array(A.b4(C.bA.bc(q)))
+break}q=B.cLp(r,"CaseThread Deadlines")
+p=new Uint8Array(A.b5(C.bw.b9(q)))
 w=8
-return A.e($.BZ().iQ(E.FU(null,A.c([E.GG(p,"text/calendar","casethread-deadlines.ics")],x.S),"CaseThread deadlines")),$async$HX)
+return A.e($.xY().iy(E.AP(null,A.c([E.Bw(p,"text/calendar","casethread-deadlines.ics")],x.S),"CaseThread deadlines")),$async$Ig)
 case 8:t=2
 w=6
 break
 case 4:t=3
 m=s.pop()
-o=A.E(m)
-if(d.e!=null)d.S(x.q).f.aS(A.bN(null,null,null,null,null,C.B,null,A.o("Export failed: "+A.q(o),null,null,null,null,null,null,null,null,null),null,C.Y,null,null,null,null,null,null,null,null,null,null))
+o=A.G(m)
+if(d.e!=null)d.S(x.q).f.aS(A.bO(null,null,null,null,null,C.B,null,A.p("Export failed: "+A.q(o),null,null,null,null,null,null,null,null,null),null,C.Y,null,null,null,null,null,null,null,null,null,null))
 w=6
 break
 case 3:w=2
 break
 case 6:case 1:return A.k(u,v)
 case 2:return A.j(s.at(-1),v)}})
-return A.l($async$HX,v)},
-vz(d,e){return this.aUt(d,e)},
-aUt(b8,b9){var w=0,v=A.m(x.H),u=1,t=[],s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7
-var $async$vz=A.i(function(c0,c1){if(c0===1){t.push(c1)
+return A.l($async$Ig,v)},
+vI(d,e){return this.aVf(d,e)},
+aVf(b8,b9){var w=0,v=A.m(x.H),u=1,t=[],s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7
+var $async$vI=A.i(function(c0,c1){if(c0===1){t.push(c1)
 w=u}for(;;)switch(w){case 0:u=3
-s=b9.X($.dx(),x.A)
-a7=s.gca().e.a
+s=b9.X($.dD(),x.A)
+a7=s.gcb().e.a
 r=(a7==null?null:a7.r).a
 w=6
-return A.e(s.aA("case_rooms").bo("id, name").b0("owner_id",r).jr(100),$async$vz)
+return A.e(s.aA("case_rooms").bo("id, name").b0("owner_id",r).js(100),$async$vI)
 case 6:q=c1
 p=A.c([],x.s)
-for(a7=J.aI(q),a8=x.f;a7.q();){o=a7.gI()
-J.du(p,A.T(a8.a(o).h(0,"id")))}n=p
+for(a7=J.aL(q),a8=x.f;a7.q();){o=a7.gI()
+J.dz(p,A.U(a8.a(o).h(0,"id")))}n=p
 p=x.N
-m=A.D(p,p)
-for(a7=J.aI(q);a7.q();){l=a7.gI()
-if(a8.b(l))J.be(m,A.T(l.h(0,"id")),A.T(l.h(0,"name")))}k=m
+m=A.C(p,p)
+for(a7=J.aL(q);a7.q();){l=a7.gI()
+if(a8.b(l))J.bg(m,A.U(l.h(0,"id")),A.U(l.h(0,"name")))}k=m
 j=y.a
 i=y.f
 w=J.aX(n)!==0?7:8
 break
 case 7:w=9
-return A.e(s.aA("invoices").bo("id, room_id, total_cents, period_start, period_end, created_at").qa("room_id",n).Xo("status","draft").fC("created_at",!1).jr(200),$async$vz)
+return A.e(s.aA("invoices").bo("id, room_id, total_cents, period_start, period_end, created_at").qi("room_id",n).XJ("status","draft").fE("created_at",!1).js(200),$async$vI)
 case 9:h=c1
 m=x.X
 g=A.c([],m)
-for(a7=J.aI(h),a9=x.z;a7.q();){f=a7.gI()
-b0=A.aP(f,p,a9)
-b1=A.vF(null,null,p,a9)
+for(a7=J.aL(h),a9=x.z;a7.q();){f=a7.gI()
+b0=A.aM(f,p,a9)
+b1=A.w_(null,null,p,a9)
 b1.L(0,b0)
 e=b1
-J.be(e,"room_name",J.A(k,a8.a(f).h(0,"room_id")))
-J.du(g,e)}j=B.cI_(g)
+J.bg(e,"room_name",J.A(k,a8.a(f).h(0,"room_id")))
+J.dz(g,e)}j=B.cJI(g)
 u=11
 w=14
-return A.e(s.aA("expenses").bo("expense_date, description, category, amount, billable").qa("room_id",n).fC("expense_date",!1).jr(500),$async$vz)
+return A.e(s.aA("expenses").bo("expense_date, description, category, amount, billable").qi("room_id",n).fE("expense_date",!1).js(500),$async$vI)
 case 14:d=c1
 a0=A.c([],m)
-for(m=J.aI(d);m.q();){a1=m.gI()
-J.du(a0,A.aP(a8.a(a1),p,a9))}i=B.cH8(a0)
+for(m=J.aL(d);m.q();){a1=m.gI()
+J.dz(a0,A.aM(a8.a(a1),p,a9))}i=B.cIN(a0)
 u=3
 w=13
 break
@@ -427,26 +427,26 @@ w=13
 break
 case 10:w=3
 break
-case 13:case 8:a2=new Uint8Array(A.b4(C.bA.bc(j)))
-a3=new Uint8Array(A.b4(C.bA.bc(i)))
-b3=new B.a9L(A.c([],x.L),A.D(p,x.r))
-b3.B(0,B.c8E("casethread-invoices.csv",J.aX(a2),a2))
-b3.B(0,B.c8E("casethread-expenses.csv",J.aX(a3),a3))
+case 13:case 8:a2=new Uint8Array(A.b5(C.bw.b9(j)))
+a3=new Uint8Array(A.b5(C.bw.b9(i)))
+b3=new B.aao(A.c([],x.L),A.C(p,x.r))
+b3.B(0,B.ca8("casethread-invoices.csv",J.aX(a2),a2))
+b3.B(0,B.ca8("casethread-expenses.csv",J.aX(a3),a3))
 a4=b3
-p=$.QS()
-b4=A.b_L(C.e5,32768)
-new B.bjN(p).bn4(a4,b4,!1,null,1,null)
-a5=new Uint8Array(A.b4(b4.NN()))
+p=$.Rs()
+b4=A.b0w(C.e8,32768)
+new B.bkV(p).bo6(a4,b4,!1,null,1,null)
+a5=new Uint8Array(A.b5(b4.O8()))
 u=16
 w=19
-return A.e($.BZ().iQ(E.FU(null,A.c([E.GG(a5,"application/zip","casethread-quickbooks.zip")],x.S),"CaseThread QuickBooks export")),$async$vz)
+return A.e($.xY().iy(E.AP(null,A.c([E.Bw(a5,"application/zip","casethread-quickbooks.zip")],x.S),"CaseThread QuickBooks export")),$async$vI)
 case 19:u=3
 w=18
 break
 case 16:u=15
 b6=t.pop()
 w=20
-return A.e(A.aAN(a5,"casethread-quickbooks.zip","application/zip"),$async$vz)
+return A.e(A.a9d(a5,"casethread-quickbooks.zip","application/zip"),$async$vI)
 case 20:w=18
 break
 case 15:w=3
@@ -456,57 +456,57 @@ w=5
 break
 case 3:u=2
 b7=t.pop()
-a6=A.E(b7)
-if(b8.e!=null)b8.S(x.q).f.aS(A.bN(null,null,null,null,null,C.B,null,A.o("Export failed: "+A.q(a6),null,null,null,null,null,null,null,null,null),null,C.Y,null,null,null,null,null,null,null,null,null,null))
+a6=A.G(b7)
+if(b8.e!=null)b8.S(x.q).f.aS(A.bO(null,null,null,null,null,C.B,null,A.p("Export failed: "+A.q(a6),null,null,null,null,null,null,null,null,null),null,C.Y,null,null,null,null,null,null,null,null,null,null))
 w=5
 break
 case 2:w=1
 break
 case 5:return A.k(null,v)
 case 1:return A.j(t.at(-1),v)}})
-return A.l($async$vz,v)},
-bcw(d){var w=null
-A.cQ(w,w,!0,w,new B.aU0(),d,w,!0,!0,x.z)}}
-B.OY.prototype={
+return A.l($async$vI,v)},
+bdx(d){var w=null
+A.cU(w,w,!0,w,new B.aUM(),d,w,!0,!0,x.z)}}
+B.Py.prototype={
 C(d){var w=this,v=null,u=A.d(d).ok,t=x.p
-return A.f4(new A.W(C.aA,A.a1(A.c([A.ap(A.c([A.aV(w.c,v,v,v,28),C.bt,A.aD(A.o(w.d,v,v,v,v,v,u.w,v,v,v),1,v)],t),C.y,v,C.r,C.v,0,v,v),C.R,A.o(w.e,v,v,v,v,v,u.z,v,v,v),C.a1,A.zo(A.o(w.f,v,v,v,v,v,v,v,v,v),v,w.r,v)],t),C.S,v,C.r,C.v,0,C.x),v),v,v,G.uO,v,v)},
-gcP(){return this.d}}
+return A.f8(new A.X(C.aC,A.a2(A.c([A.ao(A.c([A.aT(w.c,v,v,v,28),C.bp,A.aD(A.p(w.d,v,v,v,v,v,u.w,v,v,v),1,v)],t),C.y,v,C.r,C.v,0,v,v),C.R,A.p(w.e,v,v,v,v,v,u.z,v,v,v),C.a1,A.zM(A.p(w.f,v,v,v,v,v,v,v,v,v),v,w.r,v)],t),C.S,v,C.r,C.v,0,C.x),v),v,v,G.uY,v,v)},
+gcE(){return this.d}}
 var z=a.updateTypes([])
-B.aU1.prototype={
-$0(){return this.a.HX(this.b,this.c)},
+B.aUN.prototype={
+$0(){return this.a.Ig(this.b,this.c)},
 $S:0}
-B.aU2.prototype={
-$0(){return this.a.vz(this.b,this.c)},
+B.aUO.prototype={
+$0(){return this.a.vI(this.b,this.c)},
 $S:0}
-B.aU3.prototype={
-$0(){return this.a.bcw(this.b)},
+B.aUP.prototype={
+$0(){return this.a.bdx(this.b)},
 $S:0}
-B.aU0.prototype={
+B.aUM.prototype={
 $1(d){var w=null
-return A.di(A.c([A.bA(C.t8,w,w,w,new B.aU_(d),w,w)],x.p),D.fjh,w,D.frF)},
-$S:13}
-B.aU_.prototype={
+return A.dq(A.c([A.bA(C.tk,w,w,w,new B.aUL(d),w,w)],x.p),D.fjO,w,D.fsb)},
+$S:14}
+B.aUL.prototype={
 $0(){return A.an(this.a,!1).bx()},
 $S:0};(function inheritance(){var w=a.inherit,v=a.inheritMany
-w(B.a9L,A.z)
-v(A.C,[B.Ic,B.ayN,B.bTF,B.bjN,B.c10,B.b0j,B.aOK])
-w(B.abq,A.hs)
-w(B.c2Y,B.b0j)
-w(B.adb,B.aOK)
-w(B.DR,A.i0)
-v(A.dd,[B.aU1,B.aU2,B.aU3,B.aU_])
-w(B.aU0,A.ca)
-w(B.OY,A.a4)})()
-A.cD(b.typeUniverse,JSON.parse('{"a9L":{"z":["Ic"],"z.E":"Ic"},"DR":{"N":[],"f":[]},"OY":{"a4":[],"f":[]}}'))
+w(B.aao,A.z)
+v(A.D,[B.IK,B.azE,B.bUW,B.bkV,B.c2r,B.b13,B.aPu])
+w(B.ac3,A.h7)
+w(B.c4o,B.b13)
+w(B.adQ,B.aPu)
+w(B.El,A.i8)
+v(A.dg,[B.aUN,B.aUO,B.aUP,B.aUL])
+w(B.aUM,A.cf)
+w(B.Py,A.a5)})()
+A.cC(b.typeUniverse,JSON.parse('{"aao":{"z":["IK"],"z.E":"IK"},"El":{"O":[],"h":[]},"Py":{"a5":[],"h":[]}}'))
 var y={f:"Date,Description,Category,Amount,Billable\n",a:"InvoiceNum,Customer,InvoiceDate,DueDate,ItemDescription,Amount\n"}
-var x=(function rtii(){var w=A.I
-return{k:w("aH"),i:w("M<v<j1>>"),L:w("x<Ic>"),X:w("x<aa<h,@>>"),s:w("x<h>"),p:w("x<f>"),S:w("x<nf>"),m:w("x<ayN>"),t:w("x<w>"),f:w("aa<@,@>"),N:w("h"),A:w("fY"),q:w("h_"),z:w("@"),r:w("w"),H:w("~")}})();(function constants(){D.uw=new B.abq(1,"deflate")
-D.Jg=new B.abq(2,"bzip2")
-D.e_z=new A.af(60978,"MaterialIcons",null,!1)
-D.fsZ=new A.a_("1. Go to entra.microsoft.com \u2192 App registrations \u2192 New.\n2. Add redirect URI for your CaseThread domain.\n3. Grant Calendars.ReadWrite + Mail.Send (delegated).\n4. Paste the client ID/secret into CaseThread \u2192 Settings \u2192 Integrations.\n\nUntil then, the ICS export above imports cleanly into Outlook.",null,null,null,null,null,null,null,null,null,null)
-D.fjh=new A.FX(C.a5,null,null,null,D.fsZ,C.T,null,null)
-D.fua=new A.a_("No deadlines to export.",null,null,null,null,null,null,null,null,null,null)
-D.fkO=new A.d7(D.fua,null,null,null,null,null,null,null,null,null,null,null,null,C.Y,!1,null,null,null,C.B,null)
-D.frF=new A.a_("Microsoft 365 setup",null,null,null,null,null,null,null,null,null,null)
-D.frJ=new A.a_("Integrations",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["F+5bSGRiOUF6VzGILt64nBVvnzY="]=a.current})($__dart_deferred_initializers__);
+var x=(function rtii(){var w=A.J
+return{k:w("aE"),i:w("N<v<ja>>"),L:w("x<IK>"),X:w("x<ab<f,@>>"),s:w("x<f>"),p:w("x<h>"),S:w("x<mA>"),m:w("x<azE>"),t:w("x<w>"),f:w("ab<@,@>"),N:w("f"),A:w("h5"),q:w("h8"),z:w("@"),r:w("w"),H:w("~")}})();(function constants(){D.uG=new B.ac3(1,"deflate")
+D.Ju=new B.ac3(2,"bzip2")
+D.e_P=new A.ag(60978,"MaterialIcons",null,!1)
+D.ftw=new A.a0("1. Go to entra.microsoft.com \u2192 App registrations \u2192 New.\n2. Add redirect URI for your CaseThread domain.\n3. Grant Calendars.ReadWrite + Mail.Send (delegated).\n4. Paste the client ID/secret into CaseThread \u2192 Settings \u2192 Integrations.\n\nUntil then, the ICS export above imports cleanly into Outlook.",null,null,null,null,null,null,null,null,null,null)
+D.fjO=new A.Gs(C.a6,null,null,null,D.ftw,C.T,null,null)
+D.fuI=new A.a0("No deadlines to export.",null,null,null,null,null,null,null,null,null,null)
+D.fll=new A.d6(D.fuI,null,null,null,null,null,null,null,null,null,null,null,null,C.Y,!1,null,null,null,C.B,null)
+D.fsb=new A.a0("Microsoft 365 setup",null,null,null,null,null,null,null,null,null,null)
+D.fsf=new A.a0("Integrations",null,null,null,null,null,null,null,null,null,null)})()};
+(a=>{a["kikN7iVLeA+a2MZJu82SQk9oY5c="]=a.current})($__dart_deferred_initializers__);
