@@ -5,7 +5,7 @@ _.b=e
 _.c=f
 _.d=g
 _.e=h
-_.f=i},bWH:function bWH(){},bWG:function bWG(d){this.a=d}}
+_.f=i},bWC:function bWC(){},bWB:function bWB(d){this.a=d}}
 J=c[1]
 A=c[0]
 B=a.updateHolder(c[54],B)
@@ -15,9 +15,9 @@ gcP(){return this.b},
 guO(){return this.e},
 gVz(){return this.f}}
 var z=a.updateTypes(["M<v<j1>>(al)","j1(@)"])
-B.bWH.prototype={
-$1(d){return this.aAU(d)},
-aAU(d){var x=0,w=A.m(y.q),v,u,t,s,r,q,p,o,n,m
+B.bWC.prototype={
+$1(d){return this.aAR(d)},
+aAR(d){var x=0,w=A.m(y.q),v,u,t,s,r,q,p,o,n,m
 var $async$$1=A.i(function(e,f){if(e===1)return A.j(f,w)
 for(;;)switch(x){case 0:q=d.T($.dx(),y.k)
 p=q.aA("room_members").bo("room_id, case_rooms!inner(id, name)")
@@ -42,7 +42,7 @@ o=A.J(new A.bD(t,o),o.i("z.E"))
 m=J
 x=5
 return A.e(p.qa("room_id",o).Xr("due_date","is",null).Xo("status","done").p6("due_date"),$async$$1)
-case 5:p=m.bL(f,new B.bWG(t),y.B)
+case 5:p=m.bL(f,new B.bWB(t),y.B)
 p=A.J(p,p.$ti.i("ai.E"))
 v=p
 x=1
@@ -50,7 +50,7 @@ break
 case 1:return A.k(v,w)}})
 return A.l($async$$1,w)},
 $S:z+0}
-B.bWG.prototype={
+B.bWB.prototype={
 $1(d){var x,w,v,u,t
 y.y.a(d)
 x=A.T(d.h(0,"id"))
@@ -62,7 +62,7 @@ if(t==null)t="Case"
 return new B.j1(x,w,v,u,t,A.dE(A.T(d.h(0,"due_date"))))},
 $S:z+1};(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(B.j1,A.C)
-w(A.ca,[B.bWH,B.bWG])})()
+w(A.ca,[B.bWC,B.bWB])})()
 var y={B:A.I("j1"),F:A.I("x<j1>"),q:A.I("v<j1>"),y:A.I("aa<h,@>"),w:A.I("h"),k:A.I("fY"),A:A.I("aa<h,@>?")};(function lazyInitializers(){var x=a.lazyFinal
-x($,"cRW","c7K",()=>A.lk(new B.bWH(),y.q))})()};
-(a=>{a["fZa4Umlnt27H/gBiNgOE7liJWZ8="]=a.current})($__dart_deferred_initializers__);
+x($,"cRT","c7H",()=>A.li(new B.bWC(),y.q))})()};
+(a=>{a["bC+9T5HlMjt1aCaAPlawMuxl+0E="]=a.current})($__dart_deferred_initializers__);
