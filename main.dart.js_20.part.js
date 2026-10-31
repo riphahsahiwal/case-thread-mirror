@@ -39,14 +39,14 @@ default:x=null}return x},
 ctn(){return new B.yP(null)},
 bYu:function bYu(){},
 bYv:function bYv(){},
-UQ:function UQ(d,e){this.a=d
+UR:function UR(d,e){this.a=d
 this.b=e},
 yP:function yP(d){this.a=d},
 are:function are(){this.d=$
 this.c=this.a=null},
 H4:function H4(d,e){this.d=d
 this.a=e},
-a2T:function a2T(){var _=this
+a2U:function a2U(){var _=this
 _.w=!1
 _.y=_.x=null
 _.d=$
@@ -59,20 +59,20 @@ bBt:function bBt(d,e){this.a=d
 this.b=e},
 bBu:function bBu(){},
 bBv:function bBv(d){this.a=d},
-PY:function PY(d,e,f,g){var _=this
+PZ:function PZ(d,e,f,g){var _=this
 _.f=d
 _.r=e
 _.b=f
 _.a=g},
-T0:function T0(d,e,f){this.c=d
+T1:function T1(d,e,f){this.c=d
 this.f=e
 this.a=f},
 api:function api(d,e){var _=this
 _.d=$
-_.eD$=d
+_.eE$=d
 _.bD$=e
 _.c=_.a=null},
-a7j:function a7j(){}},C,E,F
+a7k:function a7k(){}},C,E,F
 J=c[1]
 A=c[0]
 D=c[2]
@@ -80,35 +80,35 @@ B=a.updateHolder(c[6],B)
 C=c[127]
 E=c[35]
 F=c[128]
-B.UQ.prototype={
+B.UR.prototype={
 H(){return"ImportType."+this.b}}
 B.yP.prototype={
 Y(){return new B.are()}}
 B.are.prototype={
 C(d){var x=null
-return new B.T0(3,A.hp(A.lM(x,x,x,C.fls,x,x,x,x,C.fu0),x,C.flr,x,x),x)}}
+return new B.T1(3,A.hp(A.lM(x,x,x,C.fls,x,x,x,x,C.fu0),x,C.flr,x,x),x)}}
 B.H4.prototype={
-Y(){return new B.a2T()}}
-B.a2T.prototype={
-CD(){var x=0,w=A.m(y.v),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j
-var $async$CD=A.i(function(d,e){if(d===1){t.push(e)
+Y(){return new B.a2U()}}
+B.a2U.prototype={
+CE(){var x=0,w=A.m(y.v),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j
+var $async$CE=A.i(function(d,e){if(d===1){t.push(e)
 x=u}for(;;)switch(x){case 0:s.v(new B.bBq(s))
 u=4
 x=7
-return A.e(E.aON(A.c(["csv"],y.x),D.Na,!0),$async$CD)
+return A.e(E.aON(A.c(["csv"],y.x),D.Na,!0),$async$CE)
 case 7:r=e
 l=r
 q=l==null?null:A.im(l)
 if(q==null){s.v(new B.bBr(s))
 x=1
 break}x=8
-return A.e(q.gNC().nU(),$async$CD)
+return A.e(q.gNC().nU(),$async$CE)
 case 8:p=e
 if(J.aX(p)===0){l=A.dk("The file is empty.")
 throw A.n(l)}o=B.cIp(D.b9.bQ(p))
 if(J.aX(o)<2){l=A.dk("CSV needs a header row plus at least one data row.")
 throw A.n(l)}x=9
-return A.e(s.vX(o),$async$CD)
+return A.e(s.vX(o),$async$CE)
 case 9:n=e
 s.v(new B.bBs(s,n))
 u=2
@@ -124,9 +124,9 @@ case 3:x=2
 break
 case 6:case 1:return A.k(v,w)
 case 2:return A.j(t.at(-1),w)}})
-return A.l($async$CD,w)},
-vX(d){return this.bau(d)},
-bau(b4){var x=0,w=A.m(y.e),v,u=this,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
+return A.l($async$CE,w)},
+vX(d){return this.bav(d)},
+bav(b4){var x=0,w=A.m(y.e),v,u=this,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
 var $async$vX=A.i(function(b5,b6){if(b5===1)return A.j(b6,w)
 for(;;)switch(x){case 0:a7=u.gaq().X($.dx(),y.k)
 a8=D.i.ga7(b4)
@@ -255,7 +255,7 @@ return A.l($async$vX,w)},
 C(d){var x,w,v,u=this,t=null,s=A.d(d).ok,r=u.a.d,q=A.o(B.cDY(r),t,t,t,t,t,s.f,t,t,t),p=s.z
 r=A.o(B.cDX(r),t,t,t,t,t,p,t,t,t)
 x=u.w
-w=x?t:u.gb7A()
+w=x?t:u.gb7B()
 v=y.u
 w=A.c([q,D.R,r,D.b0,A.nK(F.Oc,t,A.o(x?"Importing\u2026":"Choose CSV file",t,t,t,t,t,t,t,t,t),w)],v)
 if(u.w)D.i.L(w,A.c([D.a1,D.bf],v))
@@ -266,11 +266,11 @@ if(r!=null){q=s.Q
 D.i.L(w,A.c([D.a1,A.o(r,t,t,t,t,t,q==null?t:q.V(A.d(d).ax.fy),t,t,t)],v))}w.push(D.b0)
 w.push(A.o("Template",t,t,t,t,t,s.x,t,t,t))
 w.push(D.R)
-r=u.be5(u.a.d)
+r=u.be6(u.a.d)
 q=s.Q
-w.push(A.YL(r,t,q==null?t:q.UN("monospace")))
+w.push(A.YM(r,t,q==null?t:q.UN("monospace")))
 return new A.W(D.bv,A.a2(w,D.b4,t,D.r,D.v,0,D.x),t)},
-be5(d){var x
+be6(d){var x
 switch(d.a){case 0:x="name,case_type\nHarborview Heist,criminal\nMeridian Contract Dispute,civil"
 break
 case 1:x="name,type,room_name\nJane Doe,person,Harborview Heist\nAcme Corp,org,Meridian Contract Dispute"
@@ -278,9 +278,9 @@ break
 case 2:x="room_name,description,date,minutes,billable,hourly_rate\nHarborview Heist,Reviewed witness statements,2026-10-01,90,true,150\nMeridian Contract Dispute,Client call,2026-10-02,30,true,150"
 break
 default:x=null}return x}}
-B.PY.prototype={
+B.PZ.prototype={
 dg(d){return this.r!==d.r||this.f!==d.f}}
-B.T0.prototype={
+B.T1.prototype={
 Y(){return new B.api(null,null)},
 gu(d){return this.c}}
 B.api.prototype={
@@ -290,10 +290,10 @@ x.d=A.bfJ(null,0,x.a.c,x)},
 l(){var x=this.d
 x===$&&A.b()
 x.l()
-this.aKe()},
+this.aKf()},
 C(d){var x=this.d
 x===$&&A.b()
-return new B.PY(x,A.c3O(d),this.a.f,null)},
+return new B.PZ(x,A.c3O(d),this.a.f,null)},
 b_(d){var x,w,v,u,t,s=this
 s.be(d)
 x=s.a.c
@@ -303,8 +303,8 @@ v=w.e
 u=w.d
 if(u>=x){t=Math.max(0,x-1)
 v=u}else t=null
-s.d=w.aR0(null,t,x,v)}s.a.toString}}
-B.a7j.prototype={
+s.d=w.aR1(null,t,x,v)}s.a.toString}}
+B.a7k.prototype={
 l(){var x=this,w=x.bD$
 if(w!=null)w.P(x.ghq())
 x.bD$=null
@@ -342,30 +342,30 @@ $1(d){return d.toLowerCase()},
 $S:25}
 B.bBv.prototype={
 $1(d){return D.i.hv(this.a,d)},
-$S:346};(function aliases(){var x=B.a7j.prototype
-x.aKe=x.l})();(function installTearOffs(){var x=a._instance_0u
-x(B.a2T.prototype,"gb7A","CD",0)})();(function inheritance(){var x=a.mixinHard,w=a.inheritMany,v=a.inherit
+$S:346};(function aliases(){var x=B.a7k.prototype
+x.aKf=x.l})();(function installTearOffs(){var x=a._instance_0u
+x(B.a2U.prototype,"gb7B","CE",0)})();(function inheritance(){var x=a.mixinHard,w=a.inheritMany,v=a.inherit
 w(A.ca,[B.bYu,B.bYv,B.bBu,B.bBv])
-v(B.UQ,A.hs)
+v(B.UR,A.hs)
 w(A.hw,[B.yP,B.H4])
-w(A.hh,[B.are,B.a2T])
+w(A.hh,[B.are,B.a2U])
 w(A.dd,[B.bBq,B.bBr,B.bBs,B.bBt])
-v(B.PY,A.bC)
-v(B.T0,A.N)
-v(B.a7j,A.Y)
-v(B.api,B.a7j)
-x(B.a7j,A.fW)})()
-A.cD(b.typeUniverse,JSON.parse('{"H4":{"N":[],"f":[]},"yP":{"N":[],"f":[]},"are":{"Y":["yP"]},"a2T":{"Y":["H4"]},"T0":{"N":[],"f":[]},"PY":{"bC":[],"bs":[],"f":[]},"api":{"Y":["T0"]}}'))
+v(B.PZ,A.bC)
+v(B.T1,A.N)
+v(B.a7k,A.Y)
+v(B.api,B.a7k)
+x(B.a7k,A.fW)})()
+A.cD(b.typeUniverse,JSON.parse('{"H4":{"N":[],"f":[]},"yP":{"N":[],"f":[]},"are":{"Y":["yP"]},"a2U":{"Y":["H4"]},"T1":{"N":[],"f":[]},"PZ":{"bC":[],"bs":[],"f":[]},"api":{"Y":["T1"]}}'))
 var y=(function rtii(){var x=A.I
 return{g:x("x<v<h>>"),x:x("x<h>"),u:x("x<f>"),B:x("aa<@,@>"),w:x("h"),k:x("fY"),b:x("@"),e:x("w"),q:x("C?"),v:x("~")}})();(function constants(){var x=a.makeConstList
-C.e2G=new B.UQ(0,"matters")
+C.e2G=new B.UR(0,"matters")
 C.fCY=new B.H4(C.e2G,null)
-C.e2H=new B.UQ(1,"contacts")
+C.e2H=new B.UR(1,"contacts")
 C.fCZ=new B.H4(C.e2H,null)
-C.e2I=new B.UQ(2,"timeEntries")
+C.e2I=new B.UR(2,"timeEntries")
 C.fD_=new B.H4(C.e2I,null)
 C.f_r=x([C.fCY,C.fCZ,C.fD_],y.u)
-C.flr=new A.Nl(null,C.f_r,null)
+C.flr=new A.Nm(null,C.f_r,null)
 C.e_4=new A.ag(58019,"MaterialIcons",null,!1)
 C.e0t=new A.aJ(C.e_4,null,null,null,null)
 C.flx=new A.iP("Matters",C.e0t,null)
@@ -376,6 +376,6 @@ C.e_s=new A.ag(58978,"MaterialIcons",null,!1)
 C.e1s=new A.aJ(C.e_s,null,null,null,null)
 C.fly=new A.iP("Time",C.e1s,null)
 C.eP0=x([C.flx,C.flD,C.fly],y.u)
-C.fls=new A.Nj(C.eP0,null,!1,null,null,null,null,null,null,null,null)
+C.fls=new A.Nk(C.eP0,null,!1,null,null,null,null,null,null,null,null)
 C.fu0=new A.a0("Import data",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["GYeA3Fav4RkUmpF8tILBt3xhRgw="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["fFnv7WxNLA+L6FiT57hJuyyHU+s="]=a.current})($__dart_deferred_initializers__);

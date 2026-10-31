@@ -1,5 +1,5 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={a9K:function a9K(d,e){this.a=d
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,B={a9L:function a9L(d,e){this.a=d
 this.b=e},
 c8o(d,e,f){var w=new B.Ia(d,C.f.ap(Date.now(),1000),e)
 w.as=new B.adb(f)
@@ -11,7 +11,7 @@ _.e=e
 _.f=$
 _.as=_.Q=null
 _.at=f},
-abp:function abp(d,e){this.a=d
+abq:function abq(d,e){this.a=d
 this.b=e},
 chy(d){if(d==null)return null
 return((A.fb(d)<<3|A.kP(d)>>>3)&255)<<8|((A.kP(d)&7)<<5|A.c2Z(d)/2|0)&255},
@@ -113,7 +113,7 @@ aU2:function aU2(d,e){this.a=d
 this.b=e},
 aU_:function aU_(){},
 aTZ:function aTZ(d){this.a=d},
-OV:function OV(d,e,f,g,h,i){var _=this
+OW:function OW(d,e,f,g,h,i){var _=this
 _.c=d
 _.d=e
 _.e=f
@@ -128,7 +128,7 @@ D=c[129]
 F=c[120]
 E=c[75]
 G=c[130]
-B.a9K.prototype={
+B.a9L.prototype={
 B(d,e){var w,v=this.b,u=e.a,t=v.h(0,u)
 if(t!=null){this.a[t]=e
 return}w=this.a
@@ -150,12 +150,12 @@ gbW(d){return this.a.length!==0},
 gU(d){var w=this.a
 return new J.f3(w,w.length,A.a6(w).i("f3<1>"))}}
 B.Ia.prototype={}
-B.abp.prototype={
+B.abq.prototype={
 H(){return"CompressionType."+this.b}}
 B.ayN.prototype={}
 B.bTs.prototype={}
 B.bjO.prototype={
-bn4(a7,a8,a9,b0,b1,b2){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3=this,a4=null,a5=4294967295,a6=new B.bTs(b1,A.c([],x.m))
+bn5(a7,a8,a9,b0,b1,b2){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3=this,a4=null,a5=4294967295,a6=new B.bTs(b1,A.c([],x.m))
 a6.b=B.chy(b2)
 a6.c=B.chu(b2)
 a3.a=a6
@@ -177,16 +177,16 @@ p===$&&A.b()
 if(p==null){p=B.chu(r)
 p.toString}t.c=p
 t.z=420
-o=a3.aBx(u)
+o=a3.aBy(u)
 n=u.Q
 a8=new A.EC(new Uint8Array(32768),C.e5)
 p=n.a
 if(p==null)p=new Uint8Array(0)
-m=new A.UZ(C.e5)
+m=new A.V_(C.e5)
 m.aew(p,C.e5,a4,a4)
 p=a3.a
-C.tV.bn3(m,a8,p.a,!0)
-l=new A.UZ(C.e5)
+C.tV.bn4(m,a8,p.a,!0)
+l=new A.V_(C.e5)
 l.aew(J.cy(C.P.gad(a8.c),a8.c.byteOffset,a8.b),C.e5,a4,a4)
 k=C.bA.bc(q)
 if(l==null)q=a4
@@ -247,12 +247,12 @@ u.dr(k.length)
 u.dr(a1.length)
 u.i_(k)
 u.i_(a1)
-if(l!=null)u.aAo(l)
+if(l!=null)u.aAp(l)
 t.r=null}a6=a3.a
 w=a3.b
 w.toString
-a3.bgS(a6.r,a4,w)},
-aBx(d){var w,v,u,t,s,r=d.Q,q=r.aCc(!1)
+a3.bgT(a6.r,a4,w)},
+aBy(d){var w,v,u,t,s,r=d.Q,q=r.aCd(!1)
 q.c=0
 w=q.gu(0)
 for(v=0;w>1048576;){u=q.ade(1048576,q.c)
@@ -263,7 +263,7 @@ v=A.pZ(u.ex(),v)
 w-=1048576}if(w>0)v=A.pZ(q.fO(w).ex(),v)
 q.c=0
 return v},
-bgS(a4,a5,a6){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1=4294967295,a2=C.bA.bc(""),a3=a6.b
+bgT(a4,a5,a6){var w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1=4294967295,a2=C.bA.bc(""),a3=a6.b
 for(w=a4.length,v=x.t,u=!1,t=0;s=a4.length,t<s;a4.length===w||(0,A.H)(a4),++t){r=a4[t]
 q=r.e
 p=q>4294967295||r.f>4294967295||r.y>4294967295
@@ -345,14 +345,14 @@ B.adb.prototype={
 gu(d){var w=this.a
 w=w==null?null:w.length
 return w==null?0:w},
-aCc(d){var w=this.a
+aCd(d){var w=this.a
 if(w==null)w=new Uint8Array(0)
-return A.V_(w,C.e5,null,null)}}
+return A.V0(w,C.e5,null,null)}}
 B.DR.prototype={
 cq(d,e){var w=null,v=A.d(d)
-return A.hp(A.lM(w,w,w,w,w,w,w,w,D.frK),w,A.ft(A.c([A.o("Connect CaseThread to your tools. File-based exports work now \u2014 no setup needed.",w,w,w,w,w,v.ok.z,w,w,w),C.b0,new B.OV(C.O3,"Google Calendar / Outlook / Apple","Export all task deadlines as an ICS file. Import it into any calendar app.","Export deadlines (.ics)",new B.aU0(this,d,e),w),new B.OV(D.e_B,"QuickBooks","Export invoices and expenses as CSV for QuickBooks import.","Export for QuickBooks (.zip)",new B.aU1(this,d,e),w),new B.OV(F.nz,"Microsoft 365","Direct sync needs a free Entra app registration. Use the ICS export above with Outlook today.","How to set up",new B.aU2(this,d),w)],x.p),w,C.bv,w,C.a5,!1),w,w)},
-HY(d,e){return this.aUp(d,e)},
-aUp(d,e){var w=0,v=A.m(x.H),u,t=2,s=[],r,q,p,o,n,m
+return A.hp(A.lM(w,w,w,w,w,w,w,w,D.frK),w,A.ft(A.c([A.o("Connect CaseThread to your tools. File-based exports work now \u2014 no setup needed.",w,w,w,w,w,v.ok.z,w,w,w),C.b0,new B.OW(C.O3,"Google Calendar / Outlook / Apple","Export all task deadlines as an ICS file. Import it into any calendar app.","Export deadlines (.ics)",new B.aU0(this,d,e),w),new B.OW(D.e_B,"QuickBooks","Export invoices and expenses as CSV for QuickBooks import.","Export for QuickBooks (.zip)",new B.aU1(this,d,e),w),new B.OW(F.nz,"Microsoft 365","Direct sync needs a free Entra app registration. Use the ICS export above with Outlook today.","How to set up",new B.aU2(this,d),w)],x.p),w,C.bv,w,C.a5,!1),w,w)},
+HY(d,e){return this.aUq(d,e)},
+aUq(d,e){var w=0,v=A.m(x.H),u,t=2,s=[],r,q,p,o,n,m
 var $async$HY=A.i(function(f,g){if(f===1){s.push(g)
 w=t}for(;;)switch(w){case 0:t=4
 w=7
@@ -378,8 +378,8 @@ break
 case 6:case 1:return A.k(u,v)
 case 2:return A.j(s.at(-1),v)}})
 return A.l($async$HY,v)},
-vz(d,e){return this.aUs(d,e)},
-aUs(b8,b9){var w=0,v=A.m(x.H),u=1,t=[],s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7
+vz(d,e){return this.aUt(d,e)},
+aUt(b8,b9){var w=0,v=A.m(x.H),u=1,t=[],s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7
 var $async$vz=A.i(function(c0,c1){if(c0===1){t.push(c1)
 w=u}for(;;)switch(w){case 0:u=3
 s=b9.X($.dx(),x.A)
@@ -429,13 +429,13 @@ case 10:w=3
 break
 case 13:case 8:a2=new Uint8Array(A.b4(C.bA.bc(j)))
 a3=new Uint8Array(A.b4(C.bA.bc(i)))
-b3=new B.a9K(A.c([],x.L),A.D(p,x.r))
+b3=new B.a9L(A.c([],x.L),A.D(p,x.r))
 b3.B(0,B.c8o("casethread-invoices.csv",J.aX(a2),a2))
 b3.B(0,B.c8o("casethread-expenses.csv",J.aX(a3),a3))
 a4=b3
-p=$.QO()
+p=$.QP()
 b4=A.b_K(C.e5,32768)
-new B.bjO(p).bn4(a4,b4,!1,null,1,null)
+new B.bjO(p).bn5(a4,b4,!1,null,1,null)
 a5=new Uint8Array(A.b4(b4.NO()))
 u=16
 w=19
@@ -465,9 +465,9 @@ break
 case 5:return A.k(null,v)
 case 1:return A.j(t.at(-1),v)}})
 return A.l($async$vz,v)},
-bcx(d){var w=null
+bcy(d){var w=null
 A.cU(w,w,!0,w,new B.aU_(),d,w,!0,!0,x.z)}}
-B.OV.prototype={
+B.OW.prototype={
 C(d){var w=this,v=null,u=A.d(d).ok,t=x.p
 return A.f4(new A.W(C.aB,A.a2(A.c([A.an(A.c([A.aW(w.c,v,v,v,28),C.br,A.aD(A.o(w.d,v,v,v,v,v,u.w,v,v,v),1,v)],t),C.y,v,C.r,C.v,0,v,v),C.R,A.o(w.e,v,v,v,v,v,u.z,v,v,v),C.a1,A.zn(A.o(w.f,v,v,v,v,v,v,v,v,v),v,w.r,v)],t),C.S,v,C.r,C.v,0,C.x),v),v,v,G.uP,v,v)},
 gcP(){return this.d}}
@@ -479,29 +479,29 @@ B.aU1.prototype={
 $0(){return this.a.vz(this.b,this.c)},
 $S:0}
 B.aU2.prototype={
-$0(){return this.a.bcx(this.b)},
+$0(){return this.a.bcy(this.b)},
 $S:0}
 B.aU_.prototype={
 $1(d){var w=null
-return A.dq(A.c([A.by(C.t8,w,w,w,new B.aTZ(d),w,w)],x.p),D.fjm,w,D.frG)},
+return A.dr(A.c([A.by(C.t8,w,w,w,new B.aTZ(d),w,w)],x.p),D.fjm,w,D.frG)},
 $S:13}
 B.aTZ.prototype={
 $0(){return A.ap(this.a,!1).by()},
 $S:0};(function inheritance(){var w=a.inherit,v=a.inheritMany
-w(B.a9K,A.z)
+w(B.a9L,A.z)
 v(A.C,[B.Ia,B.ayN,B.bTs,B.bjO,B.c0M,B.b0i,B.aOI])
-w(B.abp,A.hs)
+w(B.abq,A.hs)
 w(B.c2I,B.b0i)
 w(B.adb,B.aOI)
 w(B.DR,A.i_)
 v(A.dd,[B.aU0,B.aU1,B.aU2,B.aTZ])
 w(B.aU_,A.ca)
-w(B.OV,A.a4)})()
-A.cD(b.typeUniverse,JSON.parse('{"a9K":{"z":["Ia"],"z.E":"Ia"},"DR":{"N":[],"f":[]},"OV":{"a4":[],"f":[]}}'))
+w(B.OW,A.a4)})()
+A.cD(b.typeUniverse,JSON.parse('{"a9L":{"z":["Ia"],"z.E":"Ia"},"DR":{"N":[],"f":[]},"OW":{"a4":[],"f":[]}}'))
 var y={f:"Date,Description,Category,Amount,Billable\n",a:"InvoiceNum,Customer,InvoiceDate,DueDate,ItemDescription,Amount\n"}
 var x=(function rtii(){var w=A.I
-return{k:w("aH"),i:w("M<v<j1>>"),L:w("x<Ia>"),X:w("x<aa<h,@>>"),s:w("x<h>"),p:w("x<f>"),S:w("x<nf>"),m:w("x<ayN>"),t:w("x<w>"),f:w("aa<@,@>"),N:w("h"),A:w("fY"),q:w("h_"),z:w("@"),r:w("w"),H:w("~")}})();(function constants(){D.ux=new B.abp(1,"deflate")
-D.Jg=new B.abp(2,"bzip2")
+return{k:w("aH"),i:w("M<v<j1>>"),L:w("x<Ia>"),X:w("x<aa<h,@>>"),s:w("x<h>"),p:w("x<f>"),S:w("x<nf>"),m:w("x<ayN>"),t:w("x<w>"),f:w("aa<@,@>"),N:w("h"),A:w("fY"),q:w("h_"),z:w("@"),r:w("w"),H:w("~")}})();(function constants(){D.ux=new B.abq(1,"deflate")
+D.Jg=new B.abq(2,"bzip2")
 D.e_B=new A.ag(60978,"MaterialIcons",null,!1)
 D.fsY=new A.a0("1. Go to entra.microsoft.com \u2192 App registrations \u2192 New.\n2. Add redirect URI for your CaseThread domain.\n3. Grant Calendars.ReadWrite + Mail.Send (delegated).\n4. Paste the client ID/secret into CaseThread \u2192 Settings \u2192 Integrations.\n\nUntil then, the ICS export above imports cleanly into Outlook.",null,null,null,null,null,null,null,null,null,null)
 D.fjm=new A.FW(C.a5,null,null,null,D.fsY,C.T,null,null)
@@ -509,4 +509,4 @@ D.fu8=new A.a0("No deadlines to export.",null,null,null,null,null,null,null,null
 D.fkS=new A.db(D.fu8,null,null,null,null,null,null,null,null,null,null,null,null,C.Y,!1,null,null,null,C.C,null)
 D.frG=new A.a0("Microsoft 365 setup",null,null,null,null,null,null,null,null,null,null)
 D.frK=new A.a0("Integrations",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["CLJQUPysMTprMl+gPvvFZ+9Lw3g="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["KMWoTZSYPJHR3Zts2JcbvQUK358="]=a.current})($__dart_deferred_initializers__);

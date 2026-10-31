@@ -83,8 +83,8 @@ g=B.c([B.au(m,B.an(B.c([d,new B.kn(new C.bdM(n,a1,a2),B.bx(m,m,m,B.aW(x,v,m,m,28
 if((w?m:h.f)!==A.qU)A.i.L(g,B.c([new C.anM(l,m),A.b0],t))
 g.push(B.ec(k,new C.bdO(n,a1),new C.bdP(i),new C.bdQ(),!1,!0,!1))
 return B.ft(g,m,A.bv,m,A.a5,!1)},
-Jb(d,e){return this.b9i(d,e)},
-b9i(d,e){var x=0,w=B.m(y.H),v,u=2,t=[],s=[],r=this,q,p,o,n,m,l,k
+Jb(d,e){return this.b9j(d,e)},
+b9j(d,e){var x=0,w=B.m(y.H),v,u=2,t=[],s=[],r=this,q,p,o,n,m,l,k
 var $async$Jb=B.i(function(f,g){if(f===1){t.push(g)
 x=u}for(;;)switch(x){case 0:l=e.X($.c7O().gce(),y.y)
 if(l.x){x=1
@@ -118,7 +118,7 @@ break
 case 6:case 1:return B.k(v,w)
 case 2:return B.j(t.at(-1),w)}})
 return B.l($async$Jb,w)},
-bdF(d,e){var x=B.d(d),w=B.c([],y.p)
+bdG(d,e){var x=B.d(d),w=B.c([],y.p)
 e.c.aY(0,new C.bdK(this,w,d,x.ok))
 return B.a2(w,A.y,null,A.r,A.v,0,A.x)},
 a51(d,e){var x,w,v,u,t,s,r,q=null,p=B.d(d).ok
@@ -127,7 +127,7 @@ w=B.c([],x)
 for(v=J.aI(e);v.q();)w.push(new B.W(A.l8,new B.ib(A.b2,A.r,A.v,A.S,q,A.x,q,0,B.c([D.ftI,new B.fO(1,A.d_,this.a51(d,v.gI()),q)],x),q),q))
 return B.a2(w,A.S,q,A.r,A.v,0,A.x)}if(y.f.b(e)){x=y.p
 w=B.c([],x)
-for(v=e.geC(),v=v.gU(v),u=p.Q;v.q();){t=v.gI()
+for(v=e.geD(),v=v.gU(v),u=p.Q;v.q();){t=v.gI()
 s=B.q(t.a)
 s=B.d0(s,"_"," ")
 if(u==null)r=q
@@ -141,22 +141,22 @@ j=j.ok.Q
 if(j==null)j=k
 else j=j.fM(B.d(d).ax.a===A.p?A.B:A.D,A.ao,1.2)
 j=B.o("Current case state",k,k,k,k,k,j,k,k,k)
-i=l.D3(h,new C.bnC())
+i=l.D4(h,new C.bnC())
 x=B.d(d).ax.a===A.p?A.b_:A.ad
-w=l.D3(h,new C.bnD())
+w=l.D4(h,new C.bnD())
 v=B.d(d).ax.a===A.p?A.ql:A.bg
-u=l.D3(g,new C.bnE())
+u=l.D4(g,new C.bnE())
 t=B.d(d).ax.a===A.p?A.Au:A.Ar
-s=l.D3(f,new C.bnF())
+s=l.D4(f,new C.bnF())
 r=B.d(d).ax.a===A.p?A.An:A.A5
-q=l.D3(h,new C.bnG())
+q=l.D4(h,new C.bnG())
 p=B.d(d).ax.a===A.p?A.lz:A.lD
-o=l.D3(e,new C.bnH())
+o=l.D4(e,new C.bnH())
 n=B.d(d).ax.a===A.p?A.c3:A.ad
 m=y.p
 return B.a2(B.c([j,A.ai,B.c22(0.95,B.c([new C.xj("Open tasks",i,D.e04,x,k),new C.xj("Completed tasks",w,D.e0f,v,k),new C.xj("Evidence items",u,D.e_Z,t,k),new C.xj("Entities",s,A.lP,r,k),new C.xj("Contradictions",q,D.e_J,p,k),new C.xj("Members",o,D.e_T,n,k)],m),3,12,12,A.xw,!0)],m),A.S,k,A.r,A.v,0,A.x)},
-bdG(d,e){return B.ec(d,e,new C.bnA(),new C.bnB(),!1,!0,!1)},
-D3(d,e){return this.bdG(d,e,y.z)}}
+bdH(d,e){return B.ec(d,e,new C.bnA(),new C.bnB(),!1,!0,!1)},
+D4(d,e){return this.bdH(d,e,y.z)}}
 C.xj.prototype={
 C(d){var x,w=this,v=null,u=B.d(d).ok,t=B.b1(18),s=B.bU(B.d(d).ax.a===A.p?A.az:A.bb,A.O,1),r=B.d(d).ax.a===A.p?A.bB:A.L,q=B.aW(w.e,w.f,v,v,20),p=u.r
 p=p==null?v:p.d5(A.dH)
@@ -198,11 +198,11 @@ r=x.z
 if(r==null)p=q
 else{r=r.V(B.d(p).ax.a===A.p?A.B:A.D)
 p=r}w=B.au(q,B.a2(B.c([t,A.a1,s,A.ai,B.o("When this investigation is closed, a point-in-time summary is generated automatically \u2014 it will not change even if the underlying data does.",q,q,q,q,q,p,A.aV,q,q)],y.p),A.y,q,A.r,A.v,0,A.x),A.F,q,q,new B.aA(u,q,v,w,q,q,A.X),q,q,q,q,A.cR,q,q,q)
-p=w}else p=this.a.bdF(p,d)
+p=w}else p=this.a.bdG(p,d)
 return p},
 $S:1176}
 C.bdK.prototype={
-$2(d,e){var x=this,w=null,v=A.o.azg(B.d0(d,"_"," "),B.ck("^.",!0,!1),new C.bdJ()),u=B.b1(22),t=x.c,s=B.bU(B.d(t).ax.a===A.p?A.az:A.bb,A.O,1),r=B.d(t).ax.a===A.p?A.bB:A.L,q=x.d.Q
+$2(d,e){var x=this,w=null,v=A.o.azh(B.d0(d,"_"," "),B.ck("^.",!0,!1),new C.bdJ()),u=B.b1(22),t=x.c,s=B.bU(B.d(t).ax.a===A.p?A.az:A.bb,A.O,1),r=B.d(t).ax.a===A.p?A.bB:A.L,q=x.d.Q
 if(q==null)q=w
 else q=q.fM(B.d(t).ax.a===A.p?A.B:A.D,A.dH,1.2)
 x.b.push(B.au(w,B.a2(B.c([B.o(v,w,w,w,w,w,q,w,w,w),A.ai,x.a.a51(t,e)],y.p),A.S,w,A.r,A.v,0,A.x),A.F,w,w,new B.aA(r,w,s,u,w,w,A.X),w,w,w,G.uP,A.AX,w,w,w))},
@@ -256,4 +256,4 @@ D.fkk=new B.db(D.fr6,null,null,null,null,null,null,null,null,null,null,null,null
 D.ftI=new B.a0("\u2022  ",null,null,null,null,null,null,null,null,null,null)})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cT8","c7L",()=>A.bH.$2$1(new C.bZ_(),B.I("q8?"),B.I("h")))
 x($,"cTt","c7O",()=>B.p9(C.cJo(),y.y,y.X))})()};
-(a=>{a["kkHg1BChY1SPZuqrBRZa0Sm0l+I="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["1OKhBCwAqsN1pmlOMPJ1ZWWfxd4="]=a.current})($__dart_deferred_initializers__);

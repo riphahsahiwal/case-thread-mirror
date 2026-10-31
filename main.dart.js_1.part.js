@@ -24,14 +24,14 @@ x=y.e
 j=B.a2(B.c([l,A.a1,k,A.R,B.o("How CaseThread protects your data \u2014 stated plainly, verified against our actual architecture.",o,o,o,o,o,j==null?o:j.V(B.d(d).ax.k3.aR(0.7)),A.aV,o,o)],x),A.y,o,A.r,A.v,0,A.x)
 l=B.d(d).ax.a===A.p?A.dr:A.ds
 l=p.a4F(d,n,l,p.ahs(d,n,"Honest limits: chat messages are not end-to-end encrypted \u2014 they are protected in transit and at rest by Supabase. If you transcribe or run AI analysis on an encrypted file, your device decrypts it and sends the plaintext to the processor over TLS. Our servers never store the raw bytes, but the derived transcript text and AI summaries are kept as plaintext so they stay searchable."),C.eP6,F.NU,"Encryption")
-k=p.CQ(d,n,B.d(d).ax.a===A.p?A.b_:A.ad,C.eWo,A.oR,"Security posture")
+k=p.CR(d,n,B.d(d).ax.a===A.p?A.b_:A.ad,C.eWo,A.oR,"Security posture")
 w=B.d(d).ax.a===A.p?A.An:A.A5
 w=p.a4F(d,n,w,p.ahs(d,n,"Important: this is our own self-assessment against the AICPA Trust Services Criteria. CaseThread has NOT undergone a third-party SOC 2 audit and holds NO SOC 2 certification. We publish this mapping so you can see exactly where we stand."),C.eQD,G.CA,"SOC 2 Type 1 self-assessment")
-v=p.CQ(d,n,B.d(d).ax.a===A.p?A.ql:A.bg,C.eBr,C.e08,"GDPR / CCPA checklist")
-u=p.CQ(d,n,B.d(d).ax.a===A.p?A.Au:A.Ar,C.ene,A.lP,"Subprocessors")
-t=p.CQ(d,n,B.d(d).ax.a===A.p?A.c3:A.ad,C.eP2,C.e09,"Data residency")
-s=p.CQ(d,n,B.d(d).ax.a===A.p?A.lz:A.lD,C.eSe,C.e0o,"Incident response")
-r=p.CQ(d,n,B.d(d).ax.a===A.p?A.ql:A.bg,C.eNJ,A.en,"Data Processing Agreement (DPA)")
+v=p.CR(d,n,B.d(d).ax.a===A.p?A.ql:A.bg,C.eBr,C.e08,"GDPR / CCPA checklist")
+u=p.CR(d,n,B.d(d).ax.a===A.p?A.Au:A.Ar,C.ene,A.lP,"Subprocessors")
+t=p.CR(d,n,B.d(d).ax.a===A.p?A.c3:A.ad,C.eP2,C.e09,"Data residency")
+s=p.CR(d,n,B.d(d).ax.a===A.p?A.lz:A.lD,C.eSe,C.e0o,"Incident response")
+r=p.CR(d,n,B.d(d).ax.a===A.p?A.ql:A.bg,C.eNJ,A.en,"Data Processing Agreement (DPA)")
 q=n.Q
 return B.hp(m,o,B.bS(B.es(new B.e_(E.HL,B.a2(B.c([j,A.ye,l,A.cz,k,A.cz,w,A.cz,v,A.cz,u,A.cz,t,A.cz,s,A.cz,r,A.ye,B.o("This page is informational and is not legal advice. Last reviewed October 2026.",o,o,o,o,o,q==null?o:q.V(B.d(d).ax.k3.aR(0.6)),A.aV,o,o),A.cz],x),A.b4,o,A.r,A.v,0,A.x),o),o,A.T,A.cR,o,o,A.a5),o,o),o,o)},
 ahs(d,e,f){var x=null,w=(B.d(d).ax.a===A.p?A.lz:A.lD).aR(0.1),v=B.b1(12),u=B.bU((B.d(d).ax.a===A.p?A.lz:A.lD).aR(0.4),A.O,1),t=B.aW(I.Nw,B.d(d).ax.a===A.p?A.lz:A.lD,x,x,20),s=e.Q
@@ -50,7 +50,7 @@ u=B.c([B.an(B.c([t,A.kN,B.aD(B.o(j,r,r,r,r,r,u==null?r:u.d5(A.aT),r,r,r),1,r)],s
 if(g!=null)A.i.L(u,B.c([g],s))
 A.i.L(u,new B.ab(h,new D.bhN(f,e,d),B.a6(h).i("ab<1,f>")))
 return B.au(r,B.a2(u,A.S,r,A.r,A.v,0,A.x),A.F,r,r,new B.aA(x,r,v,w,r,r,A.X),r,r,new B.K("trust-section-"+q,y.a),r,A.bv,r,r,r)},
-CQ(d,e,f,g,h,i){return this.a4F(d,e,f,null,g,h,i)}}
+CR(d,e,f,g,h,i){return this.a4F(d,e,f,null,g,h,i)}}
 var z=a.updateTypes([])
 D.bhN.prototype={
 $1(d){var x=null,w=B.au(x,x,A.F,x,x,new B.aA(this.a.aR(0.7),x,x,x,x,x,A.c8),x,6,x,x,x,x,x,6),v=this.b.z
@@ -73,4 +73,4 @@ C.eQD=x(["Security (CC6\u2013CC8): logical access is enforced by Row Level Secur
 C.eSe=x(["If we detect or are told about a security incident, we contain it first, then assess what data was affected using the append-only audit log.","Affected users are notified without undue delay with what happened, what data was involved, and what we did about it.",'To report a suspected vulnerability or incident, email abdullahhshafiquee@gmail.com with "SECURITY" in the subject line.'],y.h)
 C.eWo=x(["Encryption at rest: all data lives on Supabase\u2019s managed Postgres and Storage, which encrypt data at rest.","Encryption in transit: every connection to Supabase and the web app runs over TLS.","Row Level Security: enforced at the database on 46 tables, so users can only read or write rows they have a right to see \u2014 no matter what the client asks for.","Append-only audit log: every security-relevant action (membership changes, evidence uploads, exports, status transitions) is recorded in an audit_log table whose immutability is enforced by the database itself \u2014 UPDATE and DELETE are revoked even for privileged roles and blocked by a trigger.",'Evidence integrity: every evidence file carries a SHA-256 hash that can be re-verified at any time ("Verify hash") to prove it has not been altered.',"Evidence access logging: who viewed or downloaded each evidence item is recorded in an access audit trail visible to room members.","Authentication: Supabase Auth with session tokens; authorization is derived from membership and role, checked in database policies \u2014 never trusted from the client."],y.h)
 C.frr=new B.a0("Trust Center",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["mC6dspfsejmaPoCSSY0ZIsvBRnY="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["MtXQN/T6jwAp1+D1i1hsKWeNyUE="]=a.current})($__dart_deferred_initializers__);

@@ -3,8 +3,8 @@ $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,E,B={CY:func
 _.a=d
 _.b=e
 _.c=f
-_.d=g},a1B:function a1B(d,e){this.a=d
-this.b=e},Oo:function Oo(d,e){this.a=d
+_.d=g},a1C:function a1C(d,e){this.a=d
+this.b=e},Op:function Op(d,e){this.a=d
 this.b=e},bWW:function bWW(){},bWV:function bWV(d){this.a=d}},C
 J=c[1]
 A=c[0]
@@ -21,7 +21,7 @@ case 3:l=e
 k=J.aw(l)
 j=k.gbW(l)?k.ga7(l).a:"legal"
 x=4
-return A.e(u.a.blm(j,"Demo: Harborview Heist"),$async$v8)
+return A.e(u.a.bln(j,"Demo: Harborview Heist"),$async$v8)
 case 4:i=e.a
 k=u.b,t=0
 case 5:if(!(t<2)){x=7
@@ -30,12 +30,12 @@ r=s.a
 q=new Uint8Array(A.b4(D.bA.bc(s.b)))
 p=q.length
 E.crV(r,"text/plain",p)
-o=new A.acp()
+o=new A.acq()
 n=D.mg.kZ(o)
 n.B(0,q)
 n.am()
 x=8
-return A.e(k.byq(new A.X6(r,"text/plain",q,p,A.Qo(o.a.a)),i),$async$v8)
+return A.e(k.byr(new A.X7(r,"text/plain",q,p,A.Qp(o.a.a)),i),$async$v8)
 case 8:case 6:++t
 x=5
 break
@@ -43,19 +43,19 @@ case 7:k=u.c,t=0
 case 9:if(!(t<3)){x=11
 break}m=C.eWH[t]
 x=12
-return A.e(k.Dn(m.b,i,m.a),$async$v8)
+return A.e(k.Do(m.b,i,m.a),$async$v8)
 case 12:case 10:++t
 x=9
 break
 case 11:x=13
-return A.e(k.bv8('\ud83d\udc4b Welcome to the "Demo: Harborview Heist" case room! This sample case shows what a room looks like with evidence, timeline events and team chat. Open the Evidence tab to browse the two demo files, or tap AI to ask for an analysis. Delete this room any time from the room menu.',i),$async$v8)
+return A.e(k.bv9('\ud83d\udc4b Welcome to the "Demo: Harborview Heist" case room! This sample case shows what a room looks like with evidence, timeline events and team chat. Open the Evidence tab to browse the two demo files, or tap AI to ask for an analysis. Delete this room any time from the room menu.',i),$async$v8)
 case 13:v=i
 x=1
 break
 case 1:return A.k(v,w)}})
 return A.l($async$v8,w)}}
-B.a1B.prototype={}
-B.Oo.prototype={}
+B.a1C.prototype={}
+B.Op.prototype={}
 var z=a.updateTypes(["M<v<uG>>()"])
 B.bWW.prototype={
 $1(d){return new B.CY(d.T($.iX(),y.a),d.T($.jU(),y.d),d.T($.dX(),y.e),new B.bWV(d))},
@@ -63,16 +63,16 @@ $S:1156}
 B.bWV.prototype={
 $0(){return this.a.T($.c7s(),y.f).NJ()},
 $S:z+0};(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(A.C,[B.CY,B.a1B,B.Oo])
+x(A.C,[B.CY,B.a1C,B.Op])
 w(B.bWW,A.ca)
 w(B.bWV,A.dd)})()
-var y={f:A.I("aGz"),d:A.I("TQ"),e:A.I("Fr"),a:A.I("Fu"),g:A.I("h")};(function constants(){var x=a.makeConstList
-C.fCt=new B.Oo("02:14 \u2014 North-gate security camera goes offline (storm window).","fact")
-C.fCu=new B.Oo("02:31 \u2014 Alarm triggered at the marina fuel dock; side gate found ajar.","fact")
-C.fCs=new B.Oo("Witness: dark van seen leaving toward Harborview Rd ~02:47.","claim")
-C.eWH=x([C.fCt,C.fCu,C.fCs],A.I("x<Oo>"))
-C.fCq=new B.a1B("demo-harborview-incident-summary.md","# Harborview Marina \u2014 Incident Summary\n\n**Case:** Demo: Harborview Heist\n**Reported:** 2026-10-09, 03:05 by marina night guard\n**What happened:** Sometime between 02:00 and 03:00, the marina office\nwas broken into. A safe containing the weekend's mooring fees\n(approx. $4,200) was forced open, and two handheld radios are missing.\n\n**Scene notes:**\n- Side gate found ajar; no sign of forced entry on the main door.\n- North-gate security camera went offline at 02:14 (storm in the area).\n- Alarm triggered at the fuel dock at 02:31.\n\n**Status:** Demo evidence \u2014 explore the vault, timeline and AI analysis\nto see how a CaseThread room works.\n")
-C.fCr=new B.a1B("demo-harborview-witness-statement.md",'# Witness Statement \u2014 R. Alvarez (dockhand)\n\n**Taken:** 2026-10-09, 07:40 by the night guard\n\n> "I was securing the lines on pier C around quarter to three when I\n> heard a van door slide shut near the north lot. Dark van, no plates\n> I could make out. It pulled out fast toward Harborview Road. I\n> didn\'t see faces \u2014 it was raining hard."\n\n**Investigator note (demo):** Statement is uncorroborated. Cross-check\nagainst the 02:14 camera outage and the 02:31 fuel-dock alarm on the\ntimeline.\n')
-C.f7i=x([C.fCq,C.fCr],A.I("x<a1B>"))})();(function lazyInitializers(){var x=a.lazyFinal
+var y={f:A.I("aGz"),d:A.I("TR"),e:A.I("Fr"),a:A.I("Fu"),g:A.I("h")};(function constants(){var x=a.makeConstList
+C.fCt=new B.Op("02:14 \u2014 North-gate security camera goes offline (storm window).","fact")
+C.fCu=new B.Op("02:31 \u2014 Alarm triggered at the marina fuel dock; side gate found ajar.","fact")
+C.fCs=new B.Op("Witness: dark van seen leaving toward Harborview Rd ~02:47.","claim")
+C.eWH=x([C.fCt,C.fCu,C.fCs],A.I("x<Op>"))
+C.fCq=new B.a1C("demo-harborview-incident-summary.md","# Harborview Marina \u2014 Incident Summary\n\n**Case:** Demo: Harborview Heist\n**Reported:** 2026-10-09, 03:05 by marina night guard\n**What happened:** Sometime between 02:00 and 03:00, the marina office\nwas broken into. A safe containing the weekend's mooring fees\n(approx. $4,200) was forced open, and two handheld radios are missing.\n\n**Scene notes:**\n- Side gate found ajar; no sign of forced entry on the main door.\n- North-gate security camera went offline at 02:14 (storm in the area).\n- Alarm triggered at the fuel dock at 02:31.\n\n**Status:** Demo evidence \u2014 explore the vault, timeline and AI analysis\nto see how a CaseThread room works.\n")
+C.fCr=new B.a1C("demo-harborview-witness-statement.md",'# Witness Statement \u2014 R. Alvarez (dockhand)\n\n**Taken:** 2026-10-09, 07:40 by the night guard\n\n> "I was securing the lines on pier C around quarter to three when I\n> heard a van door slide shut near the north lot. Dark van, no plates\n> I could make out. It pulled out fast toward Harborview Road. I\n> didn\'t see faces \u2014 it was raining hard."\n\n**Investigator note (demo):** Statement is uncorroborated. Cross-check\nagainst the 02:14 camera outage and the 02:31 fuel-dock alarm on the\ntimeline.\n')
+C.f7i=x([C.fCq,C.fCr],A.I("x<a1C>"))})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cRY","cnJ",()=>A.ej(new B.bWW(),A.I("CY")))})()};
-(a=>{a["1sNneCmBEiQAN5E/lg89sgOb5DI="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["xOkLy5UjAwaes48nXLG3U7eA3Hk="]=a.current})($__dart_deferred_initializers__);

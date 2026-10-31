@@ -3,7 +3,7 @@ $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,C,E,F,B={
 cxu(){return new B.Ae()},
 Ae:function Ae(){this.b=null},
 bYg:function bYg(){},
-L3:function L3(d){this.a=d},
+L4:function L4(d){this.a=d},
 ccl(){return new B.Eu(null)},
 cAO(d){var x=J.aI(d.a)
 if(new A.ne(x,d.b).q())return x.gI()
@@ -53,70 +53,70 @@ D=c[132]
 G=c[131]
 B.Ae.prototype={
 dk(){return null}}
-B.L3.prototype={
-Gv(d,e){return this.aDx(d,e)},
-aDx(d,e){var x=0,w=A.m(y.H),v,u=this,t,s,r,q,p
+B.L4.prototype={
+Gv(d,e){return this.aDy(d,e)},
+aDy(d,e){var x=0,w=A.m(y.H),v,u=this,t,s,r,q,p
 var $async$Gv=A.i(function(f,g){if(f===1)return A.j(g,w)
 for(;;)switch(x){case 0:q=u.a
-p=q.X($.QY(),y.T)
+p=q.X($.QZ(),y.T)
 if(p==null){x=1
-break}t=q.X($.a97(),y._)
+break}t=q.X($.a98(),y._)
 s=$.aBk()
 x=3
 return A.e(q.X(s.glJ(),y.l),$async$Gv)
 case 3:r=g
 x=4
-return A.e(t.qv((r==null?new A.fa(p,null,C.xm):r).atX(d,e)),$async$Gv)
+return A.e(t.qv((r==null?new A.fa(p,null,C.xm):r).atY(d,e)),$async$Gv)
 case 4:q.bs(s)
 case 1:return A.k(v,w)}})
 return A.l($async$Gv,w)},
-Gy(d,e,f){return this.aDR(d,e,f)},
-aDR(d,e,f){var x=0,w=A.m(y.H),v,u=this,t,s,r,q,p,o
+Gy(d,e,f){return this.aDS(d,e,f)},
+aDS(d,e,f){var x=0,w=A.m(y.H),v,u=this,t,s,r,q,p,o
 var $async$Gy=A.i(function(g,h){if(g===1)return A.j(h,w)
 for(;;)switch(x){case 0:q=u.a
-p=q.X($.QY(),y.T)
+p=q.X($.QZ(),y.T)
 if(p==null){x=1
-break}t=q.X($.a97(),y._)
+break}t=q.X($.a98(),y._)
 o=J
 x=3
-return A.e(q.X($.R0().glJ(),y.m),$async$Gy)
+return A.e(q.X($.R1().glJ(),y.m),$async$Gy)
 case 3:r=o.aI(h)
 for(;;){if(!r.q()){s=null
 break}s=r.gI()
 if(s.b===d)break}x=4
-return A.e(t.qv((s==null?new A.fa(p,d,C.xm):s).atX(e,f)),$async$Gy)
-case 4:q.bs($.R0())
+return A.e(t.qv((s==null?new A.fa(p,d,C.xm):s).atY(e,f)),$async$Gy)
+case 4:q.bs($.R1())
 case 1:return A.k(v,w)}})
 return A.l($async$Gy,w)},
-YF(d){return this.bwI(d)},
-bwI(d){var x=0,w=A.m(y.H),v,u=this,t,s
+YF(d){return this.bwJ(d)},
+bwJ(d){var x=0,w=A.m(y.H),v,u=this,t,s
 var $async$YF=A.i(function(e,f){if(e===1)return A.j(f,w)
 for(;;)switch(x){case 0:t=u.a
-s=t.X($.QY(),y.T)
+s=t.X($.QZ(),y.T)
 if(s==null){x=1
 break}x=3
-return A.e(t.X($.a97(),y._).YG(s,d),$async$YF)
-case 3:t.bs($.R0())
+return A.e(t.X($.a98(),y._).YG(s,d),$async$YF)
+case 3:t.bs($.R1())
 case 1:return A.k(v,w)}})
 return A.l($async$YF,w)}}
 B.Eu.prototype={
-cq(d,e){var x,w,v,u,t,s=this,r=null,q=A.d(d).ok,p=e.T($.aBk(),y.q),o=e.T($.R0(),y.Q),n=e.T($.ju(),y.N),m=A.lM(r,r,r,r,r,r,r,r,C.a7e),l=q.z
+cq(d,e){var x,w,v,u,t,s=this,r=null,q=A.d(d).ok,p=e.T($.aBk(),y.q),o=e.T($.R1(),y.Q),n=e.T($.ju(),y.N),m=A.lM(r,r,r,r,r,r,r,r,C.a7e),l=q.z
 if(l==null)l=r
 else l=l.V(A.d(d).ax.a===C.p?C.lB:C.lE)
 l=A.o("Choose which events send you push notifications. Settings apply to every device you sign in on.",r,r,r,r,r,l,r,r,r)
-x=s.aoi(d,q,"Default for all rooms","These defaults apply everywhere unless a room has its own override below.")
+x=s.aoj(d,q,"Default for all rooms","These defaults apply everywhere unless a room has its own override below.")
 w=A.ec(p,new B.b_r(s,d,e),new B.b_s(s,d,q),new B.b_t(),!1,!0,!1)
-v=s.aoi(d,q,"Per-room overrides","Pick a room to override the defaults for that room only. Reset a room to fall back to the global defaults.")
+v=s.aoj(d,q,"Per-room overrides","Pick a room to override the defaults for that room only. Reset a room to fall back to the global defaults.")
 u=p.gp()
 t=o.gp()
 if(t==null)t=C.UL
-return A.hp(m,r,A.bS(A.es(new A.e_(G.HL,A.a2(A.c([l,C.cz,x,C.R,w,C.cz,v,C.R,s.baa(d,e,q,u,o.gl3()!=null,t,n)],y.p),C.b4,r,C.r,C.v,0,C.x),r),r,C.T,C.cR,r,r,C.a5),r,r),r,r)},
-Cz(d,e,f){return this.baB(d,e,f)},
-baB(d,e,f){var x=0,w=A.m(y.H),v=1,u=[],t,s
-var $async$Cz=A.i(function(g,h){if(g===1){u.push(h)
+return A.hp(m,r,A.bS(A.es(new A.e_(G.HL,A.a2(A.c([l,C.cz,x,C.R,w,C.cz,v,C.R,s.bab(d,e,q,u,o.gl3()!=null,t,n)],y.p),C.b4,r,C.r,C.v,0,C.x),r),r,C.T,C.cR,r,r,C.a5),r,r),r,r)},
+CA(d,e,f){return this.baC(d,e,f)},
+baC(d,e,f){var x=0,w=A.m(y.H),v=1,u=[],t,s
+var $async$CA=A.i(function(g,h){if(g===1){u.push(h)
 x=v}for(;;)switch(x){case 0:v=3
 x=6
-return A.e(f.$0(),$async$Cz)
+return A.e(f.$0(),$async$CA)
 case 6:v=1
 x=5
 break
@@ -129,8 +129,8 @@ case 2:x=1
 break
 case 5:return A.k(null,w)
 case 1:return A.j(u.at(-1),w)}})
-return A.l($async$Cz,w)},
-aoi(d,e,f,g){var x,w=null,v=e.w
+return A.l($async$CA,w)},
+aoj(d,e,f,g){var x,w=null,v=e.w
 if(v==null)v=w
 else v=v.e0(A.d(d).ax.a===C.p?C.cB:C.bD,C.cv)
 v=A.o(f,w,w,w,w,w,v,w,w,w)
@@ -138,14 +138,14 @@ x=e.Q
 if(x==null)x=w
 else x=x.V(A.d(d).ax.a===C.p?C.lB:C.lE)
 return A.a2(A.c([v,C.ai,A.o(g,w,w,w,w,w,x,w,w,w)],y.p),C.S,w,C.r,C.v,0,C.x)},
-alH(d,e,f){var x=null,w=e.z
+alI(d,e,f){var x=null,w=e.z
 if(w==null)w=x
 else w=w.V(A.d(d).ax.a===C.p?C.ue:C.aQ)
 return new A.W(E.qy,A.o("Could not load notification preferences.",x,x,x,x,x,w,x,x,x),x)},
-apZ(d,e,f,g,h,i){var x,w,v,u,t=A.c([],y.p)
+aq_(d,e,f,g,h,i){var x,w,v,u,t=A.c([],y.p)
 for(x=g+"-",w=y.O,v=0;v<6;++v){u=D.ePI[v]
-t.push(this.aU7(d,u,e,f,new A.K(x+u.c,w),h,i))}return A.a2(t,C.y,null,C.r,C.v,0,C.x)},
-aU7(d,e,f,g,h,i,j){var x,w,v,u=null,t=j==null?u:j.c.h(0,e.c),s=t==null
+t.push(this.aU8(d,u,e,f,new A.K(x+u.c,w),h,i))}return A.a2(t,C.y,null,C.r,C.v,0,C.x)},
+aU8(d,e,f,g,h,i,j){var x,w,v,u=null,t=j==null?u:j.c.h(0,e.c),s=t==null
 if(s)x=f==null?u:f.c.h(0,e.c)
 else x=t
 w=A.o(e.d,u,u,u,u,u,u,u,u,u)
@@ -155,8 +155,8 @@ v=A.d(d).ok.Q
 if(v==null)v=u
 else v=v.V(A.d(d).ax.a===C.p?C.lB:C.lE)
 return A.c3C(C.a9,h,new B.b_i(i,e),A.o(s,u,u,u,u,u,v,u,u,u),w,x!==!1)},
-baa(d,e,f,g,h,i,j){var x,w,v,u,t,s,r,q,p,o,n,m=this,l=null
-if(!(j instanceof A.r_)){if(j instanceof A.Md)return m.alH(d,f,j.a)
+bab(d,e,f,g,h,i,j){var x,w,v,u,t,s,r,q,p,o,n,m=this,l=null
+if(!(j instanceof A.r_)){if(j instanceof A.Me)return m.alI(d,f,j.a)
 return C.Ey}x=j.a
 w=J.aw(x)
 if(w.gW(x)){w=f.z
@@ -176,21 +176,21 @@ q.push(new A.eo(n.a,A.o(n.b,l,l,l,l,l,l,l,l,l),C.d7,l,p))}w=y.p
 q=A.c([A.uX(l,D.ftN,t,q,D.fAJ,new B.b_m(e),l,y.R)],w)
 if(s){w=A.c([C.R],w)
 if(h)w.push(F.Ex)
-else w.push(m.apZ(d,g,!0,"notif-room",new B.b_n(m,d,e,u),r))
+else w.push(m.aq_(d,g,!0,"notif-room",new B.b_n(m,d,e,u),r))
 w.push(C.R)
 w.push(new A.dY(C.d0,l,l,A.pu(D.e0B,D.fyL,D.ftX,r==null?l:new B.b_o(m,d,e,u),l),l))
 C.i.L(q,w)}return A.a2(q,C.b4,l,C.r,C.v,0,C.x)}}
-var z=a.updateTypes(["h?()","L3(al)","Ae()"])
+var z=a.updateTypes(["h?()","L4(al)","Ae()"])
 B.bYg.prototype={
-$1(d){return new B.L3(d)},
+$1(d){return new B.L4(d)},
 $S:z+1}
 B.b_r.prototype={
 $1(d){var x=this.a,w=this.b
-return x.apZ(w,d,!1,"notif-global",new B.b_q(x,w,this.c),null)},
+return x.aq_(w,d,!1,"notif-global",new B.b_q(x,w,this.c),null)},
 $S:1154}
 B.b_q.prototype={
 $2(d,e){var x=this.c
-return this.a.Cz(this.b,x,new B.b_p(x,d,e))},
+return this.a.CA(this.b,x,new B.b_p(x,d,e))},
 $S:399}
 B.b_p.prototype={
 $0(){return this.a.X($.c0o(),y.J).Gv(this.b,this.c)},
@@ -199,7 +199,7 @@ B.b_t.prototype={
 $0(){return C.Ey},
 $S:53}
 B.b_s.prototype={
-$2(d,e){return this.a.alH(this.b,this.c,d)},
+$2(d,e){return this.a.alI(this.b,this.c,d)},
 $S:101}
 B.b_i.prototype={
 $1(d){return this.a.$2(this.b,d)},
@@ -212,7 +212,7 @@ $1(d){this.a.X($.c7N().gce(),y.D).saV(d)},
 $S:43}
 B.b_n.prototype={
 $2(d,e){var x=this,w=x.c
-return x.a.Cz(x.b,w,new B.b_k(w,x.d,d,e))},
+return x.a.CA(x.b,w,new B.b_k(w,x.d,d,e))},
 $S:399}
 B.b_k.prototype={
 $0(){var x=this
@@ -220,7 +220,7 @@ return x.a.X($.c0o(),y.J).Gy(x.b.a,x.c,x.d)},
 $S:2}
 B.b_o.prototype={
 $0(){var x=this,w=x.c
-return x.a.Cz(x.b,w,new B.b_j(w,x.d))},
+return x.a.CA(x.b,w,new B.b_j(w,x.d))},
 $S:0}
 B.b_j.prototype={
 $0(){return this.a.X($.c0o(),y.J).YF(this.b.a)},
@@ -229,13 +229,13 @@ x(B,"cIc","cxu",2)
 w(B.Ae.prototype,"gji","dk",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(B.Ae,A.eU)
 w(A.ca,[B.bYg,B.b_r,B.b_i,B.b_l,B.b_m])
-x(B.L3,A.C)
+x(B.L4,A.C)
 x(B.Eu,A.i_)
 w(A.dj,[B.b_q,B.b_s,B.b_n])
 w(A.dd,[B.b_p,B.b_t,B.b_k,B.b_o,B.b_j])})()
 A.cD(b.typeUniverse,JSON.parse('{"Ae":{"eU":["h?"]},"Eu":{"N":[],"f":[]}}'))
 var y=(function rtii(){var x=A.I
-return{Q:x("aR<v<fa>>"),q:x("aR<fa?>"),r:x("eo<h>"),m:x("M<v<fa>>"),l:x("M<fa?>"),I:x("x<eo<h>>"),p:x("x<f>"),J:x("L3"),_:x("c2C"),N:x("pk"),D:x("Ae"),R:x("h"),O:x("K<h>"),K:x("h_"),T:x("h?"),H:x("~")}})();(function constants(){var x=a.makeConstList
+return{Q:x("aR<v<fa>>"),q:x("aR<fa?>"),r:x("eo<h>"),m:x("M<v<fa>>"),l:x("M<fa?>"),I:x("x<eo<h>>"),p:x("x<f>"),J:x("L4"),_:x("c2C"),N:x("pk"),D:x("Ae"),R:x("h"),O:x("K<h>"),K:x("h_"),T:x("h?"),H:x("~")}})();(function constants(){var x=a.makeConstList
 D.e0b=new A.ag(62232,"MaterialIcons",null,!1)
 D.e0B=new A.aJ(D.e0b,null,null,null,null)
 D.faF=new A.qE("evidence_uploaded","Evidence uploaded","New evidence added to your rooms",1,"evidenceUploaded")
@@ -252,4 +252,4 @@ D.fyL=new A.K("notif-reset-room",y.O)
 D.fAJ=new A.K("notif-room-picker",y.O)})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cTo","c7N",()=>A.p9(B.cIc(),y.D,y.T))
 x($,"cSD","c0o",()=>A.ej(new B.bYg(),y.J))})()};
-(a=>{a["EGqcRUl1NffRrn96cQgy3msGlbc="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["A0RjByJhNGr6t4qTWSDUTS8EWtU="]=a.current})($__dart_deferred_initializers__);

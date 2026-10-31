@@ -1,14 +1,14 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,C,E,F,G,A={rG:function rG(d,e,f){this.a=d
 this.b=e
-this.c=f},a9S:function a9S(){},Rw:function Rw(d,e,f){this.a=d
+this.c=f},a9T:function a9T(){},Rx:function Rx(d,e,f){this.a=d
 this.b=e
 this.c=f},aDt:function aDt(d,e,f,g){var _=this
 _.a=d
 _.b=e
 _.c=f
 _.d=g},aDu:function aDu(d){this.a=d},
-coZ(d){return d.brY("AssetManifest.bin.json",new A.aDx(),y.i)},
+coZ(d){return d.brZ("AssetManifest.bin.json",new A.aDx(),y.i)},
 cAj(d){return new A.GI(y.F.a(C.d9.li(d)),B.D(y.N,y.A))},
 aDx:function aDx(){},
 GI:function GI(d,e){this.a=d
@@ -17,21 +17,21 @@ bl0:function bl0(d){this.a=d},
 xM:function xM(d,e){this.a=d
 this.b=e},
 aOn:function aOn(){},
-ceM(d,e){return new A.Nx(d,C.G2,!0,e,null)},
+ceM(d,e){return new A.Ny(d,C.G2,!0,e,null)},
 Ax:function Ax(){},
-Nx:function Nx(d,e,f,g,h){var _=this
+Ny:function Ny(d,e,f,g,h){var _=this
 _.e=d
 _.f=e
 _.r=f
 _.c=g
 _.a=h},
-Vw:function Vw(d,e,f,g,h){var _=this
+Vx:function Vx(d,e,f,g,h){var _=this
 _.e=d
 _.f=e
 _.r=f
 _.c=g
 _.a=h},
-cdF(d){return new A.Yh(d,null)},
+cdF(d){return new A.Yi(d,null)},
 cg6(d,e,f){return new B.iT(A.cBc(d,e,f),f.i("iT<0>"))},
 cBc(d,e,f){return function(){var x=d,w=e,v=f
 var u=0,t=1,s=[],r,q,p
@@ -52,7 +52,7 @@ case 1:return g.c=s.at(-1),3}}}},
 aDE:function aDE(d,e,f){this.c=d
 this.a=e
 this.b=f},
-Yh:function Yh(d,e){this.c=d
+Yi:function Yi(d,e){this.c=d
 this.a=e},
 avo:function avo(){var _=this
 _.d=null
@@ -91,11 +91,11 @@ if(J.ao(e)!==B.P(x))return!1
 return e instanceof A.rG&&e.a===x.a&&e.b===x.b&&e.c===x.c},
 gt(d){return B.a8(this.a,this.b,this.c,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b)},
 j(d){return"AssetBundleImageKey(bundle: "+this.a.j(0)+', name: "'+this.b+'", scale: '+B.q(this.c)+")"}}
-A.a9S.prototype={
-x3(d,e){return B.W3(this.pA(d,e),d.b,null,d.c)},
-EZ(d,e){return B.W3(this.pA(d,e),d.b,null,d.c)},
-pA(d,e){return this.b2A(d,e)},
-b2A(d,e){var x=0,w=B.m(y.p),v,u=2,t=[],s,r,q,p
+A.a9T.prototype={
+x3(d,e){return B.W4(this.pA(d,e),d.b,null,d.c)},
+F_(d,e){return B.W4(this.pA(d,e),d.b,null,d.c)},
+pA(d,e){return this.b2B(d,e)},
+b2B(d,e){var x=0,w=B.m(y.p),v,u=2,t=[],s,r,q,p
 var $async$pA=B.i(function(f,g){if(f===1){t.push(g)
 x=u}for(;;)switch(x){case 0:q=null
 u=4
@@ -121,10 +121,10 @@ break
 case 1:return B.k(v,w)
 case 2:return B.j(t.at(-1),w)}})
 return B.l($async$pA,w)}}
-A.Rw.prototype={
-gEW(){return"packages/"+this.c+"/"+this.a},
+A.Rx.prototype={
+gEX(){return"packages/"+this.c+"/"+this.a},
 rO(d){var x,w={},v=d.a
-if(v==null)v=$.a9a()
+if(v==null)v=$.a9b()
 w.a=w.b=null
 x=y.P
 G.caE(A.coZ(v).bk(new A.aDt(w,this,d,v),x),new A.aDu(w),x,y.K)
@@ -133,19 +133,19 @@ if(x!=null)return x
 x=new B.ah($.aq,y.E)
 w.b=new B.b0(x,y.z)
 return x},
-aPY(d,e,f){var x,w,v,u,t
+aPZ(d,e,f){var x,w,v,u,t
 if(f==null||f.length===0||e.b==null)return new A.xM(null,d)
 x=B.c3z(y.V,y.S)
 for(w=f.length,v=0;v<f.length;f.length===w||(0,B.H)(f),++v){u=f[v]
 t=u.a
 x.m(0,t==null?1:t,u)}w=e.b
 w.toString
-return this.aUT(x,w)},
-aUT(d,e){var x,w,v
+return this.aUU(x,w)},
+aUU(d,e){var x,w,v
 if(d.pK(e)!=null){x=d.h(0,e)
 x.toString
-return x}w=d.brb(e)
-v=d.bo2(e)
+return x}w=d.brc(e)
+v=d.bo3(e)
 if(w==null){x=d.h(0,v)
 x.toString
 return x}if(v==null){x=d.h(0,w)
@@ -158,13 +158,13 @@ return x}},
 k(d,e){var x
 if(e==null)return!1
 if(J.ao(e)!==B.P(this))return!1
-if(e instanceof A.Rw)x=e.gEW()===this.gEW()
+if(e instanceof A.Rx)x=e.gEX()===this.gEX()
 else x=!1
 return x},
-gt(d){return B.a8(this.gEW(),this.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b)},
-j(d){return"AssetImage(bundle: "+B.q(this.b)+', name: "'+this.gEW()+'")'}}
+gt(d){return B.a8(this.gEX(),this.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b,C.b)},
+j(d){return"AssetImage(bundle: "+B.q(this.b)+', name: "'+this.gEX()+'")'}}
 A.GI.prototype={
-aBc(d){var x,w,v=this.b
+aBd(d){var x,w,v=this.b
 if(!v.aL(d)){x=this.a
 if(x.h(0,d)==null)return null
 w=x.h(0,d)
@@ -181,15 +181,15 @@ A.Ax.prototype={
 C(d){var x=null,w=this.c
 if(w==null)return this.a4h(d)
 return B.f_(x,B.lo(this.a4h(d),C.mJ,x,x,x,x),C.T,!1,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,w,x,x,x,x,x,x,!1,C.bI)}}
-A.Nx.prototype={
+A.Ny.prototype={
 a4h(d){var x=null,w=this.r?"\xa9 ":""
 return B.o(w+this.e,x,x,x,x,x,this.f,x,x,x)}}
-A.Vw.prototype={
+A.Vx.prototype={
 a4h(d){var x=new B.aN(null,this.r,this.e,null)
 return B.AQ(x,this.f)}}
 A.aDE.prototype={
 H(){return"AttributionAlignment."+this.b}}
-A.Yh.prototype={
+A.Yi.prototype={
 Y(){return new A.avo()}}
 A.avo.prototype={
 gY8(){var x=this.e
@@ -206,7 +206,7 @@ C(d){var x,w,v,u,t,s=this,r=null,q="flutter_map",p=y.l,o=B.eG(new B.d4(s.a.c,y.b
 s.a.toString
 o=B.J(A.cg6(o,new B.aN(16,r,r,r),p),p)
 s.a.toString
-o.push(new A.Vw(new B.yM(B.c3j(r,r,new A.Rw("lib/assets/flutter_map_logo.png",r,q)),r,r,r,r,r,r),q,24,r,r))
+o.push(new A.Vx(new B.yM(B.c3j(r,r,new A.Rx("lib/assets/flutter_map_logo.png",r,q)),r,r,r,r,r,r),q,24,r,r))
 s.a.toString
 o.push(new B.aN(2.4000000000000004,r,r,r))
 s.a.toString
@@ -236,7 +236,7 @@ s.a.toString
 return new B.dY(C.n0,r,r,B.dU(C.n0,B.c([new B.W(C.K8,w,r),B.lo(B.I6(new B.W(C.qB,H.caq(B.an(o,C.y,r,C.r,C.W,0,r,r),C.q5),r),C.l3,C.ak,p),C.mJ,r,new A.bJy(s),new A.bJz(s),r)],y.D),C.C,C.bk,r),r)}}
 var z=a.updateTypes(["bj(aDw)","M<GI>(h)","xM(aa<C?,C?>)","M<~>(h9)"])
 A.aDt.prototype={
-$1(d){var x,w,v=this,u=v.b,t=d.aBc(u.gEW()),s=u.aPY(u.gEW(),v.c,t)
+$1(d){var x,w,v=this,u=v.b,t=d.aBd(u.gEX()),s=u.aPZ(u.gEX(),v.c,t)
 u=s.a
 if(u==null)u=1
 x=new A.rG(v.d,s.b,u)
@@ -249,8 +249,8 @@ A.aDu.prototype={
 $2(d,e){this.a.b.jF(d,e)},
 $S:22}
 A.aDx.prototype={
-$1(d){return this.aAu(d)},
-aAu(d){var x=0,w=B.m(y.j),v
+$1(d){return this.aAv(d)},
+aAv(d){var x=0,w=B.m(y.j),v
 var $async$$1=B.i(function(e,f){if(e===1)return B.j(f,w)
 for(;;)switch(x){case 0:v=A.cAj(B.xV(C.cX.bc(B.T(C.aI.bQ(d))),0,null))
 x=1
@@ -306,8 +306,8 @@ A.bJr.prototype={
 $0(){return this.a.e=!0},
 $S:0}
 A.bJs.prototype={
-$1(d){return this.aAM(d)},
-aAM(d){var x=0,w=B.m(y.H),v=this,u
+$1(d){return this.aAN(d)},
+aAN(d){var x=0,w=B.m(y.H),v=this,u
 var $async$$1=B.i(function(e,f){if(e===1)return B.j(f,w)
 for(;;)switch(x){case 0:u=v.a
 u.v(new A.bJo(u))
@@ -336,22 +336,22 @@ A.bJp.prototype={
 $0(){return this.a.f=!1},
 $S:0};(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(B.C,[A.rG,A.GI,A.xM,A.aOn])
-w(A.a9S,B.i1)
-w(A.Rw,A.a9S)
+w(A.a9T,B.i1)
+w(A.Rx,A.a9T)
 x(B.ca,[A.aDt,A.aDx,A.bl0,A.bJs,A.bJy,A.bJz])
 x(B.dj,[A.aDu,A.bJu,A.bJw])
 w(A.Ax,B.a4)
-x(A.Ax,[A.Nx,A.Vw])
+x(A.Ax,[A.Ny,A.Vx])
 w(A.aDE,B.hs)
-w(A.Yh,B.N)
+w(A.Yi,B.N)
 w(A.avo,B.Y)
 x(B.dd,[A.bJB,A.bJA,A.bJv,A.bJt,A.bJx,A.bJr,A.bJo,A.bJq,A.bJp])})()
-B.cD(b.typeUniverse,JSON.parse('{"a9S":{"i1":["rG"]},"Rw":{"i1":["rG"],"i1.T":"rG"},"GI":{"aDw":[]},"Nx":{"Ax":[],"a4":[],"f":[]},"Vw":{"Ax":[],"a4":[],"f":[]},"Ax":{"a4":[],"f":[]},"Yh":{"N":[],"f":[]},"avo":{"Y":["Yh"]}}'))
+B.cD(b.typeUniverse,JSON.parse('{"a9T":{"i1":["rG"]},"Rx":{"i1":["rG"],"i1.T":"rG"},"GI":{"aDw":[]},"Ny":{"Ax":[],"a4":[],"f":[]},"Vx":{"Ax":[],"a4":[],"f":[]},"Ax":{"a4":[],"f":[]},"Yi":{"N":[],"f":[]},"avo":{"Y":["Yi"]}}'))
 var y=(function rtii(){var x=B.I
-return{i:x("aDw"),S:x("xM"),p:x("iD"),x:x("M<~>"),J:x("z<C?>"),D:x("x<f>"),A:x("v<xM>"),F:x("aa<C?,C?>"),P:x("bj"),K:x("C"),N:x("h"),f:x("dz<rG>"),b:x("d4<Vw>"),a:x("d4<Nx>"),l:x("f"),j:x("GI"),z:x("b0<rG>"),E:x("ah<rG>"),V:x("Z"),H:x("~")}})();(function constants(){D.fEv=new A.aDE(C.n0,1,"bottomRight")
+return{i:x("aDw"),S:x("xM"),p:x("iD"),x:x("M<~>"),J:x("z<C?>"),D:x("x<f>"),A:x("v<xM>"),F:x("aa<C?,C?>"),P:x("bj"),K:x("C"),N:x("h"),f:x("dz<rG>"),b:x("d4<Vx>"),a:x("d4<Ny>"),l:x("f"),j:x("GI"),z:x("b0<rG>"),E:x("ah<rG>"),V:x("Z"),H:x("~")}})();(function constants(){D.fEv=new A.aDE(C.n0,1,"bottomRight")
 D.fEC=new A.aOn()
 D.e_X=new B.ag(61736,"MaterialIcons",null,!1)
 D.EW=new B.be(10,10)
 D.fnA=new B.a_(!0,null,null,null,null,null,null,null,C.nr,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.fmg=new A.Nx("Made with 'flutter_map'",D.fnA,!1,null,null)})()};
-(a=>{a["n+HCVeP9cqq/CHfVw0yJmdnJpeA="]=a.current})($__dart_deferred_initializers__);
+D.fmg=new A.Ny("Made with 'flutter_map'",D.fnA,!1,null,null)})()};
+(a=>{a["7+2YGUh/YKjsePtY2PxYh4YOrpc="]=a.current})($__dart_deferred_initializers__);
