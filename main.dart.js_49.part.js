@@ -1,11 +1,11 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,I,C={
-cqM(d,e){return new C.D7(e,d,null)},
-aAr(d,e,f,g){return C.cC3(d,e,f,g)},
-cC3(d,e,f,g){var x=0,w=A.n(y.H),v,u=2,t=[],s,r,q,p
+cqO(d,e){return new C.D7(e,d,null)},
+aAr(d,e,f,g){return C.cC5(d,e,f,g)},
+cC5(d,e,f,g){var x=0,w=A.n(y.H),v,u=2,t=[],s,r,q,p
 var $async$aAr=A.j(function(h,i){if(h===1){t.push(i)
 x=u}for(;;)switch(x){case 0:x=3
-return A.d(A.da(null,null,!0,null,new C.bTB(g,d),d,null,!0,y.y),$async$aAr)
+return A.d(A.da(null,null,!0,null,new C.bTD(g,d),d,null,!0,y.y),$async$aAr)
 case 3:if(i!==!0||d.e==null){x=1
 break}u=5
 x=8
@@ -53,10 +53,10 @@ _.c=d
 _.d=e
 _.e=f
 _.a=g},
-buY:function buY(d){this.a=d},
-buZ:function buZ(){},
-buW:function buW(){},
-buX:function buX(d){this.a=d},
+bv_:function bv_(d){this.a=d},
+bv0:function bv0(){},
+buY:function buY(){},
+buZ:function buZ(d){this.a=d},
 atZ:function atZ(d,e,f,g){var _=this
 _.c=d
 _.d=e
@@ -68,19 +68,19 @@ _.f=e
 _.r=f
 _.w=g
 _.a=h},
-bHT:function bHT(d,e,f,g){var _=this
+bHV:function bHV(d,e,f,g){var _=this
 _.a=d
 _.b=e
 _.c=f
 _.d=g},
-bHS:function bHS(){},
-bHU:function bHU(d,e,f){this.a=d
+bHU:function bHU(){},
+bHW:function bHW(d,e,f){this.a=d
 this.b=e
 this.c=f},
-bTB:function bTB(d,e){this.a=d
+bTD:function bTD(d,e){this.a=d
 this.b=e},
-bTz:function bTz(d){this.a=d},
-bTA:function bTA(d){this.a=d}},D,E,F,G,K,L,H,M,N,O,P
+bTB:function bTB(d){this.a=d},
+bTC:function bTC(d){this.a=d}},D,E,F,G,K,L,H,M,N,O,P
 J=c[1]
 A=c[0]
 B=c[2]
@@ -101,9 +101,9 @@ C.D7.prototype={
 cw(d,e){var x=null,w=e.V($.pZ().$1(this.e),y.M),v=A.bN(x,x,x,P.NS,x,x,new C.aNB(d),x,x,x,"Back to graph",x)
 return A.ki(A.xT(A.c([A.aIO(new C.aNC(this))],y.p),x,v,D.fsA),x,A.eQ(w,new C.aND(this),new C.aNE(),new C.aNF(),!1,!0,!1),x,x)}}
 C.a2g.prototype={
-C(a0){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.e,g=h.b,f=A.a7(g).i("al<1>"),e=A.J(new A.al(g,new C.buY(j),f),f.i("z.E")),d=A.D(y.N,y.l)
+C(a0){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j=this,i=null,h=j.e,g=h.b,f=A.a7(g).i("al<1>"),e=A.J(new A.al(g,new C.bv_(j),f),f.i("z.E")),d=A.D(y.N,y.l)
 for(g=e.length,x=0;x<e.length;e.length===g||(0,A.G)(e),++x){w=e[x]
-J.dq(d.c7(w.d,new C.buZ()),w)}g=(A.e(a0).ax.a===B.p?B.aU:B.ac).aN(0.12)
+J.dq(d.c7(w.d,new C.bv0()),w)}g=(A.e(a0).ax.a===B.p?B.aU:B.ac).aN(0.12)
 f=A.b4(14)
 v=j.d
 u=v.b
@@ -170,7 +170,7 @@ else t=t.dV(A.e(a0).ax.a===B.p?B.aU:B.ac,B.aY)
 t=A.c([new A.a0(N.JD,A.p(u,i,i,i,i,i,t,i,i,i),i)],q)
 for(u=J.aR(k.b);u.q();)t.push(new C.auU(f,u.gJ(),v,h,i))
 B.i.L(s,t)}s.push(B.yd)
-return A.j6(s,i,B.bz,i,B.a8,!1)},
+return A.j6(s,i,B.bA,i,B.a8,!1)},
 b0L(d){var x
 A:{if("person"===d){x=B.oW
 break A}if("location"===d){x=G.mu
@@ -187,12 +187,12 @@ break A}if("evidence"===d){x="Evidence"
 break A}if("org"===d){x="Organization"
 break A}x=d
 break A}return x},
-a3K(d){return new A.a9(A.c(A.dh(d,"_"," ").split(" "),y.S),new C.buW(),y.e).b3(0," ")},
+a3K(d){return new A.a9(A.c(A.dh(d,"_"," ").split(" "),y.S),new C.buY(),y.e).b3(0," ")},
 a4H(d){var x
 if(d==null)return"\u2014"
-if(y.j.b(d))return J.c2(d,this.gbd6(),y.N).b3(0,", ")
+if(y.j.b(d))return J.c2(d,this.gbd7(),y.N).b3(0,", ")
 if(y.f.b(d)){x=d.geq()
-return x.dE(x,new C.buX(this),y.N).b3(0,"; ")}return J.bl(d)}}
+return x.dE(x,new C.buZ(this),y.N).b3(0,"; ")}return J.bl(d)}}
 C.atZ.prototype={
 C(d){var x,w,v=null
 if(this.e)x=v
@@ -211,8 +211,8 @@ v=x==null
 u=v?r:x.c
 u=A.p(u==null?"Unknown entity":u,r,r,r,r,r,r,r,r,r)
 t=!v?A.p(s.a2X(x.b),r,r,r,r,r,A.e(d).ok.Q,r,r,r):r
-q=A.c21(r,D.e0s,new C.bHS(),new A.M("relationship-menu-"+q.a,y.O),new C.bHT(s,x,d,e),"Relationship options",y.N)
-return A.js(A.ex(!1,r,!0,r,!0,r,r,r,!0,r,r,w,r,r,r,r,v?r:new C.bHU(s,d,x),!1,r,r,r,r,t,r,u,r,q,r),r,r,B.mo,r,r)},
+q=A.c23(r,D.e0s,new C.bHU(),new A.M("relationship-menu-"+q.a,y.O),new C.bHV(s,x,d,e),"Relationship options",y.N)
+return A.js(A.ex(!1,r,!0,r,!0,r,r,r,!0,r,r,w,r,r,r,r,v?r:new C.bHW(s,d,x),!1,r,r,r,r,t,r,u,r,q,r),r,r,B.mo,r,r)},
 a2X(d){var x
 A:{if("person"===d){x="Person"
 break A}if("location"===d){x="Location"
@@ -239,7 +239,7 @@ C.aNy.prototype={
 $0(){return null},
 $S:10}
 C.aNz.prototype={
-$0(){return E.c9f(this.b,this.a.e,this.c)},
+$0(){return E.c9h(this.b,this.a.e,this.c)},
 $S:0}
 C.aNA.prototype={
 $0(){var x=this
@@ -257,52 +257,52 @@ $1(d){var x=this.a,w=d.nR(x.f)
 if(w==null)return D.afa
 return new C.a2g(x.e,w,d,null)},
 $S:z+1}
-C.buY.prototype={
+C.bv_.prototype={
 $1(d){var x=this.a.d.a
 return d.b===x||d.c===x},
 $S:z+3}
-C.buZ.prototype={
+C.bv0.prototype={
 $0(){return A.c([],y.z)},
 $S:z+4}
-C.buW.prototype={
+C.buY.prototype={
 $1(d){return d.length===0?d:d[0].toUpperCase()+B.o.bW(d,1)},
 $S:17}
-C.buX.prototype={
+C.buZ.prototype={
 $1(d){var x=this.a
 return x.a3K(J.bl(d.a))+": "+x.a4H(d.b)},
 $S:1167}
-C.bHT.prototype={
+C.bHV.prototype={
 $1(d){var x,w=this
 switch(d){case"view":x=w.b
 if(x!=null)A.tc(w.c,"/rooms/"+w.a.e+"/entities/"+x.a,y.X)
 break
 case"edit":x=w.a
-E.ccD(w.c,x.e,x.f,x.w)
+E.ccF(w.c,x.e,x.f,x.w)
 break
 case"delete":x=w.a
 E.a8q(w.c,w.d,x.e,x.f,x.w)
 break}},
 $S:12}
-C.bHS.prototype={
+C.bHU.prototype={
 $1(d){return A.c([D.fej,D.feq,D.fep],y.P)},
 $S:159}
-C.bHU.prototype={
+C.bHW.prototype={
 $0(){return A.tc(this.b,"/rooms/"+this.a.e+"/entities/"+this.c.a,y.X)},
 $S:0}
-C.bTB.prototype={
+C.bTD.prototype={
 $1(d){var x=null,w=A.p('"'+this.a.c+'" and all its relationships will be permanently removed.',x,x,x,x,x,x,x,x,x)
-return A.dE(A.c([A.bC(B.bs,x,x,x,new C.bTz(d),x,x),A.dl(L.tb,x,new C.bTA(d),A.yv(A.e(this.b).ax.fy,x,x,x,x,x,x))],y.p),w,x,D.frU)},
+return A.dE(A.c([A.bC(B.bs,x,x,x,new C.bTB(d),x,x),A.dl(L.tb,x,new C.bTC(d),A.yv(A.e(this.b).ax.fy,x,x,x,x,x,x))],y.p),w,x,D.frU)},
 $S:13}
-C.bTz.prototype={
+C.bTB.prototype={
 $0(){return A.au(this.a,!1).b0(!1)},
 $S:0}
-C.bTA.prototype={
+C.bTC.prototype={
 $0(){return A.au(this.a,!1).b0(!0)},
 $S:0};(function installTearOffs(){var x=a._instance_1u
-x(C.a2g.prototype,"gbd6","a4H",2)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(C.a2g.prototype,"gbd7","a4H",2)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(A.c0,[C.D7,C.auU])
-x(A.dz,[C.aNB,C.aNy,C.aNz,C.aNA,C.aNF,C.buZ,C.bHU,C.bTz,C.bTA])
-x(A.cz,[C.aNC,C.aNx,C.aND,C.buY,C.buW,C.buX,C.bHT,C.bHS,C.bTB])
+x(A.dz,[C.aNB,C.aNy,C.aNz,C.aNA,C.aNF,C.bv0,C.bHW,C.bTB,C.bTC])
+x(A.cz,[C.aNC,C.aNx,C.aND,C.bv_,C.buY,C.buZ,C.bHV,C.bHU,C.bTD])
 w(C.aNE,A.dA)
 x(A.a4,[C.a2g,C.atZ])})()
 A.cY(b.typeUniverse,JSON.parse('{"D7":{"c0":[],"O":[],"h":[]},"a2g":{"a4":[],"h":[]},"atZ":{"a4":[],"h":[]},"auU":{"c0":[],"O":[],"h":[]}}'))
@@ -325,4 +325,4 @@ D.frU=new A.a3("Delete entity?",null,null,null,null,null,null,null,null,null,nul
 D.fsA=new A.a3("Entity details",null,null,null,null,null,null,null,null,null,null)
 D.fyO=new A.M("entity-edit",y.O)
 D.fzh=new A.M("entity-delete",y.O)})()};
-(a=>{a["M2Fg4tH0pEvBnKyMGL2ev26dYzA="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["hiZ1/MPdpWJr3yPyhUcxRtI6KeU="]=a.current})($__dart_deferred_initializers__);

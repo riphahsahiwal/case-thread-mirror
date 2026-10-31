@@ -2,15 +2,15 @@
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,B={zN:function zN(d){this.a=d},
 a8w(d){var w,v
 for(w=0;w<5;++w){v=D.DB[w]
-if(v.a===d)return v.b}return B.cD3(d)},
-cD3(d){var w,v=D.o.n1(d,A.cf("[_\\-\\s]+",!0,!1)),u=A.a7(v),t=u.i("dB<1,f>")
-v=A.J(new A.dB(new A.al(v,new B.bUb(),u.i("al<1>")),new B.bUc(),t),t.i("z.E"))
+if(v.a===d)return v.b}return B.cD5(d)},
+cD5(d){var w,v=D.o.n1(d,A.cf("[_\\-\\s]+",!0,!1)),u=A.a7(v),t=u.i("dB<1,f>")
+v=A.J(new A.dB(new A.al(v,new B.bUd(),u.i("al<1>")),new B.bUe(),t),t.i("z.E"))
 v.$flags=1
 w=v
 if(w.length===0)return"Unknown"
 return D.i.b3(w," ")},
-bUb:function bUb(){},
-bUc:function bUc(){},
+bUd:function bUd(){},
+bUe:function bUe(){},
 amg(d){var w=A.Z(d.h(0,"id")),v=A.ab(d.h(0,"display_name"))
 if(v==null)v=""
 return new B.iw(w,v,A.ab(d.h(0,"avatar_url")),A.ab(d.h(0,"username")),A.ab(d.h(0,"bio")),A.ab(d.h(0,"niche")))},
@@ -26,7 +26,7 @@ this.c=e},
 wc:function wc(d){this.a=d},
 b2c:function b2c(d){this.a=d},
 b2b:function b2b(){},
-bXY:function bXY(){}},C,E
+bY_:function bY_(){}},C,E
 J=c[1]
 A=c[0]
 D=c[2]
@@ -113,8 +113,8 @@ break
 case 6:case 1:return A.l(u,v)
 case 2:return A.k(s.at(-1),v)}})
 return A.m($async$O7,v)},
-Z2(d,e,f,g,h){return this.bxU(d,e,f,g,h)},
-bxU(d,e,a0,a1,a2){var w=0,v=A.n(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f
+Z2(d,e,f,g,h){return this.bxV(d,e,f,g,h)},
+bxV(d,e,a0,a1,a2){var w=0,v=A.n(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f
 var $async$Z2=A.j(function(a3,a4){if(a3===1){s.push(a4)
 w=t}for(;;)switch(w){case 0:h=r.a
 g=h.gcv().e.a
@@ -256,8 +256,8 @@ break
 case 6:case 1:return A.l(u,v)
 case 2:return A.k(s.at(-1),v)}})
 return A.m($async$FC,v)},
-Z3(d){return this.bxV(d)},
-bxV(d){var w=0,v=A.n(x.i),u,t=this,s,r,q,p,o
+Z3(d){return this.bxW(d)},
+bxW(d){var w=0,v=A.n(x.i),u,t=this,s,r,q,p,o
 var $async$Z3=A.j(function(e,f){if(e===1)return A.k(f,v)
 for(;;)switch(w){case 0:r=t.a
 q=r.gcv().e.a
@@ -313,10 +313,10 @@ if(w)return C.feL
 if(D.o.n(v,"profiles_username_format"))return C.feN
 return A.aB(d)}}
 var z=a.updateTypes(["n2(af<f,@>)","wc(as)"])
-B.bUb.prototype={
+B.bUd.prototype={
 $1(d){return d.length!==0},
 $S:11}
-B.bUc.prototype={
+B.bUe.prototype={
 $1(d){var w=d.toLowerCase()
 return w[0].toUpperCase()+D.o.bW(w,1)},
 $S:17}
@@ -330,11 +330,11 @@ v=A.ab(J.A(t,"name"))
 w=v==null?"Untitled room":v
 return new B.n2(w,A.Z(J.A(u,"role_id")))},
 $S:z+0}
-B.bXY.prototype={
+B.bY_.prototype={
 $1(d){return new B.wc(d.V($.e0(),x.k))},
 $S:z+1};(function inheritance(){var w=a.inherit,v=a.inheritMany
 w(B.zN,A.eb)
-v(A.cz,[B.bUb,B.bUc,B.b2c,B.b2b,B.bXY])
+v(A.cz,[B.bUd,B.bUe,B.b2c,B.b2b,B.bY_])
 v(A.C,[B.iw,B.n2,B.wc])})()
 A.cY(b.typeUniverse,JSON.parse('{"zN":{"aG":[]}}'))
 var y={b:"id, display_name, avatar_url, username, bio, niche"}
@@ -344,5 +344,5 @@ C.feL=new B.zN("That username is taken \u2014 try another.")
 C.feM=new B.zN("Pick an image under 5 MB.")
 C.feN=new B.zN("Usernames need 3\u201320 lowercase letters, numbers or _.")
 C.feO=new B.zN("No image selected.")})();(function lazyInitializers(){var w=a.lazyFinal
-w($,"cS_","Rc",()=>A.eY(new B.bXY(),A.L("wc")))})()};
-(a=>{a["SFy2PHufncVlFZqSMH7KpQVxEc8="]=a.current})($__dart_deferred_initializers__);
+w($,"cS2","Rc",()=>A.eY(new B.bY_(),A.L("wc")))})()};
+(a=>{a["aKGz6EzfA6WMN6AagS8AaEnL8dk="]=a.current})($__dart_deferred_initializers__);

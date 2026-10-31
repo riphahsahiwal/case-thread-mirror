@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,H,F,I,K,C={bZl:function bZl(){},
-cwM(d){return new C.G2(d,null)},
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,H,F,I,K,C={bZn:function bZn(){},
+cwO(d){return new C.G2(d,null)},
 G2:function G2(d,e){this.e=d
 this.a=e},
 bc0:function bc0(){},
@@ -77,10 +77,10 @@ O=c[116]
 G=c[58]
 E=c[163]
 C.G2.prototype={
-cw(d,e){var w=null,v=e.V($.c_y().$1(this.e),x.r),u=A.e(d),t=A.xT(w,w,w,B.a6M)
+cw(d,e){var w=null,v=e.V($.c_A().$1(this.e),x.r),u=A.e(d),t=A.xT(w,w,w,B.a6M)
 u=A.eQ(v,new C.bbZ(this,u.ok,e),new C.bc_(),new C.bc0(),!1,!0,!1)
 return A.ki(t,w,u,w,new H.Do(B.qY,"New signature request",F.zK,new C.bc1(this,d,e),!1,F.fBp,w,w))},
-bcS(d){var w
+bcT(d){var w
 switch(d.a){case 0:w=M.Cs
 break
 case 1:w=B.oT
@@ -90,7 +90,7 @@ break
 case 3:w=D.dZ9
 break
 default:w=null}return w},
-bcR(d,e){var w
+bcS(d,e){var w
 A:{if(E.rV===e){w=O.Ea
 break A}if(E.a5i===e){w=B.rB
 break A}w=A.e(d).ay
@@ -104,11 +104,11 @@ case 4:w=h===!0&&d.e!=null?2:3
 break
 case 2:w=5
 return A.d(e.W($.a9f(),x.w).Un(f.a),$async$Hw)
-case 5:e.by($.c_y().$1(u.e))
+case 5:e.by($.c_A().$1(u.e))
 case 3:return A.l(null,v)}})
 return A.m($async$Hw,v)},
-Jw(d,e){return this.bc3(d,e)},
-bc3(a2,a3){var w=0,v=A.n(x.q),u,t=this,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1
+Jw(d,e){return this.bc4(d,e)},
+bc4(a2,a3){var w=0,v=A.n(x.q),u,t=this,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1
 var $async$Jw=A.j(function(a4,a5){if(a4===1)return A.k(a5,v)
 for(;;)switch(w){case 0:h={}
 g=$.ae()
@@ -149,13 +149,13 @@ j=k?null:h.a
 w=4
 return A.d(g.iW(new G.nc("",m,r,p,q,l,n,E.rV,j,k?null:h.c)),$async$Jw)
 case 4:i=a5
-a3.by($.c_y().$1(m))
+a3.by($.c_A().$1(m))
 if(a2.e!=null){A.rQ(new A.oN(y.d+i.a))
 a2.S(x.v).f.aW(D.fk5)}case 1:return A.l(u,v)}})
 return A.m($async$Jw,v)},
 b7n(d,e){return A.eO(null,new C.bbN(this,e),d,!1,null,!0,!1,x.m)}}
 var z=a.updateTypes(["N<w<nc>>(as,f)","h(w<nc>)"])
-C.bZl.prototype={
+C.bZn.prototype={
 $2(d,e){return d.V($.a9f(),x.w).jJ(e)},
 $S:z+0}
 C.bc0.prototype={
@@ -166,11 +166,11 @@ $2(d,e){return D.af8},
 $S:52}
 C.bbZ.prototype={
 $1(d){var w=null,v=J.av(d)
-if(v.gU(d))return A.bS(new A.a0(B.bz,A.p("No signature requests yet.\nCreate one for engagement letters, fee agreements, or client authorizations \u2014 the signer gets a link, no account needed.",w,w,w,w,w,this.b.z,B.aZ,w,w),w),w,w)
+if(v.gU(d))return A.bS(new A.a0(B.bA,A.p("No signature requests yet.\nCreate one for engagement letters, fee agreements, or client authorizations \u2014 the signer gets a link, no account needed.",w,w,w,w,w,this.b.z,B.aZ,w,w),w),w,w)
 return A.lp(w,new C.bbY(this.a,d,this.c),v.gu(d),B.aV,B.a8,!1)},
 $S:z+1}
 C.bbY.prototype={
-$2(d,e){var w=null,v=J.A(this.b,e),u=this.a,t=v.w,s=A.aT(u.bcS(t),u.bcR(d,t),w,w,w),r=A.p(v.c,w,w,w,w,w,w,w,w,w),q=G.ciQ(t),p=v.z
+$2(d,e){var w=null,v=J.A(this.b,e),u=this.a,t=v.w,s=A.aT(u.bcT(t),u.bcS(d,t),w,w,w),r=A.p(v.c,w,w,w,w,w,w,w,w,w),q=G.ciS(t),p=v.z
 p=p!=null&&p.length!==0?" \u2022 \ud83d\udcce "+p:""
 p=A.p(v.e+" \u2022 "+q+p,w,w,w,w,w,w,w,w,w)
 q=A.c([],x.u)
@@ -207,7 +207,7 @@ $S:70}
 C.bbU.prototype={
 $2(d,e){var w=this,v=null,u=x.u,t=A.c([A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.c,v,v,v,v,v,2,D.e2A,B.U,!0,v,!0,v,!1,v,B.aQ,v,v,v,v,v,v,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aP,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v),B.V],u),s=w.a,r=s.a
 if(r==null)t.push(A.im(D.e0F,D.fx7,D.fr_,new C.bbQ(s,w.b,d,w.d,e),v))
-else t.push(I.can(E.NQ,v,D.fwL,A.p(r.c,v,v,B.aA,v,v,v,v,v,v),new C.bbR(s,e),v))
+else t.push(I.cap(E.NQ,v,D.fwL,A.p(r.c,v,v,B.aA,v,v,v,v,v,v),new C.bbR(s,e),v))
 t.push(B.V)
 t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.e,v,v,v,v,v,2,D.e2B,B.U,!0,v,!0,v,!1,v,B.aQ,v,v,v,v,v,v,v,v,v,4,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aP,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
 t.push(B.V)
@@ -245,7 +245,7 @@ C.bbT.prototype={
 $0(){return A.au(this.a,!1).b0(!0)},
 $S:0}
 C.bbN.prototype={
-$1(d){return A.fi(!0,A.a6(A.c([D.fbl,new A.fP(1,B.cv,A.k5(new C.bbM(),this.b.W($.jq(),x.d).pa(this.a.e),x.A),null)],x.u),B.y,null,B.r,B.W,0,B.A),!0,B.ae,!0,!0)},
+$1(d){return A.fi(!0,A.a6(A.c([D.fbl,new A.fP(1,B.cw,A.k5(new C.bbM(),this.b.W($.jq(),x.d).pa(this.a.e),x.A),null)],x.u),B.y,null,B.r,B.W,0,B.A),!0,B.ae,!0,!0)},
 $S:78}
 C.bbM.prototype={
 $2(d,e){var w,v
@@ -264,7 +264,7 @@ $S:109}
 C.bbK.prototype={
 $0(){return A.au(this.a,!1).b0(this.b)},
 $S:0};(function inheritance(){var w=a.inheritMany,v=a.inherit
-w(A.dA,[C.bZl,C.bc_,C.bbY,C.bbU,C.bbM,C.bbL])
+w(A.dA,[C.bZn,C.bc_,C.bbY,C.bbU,C.bbM,C.bbL])
 v(C.G2,A.c0)
 w(A.dz,[C.bc0,C.bbW,C.bbX,C.bc1,C.bbH,C.bbI,C.bbQ,C.bbP,C.bbR,C.bbO,C.bbS,C.bbT,C.bbK])
 w(A.cz,[C.bbZ,C.bbJ,C.bbV,C.bbN])})()
@@ -289,7 +289,7 @@ D.eU7=w([],A.L("y<fe>"))
 D.fqR=new A.a3("Pick a vault document",null,B.pJ,null,null,null,null,null,null,null,null)
 D.fbl=new A.a0(B.aV,D.fqR,null)
 D.fsk=new A.a3("No vault documents in this room yet.",null,null,null,null,null,null,null,null,null,null)
-D.fbp=new A.a0(B.bz,D.fsk,null)
+D.fbp=new A.a0(B.bA,D.fsk,null)
 D.fs_=new A.a3("Title and signer name are required.",null,null,null,null,null,null,null,null,null,null)
 D.fjX=new A.du(D.fs_,null,null,null,null,null,null,null,null,null,null,null,null,B.a_,!1,null,null,null,B.D,null)
 D.fsT=new A.a3("Request created. Signing link copied.",null,null,null,null,null,null,null,null,null,null)
@@ -303,5 +303,5 @@ D.fr0=new A.a3("New signature request",null,null,null,null,null,null,null,null,n
 D.fr4=new A.a3("Keep",null,null,null,null,null,null,null,null,null,null)
 D.fwL=new A.M("esign-attached-doc",x.x)
 D.fx7=new A.M("esign-attach-vault",x.x)})();(function lazyInitializers(){var w=a.lazyFinal
-w($,"cSr","c_y",()=>B.bC.$2$1(new C.bZl(),A.L("w<nc>"),A.L("f")))})()};
-(a=>{a["VR89/3BoneWfbJB5JMiK+8dDY7M="]=a.current})($__dart_deferred_initializers__);
+w($,"cSu","c_A",()=>B.bD.$2$1(new C.bZn(),A.L("w<nc>"),A.L("f")))})()};
+(a=>{a["qqeCCid4RfUqMybEoKNLPgJZpTA="]=a.current})($__dart_deferred_initializers__);

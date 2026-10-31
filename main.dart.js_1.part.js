@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A,D={
-c33(){return new D.Gw(null)},
+c35(){return new D.Gw(null)},
 Gw:function Gw(d){this.a=d},
 bhO:function bhO(d,e,f){this.a=d
 this.b=e
@@ -47,7 +47,7 @@ s=y.e
 u=B.c([B.an(B.c([t,A.lU,B.aM(B.p(j,r,r,r,r,r,u==null?r:u.dT(A.aY),r,r,r),1,r)],s),A.y,r,A.r,A.w,0,r),A.a1],s)
 if(g!=null)A.i.L(u,B.c([g],s))
 A.i.L(u,new B.a9(h,new D.bhO(f,e,d),B.a7(h).i("a9<1,h>")))
-return B.at(r,B.a6(u,A.T,r,A.r,A.w,0,A.A),A.C,r,r,new B.aF(x,r,v,w,r,r,A.Y),r,r,new B.M("trust-section-"+q,y.a),r,A.bz,r,r,r)},
+return B.at(r,B.a6(u,A.T,r,A.r,A.w,0,A.A),A.C,r,r,new B.aF(x,r,v,w,r,r,A.Y),r,r,new B.M("trust-section-"+q,y.a),r,A.bA,r,r,r)},
 D3(d,e,f,g,h,i){return this.a4o(d,e,f,null,g,h,i)}}
 var z=a.updateTypes([])
 D.bhO.prototype={
@@ -72,4 +72,4 @@ C.ePI=x(["Security (CC6\u2013CC8): logical access is enforced by Row Level Secur
 C.eRi=x(["If we detect or are told about a security incident, we contain it first, then assess what data was affected using the append-only audit log.","Affected users are notified without undue delay with what happened, what data was involved, and what we did about it.",'To report a suspected vulnerability or incident, email abdullahhshafiquee@gmail.com with "SECURITY" in the subject line.'],y.h)
 C.eVs=x(["Encryption at rest: all data lives on Supabase\u2019s managed Postgres and Storage, which encrypt data at rest.","Encryption in transit: every connection to Supabase and the web app runs over TLS.","Row Level Security: enforced at the database on 46 tables, so users can only read or write rows they have a right to see \u2014 no matter what the client asks for.","Append-only audit log: every security-relevant action (membership changes, evidence uploads, exports, status transitions) is recorded in an audit_log table whose immutability is enforced by the database itself \u2014 UPDATE and DELETE are revoked even for privileged roles and blocked by a trigger.",'Evidence integrity: every evidence file carries a SHA-256 hash that can be re-verified at any time ("Verify hash") to prove it has not been altered.',"Evidence access logging: who viewed or downloaded each evidence item is recorded in an access audit trail visible to room members.","Authentication: Supabase Auth with session tokens; authorization is derived from membership and role, checked in database policies \u2014 never trusted from the client."],y.h)
 C.fqC=new B.a3("Trust Center",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["Fqch+9VrKb2+o5tLJjnbacyPL/c="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["RUZ3bvyknWroHFszMiVCz7qyp4s="]=a.current})($__dart_deferred_initializers__);

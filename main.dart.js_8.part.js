@@ -1,12 +1,12 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B={bZk:function bZk(){},Ax:function Ax(d){this.a=d},
-cIi(d){var w
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B={bZm:function bZm(){},Ax:function Ax(d){this.a=d},
+cIl(d){var w
 A:{if("signed"===d){w=C.a5i
 break A}if("declined"===d){w=C.fi3
 break A}if("cancelled"===d){w=C.fi4
 break A}w=C.rV
 break A}return w},
-ciQ(d){var w
+ciS(d){var w
 switch(d.a){case 0:w="Pending"
 break
 case 1:w="Signed"
@@ -16,7 +16,7 @@ break
 case 3:w="Cancelled"
 break
 default:w=null}return w},
-c2B(d){var w,v,u,t,s,r,q=A.Z(d.h(0,"id")),p=A.ab(d.h(0,"room_id"))
+c2D(d){var w,v,u,t,s,r,q=A.Z(d.h(0,"id")),p=A.ab(d.h(0,"room_id"))
 if(p==null)p=""
 w=A.Z(d.h(0,"title"))
 v=A.ab(d.h(0,"document_text"))
@@ -26,7 +26,7 @@ t=A.ab(d.h(0,"signer_email"))
 s=A.ab(d.h(0,"message"))
 if(s==null)s=""
 r=A.ab(d.h(0,"status"))
-r=B.cIi(r==null?"pending":r)
+r=B.cIl(r==null?"pending":r)
 A.em(A.Z(d.h(0,"created_at")))
 return new B.nc(q,p,w,v,u,t,s,r,A.ab(d.h(0,"evidence_id")),A.ab(d.h(0,"evidence_filename")))},
 MS:function MS(d,e){this.a=d
@@ -47,8 +47,8 @@ A=c[0]
 B=a.updateHolder(c[58],B)
 C=c[163]
 B.Ax.prototype={
-jJ(d){return this.br2(d)},
-br2(d){var w=0,v=A.n(x.F),u,t=this,s,r,q,p,o,n,m,l
+jJ(d){return this.br3(d)},
+br3(d){var w=0,v=A.n(x.F),u,t=this,s,r,q,p,o,n,m,l
 var $async$jJ=A.j(function(e,f){if(e===1)return A.k(f,v)
 for(;;)switch(w){case 0:w=3
 return A.d(t.a.aL("signature_requests").bz(y.d).b7("room_id",d).hr("created_at",!1).k5(100),$async$jJ)
@@ -57,13 +57,13 @@ l=A.c([],x.n)
 for(s=J.aR(m),r=x.B,q=x.w,p=x.b;s.q();){o=A.aU(r.a(s.gJ()),q,p)
 n=o.h(0,"evidence_items")
 if(r.b(n))o.l(0,"evidence_filename",A.ab(n.h(0,"filename")))
-l.push(B.c2B(o))}u=l
+l.push(B.c2D(o))}u=l
 w=1
 break
 case 1:return A.l(u,v)}})
 return A.m($async$jJ,v)},
-iW(d){return this.bkN(d)},
-bkN(d){var w=0,v=A.n(x.c),u,t=this,s,r,q,p,o,n,m,l
+iW(d){return this.bkO(d)},
+bkO(d){var w=0,v=A.n(x.c),u,t=this,s,r,q,p,o,n,m,l
 var $async$iW=A.j(function(e,f){if(e===1)return A.k(f,v)
 for(;;)switch(w){case 0:p=t.a
 o=p.gcv().e.a
@@ -86,13 +86,13 @@ m=B
 l=A
 w=3
 return A.d(p.ef(0,r).bz(y.d).hX(0),$async$iW)
-case 3:u=m.c2B(l.aU(f,o,s))
+case 3:u=m.c2D(l.aU(f,o,s))
 w=1
 break
 case 1:return A.l(u,v)}})
 return A.m($async$iW,v)},
-Un(d){return this.bid(d)},
-bid(d){var w=0,v=A.n(x.v),u=this,t
+Un(d){return this.bie(d)},
+bie(d){var w=0,v=A.n(x.v),u=this,t
 var $async$Un=A.j(function(e,f){if(e===1)return A.k(f,v)
 for(;;)switch(w){case 0:t=x.b
 w=2
@@ -112,7 +112,7 @@ if(p==null)p=[]
 s=J.av(p)
 if(s.gU(p)){u=null
 w=1
-break}u=B.c2B(A.aU(x.B.a(s.ga9(p)),r,q))
+break}u=B.c2D(A.aU(x.B.a(s.ga9(p)),r,q))
 w=1
 break
 case 1:return A.l(u,v)}})
@@ -135,10 +135,10 @@ H(){return"SignatureRequestStatus."+this.b}}
 B.nc.prototype={
 gbS(){return this.a}}
 var z=a.updateTypes(["Ax(as)"])
-B.bZk.prototype={
+B.bZm.prototype={
 $1(d){return new B.Ax(d.V($.e0(),x.k))},
 $S:z+0};(function inheritance(){var w=a.inherit,v=a.inheritMany
-w(B.bZk,A.cz)
+w(B.bZm,A.cz)
 v(A.C,[B.Ax,B.nc])
 w(B.MS,A.hy)})()
 var y={d:"id, room_id, title, document_text, signer_name, signer_email, message, status, created_at, evidence_id, evidence_items(filename)"}
@@ -149,5 +149,5 @@ C.rV=new B.MS(0,"pending")
 C.a5i=new B.MS(1,"signed")
 C.fi3=new B.MS(2,"declined")
 C.fi4=new B.MS(3,"cancelled")})();(function lazyInitializers(){var w=a.lazyFinal
-w($,"cSq","a9f",()=>A.eY(new B.bZk(),A.L("Ax")))})()};
-(a=>{a["Xg1+qQ4PboaxeKIWwDdaHLXaep0="]=a.current})($__dart_deferred_initializers__);
+w($,"cSt","a9f",()=>A.eY(new B.bZm(),A.L("Ax")))})()};
+(a=>{a["8ladfRUruPImuQrw3dkDeVu6/VU="]=a.current})($__dart_deferred_initializers__);
