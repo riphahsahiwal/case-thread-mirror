@@ -104,10 +104,10 @@ I=c[113]
 C.AO.prototype={
 Y(){return new C.a6k()}}
 C.a6k.prototype={
-gaPd(){return A.cz(this.gaq().T($.iW().$1(this.a.d),y.K),new C.bQH(),new C.bQI(),y.P,y.y)},
+gaPe(){return A.cz(this.gaq().T($.iW().$1(this.a.d),y.K),new C.bQH(),new C.bQI(),y.P,y.y)},
 gakU(){return A.cz(this.gaq().T($.iW().$1(this.a.d),y.K),new C.bQJ(),new C.bQK(),y.P,y.y)},
-SQ(d,e){return this.bc3(d,e)},
-bc3(d,e){var x=0,w=A.m(y.H),v,u=2,t=[],s=[],r=this,q,p,o,n
+SQ(d,e){return this.bc4(d,e)},
+bc4(d,e){var x=0,w=A.m(y.H),v,u=2,t=[],s=[],r=this,q,p,o,n
 var $async$SQ=A.i(function(f,g){if(f===1){t.push(g)
 x=u}for(;;)switch(x){case 0:if(r.w!=null){x=1
 break}r.v(new C.bQT(r,d))
@@ -172,11 +172,11 @@ break
 case 7:case 1:return A.k(v,w)
 case 2:return A.j(t.at(-1),w)}})
 return A.l($async$CK,w)},
-Tb(){return this.bdD()},
-bdD(){var x=0,w=A.m(y.H),v=this,u,t,s,r,q,p,o,n
+Tb(){return this.bdE()},
+bdE(){var x=0,w=A.m(y.H),v=this,u,t,s,r,q,p,o,n
 var $async$Tb=A.i(function(d,e){if(d===1)return A.j(e,w)
 for(;;)switch(x){case 0:s={}
-r=$.ab()
+r=$.ac()
 q=new A.bR(B.aH,r)
 p=new A.bR(B.aH,r)
 o=new A.bR(B.aH,r)
@@ -250,8 +250,8 @@ i.push(A.zn(A.o(t.a,k,k,k,k,k,G.o0,k,k,k),k,x,s))}p.push(A.hD(i,B.cG,0,8))}retur
 C.nb.prototype={
 gbG(){return this.a}}
 C.Ne.prototype={
-X5(d){return this.brG(d)},
-brG(d){var x=0,w=A.m(y.n),v,u=this,t,s
+X5(d){return this.brH(d)},
+brH(d){var x=0,w=A.m(y.n),v,u=this,t,s
 var $async$X5=A.i(function(e,f){if(e===1)return A.j(f,w)
 for(;;)switch(x){case 0:s=J
 x=3
@@ -263,8 +263,8 @@ x=1
 break
 case 1:return A.k(v,w)}})
 return A.l($async$X5,w)},
-P_(d,e){return this.aE1(d,e)},
-aE1(d,e){var x=0,w=A.m(y.H),v=1,u=[],t=this,s,r,q,p
+P_(d,e){return this.aE2(d,e)},
+aE2(d,e){var x=0,w=A.m(y.H),v=1,u=[],t=this,s,r,q,p
 var $async$P_=A.i(function(f,g){if(f===1){u.push(g)
 x=v}for(;;)switch(x){case 0:v=3
 r=y.z
@@ -285,8 +285,8 @@ break
 case 5:return A.k(null,w)
 case 1:return A.j(u.at(-1),w)}})
 return A.l($async$P_,w)},
-Pc(d,e,f){return this.aFj(d,e,f)},
-aFj(d,e,f){var x=0,w=A.m(y.H),v=1,u=[],t=this,s,r,q,p
+Pc(d,e,f){return this.aFk(d,e,f)},
+aFk(d,e,f){var x=0,w=A.m(y.H),v=1,u=[],t=this,s,r,q,p
 var $async$Pc=A.i(function(g,h){if(g===1){u.push(h)
 x=v}for(;;)switch(x){case 0:v=3
 r=y.z
@@ -366,7 +366,7 @@ $1(d){var x=this
 return new A.me(new C.bR0(x.a,x.b,x.c,x.d,x.e),null)},
 $S:65}
 C.bR0.prototype={
-$2(d,e){var x,w,v=this,u=null,t=v.c,s=v.d,r=v.e,q=y.p,p=A.c([A.cS(u,B.as,!1,u,!0,B.C,u,A.cX(),t,u,u,u,u,u,2,D.e3I,B.T,!0,u,!0,u,!1,u,B.aP,u,u,u,D.fyC,u,u,u,u,u,1,u,u,!1,"\u2022",u,u,u,u,u,!1,u,u,!1,u,!0,u,B.aN,u,u,u,u,u,u,u,u,u,u,u,u,!0,B.af,u,B.aE,u,u,u,u),B.R,A.cS(u,B.as,!1,u,!0,B.C,u,A.cX(),s,u,u,u,u,u,2,D.e3J,B.T,!0,u,!0,u,!1,u,B.aP,u,u,u,D.fx6,u,u,u,u,u,4,u,u,!1,"\u2022",u,u,u,u,u,!1,u,u,!1,u,!0,u,B.aN,u,u,u,u,u,u,u,u,u,u,u,u,!0,B.af,u,B.aE,u,u,u,u),B.R,A.cS(u,B.as,!1,u,!0,B.C,u,A.cX(),r,u,u,u,u,u,2,D.e3i,B.T,!0,u,!0,u,!1,u,B.aP,u,u,u,D.fx7,u,u,u,u,u,1,u,u,!1,"\u2022",u,u,u,u,u,!1,u,u,!1,u,!0,u,B.aN,u,u,u,u,u,u,u,u,u,u,u,u,!0,B.af,u,B.aE,u,u,u,u)],q),o=v.a,n=o.b
+$2(d,e){var x,w,v=this,u=null,t=v.c,s=v.d,r=v.e,q=y.p,p=A.c([A.cS(u,B.as,!1,u,!0,B.C,u,A.cX(),t,u,u,u,u,u,2,D.e3I,B.T,!0,u,!0,u,!1,u,B.aP,u,u,u,D.fyC,u,u,u,u,u,1,u,u,!1,"\u2022",u,u,u,u,u,!1,u,u,!1,u,!0,u,B.aN,u,u,u,u,u,u,u,u,u,u,u,u,!0,B.af,u,B.aE,u,u,u,u),B.R,A.cS(u,B.as,!1,u,!0,B.C,u,A.cX(),s,u,u,u,u,u,2,D.e3J,B.T,!0,u,!0,u,!1,u,B.aP,u,u,u,D.fx6,u,u,u,u,u,4,u,u,!1,"\u2022",u,u,u,u,u,!1,u,u,!1,u,!0,u,B.aN,u,u,u,u,u,u,u,u,u,u,u,u,!0,B.af,u,B.aE,u,u,u,u),B.R,A.cS(u,B.as,!1,u,!0,B.C,u,A.cX(),r,u,u,u,u,u,2,D.e3j,B.T,!0,u,!0,u,!1,u,B.aP,u,u,u,D.fx7,u,u,u,u,u,1,u,u,!1,"\u2022",u,u,u,u,u,!1,u,u,!1,u,!0,u,B.aN,u,u,u,u,u,u,u,u,u,u,u,u,!0,B.af,u,B.aE,u,u,u,u)],q),o=v.a,n=o.b
 if(n!=null){x=A.d(d).ok.Q
 if(x==null)x=u
 else{w=v.b.c
@@ -455,10 +455,10 @@ if(v)t=n
 else t=j.V(A.d(o.c).ax.a===B.p?B.B:B.D)
 t=A.o("Anyone with this room's access code can submit a tip \u2014 no account needed. Share the code with the public to open the line.",n,n,n,n,n,t,n,n,n)
 s=o.a
-r=A.c([A.i7(D.e1M,D.fAb,D.a7g,s.gbdC(),n)],w)
+r=A.c([A.i7(D.e1M,D.fAb,D.a7g,s.gbdD(),n)],w)
 if(s.gakU()){q=s.y
-p=q?n:s.gbad()
-r.push(A.i7(D.e1H,D.fxy,q?D.ft_:D.fri,p,n))}k=A.c([x,B.ai,u,B.a1,A.f4(new A.W(B.aB,A.a2(A.c([k,B.ai,t,B.R,A.hD(r,B.cG,8,8)],w),B.S,n,B.r,B.v,0,B.x),n),n,n,n,n,n),B.a1],w)
+p=q?n:s.gbae()
+r.push(A.i7(D.e1H,D.fxy,q?D.ft_:D.frh,p,n))}k=A.c([x,B.ai,u,B.a1,A.f4(new A.W(B.aB,A.a2(A.c([k,B.ai,t,B.R,A.hD(r,B.cG,8,8)],w),B.S,n,B.r,B.v,0,B.x),n),n,n,n,n,n),B.a1],w)
 x=s.x
 if(x!=null){if(v)w=n
 else w=j.V(A.d(o.c).ax.a===B.p?B.aS:B.aQ)
@@ -467,7 +467,7 @@ if(m.gW(d)){if(v)j=n
 else j=j.V(A.d(o.c).ax.a===B.p?B.B:B.D)
 k.push(A.o("No tips yet \u2014 share the room code and the tip line is open.",n,n,n,n,n,j,n,n,n))}for(m=m.gU(d),j=y.O;m.q();){x=m.gI()
 w=x.a
-k.push(new C.axD(x,s.w===w,s.gaPd(),s.gakU(),new C.bR3(s,x),new A.K("tip-"+w,j)))}return A.ft(k,n,B.bv,n,B.a5,!1)},
+k.push(new C.axD(x,s.w===w,s.gaPe(),s.gakU(),new C.bR3(s,x),new A.K("tip-"+w,j)))}return A.ft(k,n,B.bv,n,B.a5,!1)},
 $S:z+1}
 C.bR2.prototype={
 $1(d){return d.d==="new"},
@@ -498,8 +498,8 @@ $2(d,e){d.T($.dt(),y.I)
 return d.T($.c0x(),y.s).X5(e)},
 $S:z+5};(function installTearOffs(){var x=a._instance_0u
 var w
-x(w=C.a6k.prototype,"gbad","CK",0)
-x(w,"gbdC","Tb",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
+x(w=C.a6k.prototype,"gbae","CK",0)
+x(w,"gbdD","Tb",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(C.AO,A.hw)
 x(C.a6k,A.hh)
 w(A.ca,[C.bQH,C.bQJ,C.bQO,C.bQQ,C.bR1,C.bR4,C.bR2,C.bR3,C.bfm,C.c_n])
@@ -509,21 +509,21 @@ x(C.axD,A.a4)
 w(A.C,[C.nb,C.Ne])})()
 A.cD(b.typeUniverse,JSON.parse('{"AO":{"N":[],"f":[]},"a6k":{"Y":["AO"]},"axD":{"a4":[],"f":[]},"Ne":{"ceV":[]}}'))
 var y=(function rtii(){var x=A.I
-return{x:x("aR<v<nb>>"),K:x("aR<fU>"),I:x("aR<fM?>"),L:x("aK"),p:x("x<f>"),n:x("v<nb>"),j:x("v<@>"),a:x("ac<h,@>"),f:x("ac<@,@>"),P:x("fU"),h:x("Fu"),N:x("h"),A:x("fY"),v:x("nb"),s:x("ceV"),O:x("K<h>"),q:x("h_"),y:x("B"),z:x("@"),H:x("~")}})();(function constants(){D.aki=new A.af(7,1,7,1)
+return{x:x("aR<v<nb>>"),K:x("aR<fU>"),I:x("aR<fM?>"),L:x("aK"),p:x("x<f>"),n:x("v<nb>"),j:x("v<@>"),a:x("aa<h,@>"),f:x("aa<@,@>"),P:x("fU"),h:x("Fu"),N:x("h"),A:x("fY"),v:x("nb"),s:x("ceV"),O:x("K<h>"),q:x("h_"),y:x("B"),z:x("@"),H:x("~")}})();(function constants(){D.aki=new A.af(7,1,7,1)
 D.e_G=new A.ag(61210,"MaterialIcons",null,!1)
 D.e0u=new A.aJ(D.e_G,18,null,null,null)
 D.Od=new A.aJ(H.NU,14,null,null,null)
 D.e1H=new A.aJ(B.qS,16,null,null,null)
 D.e_D=new A.ag(60993,"MaterialIcons",null,!1)
 D.e1M=new A.aJ(D.e_D,16,null,null,null)
-D.e3i=new A.cj(null,null,null,"Contact (optional)",null,null,null,null,null,null,"How can we reach you?",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
+D.e3j=new A.cj(null,null,null,"Contact (optional)",null,null,null,null,null,null,"How can we reach you?",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
 D.e3I=new A.cj(null,null,null,"Room access code",null,null,null,null,null,null,"e.g. DEMO1234",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
 D.e3J=new A.cj(null,null,null,"Tip",null,null,null,null,null,null,"What should investigators know?",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,!0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
 D.fsC=new A.a0("Tip submitted \u2014 it is now in triage.",null,null,null,null,null,null,null,null,null,null)
 D.fkG=new A.db(D.fsC,null,null,null,null,null,null,null,null,null,null,null,null,B.Y,!1,null,null,null,B.C,null)
 D.fst=new A.a0("Code copied.",null,null,null,null,null,null,null,null,null,null)
 D.fkT=new A.db(D.fst,null,null,null,null,null,null,null,null,null,null,null,null,B.Y,!1,null,null,null,B.C,null)
-D.fri=new A.a0("Rotate access code",null,null,null,null,null,null,null,null,null,null)
+D.frh=new A.a0("Rotate access code",null,null,null,null,null,null,null,null,null,null)
 D.frQ=new A.a0("Share this code \u2014 it is shown only once. Anyone with it can join the room or submit a tip.",null,null,null,null,null,null,null,null,null,null)
 D.fs7=new A.a0("New access code",null,null,null,null,null,null,null,null,null,null)
 D.fsj=new A.a0("The current code stops working immediately for new joins and tip submissions. Share the new code with the team and anyone who should reach the tip line.",null,null,null,null,null,null,null,null,null,null)
@@ -542,4 +542,4 @@ D.fyC=new A.K("tips-submit-code",y.O)
 D.fAb=new A.K("tips-submit-open",y.O)})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cTB","c0x",()=>A.ej(new C.c_n(),y.s))
 x($,"cTA","c0w",()=>B.bH.$2$1(new C.c_m(),y.n,y.N))})()};
-(a=>{a["0NOEklMMDegEG6FUvgUghhBhzuw="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["qOJiDyektKs+Wy5i3lj8CMq5ZLk="]=a.current})($__dart_deferred_initializers__);

@@ -21,7 +21,7 @@ case 3:l=e
 k=J.aw(l)
 j=k.gbW(l)?k.ga7(l).a:"legal"
 x=4
-return A.e(u.a.bll(j,"Demo: Harborview Heist"),$async$v8)
+return A.e(u.a.blm(j,"Demo: Harborview Heist"),$async$v8)
 case 4:i=e.a
 k=u.b,t=0
 case 5:if(!(t<2)){x=7
@@ -35,7 +35,7 @@ n=D.mg.kZ(o)
 n.B(0,q)
 n.am()
 x=8
-return A.e(k.byp(new A.X6(r,"text/plain",q,p,A.Qo(o.a.a)),i),$async$v8)
+return A.e(k.byq(new A.X6(r,"text/plain",q,p,A.Qo(o.a.a)),i),$async$v8)
 case 8:case 6:++t
 x=5
 break
@@ -48,7 +48,7 @@ case 12:case 10:++t
 x=9
 break
 case 11:x=13
-return A.e(k.bv7('\ud83d\udc4b Welcome to the "Demo: Harborview Heist" case room! This sample case shows what a room looks like with evidence, timeline events and team chat. Open the Evidence tab to browse the two demo files, or tap AI to ask for an analysis. Delete this room any time from the room menu.',i),$async$v8)
+return A.e(k.bv8('\ud83d\udc4b Welcome to the "Demo: Harborview Heist" case room! This sample case shows what a room looks like with evidence, timeline events and team chat. Open the Evidence tab to browse the two demo files, or tap AI to ask for an analysis. Delete this room any time from the room menu.',i),$async$v8)
 case 13:v=i
 x=1
 break
@@ -75,4 +75,4 @@ C.fCq=new B.a1B("demo-harborview-incident-summary.md","# Harborview Marina \u201
 C.fCr=new B.a1B("demo-harborview-witness-statement.md",'# Witness Statement \u2014 R. Alvarez (dockhand)\n\n**Taken:** 2026-10-09, 07:40 by the night guard\n\n> "I was securing the lines on pier C around quarter to three when I\n> heard a van door slide shut near the north lot. Dark van, no plates\n> I could make out. It pulled out fast toward Harborview Road. I\n> didn\'t see faces \u2014 it was raining hard."\n\n**Investigator note (demo):** Statement is uncorroborated. Cross-check\nagainst the 02:14 camera outage and the 02:31 fuel-dock alarm on the\ntimeline.\n')
 C.f7i=x([C.fCq,C.fCr],A.I("x<a1B>"))})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cRY","cnJ",()=>A.ej(new B.bWW(),A.I("CY")))})()};
-(a=>{a["mTx4fYrmx76MpmCJPSOCEHgo+qU="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["1sNneCmBEiQAN5E/lg89sgOb5DI="]=a.current})($__dart_deferred_initializers__);

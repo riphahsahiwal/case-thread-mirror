@@ -44,8 +44,8 @@ gcP(){return this.e}}
 B.jW.prototype={
 gbG(){return this.a}}
 B.MW.prototype={
-M4(d){return this.brx(d)},
-brx(d){var x=0,w=A.m(y.k),v,u=this,t,s
+M4(d){return this.bry(d)},
+bry(d){var x=0,w=A.m(y.k),v,u=this,t,s
 var $async$M4=A.i(function(e,f){if(e===1)return A.j(f,w)
 for(;;)switch(x){case 0:s=J
 x=3
@@ -57,11 +57,11 @@ x=1
 break
 case 1:return A.k(v,w)}})
 return A.l($async$M4,w)},
-byN(d){var x=this.a.aA("ai_suggestions").a_x(A.c(["id"],y.s)).b0("room_id",d).p6("created_at")
+byO(d){var x=this.a.aA("ai_suggestions").a_x(A.c(["id"],y.s)).b0("room_id",d).p6("created_at")
 return new A.d_(new B.bdU(),x,A.t(x).i("d_<aT.T,v<lL>>"))},
-N9(d,e,f){return this.bx9(d,e,f)},
-bx8(d,e){return this.N9(d,null,e)},
-bx9(d,e,f){var x=0,w=A.m(y.T),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j,i
+N9(d,e,f){return this.bxa(d,e,f)},
+bx9(d,e){return this.N9(d,null,e)},
+bxa(d,e,f){var x=0,w=A.m(y.T),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j,i
 var $async$N9=A.i(function(g,h){if(g===1){t.push(h)
 x=u}for(;;)switch(x){case 0:u=4
 l=s.a.ax
@@ -100,8 +100,8 @@ break
 case 6:case 1:return A.k(v,w)
 case 2:return A.j(t.at(-1),w)}})
 return A.l($async$N9,w)},
-YK(d,e,f){return this.bwY(d,e,f)},
-bwY(d,e,f){var x=0,w=A.m(y.H),v=1,u=[],t=this,s,r,q,p
+YK(d,e,f){return this.bwZ(d,e,f)},
+bwZ(d,e,f){var x=0,w=A.m(y.H),v=1,u=[],t=this,s,r,q,p
 var $async$YK=A.i(function(g,h){if(g===1){u.push(h)
 x=v}for(;;)switch(x){case 0:v=3
 r=y.z
@@ -123,7 +123,7 @@ case 5:return A.k(null,w)
 case 1:return A.j(u.at(-1),w)}})
 return A.l($async$YK,w)},
 $iaBM:1}
-var z=a.updateTypes(["jW(@)","v<lL>(v<ac<h,@>>)","lL(ac<h,@>)","MW(al)"])
+var z=a.updateTypes(["jW(@)","v<lL>(v<aa<h,@>>)","lL(aa<h,@>)","MW(al)"])
 B.bdS.prototype={
 $1(d){var x=A.aP(d,y.N,y.z),w=A.T(x.h(0,"id")),v=A.T(x.h(0,"display_name"))
 A.a7(x.h(0,"description"))
@@ -147,6 +147,6 @@ x(A.C,[B.lL,B.jW,B.MW])
 x(A.ca,[B.bdS,B.bdU,B.bdT,B.bVW])})()
 A.cD(b.typeUniverse,JSON.parse('{"MW":{"aBM":[]}}'))
 var y=(function rtii(){var x=A.I
-return{Y:x("jW"),m:x("lL"),s:x("x<h>"),k:x("v<jW>"),j:x("v<@>"),P:x("ac<h,@>"),f:x("ac<@,@>"),N:x("h"),A:x("fY"),z:x("@"),T:x("h?"),H:x("~")}})();(function lazyInitializers(){var x=a.lazyFinal
+return{Y:x("jW"),m:x("lL"),s:x("x<h>"),k:x("v<jW>"),j:x("v<@>"),P:x("aa<h,@>"),f:x("aa<@,@>"),N:x("h"),A:x("fY"),z:x("@"),T:x("h?"),H:x("~")}})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cRh","a8Z",()=>A.ej(new B.bVW(),A.I("aBM")))})()};
-(a=>{a["LV+aJUiPS2JTcXjBgj0X/yWYS9A="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["qf6H8crthNAeqvnBI8YoLOY9kpo="]=a.current})($__dart_deferred_initializers__);

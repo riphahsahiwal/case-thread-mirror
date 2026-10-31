@@ -123,7 +123,7 @@ default:x=null}return x},
 gbG(){return this.a}}
 B.Ay.prototype={}
 B.u3.prototype={}
-var z=a.updateTypes(["fu(ac<h,@>)","Cq(al)","M<v<fu>>(al)"])
+var z=a.updateTypes(["fu(aa<h,@>)","Cq(al)","M<v<fu>>(al)"])
 B.aFc.prototype={
 $1(d){var x=A.aP(d,y.N,y.z)
 return new B.fu(A.T(x.h(0,"id")),A.T(x.h(0,"display_name")),C.m.F(A.dI(x.h(0,"price_monthly_cents"))),C.m.F(A.dI(x.h(0,"max_rooms"))),C.m.F(A.dI(x.h(0,"max_members_per_room"))),C.m.F(A.dI(x.h(0,"storage_bytes"))),C.m.F(A.dI(x.h(0,"ai_analyses_monthly"))),A.dI(x.h(0,"transcription_minutes_monthly")),C.m.F(A.dI(x.h(0,"osint_lookups_monthly"))))},
@@ -142,7 +142,7 @@ x(A.C,[B.Cq,B.fu,B.Ay,B.u3])
 x(A.ca,[B.aFc,B.aFb,B.bWf,B.bYB])
 w(B.AW,A.hs)})()
 var y=(function rtii(){var x=A.I
-return{I:x("aR<fM?>"),C:x("Cq"),L:x("v<fu>"),P:x("ac<h,@>"),m:x("fu"),N:x("h"),A:x("fY"),o:x("u3"),q:x("h_"),i:x("Z"),z:x("@"),h:x("ac<h,@>?"),s:x("Ay?"),H:x("~")}})();(function constants(){D.fuu=new A.a0("Starting secure checkout\u2026",null,null,null,null,null,null,null,null,null,null)
+return{I:x("aR<fM?>"),C:x("Cq"),L:x("v<fu>"),P:x("aa<h,@>"),m:x("fu"),N:x("h"),A:x("fY"),o:x("u3"),q:x("h_"),i:x("Z"),z:x("@"),h:x("aa<h,@>?"),s:x("Ay?"),H:x("~")}})();(function constants(){D.fuu=new A.a0("Starting secure checkout\u2026",null,null,null,null,null,null,null,null,null,null)
 D.fky=new A.db(D.fuu,null,null,null,null,null,null,null,null,null,null,null,null,C.Y,!1,null,null,null,C.C,null)
 D.ftS=new A.a0("Enterprise is custom \u2014 reply to any CaseThread email and we\u2019ll set it up.",null,null,null,null,null,null,null,null,null,null)
 D.fkU=new A.db(D.ftS,null,null,null,null,null,null,null,null,null,null,null,null,C.Y,!1,null,null,null,C.C,null)
@@ -152,4 +152,4 @@ D.a88=new B.AW("osint_lookups",3,"osintLookups")
 D.a89=new B.AW("storage_bytes",0,"storageBytes")})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cRx","c0g",()=>A.ej(new B.bWf(),y.C))
 x($,"cSR","c0p",()=>A.lk(new B.bYB(),y.L))})()};
-(a=>{a["/6BmrkOVftlZEnQsQFx1ZQhDmPw="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["vbBhwIUp32JMXHAJpsH8fSaKKps="]=a.current})($__dart_deferred_initializers__);

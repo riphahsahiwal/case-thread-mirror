@@ -126,10 +126,10 @@ E=c[77]
 I=c[130]
 K=c[89]
 B.zH.prototype={
-Y(){var x=$.ab()
+Y(){var x=$.ac()
 return new B.a41(new A.bR(C.aH,x),new A.bR(C.aH,x),new A.bR(C.aH,x))}}
 B.a41.prototype={
-l(){var x=this,w=x.z,v=w.R$=$.ab()
+l(){var x=this,w=x.z,v=w.R$=$.ac()
 w.N$=0
 w=x.Q
 w.R$=v
@@ -138,7 +138,7 @@ w=x.as
 w.R$=v
 w.N$=0
 x.al()},
-bbm(d){var x,w=this
+bbn(d){var x,w=this
 if(w.at)return
 w.at=!0
 w.z.sdA(d.b)
@@ -245,7 +245,7 @@ C(d){var x,w=null,v=A.d(d),u=this.gaq(),t=u.T($.C3(),y.J)
 u=u.T($.dt(),y.K).gp()
 x=u==null?w:u.b
 if(x==null)x=""
-return A.hp(A.lM(A.c([A.cz(t,new B.bGF(this),new B.bGG(),y.S,y.l)],y.p),w,w,w,w,w,w,w,D.frc),w,A.ec(t,new B.bGH(this,v.ok,d,x),new B.bGI(),new B.bGJ(),!1,!0,!1),w,w)}}
+return A.hp(A.lM(A.c([A.cz(t,new B.bGF(this),new B.bGG(),y.S,y.l)],y.p),w,w,w,w,w,w,w,D.frb),w,A.ec(t,new B.bGH(this,v.ok,d,x),new B.bGI(),new B.bGJ(),!1,!0,!1),w,w)}}
 B.atK.prototype={
 C(d){var x=this,w=null,v=A.d(d),u=x.c,t=u.c,s=x.d,r=s?x.e:w,q=t==null,p=!q?new A.zl(t,1,w,C.Gy):w
 if(q){u=u.b
@@ -264,14 +264,14 @@ Y(){return new B.a3D()}}
 B.a3D.prototype={
 au(){this.aP()
 this.w=A.Fa()},
-b8c(){this.v(new B.bEM(this))},
+b8d(){this.v(new B.bEM(this))},
 Si(){var x=0,w=A.m(y.H),v=this
 var $async$Si=A.i(function(d,e){if(d===1)return A.j(e,w)
 for(;;)switch(x){case 0:v.v(new B.bEK(v))
 x=2
 return A.e(A.Xg(v.a.d),$async$Si)
 case 2:if(v.c!=null){v.v(new B.bEL(v))
-v.b8c()}return A.k(null,w)}})
+v.b8d()}return A.k(null,w)}})
 return A.l($async$Si,w)},
 C(d){var x=null,w=A.d(d).ok,v=w.x
 return A.a2(A.c([A.o("Notifications",x,x,x,x,x,v==null?x:v.d5(C.ao),x,x,x),C.R,A.kB(new B.bEN(this,w),this.w,y.Q)],y.p),C.S,x,C.r,C.v,0,C.x)}}
@@ -326,7 +326,7 @@ x=v.Q
 if(x==null)x=w
 else x=x.V(A.d(d).ax.a===C.p?C.B:C.D)
 x=A.o("Reset if this device was lost or you suspect compromise.",w,w,w,w,w,x,w,w,w)
-return A.a2(A.c([u,C.R,A.f4(A.ep(!1,w,w,w,!0,w,w,w,!0,w,w,C.Oa,w,w,w,w,w,!1,w,w,w,w,x,w,D.ft2,w,this.w?C.ew:A.by(D.a7i,w,w,w,this.gb9G(),w,w),w),w,w,C.a9,w,w)],y.p),C.S,w,C.r,C.v,0,C.x)}}
+return A.a2(A.c([u,C.R,A.f4(A.ep(!1,w,w,w,!0,w,w,w,!0,w,w,C.Oa,w,w,w,w,w,!1,w,w,w,w,x,w,D.ft2,w,this.w?C.ew:A.by(D.a7i,w,w,w,this.gb9H(),w,w),w),w,w,C.a9,w,w)],y.p),C.S,w,C.r,C.v,0,C.x)}}
 B.a3G.prototype={
 Y(){return new B.a3H()}}
 B.a3H.prototype={
@@ -421,11 +421,11 @@ B.bGH.prototype={
 $1(d){var x,w,v,u,t,s,r,q,p,o,n,m,l,k=this,j=null
 if(d==null)return D.afR
 x=k.a
-x.bbm(d)
+x.bbn(d)
 w=x.w
-v=d.c!=null?x.gb9o():j
+v=d.c!=null?x.gb9p():j
 u=y.p
-v=A.c([new B.atK(d,w,x.gaPk(),v,j),C.b0],u)
+v=A.c([new B.atK(d,w,x.gaPl(),v,j),C.b0],u)
 w=x.y
 if(w!=null){t=k.b.Q
 if(t==null)t=j
@@ -511,7 +511,7 @@ w=r.b
 r=A.c([A.aW(s===C.a4D?D.e01:D.e02,t,t,t,20),C.br,A.aD(A.o(x,t,t,t,t,t,this.b.Q,t,t,t),1,t)],y.p)
 if(w!=null){v=this.a
 u=v.x
-v=u?t:v.gb8b()
+v=u?t:v.gb8c()
 r.push(A.by(A.o(u?"Working\u2026":w,t,t,t,t,t,t,t,t,t),t,t,t,v,t,t))}return A.f4(new A.W(C.aB,A.an(r,C.y,t,C.r,C.v,0,t,t),t),t,t,C.a9,t,t)},
 $S:227}
 B.bEF.prototype={
@@ -585,12 +585,12 @@ else w=w.V(A.d(this.c).ax.a===C.p?C.B:C.D)
 w=A.o(x,u,u,u,u,u,w,u,u,u)
 v=this.a
 if(v.w)t=C.ew
-else{v=A.by(D.frT,D.fyf,u,u,t&&d.a>0?v.gaQ0():u,u,u)
+else{v=A.by(D.frT,D.fyf,u,u,t&&d.a>0?v.gaQ1():u,u,u)
 t=v}return A.ep(!1,u,u,u,!0,u,u,u,!0,u,D.fzo,D.Om,u,u,u,u,u,!1,u,u,u,u,w,u,D.a7b,u,t,u)},
 $S:1158}
 B.bYd.prototype={
-$1(d){return this.aAW(d)},
-aAW(d){var x=0,w=A.m(y.F),v
+$1(d){return this.aAX(d)},
+aAX(d){var x=0,w=A.m(y.F),v
 var $async$$1=A.i(function(e,f){if(e===1)return A.j(f,w)
 for(;;)switch(x){case 0:x=3
 return A.e(d.T($.dt().glJ(),y.a),$async$$1)
@@ -601,11 +601,11 @@ case 1:return A.k(v,w)}})
 return A.l($async$$1,w)},
 $S:z+3};(function installTearOffs(){var x=a._instance_0u
 var w
-x(w=B.a41.prototype,"gaPk","PV",0)
-x(w,"gb9o","Sr",0)
-x(B.a3D.prototype,"gb8b","Si",0)
-x(B.a25.prototype,"gb9G","z5",0)
-x(B.a3H.prototype,"gaQ0","Hm",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+x(w=B.a41.prototype,"gaPl","PV",0)
+x(w,"gb9p","Sr",0)
+x(B.a3D.prototype,"gb8c","Si",0)
+x(B.a25.prototype,"gb9H","z5",0)
+x(B.a3H.prototype,"gaQ1","Hm",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(A.hw,[B.zH,B.a3C,B.a24,B.a3G])
 x(A.hh,[B.a41,B.a3D,B.a25,B.a3H])
 x(A.dd,[B.bGv,B.bGw,B.bGx,B.bGy,B.bGz,B.bGr,B.bGs,B.bGt,B.bGu,B.bGE,B.bGB,B.bGG,B.bGJ,B.bGD,B.bGA,B.bEM,B.bEK,B.bEL,B.bEF,B.bv9,B.bva,B.bvc,B.bvd,B.bEQ,B.bER,B.bET,B.bEU,B.bEX])
@@ -640,7 +640,7 @@ D.fso=new A.a0("Encryption identity reset. Ask the room owner to re-share the ro
 D.fkv=new A.db(D.fso,null,null,null,null,null,null,null,null,null,null,null,null,C.Y,!1,null,null,null,C.C,null)
 D.fsz=new A.a0("Offline cache cleared.",null,null,null,null,null,null,null,null,null,null)
 D.fkV=new A.db(D.fsz,null,null,null,null,null,null,null,null,null,null,null,null,C.Y,!1,null,null,null,C.C,null)
-D.frc=new A.a0("Profile",null,null,null,null,null,null,null,null,null,null)
+D.frb=new A.a0("Profile",null,null,null,null,null,null,null,null,null,null)
 D.frT=new A.a0("Clear cache",null,null,null,null,null,null,null,null,null,null)
 D.ft2=new A.a0("Encryption identity",null,null,null,null,null,null,null,null,null,null)
 D.ftA=new A.a0("Reset encryption identity?",null,null,null,null,null,null,null,null,null,null)
@@ -656,4 +656,4 @@ D.fCI=new B.a24(null)
 D.fDH=new B.a3G(null)})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cNf","clj",()=>A.ck("^[a-z0-9_]{3,20}$",!0,!1))
 x($,"cSz","cnP",()=>A.lk(new B.bYd(),y.F))})()};
-(a=>{a["qMOV1xRvU1AFYS+W0RinW+na3fM="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["Swt3SJh6JfbWYx18VJYujf9dIto="]=a.current})($__dart_deferred_initializers__);

@@ -83,8 +83,8 @@ g=B.c([B.au(m,B.an(B.c([d,new B.kn(new C.bdM(n,a1,a2),B.bx(m,m,m,B.aW(x,v,m,m,28
 if((w?m:h.f)!==A.qU)A.i.L(g,B.c([new C.anM(l,m),A.b0],t))
 g.push(B.ec(k,new C.bdO(n,a1),new C.bdP(i),new C.bdQ(),!1,!0,!1))
 return B.ft(g,m,A.bv,m,A.a5,!1)},
-Jb(d,e){return this.b9h(d,e)},
-b9h(d,e){var x=0,w=B.m(y.H),v,u=2,t=[],s=[],r=this,q,p,o,n,m,l,k
+Jb(d,e){return this.b9i(d,e)},
+b9i(d,e){var x=0,w=B.m(y.H),v,u=2,t=[],s=[],r=this,q,p,o,n,m,l,k
 var $async$Jb=B.i(function(f,g){if(f===1){t.push(g)
 x=u}for(;;)switch(x){case 0:l=e.X($.c7O().gce(),y.y)
 if(l.x){x=1
@@ -118,7 +118,7 @@ break
 case 6:case 1:return B.k(v,w)
 case 2:return B.j(t.at(-1),w)}})
 return B.l($async$Jb,w)},
-bdE(d,e){var x=B.d(d),w=B.c([],y.p)
+bdF(d,e){var x=B.d(d),w=B.c([],y.p)
 e.c.aY(0,new C.bdK(this,w,d,x.ok))
 return B.a2(w,A.y,null,A.r,A.v,0,A.x)},
 a51(d,e){var x,w,v,u,t,s,r,q=null,p=B.d(d).ok
@@ -155,8 +155,8 @@ o=l.D3(e,new C.bnH())
 n=B.d(d).ax.a===A.p?A.c3:A.ad
 m=y.p
 return B.a2(B.c([j,A.ai,B.c22(0.95,B.c([new C.xj("Open tasks",i,D.e04,x,k),new C.xj("Completed tasks",w,D.e0f,v,k),new C.xj("Evidence items",u,D.e_Z,t,k),new C.xj("Entities",s,A.lP,r,k),new C.xj("Contradictions",q,D.e_J,p,k),new C.xj("Members",o,D.e_T,n,k)],m),3,12,12,A.xw,!0)],m),A.S,k,A.r,A.v,0,A.x)},
-bdF(d,e){return B.ec(d,e,new C.bnA(),new C.bnB(),!1,!0,!1)},
-D3(d,e){return this.bdF(d,e,y.z)}}
+bdG(d,e){return B.ec(d,e,new C.bnA(),new C.bnB(),!1,!0,!1)},
+D3(d,e){return this.bdG(d,e,y.z)}}
 C.xj.prototype={
 C(d){var x,w=this,v=null,u=B.d(d).ok,t=B.b1(18),s=B.bU(B.d(d).ax.a===A.p?A.az:A.bb,A.O,1),r=B.d(d).ax.a===A.p?A.bB:A.L,q=B.aW(w.e,w.f,v,v,20),p=u.r
 p=p==null?v:p.d5(A.dH)
@@ -198,11 +198,11 @@ r=x.z
 if(r==null)p=q
 else{r=r.V(B.d(p).ax.a===A.p?A.B:A.D)
 p=r}w=B.au(q,B.a2(B.c([t,A.a1,s,A.ai,B.o("When this investigation is closed, a point-in-time summary is generated automatically \u2014 it will not change even if the underlying data does.",q,q,q,q,q,p,A.aV,q,q)],y.p),A.y,q,A.r,A.v,0,A.x),A.F,q,q,new B.aA(u,q,v,w,q,q,A.X),q,q,q,q,A.cR,q,q,q)
-p=w}else p=this.a.bdE(p,d)
+p=w}else p=this.a.bdF(p,d)
 return p},
 $S:1176}
 C.bdK.prototype={
-$2(d,e){var x=this,w=null,v=A.o.azf(B.d0(d,"_"," "),B.ck("^.",!0,!1),new C.bdJ()),u=B.b1(22),t=x.c,s=B.bU(B.d(t).ax.a===A.p?A.az:A.bb,A.O,1),r=B.d(t).ax.a===A.p?A.bB:A.L,q=x.d.Q
+$2(d,e){var x=this,w=null,v=A.o.azg(B.d0(d,"_"," "),B.ck("^.",!0,!1),new C.bdJ()),u=B.b1(22),t=x.c,s=B.bU(B.d(t).ax.a===A.p?A.az:A.bb,A.O,1),r=B.d(t).ax.a===A.p?A.bB:A.L,q=x.d.Q
 if(q==null)q=w
 else q=q.fM(B.d(t).ax.a===A.p?A.B:A.D,A.dH,1.2)
 x.b.push(B.au(w,B.a2(B.c([B.o(v,w,w,w,w,w,q,w,w,w),A.ai,x.a.a51(t,e)],y.p),A.S,w,A.r,A.v,0,A.x),A.F,w,w,new B.aA(r,w,s,u,w,w,A.X),w,w,w,G.uP,A.AX,w,w,w))},
@@ -245,15 +245,15 @@ x(B.dd,[C.bdM,C.bdN,C.bdQ,C.bnB])
 w(C.xj,B.a4)})()
 B.cD(b.typeUniverse,JSON.parse('{"BG":{"eU":["aH?"]},"G6":{"N":[],"f":[]},"anM":{"N":[],"f":[]},"xj":{"a4":[],"f":[]}}'))
 var y=(function rtii(){var x=B.I
-return{e:x("aR<la>"),M:x("aR<h5>"),Q:x("aR<v<dC>>"),J:x("aR<ac<h,w>>"),L:x("aR<fM?>"),x:x("aR<q8?>"),l:x("c1s"),I:x("aK"),k:x("M<q8?>"),p:x("x<f>"),j:x("v<@>"),f:x("ac<@,@>"),N:x("pk"),q:x("h_"),y:x("BG"),z:x("@"),X:x("aH?"),H:x("~")}})();(function constants(){D.e_J=new B.ag(61296,"MaterialIcons",null,!1)
+return{e:x("aR<la>"),M:x("aR<h5>"),Q:x("aR<v<dC>>"),J:x("aR<aa<h,w>>"),L:x("aR<fM?>"),x:x("aR<q8?>"),l:x("c1s"),I:x("aK"),k:x("M<q8?>"),p:x("x<f>"),j:x("v<@>"),f:x("aa<@,@>"),N:x("pk"),q:x("h_"),y:x("BG"),z:x("@"),X:x("aH?"),H:x("~")}})();(function constants(){D.e_J=new B.ag(61296,"MaterialIcons",null,!1)
 D.e_T=new B.ag(61657,"MaterialIcons",null,!1)
 D.e_Z=new B.ag(61748,"MaterialIcons",null,!1)
 D.e04=new B.ag(62056,"MaterialIcons",null,!1)
 D.e0f=new B.ag(62504,"MaterialIcons",null,!1)
 D.fc4=new B.W(A.cR,A.bf,null)
-D.fr7=new B.a0("Summary data refreshed",null,null,null,null,null,null,null,null,null,null)
-D.fkk=new B.db(D.fr7,null,null,null,null,null,null,null,null,null,null,null,null,A.Y,!1,null,null,null,A.C,null)
+D.fr6=new B.a0("Summary data refreshed",null,null,null,null,null,null,null,null,null,null)
+D.fkk=new B.db(D.fr6,null,null,null,null,null,null,null,null,null,null,null,null,A.Y,!1,null,null,null,A.C,null)
 D.ftI=new B.a0("\u2022  ",null,null,null,null,null,null,null,null,null,null)})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cT8","c7L",()=>A.bH.$2$1(new C.bZ_(),B.I("q8?"),B.I("h")))
 x($,"cTt","c7O",()=>B.p9(C.cJo(),y.y,y.X))})()};
-(a=>{a["NNwWanQz2rbBULpfGAMRvvB/NZw="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["kkHg1BChY1SPZuqrBRZa0Sm0l+I="]=a.current})($__dart_deferred_initializers__);

@@ -48,7 +48,7 @@ u=e.r
 s=y.e
 u=B.c([B.an(B.c([t,A.kN,B.aD(B.o(j,r,r,r,r,r,u==null?r:u.d5(A.aT),r,r,r),1,r)],s),A.y,r,A.r,A.v,0,r,r),A.a1],s)
 if(g!=null)A.i.L(u,B.c([g],s))
-A.i.L(u,new B.aa(h,new D.bhN(f,e,d),B.a6(h).i("aa<1,f>")))
+A.i.L(u,new B.ab(h,new D.bhN(f,e,d),B.a6(h).i("ab<1,f>")))
 return B.au(r,B.a2(u,A.S,r,A.r,A.v,0,A.x),A.F,r,r,new B.aA(x,r,v,w,r,r,A.X),r,r,new B.K("trust-section-"+q,y.a),r,A.bv,r,r,r)},
 CQ(d,e,f,g,h,i){return this.a4F(d,e,f,null,g,h,i)}}
 var z=a.updateTypes([])
@@ -73,4 +73,4 @@ C.eQD=x(["Security (CC6\u2013CC8): logical access is enforced by Row Level Secur
 C.eSe=x(["If we detect or are told about a security incident, we contain it first, then assess what data was affected using the append-only audit log.","Affected users are notified without undue delay with what happened, what data was involved, and what we did about it.",'To report a suspected vulnerability or incident, email abdullahhshafiquee@gmail.com with "SECURITY" in the subject line.'],y.h)
 C.eWo=x(["Encryption at rest: all data lives on Supabase\u2019s managed Postgres and Storage, which encrypt data at rest.","Encryption in transit: every connection to Supabase and the web app runs over TLS.","Row Level Security: enforced at the database on 46 tables, so users can only read or write rows they have a right to see \u2014 no matter what the client asks for.","Append-only audit log: every security-relevant action (membership changes, evidence uploads, exports, status transitions) is recorded in an audit_log table whose immutability is enforced by the database itself \u2014 UPDATE and DELETE are revoked even for privileged roles and blocked by a trigger.",'Evidence integrity: every evidence file carries a SHA-256 hash that can be re-verified at any time ("Verify hash") to prove it has not been altered.',"Evidence access logging: who viewed or downloaded each evidence item is recorded in an access audit trail visible to room members.","Authentication: Supabase Auth with session tokens; authorization is derived from membership and role, checked in database policies \u2014 never trusted from the client."],y.h)
 C.frr=new B.a0("Trust Center",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["BDcQl7zKo6lKb1XwXRnqvhs/I1g="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["mC6dspfsejmaPoCSSY0ZIsvBRnY="]=a.current})($__dart_deferred_initializers__);

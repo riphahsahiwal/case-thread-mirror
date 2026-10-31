@@ -47,7 +47,7 @@ H=c[92]
 C.DD.prototype={
 cq(d,e){var x=null
 return A.hp(x,x,A.eY(!0,A.bS(new A.e_(D.abf,A.ec(e.T($.c0p(),y.p),new C.aRc(this,d,e),new C.aRd(A.d(d).ok,d),new C.aRe(),!1,!0,!1),x),x,x),!0,B.a9,!0,!0),x,x)},
-aQO(d,e,f){var x,w,v,u=null,t=A.d(d).ok,s=A.J(f,y.k)
+aQP(d,e,f){var x,w,v,u=null,t=A.d(d).ok,s=A.J(f,y.k)
 B.i.ez(s,new C.aR7())
 x=t.e
 x=A.o("Get started",u,u,u,u,u,x==null?u:x.d5(B.ao),B.aV,u,u)
@@ -55,11 +55,11 @@ w=t.z
 if(w==null)w=u
 else w=w.V(A.d(d).ax.a===B.p?B.B:B.D)
 w=A.c([B.b0,x,B.ai,A.o("Choose the plan that fits your investigations.\nYou can change or cancel anytime.",u,u,u,u,u,w,B.aV,u,u),B.b0],y.u)
-for(x=s.length,v=0;v<s.length;s.length===x||(0,A.H)(s),++v)w.push(this.b7I(d,e,s[v]))
+for(x=s.length,v=0;v<s.length;s.length===x||(0,A.H)(s),++v)w.push(this.b7J(d,e,s[v]))
 w.push(B.a1)
 w.push(A.by(D.fqE,D.fxO,u,u,new C.aR8(d),u,u))
 return A.ft(w,u,B.bv,u,B.a5,!1)},
-b7I(d,e,f){var x,w,v,u,t,s,r,q,p,o,n,m=this,l=null,k=A.d(d).ok,j=f.a,i=j==="investigator",h=A.d(d).ax.a===B.p?B.bB:B.L,g=A.b1(12)
+b7J(d,e,f){var x,w,v,u,t,s,r,q,p,o,n,m=this,l=null,k=A.d(d).ok,j=f.a,i=j==="investigator",h=A.d(d).ax.a===B.p?B.bB:B.L,g=A.b1(12)
 if(i)x=A.d(d).ax.a===B.p?B.c3:B.ad
 else x=A.d(d).ax.a===B.p?B.az:B.cu
 w=i?2:1
@@ -85,7 +85,7 @@ else q=r.V(A.d(d).ax.a===B.p?B.B:B.D)
 q=A.o(s,l,l,l,l,l,q,l,l,l)
 s=(A.d(d).ax.a===B.p?B.c3:B.ad).aR(0.08)
 p=A.b1(8)
-v=A.c([v,B.bV,t,B.bV,q,B.R,A.au(l,A.an(A.c([A.aW(H.Nw,A.d(d).ax.a===B.p?B.c3:B.ad,l,l,16),B.b8,A.aD(A.o(m.bgF(f),l,l,l,l,l,r,l,l,l),1,l)],u),B.y,l,B.r,B.v,0,l,l),B.F,l,l,new A.aA(s,l,l,p,l,l,B.X),l,l,l,l,G.AU,l,l,l),B.R],u)
+v=A.c([v,B.bV,t,B.bV,q,B.R,A.au(l,A.an(A.c([A.aW(H.Nw,A.d(d).ax.a===B.p?B.c3:B.ad,l,l,16),B.b8,A.aD(A.o(m.bgG(f),l,l,l,l,l,r,l,l,l),1,l)],u),B.y,l,B.r,B.v,0,l,l),B.F,l,l,new A.aA(s,l,l,p,l,l,B.X),l,l,l,l,G.AU,l,l,l),B.R],u)
 for(t=C.cIt(f),s=k.z,o=0;o<6;++o){n=t[o]
 v.push(new A.W(D.ajp,new A.ib(B.b2,B.r,B.v,B.S,l,B.x,l,0,A.c([A.aW(B.qM,A.d(d).ax.a===B.p?B.c3:B.ad,l,l,16),B.b8,new A.fO(1,B.d_,A.o(n,l,l,l,l,l,s,l,l,l),l)],u),l),l))}v.push(B.R)
 j="get-started-"+j
@@ -96,13 +96,13 @@ ah6(d){var x=d.a
 if(x==="free")return"Start for free"
 if(x==="enterprise")return"Contact us"
 return"Choose "+d.b},
-bgF(d){var x=d.c,w=x===0?"$0":"$"+B.m.ar(x/100,0)
+bgG(d){var x=d.c,w=x===0?"$0":"$"+B.m.ar(x/100,0)
 x=d.a
 if(x==="free")return"Example: solo investigator, 3 case rooms \u2014 "+w+"/mo."
 if(x==="enterprise")return"Example: 20-person firm \u2014 custom quote, unlimited everything."
 return"Example: 5-person team, 12 case rooms \u2014 "+w+"/mo total. A per-seat rival at $89/user would charge $445/mo."},
-Jp(d,e,f){return this.bbp(d,e,f)},
-bbp(d,e,f){var x=0,w=A.m(y.v),v
+Jp(d,e,f){return this.bbq(d,e,f)},
+bbq(d,e,f){var x=0,w=A.m(y.v),v
 var $async$Jp=A.i(function(g,h){if(g===1)return A.j(h,w)
 for(;;)switch(x){case 0:if(f.a==="free"){A.qo(d).v6("/",null)
 x=1
@@ -112,7 +112,7 @@ case 3:case 1:return A.k(v,w)}})
 return A.l($async$Jp,w)}}
 var z=a.updateTypes(["f(v<fu>)","w(fu,fu)","h(AW)"])
 C.aRc.prototype={
-$1(d){return this.a.aQO(this.b,this.c,d)},
+$1(d){return this.a.aQP(this.b,this.c,d)},
 $S:z+0}
 C.aRe.prototype={
 $0(){return B.bf},
@@ -165,4 +165,4 @@ D.ajp=new A.af(0,0,0,6)
 D.fqE=new A.a0("Skip for now",null,null,null,null,null,null,null,null,null,null)
 D.frx=new A.a0("Continue with Free",null,null,null,null,null,null,null,null,null,null)
 D.fxO=new A.K("get-started-skip",y.q)})()};
-(a=>{a["xb/apgsbzFOKTTvmN+Vf7pWwmj8="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["d1r6lv8e+tiJ45t7Jc1Q1gqB1xo="]=a.current})($__dart_deferred_initializers__);

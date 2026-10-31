@@ -85,7 +85,7 @@ C(d){var x,w,v,u,t,s,r,q=this,p=null,o=q.a.d,n=q.gaq(),m=$.aBo(),l=n.T(m.$1(o),y
 n=i.Q
 if(n==null)n=p
 else n=n.V(A.d(d).ax.a===B.p?B.B:B.D)
-n=A.o("What happened in the case, in order.",p,p,p,p,p,n,p,p,p)
+n=A.o("The story of the investigation, in order. Member actions and access changes are recorded in the Audit Log.",p,p,p,p,p,n,p,p,p)
 m=y.p
 x=A.c([],m)
 for(w=y.O,v=0;v<6;++v){u=D.eRc[v]
@@ -96,11 +96,11 @@ s=A.o(s,p,p,p,p,p,p,p,p,p)
 r=q.w
 t=t?r==null:r===u
 x.push(new A.W(B.ov,A.qc(p,new A.K("tl-filter-"+u,w),s,new C.bQt(q,u),p,t,p,p,p,p,p),p))}x=A.ft(x,p,B.e9,p,B.b2,!1)
-w=q.bd1()
-t=A.c([q.b2r(l,k,j,i)],m)
-if(j)t.push(A.hn(16,L.aPj(B.nB,G.zH,D.fxL,new C.bQu(q,d),"Add case event"),p,p,p,16,p,p))
+w=q.bd2()
+t=A.c([q.b2s(l,k,j,i)],m)
+if(j)t.push(A.hn(16,L.aPj(B.nB,G.zH,D.fxL,new C.bQu(q,d),"Add to the story"),p,p,p,16,p,p))
 return A.a2(A.c([new A.W(D.ajT,new A.dY(B.d0,p,p,n,p),p),new A.aN(p,40,x,p),w,A.aD(A.dU(B.bz,t,B.C,B.bk,p),1,p)],m),B.y,p,B.r,B.v,0,B.x)},
-bd1(){var x,w,v,u,t,s,r,q,p,o=this,n=null,m=A.c([],y.p)
+bd2(){var x,w,v,u,t,s,r,q,p,o=this,n=null,m=A.c([],y.p)
 for(x=y.O,w=0;w<3;++w){v=D.f4M[w]
 u=v.a
 t=u==="all"
@@ -122,11 +122,11 @@ if(t){p.toString
 t=A.d(p).ax.a===B.p?B.mh:B.mk}else{p.toString
 t=A.d(p).ax.a===B.p?B.az:B.bb}p=new A.be(999,999)
 m.push(new A.W(B.ov,A.qc(n,new A.K("tl-source-"+u,x),s,new C.bQp(o,v),n,r,q,new A.dL(new A.d1(p,p,p,p),B.a7),n,new A.b_(t,1,B.O,-1),B.bG),n))}return new A.aN(n,38,A.ft(m,n,B.e9,n,B.b2,!1),n)},
-yt(d){return this.aMK(d)},
-aMK(d){var x=0,w=A.m(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j,i
+yt(d){return this.aML(d)},
+aML(d){var x=0,w=A.m(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j,i
 var $async$yt=A.i(function(e,f){if(e===1){t.push(f)
 x=u}for(;;)switch(x){case 0:l={}
-k=$.ab()
+k=$.ac()
 j=new A.bR(B.aH,k)
 l.a=null
 x=3
@@ -160,7 +160,7 @@ break
 case 7:case 1:return A.k(v,w)
 case 2:return A.j(t.at(-1),w)}})
 return A.l($async$yt,w)},
-b2r(d,e,f,g){var x,w,v,u,t=this,s=null
+b2s(d,e,f,g){var x,w,v,u,t=this,s=null
 if(d.c)return B.bf
 x=d.e
 if(x!=null&&d.a.length===0)return A.bS(new A.W(B.cR,A.a2(A.c([A.o(x,s,s,s,s,s,g.z,B.aV,s,s),B.a1,A.by(B.ey,s,s,s,new C.bQj(e),s,s)],y.p),B.y,s,B.r,B.W,0,B.x),s),s,s)
@@ -171,7 +171,7 @@ u=A.J(new A.ak(new A.ak(x,new C.bQk(t),w),new C.bQl(t),v),v.i("z.E"))
 x=u.length
 if(x===0){t.c.toString
 x=f?new C.bQm(t):s
-return A.acM(x==null?s:"Add event",D.e0g,"Reconstruct what happened, step by step.",x,s,!1,s,"No timeline events yet")}w=d.b||d.d?1:0
+return A.acM(x==null?s:"Add entry",D.e0g,"Write what the investigation learned, step by step.",x,s,!1,s,"No story entries yet")}w=d.b||d.d?1:0
 return A.ln(s,new C.bQn(u,f,d,e),x+w,s,B.a5,!1)}}
 C.arW.prototype={
 C(d){var x=null
@@ -222,14 +222,14 @@ else p=p.lh(A.d(d).ax.a===B.p?B.B:B.D,"GeistMono")
 j.push(A.o(r,m,m,m,m,m,p,m,m,m))
 if(k.d)j.push(F.c9d(m,k.a,"timeline_event"))
 return new A.W(B.uS,new A.V6(A.an(A.c([w,B.lh,A.aD(A.au(m,A.eQ(!1,m,!0,A.an(A.c([q,B.kN,A.aD(A.a2(j,B.S,m,B.r,B.v,0,B.x),1,m)],x),B.S,m,B.r,B.v,0,m,m),m,!0,!1,m,m,m,m,m,m,m,m,m,m,s,m,m,m,m,m,m,m,m),B.F,m,m,new A.aA(u.ax.k2,m,t,v,m,m,B.X),m,m,m,N.l7,B.aB,m,m,m),1,m)],x),B.b4,m,B.r,B.v,0,m,m),m),m)},
-HL(d,e){return this.aTx(d,e)},
-aTx(d,e){var x=0,w=A.m(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k
+HL(d,e){return this.aTy(d,e)},
+aTy(d,e){var x=0,w=A.m(y.H),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k
 var $async$HL=A.i(function(f,g){if(f===1){t.push(g)
 x=u}for(;;)switch(x){case 0:m=s.e
 l=m.x
 l=A.a7(l==null?null:l.h(0,"summary"))
 if(l==null)l=m.gE7()
-p=$.ab()
+p=$.ac()
 o=new A.bR(new A.dn(l,B.cU,B.bJ),p)
 l=y.N
 x=3
@@ -305,9 +305,9 @@ C.bQh.prototype={
 $1(d){return new A.me(new C.bQg(this.a,this.b),null)},
 $S:65}
 C.bQg.prototype={
-$2(d,e){var x,w,v,u=null,t=A.az(d,u,y.w).w,s=A.o("Add case event",u,u,u,u,u,A.d(d).ok.f,u,u,u),r=A.cS(u,B.as,!0,u,!0,B.C,u,A.cX(),this.b,u,u,u,u,u,2,D.e3o,B.T,!0,u,!0,u,!1,u,B.aP,u,u,u,D.fzO,u,u,u,u,u,2,u,u,!1,"\u2022",u,u,u,u,u,!1,u,u,!1,u,!0,u,B.aN,u,u,u,u,u,u,u,u,u,u,u,u,!0,B.af,u,B.aE,u,u,u,u),q=y.p,p=A.c([],q)
+$2(d,e){var x,w,v,u=null,t=A.az(d,u,y.w).w,s=A.o("Add to the story",u,u,u,u,u,A.d(d).ok.f,u,u,u),r=A.cS(u,B.as,!0,u,!0,B.C,u,A.cX(),this.b,u,u,u,u,u,2,D.e3h,B.T,!0,u,!0,u,!1,u,B.aP,u,u,u,D.fzO,u,u,u,u,u,2,u,u,!1,"\u2022",u,u,u,u,u,!1,u,u,!1,u,!0,u,B.aN,u,u,u,u,u,u,u,u,u,u,u,u,!0,B.af,u,B.aE,u,u,u,u),q=y.p,p=A.c([],q)
 for(x=this.a,w=0;w<5;++w){v=D.eT0[w]
-p.push(A.qc(u,u,A.o(v.length===0?v:v[0].toUpperCase()+B.o.c0(v,1),u,u,u,u,u,u,u,u,u),new C.bQd(x,e,v),u,x.a===v,u,u,u,u,u))}return new A.W(new A.af(24,24,24,t.f.d+24),A.a2(A.c([s,B.a1,r,B.a1,A.hD(p,B.cG,0,8),B.b0,new A.aN(1/0,u,new A.kn(new C.bQe(d),A.oQ(D.fr5,D.fAT,new C.bQf(d)),u),u)],q),B.S,u,B.r,B.W,0,B.x),u)},
+p.push(A.qc(u,u,A.o(v.length===0?v:v[0].toUpperCase()+B.o.c0(v,1),u,u,u,u,u,u,u,u,u),new C.bQd(x,e,v),u,x.a===v,u,u,u,u,u))}return new A.W(new A.af(24,24,24,t.f.d+24),A.a2(A.c([s,B.a1,r,B.a1,A.hD(p,B.cG,0,8),B.b0,new A.aN(1/0,u,new A.kn(new C.bQe(d),A.oQ(D.frn,D.fAT,new C.bQf(d)),u),u)],q),B.S,u,B.r,B.W,0,B.x),u)},
 $S:214}
 C.bQd.prototype={
 $1(d){return this.b.$1(new C.bQc(this.a,this.c))},
@@ -377,15 +377,15 @@ D.ajT=new A.af(16,8,16,0)
 D.dZZ=new A.ag(57921,"MaterialIcons",null,!0)
 D.e0g=new A.ag(62532,"MaterialIcons",null,!1)
 D.e2M=new A.cj(null,null,null,"Summary",null,null,null,null,null,null,"e.g. Interview completed",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-D.e3o=new A.cj(null,null,null,"Summary",null,null,null,null,null,null,"e.g. CCTV shows Vehicle V01 at Riverside Road 8:42 PM",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+D.e3h=new A.cj(null,null,null,"Summary",null,null,null,null,null,null,"e.g. A witness confirmed the buyer list",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 D.eRc=x(["All","fact","claim","finding","unknown","email"],y.s)
 D.eT0=x(["fact","claim","finding","unknown","email"],y.s)
 D.fg2=new A.ad("all","All sources")
 D.fgt=new A.ad("manual","Manual")
 D.fgf=new A.ad("ai_suggestion","AI")
 D.f4M=x([D.fg2,D.fgt,D.fgf],A.I("x<+(h,h)>"))
-D.fr5=new A.a0("Add event",null,null,null,null,null,null,null,null,null,null)
+D.frn=new A.a0("Add entry",null,null,null,null,null,null,null,null,null,null)
 D.fxL=new A.K("timeline-add-event",y.O)
 D.fzO=new A.K("timeline-add-summary",y.O)
 D.fAT=new A.K("timeline-add-save",y.O)})()};
-(a=>{a["o3orBAiTooQzXJDXVMU9KFVgRYY="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["ZNZmRAHhoK0ERPZjlXXNJ+J00Z8="]=a.current})($__dart_deferred_initializers__);

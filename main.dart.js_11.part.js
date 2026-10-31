@@ -16,8 +16,8 @@ guO(){return this.e},
 gVy(){return this.f}}
 var z=a.updateTypes(["M<v<j1>>(al)","j1(@)"])
 B.bWp.prototype={
-$1(d){return this.aAQ(d)},
-aAQ(d){var x=0,w=A.m(y.q),v,u,t,s,r,q,p,o,n,m
+$1(d){return this.aAR(d)},
+aAR(d){var x=0,w=A.m(y.q),v,u,t,s,r,q,p,o,n,m
 var $async$$1=A.i(function(e,f){if(e===1)return A.j(f,w)
 for(;;)switch(x){case 0:q=d.T($.dx(),y.k)
 p=q.aA("room_members").bo("room_id, case_rooms!inner(id, name)")
@@ -63,6 +63,6 @@ return new B.j1(x,w,v,u,t,A.dE(A.T(d.h(0,"due_date"))))},
 $S:z+1};(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(B.j1,A.C)
 w(A.ca,[B.bWp,B.bWo])})()
-var y={B:A.I("j1"),F:A.I("x<j1>"),q:A.I("v<j1>"),y:A.I("ac<h,@>"),w:A.I("h"),k:A.I("fY"),A:A.I("ac<h,@>?")};(function lazyInitializers(){var x=a.lazyFinal
+var y={B:A.I("j1"),F:A.I("x<j1>"),q:A.I("v<j1>"),y:A.I("aa<h,@>"),w:A.I("h"),k:A.I("fY"),A:A.I("aa<h,@>?")};(function lazyInitializers(){var x=a.lazyFinal
 x($,"cRD","c7r",()=>A.lk(new B.bWp(),y.q))})()};
-(a=>{a["GzIw6UI0rBy3kZcQzAE7bXGWFFc="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["pRa15/F599vY+EjKLi/EUGq+6pg="]=a.current})($__dart_deferred_initializers__);

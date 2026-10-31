@@ -34,7 +34,7 @@ j(d){var x=this
 return"LatLngBounds(north: "+D.q(x.a)+", south: "+D.q(x.b)+", east: "+D.q(x.c)+", west: "+D.q(x.d)+")"}}
 B.aFR.prototype={}
 B.aPg.prototype={
-bo2(a3){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this.b,a0=y.f,a1=new C.co(d.a,d.b,a0),a2=new C.co(d.c,d.d,a0)
+bo3(a3){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this.b,a0=y.f,a1=new C.co(d.a,d.b,a0),a2=new C.co(d.c,d.d,a0)
 d=this.a
 x=d.a
 w=d.d
@@ -66,9 +66,9 @@ f=a3.pd(new E.kK(x,d),i)
 if(o){d=q*0.017453292519943295
 a0=-d
 e=C.Ls(C.vZ(C.Ls(g,a0).a0(0,C.Ls(f,a0)),2).a0(0,h),d)}else e=C.vZ(g.a0(0,f),2).a0(0,h)
-return a3.aAh(a3.No(e,i),i)}}
+return a3.aAi(a3.No(e,i),i)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(D.C,[B.afm,B.aFR])
 w(B.aPg,B.aFR)})()
 var y={f:D.I("co<Z>"),b:D.I("Z")}};
-(a=>{a["rg9kxOl++PzNJfiadvRNyXiLCsQ="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["6G4qVj4vhvSZCD+ypXo3KWVNHOk="]=a.current})($__dart_deferred_initializers__);

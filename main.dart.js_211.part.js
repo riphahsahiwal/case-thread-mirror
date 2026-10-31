@@ -77,7 +77,7 @@ I=c[89]
 B.Cf.prototype={
 cq(d,e){var x=null,w=e.T($.aBf(),y.E)
 return A.hp(A.lM(x,x,x,x,x,x,x,x,C.a77),x,A.ec(w,new B.aD7(this,d,e),new B.aD8(e),new B.aD9(),!1,!0,!1),x,G.c1U(C.nB,D.fxm,D.fqD,new B.aDa(this,d,e)))},
-aNS(d,e,f){var x,w=null,v=A.d(d).ok,u=A.d(d).ax.a===C.p?C.bB:C.L,t=v.Q
+aNT(d,e,f){var x,w=null,v=A.d(d).ok,u=A.d(d).ax.a===C.p?C.bB:C.L,t=v.Q
 if(t==null)t=w
 else t=t.V(A.d(d).ax.a===C.p?C.B:C.D)
 u=A.c([A.f4(new A.W(C.aB,A.o("API keys authenticate against the public API gateway (x-api-key header). Keys inherit your room access; read scope allows GET requests, write scope additionally allows creating evidence metadata. Rate limit: 100 requests/minute per key.",w,w,w,w,w,t,w,w,w),w),u,w,w,w,C.a6),C.b0],y.p)
@@ -85,9 +85,9 @@ t=J.aw(f)
 if(t.gW(f)){x=v.z
 if(x==null)x=w
 else x=x.V(A.d(d).ax.a===C.p?C.B:C.D)
-u.push(A.bS(new A.W(D.ajw,A.o("No API keys yet.",w,w,w,w,w,x,w,w,w),w),w,w))}for(t=t.gU(f);t.q();)u.push(this.b2e(d,e,t.gI()))
+u.push(A.bS(new A.W(D.ajw,A.o("No API keys yet.",w,w,w,w,w,x,w,w,w),w),w,w))}for(t=t.gU(f);t.q();)u.push(this.b2f(d,e,t.gI()))
 return A.ft(u,w,C.bv,w,C.a5,!1)},
-b2e(d,e,f){var x,w,v,u,t,s,r,q,p,o=null,n=A.d(d).ok,m=f.a,l=y.O,k=A.d(d).ax.a===C.p?C.bB:C.L,j=n.x
+b2f(d,e,f){var x,w,v,u,t,s,r,q,p,o=null,n=A.d(d).ok,m=f.a,l=y.O,k=A.d(d).ax.a===C.p?C.bB:C.L,j=n.x
 j=j==null?o:j.d5(C.aT)
 x=y.p
 j=A.c([A.aD(A.o(f.b,o,o,o,o,o,j,o,o,o),1,o)],x)
@@ -104,24 +104,24 @@ s=A.c([],x)
 for(r=f.d,q=r.length,p=0;p<r.length;r.length===q||(0,A.H)(r),++p)s.push(F.rQ(o,o,A.o(r[p]==="write"?"Write":"Read",o,o,o,o,o,o,o,o,o),o,C.bG))
 s=A.hD(s,C.cG,0,8)
 r=f.f
-r=r==null?"Never used":"Last used "+this.aVg(r)
+r=r==null?"Never used":"Last used "+this.aVh(r)
 if(u)v=o
 else v=v.V(A.d(d).ax.a===C.p?C.B:C.D)
 x=A.c([j,C.ai,t,C.R,s,C.R,A.o(r,o,o,o,o,o,v,o,o,o)],x)
 if(w)x.push(new A.dY(C.dR,o,o,A.by(D.a7_,new A.K("api-key-revoke-"+m,l),o,o,new B.aCU(this,d,e,f),o,o),o))
 return A.f4(new A.W(C.aB,A.a2(x,C.S,o,C.r,C.v,0,C.x),o),k,new A.K("api-key-"+m,l),o,o,C.a6)},
-aVg(d){var x,w=new A.aH(Date.now(),0,!1).eb().eA(d.eb()).a,v=C.f.ap(w,6e7)
+aVh(d){var x,w=new A.aH(Date.now(),0,!1).eb().eA(d.eb()).a,v=C.f.ap(w,6e7)
 if(v<1)return"just now"
 x=C.f.ap(w,36e8)
 if(x<1)return""+v+"m ago"
 w=C.f.ap(w,864e8)
 if(w<1)return""+x+"h ago"
 return""+w+"d ago"},
-H9(d,e){return this.bco(d,e)},
-bco(d,e){var x=0,w=A.m(y.H),v=this,u,t,s,r
+H9(d,e){return this.bcp(d,e)},
+bcp(d,e){var x=0,w=A.m(y.H),v=this,u,t,s,r
 var $async$H9=A.i(function(f,g){if(f===1)return A.j(g,w)
 for(;;)switch(x){case 0:t={}
-s=$.ab()
+s=$.ac()
 r=t.a=t.b=!1
 t.c=null
 x=2
@@ -131,13 +131,13 @@ x=(u!=null?d.e!=null:r)?3:4
 break
 case 3:e.bs($.aBf())
 x=5
-return A.e(v.bcy(d,u),$async$H9)
+return A.e(v.bcz(d,u),$async$H9)
 case 5:case 4:return A.k(null,w)}})
 return A.l($async$H9,w)},
-bcy(d,e){var x=null
+bcz(d,e){var x=null
 return A.cU(x,x,!1,x,new B.aD5(d,e),d,x,!0,!0,y.H)},
-Hu(d,e,f){return this.aQH(d,e,f)},
-aQH(d,e,f){var x=0,w=A.m(y.H),v=1,u=[],t,s
+Hu(d,e,f){return this.aQI(d,e,f)},
+aQI(d,e,f){var x=0,w=A.m(y.H),v=1,u=[],t,s
 var $async$Hu=A.i(function(g,h){if(g===1){u.push(h)
 x=v}for(;;)switch(x){case 0:x=4
 return A.e(A.cU(null,null,!0,null,new B.aCT(f,d),d,null,!0,!0,y.y),$async$Hu)
@@ -166,7 +166,7 @@ var $async$X1=A.i(function(d,e){if(d===1)return A.j(e,w)
 for(;;)switch(x){case 0:s=J
 r=y.j
 x=3
-return A.e(u.a.azy("list_api_keys",y.z),$async$X1)
+return A.e(u.a.azz("list_api_keys",y.z),$async$X1)
 case 3:t=s.bL(r.a(e),new B.be_(),y.I)
 t=A.J(t,t.$ti.i("ai.E"))
 v=t
@@ -174,8 +174,8 @@ x=1
 break
 case 1:return A.k(v,w)}})
 return A.l($async$X1,w)},
-UV(d,e){return this.bli(d,e)},
-bli(d,e){var x=0,w=A.m(y.S),v,u=this,t,s,r,q,p,o,n
+UV(d,e){return this.blj(d,e)},
+blj(d,e){var x=0,w=A.m(y.S),v,u=this,t,s,r,q,p,o,n
 var $async$UV=A.i(function(f,g){if(f===1)return A.j(g,w)
 for(;;)switch(x){case 0:s=y.N
 r=y.z
@@ -194,8 +194,8 @@ x=1
 break
 case 1:return A.k(v,w)}})
 return A.l($async$UV,w)},
-YL(d){return this.bwZ(d)},
-bwZ(d){var x=0,w=A.m(y.H),v=this,u
+YL(d){return this.bx_(d)},
+bx_(d){var x=0,w=A.m(y.H),v=this,u
 var $async$YL=A.i(function(e,f){if(e===1)return A.j(f,w)
 for(;;)switch(x){case 0:u=y.z
 x=2
@@ -209,7 +209,7 @@ B.abC.prototype={
 gbG(){return this.a}}
 var z=a.updateTypes(["f(v<oE>)","oE(@)","MZ(al)","M<v<oE>>(al)"])
 B.aD7.prototype={
-$1(d){return this.a.aNS(this.b,this.c,d)},
+$1(d){return this.a.aNT(this.b,this.c,d)},
 $S:z+0}
 B.aD9.prototype={
 $0(){return C.bf},
@@ -232,7 +232,7 @@ B.aD2.prototype={
 $1(d){return new A.me(new B.aD1(this.a,this.b,this.c),null)},
 $S:65}
 B.aD1.prototype={
-$2(d,e){var x,w=null,v=this.b,u=this.a,t=y.p,s=A.c([A.cS(w,C.as,!0,w,!0,C.C,w,A.cX(),v,w,w,w,w,w,2,D.e3e,C.T,!0,w,!0,w,!1,w,C.aP,w,w,w,D.fzI,w,w,w,w,w,1,w,w,!1,"\u2022",w,w,w,w,w,!1,w,w,!1,w,!0,w,C.aN,w,w,w,w,w,w,w,w,w,w,w,w,!0,C.af,w,C.aE,w,w,w,w),C.a1,E.c19(C.a9,w,!0,D.fyk,w,D.fqC,D.frw,!0),E.c19(C.a9,w,!0,D.fxP,new B.aCZ(u,e),D.frk,D.fs2,u.b)],t),r=u.c
+$2(d,e){var x,w=null,v=this.b,u=this.a,t=y.p,s=A.c([A.cS(w,C.as,!0,w,!0,C.C,w,A.cX(),v,w,w,w,w,w,2,D.e3e,C.T,!0,w,!0,w,!1,w,C.aP,w,w,w,D.fzI,w,w,w,w,w,1,w,w,!1,"\u2022",w,w,w,w,w,!1,w,w,!1,w,!0,w,C.aN,w,w,w,w,w,w,w,w,w,w,w,w,!0,C.af,w,C.aE,w,w,w,w),C.a1,E.c19(C.a9,w,!0,D.fyk,w,D.fqC,D.frw,!0),E.c19(C.a9,w,!0,D.fxP,new B.aCZ(u,e),D.frj,D.fs2,u.b)],t),r=u.c
 if(r!=null){x=A.d(d).ok.Q
 s.push(new A.W(I.e8,A.o(r,w,w,w,w,w,x==null?w:x.V(A.d(d).ax.fy),w,w,w),w))}s=A.a2(s,C.S,w,C.r,C.W,0,C.x)
 r=u.a
@@ -342,7 +342,7 @@ w(A.dj,[B.aD8,B.aD1])
 w(A.C,[B.MZ,B.oE,B.abC])})()
 A.cD(b.typeUniverse,JSON.parse('{"Cf":{"N":[],"f":[]},"MZ":{"c8h":[]}}'))
 var y=(function rtii(){var x=A.I
-return{I:x("oE"),k:x("c8h"),E:x("aR<v<oE>>"),L:x("aR<fM?>"),S:x("abC"),T:x("x<h>"),p:x("x<f>"),s:x("v<oE>"),j:x("v<@>"),f:x("ac<@,@>"),N:x("h"),A:x("fY"),O:x("K<h>"),q:x("h_"),y:x("B"),z:x("@"),H:x("~")}})();(function constants(){D.ajw=new A.af(0,32,0,32)
+return{I:x("oE"),k:x("c8h"),E:x("aR<v<oE>>"),L:x("aR<fM?>"),S:x("abC"),T:x("x<h>"),p:x("x<f>"),s:x("v<oE>"),j:x("v<@>"),f:x("aa<@,@>"),N:x("h"),A:x("fY"),O:x("K<h>"),q:x("h_"),y:x("B"),z:x("@"),H:x("~")}})();(function constants(){D.ajw=new A.af(0,32,0,32)
 D.e_K=new A.ag(61311,"MaterialIcons",null,!1)
 D.e1g=new A.aJ(D.e_K,null,null,null,null)
 D.e3e=new A.cj(null,null,null,"Key name",null,null,null,null,null,null,"e.g. Zapier integration",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
@@ -354,7 +354,7 @@ D.fqC=new A.a0("List rooms and evidence (GET)",null,null,null,null,null,null,nul
 D.fqD=new A.a0("New key",null,null,null,null,null,null,null,null,null,null)
 D.a7_=new A.a0("Revoke",null,null,null,null,null,null,null,null,null,null)
 D.fqG=new A.a0("I've saved it",null,null,null,null,null,null,null,null,null,null)
-D.frk=new A.a0("Create evidence metadata rows (POST)",null,null,null,null,null,null,null,null,null,null)
+D.frj=new A.a0("Create evidence metadata rows (POST)",null,null,null,null,null,null,null,null,null,null)
 D.frw=new A.a0("Read",null,null,null,null,null,null,null,null,null,null)
 D.frJ=new A.a0("Keep key",null,null,null,null,null,null,null,null,null,null)
 D.fs2=new A.a0("Write",null,null,null,null,null,null,null,null,null,null)
@@ -379,4 +379,4 @@ D.fzY=new A.K("api-keys-revoke-confirm",y.O)
 D.fAE=new A.K("api-keys-plaintext",y.O)})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cRn","c0e",()=>A.ej(new B.bW1(),y.k))
 x($,"cRo","aBf",()=>A.lk(new B.bW2(),y.s))})()};
-(a=>{a["/PuTQ7RFO34+IGXfiqGuT+XOatQ="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["R6BcrfdJWDkTgIQioPyWNUjApcM="]=a.current})($__dart_deferred_initializers__);

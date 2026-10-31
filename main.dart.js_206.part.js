@@ -80,7 +80,7 @@ C.FV.prototype={
 cq(d,e){var w=null,v=e.T($.c0u().$1(this.e),x.r),u=A.d(d),t=A.lM(w,w,w,w,w,w,w,w,B.a7h)
 u=A.ec(v,new C.bcd(this,u.ok,e),new C.bce(),new C.bcf(),!1,!0,!1)
 return A.hp(t,w,u,w,new H.Dq(B.nB,"New signature request",F.zH,new C.bcg(this,d,e),!1,F.fCL,w,w))},
-bdg(d){var w
+bdh(d){var w
 switch(d.a){case 0:w=M.Cx
 break
 case 1:w=B.ny
@@ -90,13 +90,13 @@ break
 case 3:w=D.dZQ
 break
 default:w=null}return w},
-bdf(d,e){var w
+bdg(d,e){var w
 A:{if(E.rR===e){w=O.Eg
 break A}if(E.a5H===e){w=B.pa
 break A}w=A.d(d).ay
 break A}return w},
-Hq(d,e,f){return this.aQA(d,e,f)},
-aQA(d,e,f){var w=0,v=A.m(x.q),u=this
+Hq(d,e,f){return this.aQB(d,e,f)},
+aQB(d,e,f){var w=0,v=A.m(x.q),u=this
 var $async$Hq=A.i(function(g,h){if(g===1)return A.j(h,v)
 for(;;)switch(w){case 0:w=4
 return A.e(A.cU(null,null,!0,null,new C.bbY(f),d,null,!0,!0,x.e),$async$Hq)
@@ -107,11 +107,11 @@ return A.e(e.X($.a9b(),x.w).Uw(f.a),$async$Hq)
 case 5:e.bs($.c0u().$1(u.e))
 case 3:return A.k(null,v)}})
 return A.l($async$Hq,v)},
-Jt(d,e){return this.bcp(d,e)},
-bcp(a2,a3){var w=0,v=A.m(x.q),u,t=this,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1
+Jt(d,e){return this.bcq(d,e)},
+bcq(a2,a3){var w=0,v=A.m(x.q),u,t=this,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1
 var $async$Jt=A.i(function(a4,a5){if(a4===1)return A.j(a5,v)
 for(;;)switch(w){case 0:h={}
-g=$.ab()
+g=$.ac()
 f=new A.bR(B.aH,g)
 e=new A.bR(B.aH,g)
 d=new A.bR(B.aH,g)
@@ -153,7 +153,7 @@ a3.bs($.c0u().$1(m))
 if(a2.e!=null){A.rR(new A.oM(y.d+i.a))
 a2.S(x.v).f.aS(D.fkx)}case 1:return A.k(u,v)}})
 return A.l($async$Jt,v)},
-b7F(d,e){return A.eM(null,new C.bc1(this,e),d,!1,null,!0,!1,x.m)}}
+b7G(d,e){return A.eM(null,new C.bc1(this,e),d,!1,null,!0,!1,x.m)}}
 var z=a.updateTypes(["M<v<n8>>(al,h)","f(v<n8>)"])
 C.c_g.prototype={
 $2(d,e){return d.T($.a9b(),x.w).jO(e)},
@@ -170,7 +170,7 @@ if(v.gW(d))return A.bS(new A.W(B.bv,A.o("No signature requests yet.\nCreate one 
 return A.ln(w,new C.bcc(this.a,d,this.c),v.gu(d),B.aB,B.a5,!1)},
 $S:z+1}
 C.bcc.prototype={
-$2(d,e){var w=null,v=J.A(this.b,e),u=this.a,t=v.w,s=A.aW(u.bdg(t),u.bdf(d,t),w,w,w),r=A.o(v.c,w,w,w,w,w,w,w,w,w),q=G.cjK(t),p=v.z
+$2(d,e){var w=null,v=J.A(this.b,e),u=this.a,t=v.w,s=A.aW(u.bdh(t),u.bdg(d,t),w,w,w),r=A.o(v.c,w,w,w,w,w,w,w,w,w),q=G.cjK(t),p=v.z
 p=p!=null&&p.length!==0?" \u2022 \ud83d\udcce "+p:""
 p=A.o(v.e+" \u2022 "+q+p,w,w,w,w,w,w,w,w,w)
 q=A.c([],x.u)
@@ -211,7 +211,7 @@ else t.push(I.cbg(E.Of,v,D.fy4,A.o(r.c,v,v,B.at,v,v,v,v,v,v),new C.bc5(s,e),v))
 t.push(B.R)
 t.push(A.cS(v,B.as,!1,v,!0,B.C,v,A.cX(),w.e,v,v,v,v,v,2,D.e3A,B.T,!0,v,!0,v,!1,v,B.aP,v,v,v,v,v,v,v,v,v,4,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aN,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.af,v,B.aE,v,v,v,v))
 t.push(B.R)
-t.push(A.cS(v,B.as,!1,v,!0,B.C,v,A.cX(),w.f,v,v,v,v,v,2,D.e3h,B.T,!0,v,!0,v,!1,v,B.aP,v,v,v,v,v,v,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aN,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.af,v,B.aE,v,v,v,v))
+t.push(A.cS(v,B.as,!1,v,!0,B.C,v,A.cX(),w.f,v,v,v,v,v,2,D.e3i,B.T,!0,v,!0,v,!1,v,B.aP,v,v,v,v,v,v,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aN,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.af,v,B.aE,v,v,v,v))
 t.push(B.R)
 t.push(A.cS(v,B.as,!1,v,!0,B.C,v,A.cX(),w.r,v,v,v,v,v,2,D.e2P,B.T,!0,v,!0,v,!1,v,B.aP,v,v,v,v,v,B.t6,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aN,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.af,v,B.aE,v,v,v,v))
 t.push(B.R)
@@ -223,7 +223,7 @@ C.bc4.prototype={
 $0(){var w=0,v=A.m(x.q),u=this,t
 var $async$$0=A.i(function(d,e){if(d===1)return A.j(e,v)
 for(;;)switch(w){case 0:w=2
-return A.e(u.b.b7F(u.c,u.d),$async$$0)
+return A.e(u.b.b7G(u.c,u.d),$async$$0)
 case 2:t=e
 if(t!=null)u.e.$1(new C.bc3(u.a,t))
 return A.k(null,v)}})
@@ -281,7 +281,7 @@ D.dZN=new A.ag(57521,"MaterialIcons",null,!1)
 D.e1t=new A.aJ(D.dZN,null,null,null,null)
 D.e2h=new A.aJ(K.Nx,20,null,null,null)
 D.e2P=new A.cj(null,null,null,"Signer email (optional)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
-D.e3h=new A.cj(null,null,null,"Signer name",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
+D.e3i=new A.cj(null,null,null,"Signer name",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
 D.e3w=new A.cj(null,null,null,"Message to signer (optional)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
 D.e3z=new A.cj(null,null,null,"Title (e.g. Engagement letter)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
 D.e3A=new A.cj(null,null,null,"Document text (shown to signer)",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,B.c5,!0,null,null,null,null)
@@ -304,4 +304,4 @@ D.fs3=new A.a0("Keep",null,null,null,null,null,null,null,null,null,null)
 D.fy4=new A.K("esign-attached-doc",x.x)
 D.fyt=new A.K("esign-attach-vault",x.x)})();(function lazyInitializers(){var w=a.lazyFinal
 w($,"cTr","c0u",()=>B.bH.$2$1(new C.c_g(),A.I("v<n8>"),A.I("h")))})()};
-(a=>{a["h2hgkAGsi+QkfX1M6kUiw8b70+U="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["jcKonKtJrkxI2ZPMZb/hi4vuDj4="]=a.current})($__dart_deferred_initializers__);
