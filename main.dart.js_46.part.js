@@ -1,17 +1,17 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,E,B={zI:function zI(d){this.a=d},
-a8n(d){var w,v
+a8m(d){var w,v
 for(w=0;w<5;++w){v=D.DF[w]
-if(v.a===d)return v.b}return B.cE4(d)},
-cE4(d){var w,v=D.o.o7(d,A.ck("[_\\-\\s]+",!0,!1)),u=A.a6(v),t=u.i("dG<1,h>")
-v=A.J(new A.dG(new A.al(v,new B.bUS(),u.i("al<1>")),new B.bUT(),t),t.i("z.E"))
+if(v.a===d)return v.b}return B.cDU(d)},
+cDU(d){var w,v=D.o.o7(d,A.ck("[_\\-\\s]+",!0,!1)),u=A.a6(v),t=u.i("dG<1,h>")
+v=A.J(new A.dG(new A.ak(v,new B.bUL(),u.i("ak<1>")),new B.bUM(),t),t.i("z.E"))
 v.$flags=1
 w=v
 if(w.length===0)return"Unknown"
 return D.i.bg(w," ")},
-bUS:function bUS(){},
-bUT:function bUT(){},
-alW(d){var w=A.T(d.h(0,"id")),v=A.a7(d.h(0,"display_name"))
+bUL:function bUL(){},
+bUM:function bUM(){},
+alU(d){var w=A.T(d.h(0,"id")),v=A.a7(d.h(0,"display_name"))
 if(v==null)v=""
 return new B.ix(w,v,A.a7(d.h(0,"avatar_url")),A.a7(d.h(0,"username")),A.a7(d.h(0,"bio")),A.a7(d.h(0,"niche")))},
 ix:function ix(d,e,f,g,h,i){var _=this
@@ -24,9 +24,9 @@ _.f=i},
 mY:function mY(d,e){this.b=d
 this.c=e},
 w6:function w6(d){this.a=d},
-b2e:function b2e(d){this.a=d},
-b2d:function b2d(){},
-bYN:function bYN(){}},C
+b27:function b27(d){this.a=d},
+b26:function b26(){},
+bYE:function bYE(){}},C
 J=c[1]
 A=c[0]
 D=c[2]
@@ -39,8 +39,8 @@ gbG(){return this.a}}
 B.mY.prototype={
 guO(){return this.b}}
 B.w6.prototype={
-Oc(d,e){return this.aBR(d,e)},
-aBR(d,e){var w=0,v=A.m(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h
+Oc(d,e){return this.aBN(d,e)},
+aBN(d,e){var w=0,v=A.m(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h
 var $async$Oc=A.i(function(f,g){if(f===1){s.push(g)
 w=t}for(;;)switch(w){case 0:t=4
 l=r.a
@@ -53,7 +53,7 @@ case 7:g=null
 w=8
 break
 case 9:w=10
-return A.e(l.aA("profiles").bn(y.b).b0("id",q).js(),$async$Oc)
+return A.e(l.aA("profiles").bo(y.b).b0("id",q).jP(),$async$Oc)
 case 10:case 8:p=g
 l=p
 l=A.a7(l==null?null:J.A(l,"display_name"))
@@ -67,7 +67,7 @@ u=new B.ix(l,o,null,null,null,null)
 w=1
 break}n=A.aP(p,x.w,x.b)
 J.bf(n,"display_name",o)
-l=B.alW(n)
+l=B.alU(n)
 u=l
 w=1
 break
@@ -77,7 +77,7 @@ break
 case 4:t=3
 h=s.pop()
 m=A.E(h)
-l=A.aB(m)
+l=A.aC(m)
 throw A.n(l)
 w=6
 break
@@ -86,16 +86,16 @@ break
 case 6:case 1:return A.k(u,v)
 case 2:return A.j(s.at(-1),v)}})
 return A.l($async$Oc,v)},
-Oa(d){return this.aBO(d)},
-aBO(d){var w=0,v=A.m(x.r),u,t=2,s=[],r=this,q,p,o,n,m
+Oa(d){return this.aBK(d)},
+aBK(d){var w=0,v=A.m(x.r),u,t=2,s=[],r=this,q,p,o,n,m
 var $async$Oa=A.i(function(e,f){if(e===1){s.push(f)
 w=t}for(;;)switch(w){case 0:t=4
 w=7
-return A.e(r.a.aA("profiles").bn(y.b).b0("id",d).js(),$async$Oa)
+return A.e(r.a.aA("profiles").bo(y.b).b0("id",d).jP(),$async$Oa)
 case 7:q=f
 if(q==null){u=null
 w=1
-break}o=B.alW(A.aP(q,x.w,x.b))
+break}o=B.alU(A.aP(q,x.w,x.b))
 u=o
 w=1
 break
@@ -105,7 +105,7 @@ break
 case 4:t=3
 m=s.pop()
 p=A.E(m)
-o=A.aB(p)
+o=A.aC(p)
 throw A.n(o)
 w=6
 break
@@ -114,9 +114,9 @@ break
 case 6:case 1:return A.k(u,v)
 case 2:return A.j(s.at(-1),v)}})
 return A.l($async$Oa,v)},
-Zk(d,e,f,g,h){return this.byk(d,e,f,g,h)},
-byk(d,e,a0,a1,a2){var w=0,v=A.m(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f
-var $async$Zk=A.i(function(a3,a4){if(a3===1){s.push(a4)
+Zh(d,e,f,g,h){return this.byd(d,e,f,g,h)},
+byd(d,e,a0,a1,a2){var w=0,v=A.m(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f
+var $async$Zh=A.i(function(a3,a4){if(a3===1){s.push(a4)
 w=t}for(;;)switch(w){case 0:h=r.a
 g=h.gca().e.a
 g=g==null?null:g.r
@@ -124,7 +124,7 @@ q=g==null?null:g.a
 if(q==null)throw A.n(C.tC)
 g=x.w
 m=x.b
-p=A.Q(["updated_at",new A.aI(Date.now(),0,!1).eb().d_()],g,m)
+p=A.Q(["updated_at",new A.aH(Date.now(),0,!1).eb().cY()],g,m)
 J.bf(p,"display_name",D.o.aJ(e))
 l=D.o.aJ(a2).toLowerCase()
 k=l.length===0?null:l
@@ -135,9 +135,9 @@ J.bf(p,"bio",k)
 if(a1)J.bf(p,"niche",a0)
 t=4
 w=7
-return A.e(h.aA("profiles").cV(p).b0("id",q).bn(y.b).i2(0),$async$Zk)
+return A.e(h.aA("profiles").cV(p).b0("id",q).bo(y.b).i2(0),$async$Zh)
 case 7:o=a4
-h=B.alW(A.aP(o,g,m))
+h=B.alU(A.aP(o,g,m))
 u=h
 w=1
 break
@@ -147,7 +147,7 @@ break
 case 4:t=3
 f=s.pop()
 n=A.E(f)
-h=r.b2U(n)
+h=r.b2P(n)
 throw A.n(h)
 w=6
 break
@@ -155,7 +155,7 @@ case 3:w=2
 break
 case 6:case 1:return A.k(u,v)
 case 2:return A.j(s.at(-1),v)}})
-return A.l($async$Zk,v)},
+return A.l($async$Zh,v)},
 Bp(){var w=0,v=A.m(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2
 var $async$Bp=A.i(function(a3,a4){if(a3===1){s.push(a4)
 w=t}for(;;)switch(w){case 0:d=r.a
@@ -165,15 +165,15 @@ k=a0==null?null:a0.a
 if(k==null)throw A.n(C.tC)
 a2=A
 w=3
-return A.e(E.aOU(null,D.dZh,!0),$async$Bp)
+return A.e(E.aON(null,D.dZg,!0),$async$Bp)
 case 3:j=a2.im(a4)
-if(j==null)throw A.n(C.ffw)
+if(j==null)throw A.n(C.ffs)
 w=4
 return A.e(j.gNC().nU(),$async$Bp)
 case 4:q=a4
-if(J.aX(q)===0)throw A.n(C.ffs)
-if(J.aX(q)>5242880)throw A.n(C.ffu)
-i=A.Ll(j.a,$.aBi().a).apb(1)[1]
+if(J.aX(q)===0)throw A.n(C.ffo)
+if(J.aX(q)>5242880)throw A.n(C.ffq)
+i=A.Lk(j.a,$.aBg().a).ap8(1)[1]
 a0=i.length===0?null:D.o.c0(i,1)
 if(a0==null)a0="jpg"
 i=a0.toLowerCase()
@@ -189,13 +189,13 @@ d===$&&A.b()
 w=9
 return A.e(d.aA("avatars").Bq(o,q,new A.Dk(!0,p)),$async$Bp)
 case 9:d=d.aA("avatars")
-h=d.QV(o)
+h=d.QU(o)
 g="object"
 f=A.cT(d.a+"/"+g+"/public/"+h,0,null)
-n=d.ary(f.j(0),null,null)
+n=d.arv(f.j(0),null,null)
 m=A.q(n)+"?t="+Date.now()
 w=10
-return A.e(r.Zl(m),$async$Bp)
+return A.e(r.Zi(m),$async$Bp)
 case 10:d=a4
 u=d
 w=1
@@ -206,7 +206,7 @@ break
 case 6:t=5
 a1=s.pop()
 l=A.E(a1)
-d=A.aB(l)
+d=A.aC(l)
 throw A.n(d)
 w=8
 break
@@ -226,20 +226,20 @@ t=4
 j=k.ay
 j===$&&A.b()
 w=7
-return A.e(j.aA("avatars").axq(q),$async$Fq)
+return A.e(j.aA("avatars").axn(q),$async$Fq)
 case 7:p=e
 w=J.fL(p)?8:9
 break
 case 8:j=j.aA("avatars")
-m=J.bM(p,new B.b2e(q),x.w)
-m=A.J(m,m.$ti.i("aj.E"))
+m=J.bL(p,new B.b27(q),x.w)
+m=A.J(m,m.$ti.i("ai.E"))
 w=10
 return A.e(j.M(0,m),$async$Fq)
 case 10:case 9:j=x.b
 w=11
-return A.e(k.aA("profiles").cV(A.Q(["avatar_url",null,"updated_at",new A.aI(Date.now(),0,!1).eb().d_()],j,j)).b0("id",q).bn(y.b).i2(0),$async$Fq)
+return A.e(k.aA("profiles").cV(A.Q(["avatar_url",null,"updated_at",new A.aH(Date.now(),0,!1).eb().cY()],j,j)).b0("id",q).bo(y.b).i2(0),$async$Fq)
 case 11:o=e
-j=B.alW(A.aP(o,x.w,j))
+j=B.alU(A.aP(o,x.w,j))
 u=j
 w=1
 break
@@ -249,7 +249,7 @@ break
 case 4:t=3
 i=s.pop()
 n=A.E(i)
-k=A.aB(n)
+k=A.aC(n)
 throw A.n(k)
 w=6
 break
@@ -258,9 +258,9 @@ break
 case 6:case 1:return A.k(u,v)
 case 2:return A.j(s.at(-1),v)}})
 return A.l($async$Fq,v)},
-Zl(d){return this.byl(d)},
-byl(d){var w=0,v=A.m(x.i),u,t=this,s,r,q,p,o
-var $async$Zl=A.i(function(e,f){if(e===1)return A.j(f,v)
+Zi(d){return this.bye(d)},
+bye(d){var w=0,v=A.m(x.i),u,t=this,s,r,q,p,o
+var $async$Zi=A.i(function(e,f){if(e===1)return A.j(f,v)
 for(;;)switch(w){case 0:r=t.a
 q=r.gca().e.a
 q=q==null?null:q.r
@@ -270,12 +270,12 @@ q=x.b
 p=B
 o=A
 w=3
-return A.e(r.aA("profiles").cV(A.Q(["avatar_url",d,"updated_at",new A.aI(Date.now(),0,!1).eb().d_()],q,q)).b0("id",s).bn(y.b).i2(0),$async$Zl)
-case 3:u=p.alW(o.aP(f,x.w,q))
+return A.e(r.aA("profiles").cV(A.Q(["avatar_url",d,"updated_at",new A.aH(Date.now(),0,!1).eb().cY()],q,q)).b0("id",s).bo(y.b).i2(0),$async$Zi)
+case 3:u=p.alU(o.aP(f,x.w,q))
 w=1
 break
 case 1:return A.k(u,v)}})
-return A.l($async$Zl,v)},
+return A.l($async$Zi,v)},
 Od(){var w=0,v=A.m(x.v),u,t=2,s=[],r=this,q,p,o,n,m,l,k
 var $async$Od=A.i(function(d,e){if(d===1){s.push(e)
 w=t}for(;;)switch(w){case 0:m=r.a
@@ -286,10 +286,10 @@ if(q==null){u=A.c([],x.f)
 w=1
 break}t=4
 w=7
-return A.e(m.aA("room_members").bn("room_id, role_id, case_rooms!inner(id, name)").b0("user_id",q).b0("status","approved"),$async$Od)
+return A.e(m.aA("room_members").bo("room_id, role_id, case_rooms!inner(id, name)").b0("user_id",q).b0("status","approved"),$async$Od)
 case 7:p=e
-m=J.bM(p,new B.b2d(),x.a)
-m=A.J(m,m.$ti.i("aj.E"))
+m=J.bL(p,new B.b26(),x.a)
+m=A.J(m,m.$ti.i("ai.E"))
 u=m
 w=1
 break
@@ -299,7 +299,7 @@ break
 case 4:t=3
 k=s.pop()
 o=A.E(k)
-m=A.aB(o)
+m=A.aC(o)
 throw A.n(m)
 w=6
 break
@@ -308,43 +308,43 @@ break
 case 6:case 1:return A.k(u,v)
 case 2:return A.j(s.at(-1),v)}})
 return A.l($async$Od,v)},
-b2U(d){var w,v=J.bg(d).toLowerCase()
+b2P(d){var w,v=J.bg(d).toLowerCase()
 if(!D.o.n(v,"profiles_username_unique"))w=D.o.n(v,"duplicate key")&&D.o.n(v,"username")
 else w=!0
-if(w)return C.fft
-if(D.o.n(v,"profiles_username_format"))return C.ffv
-return A.aB(d)}}
-var z=a.updateTypes(["mY(ac<h,@>)","w6(ah)"])
-B.bUS.prototype={
+if(w)return C.ffp
+if(D.o.n(v,"profiles_username_format"))return C.ffr
+return A.aC(d)}}
+var z=a.updateTypes(["mY(ac<h,@>)","w6(al)"])
+B.bUL.prototype={
 $1(d){return d.length!==0},
-$S:12}
-B.bUT.prototype={
+$S:11}
+B.bUM.prototype={
 $1(d){var w=d.toLowerCase()
 return w[0].toUpperCase()+D.o.c0(w,1)},
 $S:25}
-B.b2e.prototype={
+B.b27.prototype={
 $1(d){return this.a+"/"+d.a},
-$S:1116}
-B.b2d.prototype={
+$S:1113}
+B.b26.prototype={
 $1(d){var w=x.w,v=x.b,u=A.aP(d,w,v),t=A.aP(x.B.a(J.A(u,"case_rooms")),w,v)
 A.T(J.A(u,"room_id"))
 v=A.a7(J.A(t,"name"))
 w=v==null?"Untitled room":v
 return new B.mY(w,A.T(J.A(u,"role_id")))},
 $S:z+0}
-B.bYN.prototype={
-$1(d){return new B.w6(d.S($.du(),x.k))},
+B.bYE.prototype={
+$1(d){return new B.w6(d.T($.dx(),x.k))},
 $S:z+1};(function inheritance(){var w=a.inherit,v=a.inheritMany
 w(B.zI,A.dZ)
-v(A.ca,[B.bUS,B.bUT,B.b2e,B.b2d,B.bYN])
+v(A.ca,[B.bUL,B.bUM,B.b27,B.b26,B.bYE])
 v(A.C,[B.ix,B.mY,B.w6])})()
 A.cD(b.typeUniverse,JSON.parse('{"zI":{"aK":[]}}'))
 var y={b:"id, display_name, avatar_url, username, bio, niche"}
-var x={f:A.I("x<mY>"),v:A.I("v<mY>"),B:A.I("ac<@,@>"),a:A.I("mY"),w:A.I("h"),k:A.I("fY"),i:A.I("ix"),b:A.I("@"),r:A.I("ix?")};(function constants(){C.tC=new A.rI("Not signed in.")
-C.ffs=new B.zI("That image is empty.")
-C.fft=new B.zI("That username is taken \u2014 try another.")
-C.ffu=new B.zI("Pick an image under 5 MB.")
-C.ffv=new B.zI("Usernames need 3\u201320 lowercase letters, numbers or _.")
-C.ffw=new B.zI("No image selected.")})();(function lazyInitializers(){var w=a.lazyFinal
-w($,"cT7","R1",()=>A.eg(new B.bYN(),A.I("w6")))})()};
-(a=>{a["JVtYU/6OClcafUW0uPhf8ljJmbg="]=a.current})($__dart_deferred_initializers__);
+var x={f:A.I("x<mY>"),v:A.I("v<mY>"),B:A.I("ac<@,@>"),a:A.I("mY"),w:A.I("h"),k:A.I("fY"),i:A.I("ix"),b:A.I("@"),r:A.I("ix?")};(function constants(){C.tC=new A.rH("Not signed in.")
+C.ffo=new B.zI("That image is empty.")
+C.ffp=new B.zI("That username is taken \u2014 try another.")
+C.ffq=new B.zI("Pick an image under 5 MB.")
+C.ffr=new B.zI("Usernames need 3\u201320 lowercase letters, numbers or _.")
+C.ffs=new B.zI("No image selected.")})();(function lazyInitializers(){var w=a.lazyFinal
+w($,"cSV","R_",()=>A.ej(new B.bYE(),A.I("w6")))})()};
+(a=>{a["AK0uhu34cv3bT8kSWwi7RsvK0cg="]=a.current})($__dart_deferred_initializers__);

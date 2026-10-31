@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,B={
-cIA(d){var x,w,v,u,t,s,r=A.c([],y.g),q=y.x,p=A.c([],q),o=new A.dN("")
+cIp(d){var x,w,v,u,t,s,r=A.c([],y.g),q=y.x,p=A.c([],q),o=new A.dN("")
 for(x=d.length,w=!1,v=0;v<x;){u=d[v]
 if(w)if(u==='"'){t=v+1
 w=t<x&&d[t]==='"'
@@ -13,14 +13,14 @@ p.push(D.o.aJ(s.charCodeAt(0)==0?s:s))
 o.a="";++v}else if(u==="\n"){s=o.a
 p.push(D.o.aJ(s.charCodeAt(0)==0?s:s))
 o.a=""
-if(D.i.dP(p,new B.bYD()))r.push(p)
+if(D.i.dP(p,new B.bYu()))r.push(p)
 p=A.c([],q);++v}else{++v
 if(u!=="\r")o.a+=u}}}q=o.a
 p.push(D.o.aJ(q.charCodeAt(0)==0?q:q))
 o.a=""
-if(D.i.dP(p,new B.bYE()))r.push(p)
+if(D.i.dP(p,new B.bYv()))r.push(p)
 return r},
-cE8(d){var x
+cDY(d){var x
 switch(d.a){case 0:x="Import matters"
 break
 case 1:x="Import contacts"
@@ -28,7 +28,7 @@ break
 case 2:x="Import time entries"
 break
 default:x=null}return x},
-cE7(d){var x
+cDX(d){var x
 switch(d.a){case 0:x="CSV columns: name, case_type (optional). One row per matter."
 break
 case 1:x="CSV columns: name, type (person/org/location), room_name. Contacts are added to the matching room."
@@ -36,43 +36,43 @@ break
 case 2:x="CSV columns: room_name, description, date (YYYY-MM-DD), minutes, billable (true/false), hourly_rate (optional)."
 break
 default:x=null}return x},
-cty(){return new B.yP(null)},
-bYD:function bYD(){},
-bYE:function bYE(){},
-US:function US(d,e){this.a=d
+ctn(){return new B.yP(null)},
+bYu:function bYu(){},
+bYv:function bYv(){},
+UQ:function UQ(d,e){this.a=d
 this.b=e},
 yP:function yP(d){this.a=d},
-arg:function arg(){this.d=$
+are:function are(){this.d=$
 this.c=this.a=null},
 H4:function H4(d,e){this.d=d
 this.a=e},
-a2U:function a2U(){var _=this
+a2T:function a2T(){var _=this
 _.w=!1
 _.y=_.x=null
 _.d=$
 _.c=_.a=null},
-bBx:function bBx(d){this.a=d},
-bBy:function bBy(d){this.a=d},
-bBz:function bBz(d,e){this.a=d
+bBq:function bBq(d){this.a=d},
+bBr:function bBr(d){this.a=d},
+bBs:function bBs(d,e){this.a=d
 this.b=e},
-bBA:function bBA(d,e){this.a=d
+bBt:function bBt(d,e){this.a=d
 this.b=e},
-bBB:function bBB(){},
-bBC:function bBC(d){this.a=d},
-Q_:function Q_(d,e,f,g){var _=this
+bBu:function bBu(){},
+bBv:function bBv(d){this.a=d},
+PY:function PY(d,e,f,g){var _=this
 _.f=d
 _.r=e
 _.b=f
 _.a=g},
-T2:function T2(d,e,f){this.c=d
+T0:function T0(d,e,f){this.c=d
 this.f=e
 this.a=f},
-apk:function apk(d,e){var _=this
+api:function api(d,e){var _=this
 _.d=$
 _.eD$=d
 _.bD$=e
 _.c=_.a=null},
-a7k:function a7k(){}},C,E,F
+a7j:function a7j(){}},C,E,F
 J=c[1]
 A=c[0]
 D=c[2]
@@ -80,44 +80,44 @@ B=a.updateHolder(c[6],B)
 C=c[127]
 E=c[35]
 F=c[128]
-B.US.prototype={
+B.UQ.prototype={
 H(){return"ImportType."+this.b}}
 B.yP.prototype={
-Y(){return new B.arg()}}
-B.arg.prototype={
+Y(){return new B.are()}}
+B.are.prototype={
 C(d){var x=null
-return new B.T2(3,A.hp(A.lM(x,x,x,C.flx,x,x,x,x,C.fu6),x,C.flw,x,x),x)}}
+return new B.T0(3,A.hp(A.lM(x,x,x,C.fls,x,x,x,x,C.fu0),x,C.flr,x,x),x)}}
 B.H4.prototype={
-Y(){return new B.a2U()}}
-B.a2U.prototype={
+Y(){return new B.a2T()}}
+B.a2T.prototype={
 CD(){var x=0,w=A.m(y.v),v,u=2,t=[],s=this,r,q,p,o,n,m,l,k,j
 var $async$CD=A.i(function(d,e){if(d===1){t.push(e)
-x=u}for(;;)switch(x){case 0:s.v(new B.bBx(s))
+x=u}for(;;)switch(x){case 0:s.v(new B.bBq(s))
 u=4
 x=7
-return A.e(E.aOU(A.c(["csv"],y.x),D.Nb,!0),$async$CD)
+return A.e(E.aON(A.c(["csv"],y.x),D.Na,!0),$async$CD)
 case 7:r=e
 l=r
 q=l==null?null:A.im(l)
-if(q==null){s.v(new B.bBy(s))
+if(q==null){s.v(new B.bBr(s))
 x=1
 break}x=8
 return A.e(q.gNC().nU(),$async$CD)
 case 8:p=e
 if(J.aX(p)===0){l=A.dk("The file is empty.")
-throw A.n(l)}o=B.cIA(D.b9.bQ(p))
+throw A.n(l)}o=B.cIp(D.b9.bQ(p))
 if(J.aX(o)<2){l=A.dk("CSV needs a header row plus at least one data row.")
 throw A.n(l)}x=9
 return A.e(s.vX(o),$async$CD)
 case 9:n=e
-s.v(new B.bBz(s,n))
+s.v(new B.bBs(s,n))
 u=2
 x=6
 break
 case 4:u=3
 j=t.pop()
 m=A.E(j)
-s.v(new B.bBA(s,m))
+s.v(new B.bBt(s,m))
 x=6
 break
 case 3:x=2
@@ -125,15 +125,15 @@ break
 case 6:case 1:return A.k(v,w)
 case 2:return A.j(t.at(-1),w)}})
 return A.l($async$CD,w)},
-vX(d){return this.bay(d)},
-bay(b4){var x=0,w=A.m(y.e),v,u=this,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
+vX(d){return this.bat(d)},
+bat(b4){var x=0,w=A.m(y.e),v,u=this,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3
 var $async$vX=A.i(function(b5,b6){if(b5===1)return A.j(b6,w)
-for(;;)switch(x){case 0:a7=u.gaq().X($.du(),y.k)
+for(;;)switch(x){case 0:a7=u.gaq().X($.dx(),y.k)
 a8=D.i.ga7(b4)
 a9=A.a6(a8).i("aa<1,h>")
-b0=A.J(new A.aa(a8,new B.bBB(),a9),a9.i("aj.E"))
+b0=A.J(new A.aa(a8,new B.bBu(),a9),a9.i("ai.E"))
 b1=D.i.iS(b4,1)
-b2=new B.bBC(b0)
+b2=new B.bBv(b0)
 case 3:switch(u.a.d.a){case 0:x=5
 break
 case 1:x=6
@@ -156,7 +156,7 @@ k=a7.CW
 k===$&&A.b()
 k.b.L(0,A.mJ(q,a9,a9))
 x=11
-return A.e(k.ab3("create_case_room",!1,l,r),$async$vX)
+return A.e(k.ab0("create_case_room",!1,l,r),$async$vX)
 case 11:++o
 case 9:b1.length===a8||(0,A.H)(b1),++n
 x=8
@@ -168,14 +168,14 @@ case 6:t=b2.$1("name")
 s=b2.$1("type")
 j=b2.$1("room_name")
 if(t<0||j<0)throw A.n(A.dk('Missing "name" or "room_name" column.'))
-a8=a7.aA("case_rooms").bn("id, name")
+a8=a7.aA("case_rooms").bo("id, name")
 a9=a7.gca().e.a
 r=y.w
 q=A.D(r,r)
 b3=J
 x=12
 return A.e(a8.b0("owner_id",(a9==null?null:a9.r).a),$async$vX)
-case 12:a8=b3.aJ(b6),a9=y.B
+case 12:a8=b3.aI(b6),a9=y.B
 case 13:if(!a8.q()){x=14
 break}p=a9.a(a8.gI())
 q.m(0,J.bg(p.h(0,"name")).toLowerCase(),J.bg(p.h(0,"id")))
@@ -205,14 +205,14 @@ e=b2.$1("minutes")
 if(j<0||g<0||f<0||e<0)throw A.n(A.dk("Missing required columns: room_name, description, date, minutes."))
 d=b2.$1("billable")
 a0=b2.$1("hourly_rate")
-a8=a7.aA("case_rooms").bn("id, name")
+a8=a7.aA("case_rooms").bo("id, name")
 a9=a7.gca().e.a
 r=y.w
 q=A.D(r,r)
 b3=J
 x=19
 return A.e(a8.b0("owner_id",(a9==null?null:a9.r).a),$async$vX)
-case 19:a8=b3.aJ(b6),a9=y.B
+case 19:a8=b3.aI(b6),a9=y.B
 case 20:if(!a8.q()){x=21
 break}p=a9.a(a8.gI())
 q.m(0,J.bg(p.h(0,"name")).toLowerCase(),J.bg(p.h(0,"id")))
@@ -237,8 +237,8 @@ a5.m(0,"room_id",i)
 a6=a7.gca().e.a
 a5.m(0,"user_id",(a6==null?null:a6.r).a)
 a5.m(0,"description",k.h(m,g).length===0?"Imported entry":k.h(m,g))
-a5.m(0,"started_at",a2.d_())
-a5.m(0,"ended_at",a3.d_())
+a5.m(0,"started_at",a2.cY())
+a5.m(0,"ended_at",a3.cY())
 a5.m(0,"billable",!p||k.gu(m)<=d||k.h(m,d).toLowerCase()!=="false")
 if(a9&&k.gu(m)>a0&&k.h(m,a0).length!==0)a5.m(0,"hourly_rate",A.jb(k.h(m,a0)))
 x=25
@@ -252,25 +252,25 @@ x=1
 break
 case 4:case 1:return A.k(v,w)}})
 return A.l($async$vX,w)},
-C(d){var x,w,v,u=this,t=null,s=A.d(d).ok,r=u.a.d,q=A.o(B.cE8(r),t,t,t,t,t,s.f,t,t,t),p=s.z
-r=A.o(B.cE7(r),t,t,t,t,t,p,t,t,t)
+C(d){var x,w,v,u=this,t=null,s=A.d(d).ok,r=u.a.d,q=A.o(B.cDY(r),t,t,t,t,t,s.f,t,t,t),p=s.z
+r=A.o(B.cDX(r),t,t,t,t,t,p,t,t,t)
 x=u.w
-w=x?t:u.gb7E()
+w=x?t:u.gb7z()
 v=y.u
-w=A.c([q,D.R,r,D.aY,A.nL(F.Oe,t,A.o(x?"Importing\u2026":"Choose CSV file",t,t,t,t,t,t,t,t,t),w)],v)
+w=A.c([q,D.R,r,D.b0,A.nK(F.Oc,t,A.o(x?"Importing\u2026":"Choose CSV file",t,t,t,t,t,t,t,t,t),w)],v)
 if(u.w)D.i.L(w,A.c([D.a1,D.bf],v))
 r=u.x
-if(r!=null)D.i.L(w,A.c([D.a1,A.o(r,t,t,t,t,t,p==null?t:p.U(D.pa),t,t,t)],v))
+if(r!=null)D.i.L(w,A.c([D.a1,A.o(r,t,t,t,t,t,p==null?t:p.V(D.pa),t,t,t)],v))
 r=u.y
 if(r!=null){q=s.Q
-D.i.L(w,A.c([D.a1,A.o(r,t,t,t,t,t,q==null?t:q.U(A.d(d).ax.fy),t,t,t)],v))}w.push(D.aY)
+D.i.L(w,A.c([D.a1,A.o(r,t,t,t,t,t,q==null?t:q.V(A.d(d).ax.fy),t,t,t)],v))}w.push(D.b0)
 w.push(A.o("Template",t,t,t,t,t,s.x,t,t,t))
 w.push(D.R)
-r=u.be9(u.a.d)
+r=u.be4(u.a.d)
 q=s.Q
-w.push(A.Mt(r,t,q==null?t:q.UO("monospace")))
-return new A.V(D.bv,A.a1(w,D.b4,t,D.r,D.v,0,D.x),t)},
-be9(d){var x
+w.push(A.YL(r,t,q==null?t:q.UN("monospace")))
+return new A.W(D.bv,A.a2(w,D.b4,t,D.r,D.v,0,D.x),t)},
+be4(d){var x
 switch(d.a){case 0:x="name,case_type\nHarborview Heist,criminal\nMeridian Contract Dispute,civil"
 break
 case 1:x="name,type,room_name\nJane Doe,person,Harborview Heist\nAcme Corp,org,Meridian Contract Dispute"
@@ -278,22 +278,22 @@ break
 case 2:x="room_name,description,date,minutes,billable,hourly_rate\nHarborview Heist,Reviewed witness statements,2026-10-01,90,true,150\nMeridian Contract Dispute,Client call,2026-10-02,30,true,150"
 break
 default:x=null}return x}}
-B.Q_.prototype={
+B.PY.prototype={
 dg(d){return this.r!==d.r||this.f!==d.f}}
-B.T2.prototype={
-Y(){return new B.apk(null,null)},
+B.T0.prototype={
+Y(){return new B.api(null,null)},
 gu(d){return this.c}}
-B.apk.prototype={
+B.api.prototype={
 au(){var x=this
 x.aP()
-x.d=A.bfQ(null,0,x.a.c,x)},
+x.d=A.bfJ(null,0,x.a.c,x)},
 l(){var x=this.d
 x===$&&A.b()
 x.l()
-this.aKh()},
+this.aKd()},
 C(d){var x=this.d
 x===$&&A.b()
-return new B.Q_(x,A.c3X(d),this.a.f,null)},
+return new B.PY(x,A.c3O(d),this.a.f,null)},
 b_(d){var x,w,v,u,t,s=this
 s.bd(d)
 x=s.a.c
@@ -303,8 +303,8 @@ v=w.e
 u=w.d
 if(u>=x){t=Math.max(0,x-1)
 v=u}else t=null
-s.d=w.aR4(null,t,x,v)}s.a.toString}}
-B.a7k.prototype={
+s.d=w.aR_(null,t,x,v)}s.a.toString}}
+B.a7j.prototype={
 l(){var x=this,w=x.bD$
 if(w!=null)w.P(x.ghq())
 x.bD$=null
@@ -313,69 +313,69 @@ c_(){this.cK()
 this.cB()
 this.hr()}}
 var z=a.updateTypes(["M<~>()"])
-B.bYD.prototype={
+B.bYu.prototype={
 $1(d){return d.length!==0},
-$S:12}
-B.bYE.prototype={
+$S:11}
+B.bYv.prototype={
 $1(d){return d.length!==0},
-$S:12}
-B.bBx.prototype={
+$S:11}
+B.bBq.prototype={
 $0(){var x=this.a
 x.w=!0
 x.y=x.x=null},
 $S:0}
-B.bBy.prototype={
+B.bBr.prototype={
 $0(){return this.a.w=!1},
 $S:0}
-B.bBz.prototype={
+B.bBs.prototype={
 $0(){var x=this.a,w=this.b,v=w===1?"":"s"
 x.x="Imported "+w+" row"+v+"."
 x.w=!1},
 $S:0}
-B.bBA.prototype={
+B.bBt.prototype={
 $0(){var x=this.a
 x.y="Import failed: "+A.q(this.b)
 x.w=!1},
 $S:0}
-B.bBB.prototype={
+B.bBu.prototype={
 $1(d){return d.toLowerCase()},
 $S:25}
-B.bBC.prototype={
+B.bBv.prototype={
 $1(d){return D.i.hv(this.a,d)},
-$S:348};(function aliases(){var x=B.a7k.prototype
-x.aKh=x.l})();(function installTearOffs(){var x=a._instance_0u
-x(B.a2U.prototype,"gb7E","CD",0)})();(function inheritance(){var x=a.mixinHard,w=a.inheritMany,v=a.inherit
-w(A.ca,[B.bYD,B.bYE,B.bBB,B.bBC])
-v(B.US,A.hs)
-w(A.hx,[B.yP,B.H4])
-w(A.hh,[B.arg,B.a2U])
-w(A.dd,[B.bBx,B.bBy,B.bBz,B.bBA])
-v(B.Q_,A.bC)
-v(B.T2,A.N)
-v(B.a7k,A.Y)
-v(B.apk,B.a7k)
-x(B.a7k,A.fW)})()
-A.cD(b.typeUniverse,JSON.parse('{"H4":{"N":[],"f":[]},"yP":{"N":[],"f":[]},"arg":{"Y":["yP"]},"a2U":{"Y":["H4"]},"T2":{"N":[],"f":[]},"Q_":{"bC":[],"bs":[],"f":[]},"apk":{"Y":["T2"]}}'))
+$S:346};(function aliases(){var x=B.a7j.prototype
+x.aKd=x.l})();(function installTearOffs(){var x=a._instance_0u
+x(B.a2T.prototype,"gb7z","CD",0)})();(function inheritance(){var x=a.mixinHard,w=a.inheritMany,v=a.inherit
+w(A.ca,[B.bYu,B.bYv,B.bBu,B.bBv])
+v(B.UQ,A.hs)
+w(A.hw,[B.yP,B.H4])
+w(A.hh,[B.are,B.a2T])
+w(A.dd,[B.bBq,B.bBr,B.bBs,B.bBt])
+v(B.PY,A.bC)
+v(B.T0,A.N)
+v(B.a7j,A.Y)
+v(B.api,B.a7j)
+x(B.a7j,A.fW)})()
+A.cD(b.typeUniverse,JSON.parse('{"H4":{"N":[],"f":[]},"yP":{"N":[],"f":[]},"are":{"Y":["yP"]},"a2T":{"Y":["H4"]},"T0":{"N":[],"f":[]},"PY":{"bC":[],"bs":[],"f":[]},"api":{"Y":["T0"]}}'))
 var y=(function rtii(){var x=A.I
 return{g:x("x<v<h>>"),x:x("x<h>"),u:x("x<f>"),B:x("ac<@,@>"),w:x("h"),k:x("fY"),b:x("@"),e:x("w"),q:x("C?"),v:x("~")}})();(function constants(){var x=a.makeConstList
-C.e2J=new B.US(0,"matters")
-C.fD3=new B.H4(C.e2J,null)
-C.e2K=new B.US(1,"contacts")
-C.fD4=new B.H4(C.e2K,null)
-C.e2L=new B.US(2,"timeEntries")
-C.fD5=new B.H4(C.e2L,null)
-C.f_u=x([C.fD3,C.fD4,C.fD5],y.u)
-C.flw=new A.Nn(null,C.f_u,null)
-C.e_6=new A.af(58019,"MaterialIcons",null,!1)
-C.e0u=new A.aG(C.e_6,null,null,null,null)
-C.flC=new A.iP("Matters",C.e0u,null)
-C.e_j=new A.af(58502,"MaterialIcons",null,!1)
-C.e0D=new A.aG(C.e_j,null,null,null,null)
-C.flI=new A.iP("Contacts",C.e0D,null)
-C.e_u=new A.af(58978,"MaterialIcons",null,!1)
-C.e1v=new A.aG(C.e_u,null,null,null,null)
-C.flD=new A.iP("Time",C.e1v,null)
-C.eP3=x([C.flC,C.flI,C.flD],y.u)
-C.flx=new A.Nl(C.eP3,null,!1,null,null,null,null,null,null,null,null)
-C.fu6=new A.a0("Import data",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["rGipHuhhh9XjIiYAwEDlbA6Nfvs="]=a.current})($__dart_deferred_initializers__);
+C.e2G=new B.UQ(0,"matters")
+C.fCY=new B.H4(C.e2G,null)
+C.e2H=new B.UQ(1,"contacts")
+C.fCZ=new B.H4(C.e2H,null)
+C.e2I=new B.UQ(2,"timeEntries")
+C.fD_=new B.H4(C.e2I,null)
+C.f_r=x([C.fCY,C.fCZ,C.fD_],y.u)
+C.flr=new A.Nl(null,C.f_r,null)
+C.e_4=new A.ag(58019,"MaterialIcons",null,!1)
+C.e0t=new A.aJ(C.e_4,null,null,null,null)
+C.flx=new A.iP("Matters",C.e0t,null)
+C.e_h=new A.ag(58502,"MaterialIcons",null,!1)
+C.e0C=new A.aJ(C.e_h,null,null,null,null)
+C.flD=new A.iP("Contacts",C.e0C,null)
+C.e_s=new A.ag(58978,"MaterialIcons",null,!1)
+C.e1s=new A.aJ(C.e_s,null,null,null,null)
+C.fly=new A.iP("Time",C.e1s,null)
+C.eP0=x([C.flx,C.flD,C.fly],y.u)
+C.fls=new A.Nj(C.eP0,null,!1,null,null,null,null,null,null,null,null)
+C.fu0=new A.a0("Import data",null,null,null,null,null,null,null,null,null,null)})()};
+(a=>{a["hlYelZd4z9tl+lR/cQu+e3NVccs="]=a.current})($__dart_deferred_initializers__);

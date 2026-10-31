@@ -1,40 +1,40 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var D,A,B={
-c2v(d,e){var x,w,v,u=d.b,t=e.b
+c2m(d,e){var x,w,v,u=d.b,t=e.b
 if(u>=t){x=t
 t=u
 u=x}w=d.a
 v=e.a
 if(w>=v){x=v
 v=w
-w=x}return new B.afo(v,w,t,u)},
-afo:function afo(d,e,f,g){var _=this
+w=x}return new B.afm(v,w,t,u)},
+afm:function afm(d,e,f,g){var _=this
 _.a=d
 _.b=e
 _.c=f
 _.d=g},
-c21(d,e){return new B.aPn(d,e)},
-aFT:function aFT(){},
-aPn:function aPn(d,e){this.a=d
+c1T(d,e){return new B.aPg(d,e)},
+aFR:function aFR(){},
+aPg:function aPg(d,e){this.a=d
 this.b=e}},C,E
 D=c[0]
 A=c[2]
 B=a.updateHolder(c[48],B)
 C=c[37]
 E=c[36]
-B.afo.prototype={
+B.afm.prototype={
 gt(d){var x=this
 return D.a8(x.b,x.a,x.c,x.d,A.b,A.b,A.b,A.b,A.b,A.b,A.b,A.b,A.b,A.b,A.b,A.b,A.b,A.b,A.b,A.b)},
 k(d,e){var x,w=this
 if(e==null)return!1
-if(w!==e)x=e instanceof B.afo&&e.a===w.a&&e.b===w.b&&e.c===w.c&&e.d===w.d
+if(w!==e)x=e instanceof B.afm&&e.a===w.a&&e.b===w.b&&e.c===w.c&&e.d===w.d
 else x=!0
 return x},
 j(d){var x=this
 return"LatLngBounds(north: "+D.q(x.a)+", south: "+D.q(x.b)+", east: "+D.q(x.c)+", west: "+D.q(x.d)+")"}}
-B.aFT.prototype={}
-B.aPn.prototype={
-bo9(a3){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this.b,a0=y.f,a1=new C.co(d.a,d.b,a0),a2=new C.co(d.c,d.d,a0)
+B.aFR.prototype={}
+B.aPg.prototype={
+bo2(a3){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d=this.b,a0=y.f,a1=new C.co(d.a,d.b,a0),a2=new C.co(d.c,d.d,a0)
 d=this.a
 x=d.a
 w=d.d
@@ -65,10 +65,10 @@ g=a3.pd(new E.kK(v,w),i)
 f=a3.pd(new E.kK(x,d),i)
 if(o){d=q*0.017453292519943295
 a0=-d
-e=C.Lt(C.vZ(C.Lt(g,a0).a0(0,C.Lt(f,a0)),2).a0(0,h),d)}else e=C.vZ(g.a0(0,f),2).a0(0,h)
-return a3.aAk(a3.No(e,i),i)}}
+e=C.Ls(C.vZ(C.Ls(g,a0).a0(0,C.Ls(f,a0)),2).a0(0,h),d)}else e=C.vZ(g.a0(0,f),2).a0(0,h)
+return a3.aAh(a3.No(e,i),i)}}
 var z=a.updateTypes([]);(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(D.C,[B.afo,B.aFT])
-w(B.aPn,B.aFT)})()
+x(D.C,[B.afm,B.aFR])
+w(B.aPg,B.aFR)})()
 var y={f:D.I("co<Z>"),b:D.I("Z")}};
-(a=>{a["SD+nvz1K/lKhh1BSpOFKGv5qlZA="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["rg9kxOl++PzNJfiadvRNyXiLCsQ="]=a.current})($__dart_deferred_initializers__);
