@@ -49,7 +49,7 @@ brz(d){var x=0,w=A.m(y.k),v,u=this,t,s
 var $async$M4=A.i(function(e,f){if(e===1)return A.j(f,w)
 for(;;)switch(x){case 0:s=J
 x=3
-return A.e(u.a.aA("ai_agents").bo("id, display_name, description, case_type").b0("is_active",!0).aa6("case_type.is.null,case_type.eq."+d).p7("display_name"),$async$M4)
+return A.e(u.a.aA("ai_agents").bo("id, display_name, description, case_type").b0("is_active",!0).aa7("case_type.is.null,case_type.eq."+d).p7("display_name"),$async$M4)
 case 3:t=s.bL(f,new B.bdS(),y.Y)
 t=A.J(t,t.$ti.i("ai.E"))
 v=t
@@ -149,4 +149,4 @@ A.cD(b.typeUniverse,JSON.parse('{"MX":{"aBM":[]}}'))
 var y=(function rtii(){var x=A.I
 return{Y:x("jW"),m:x("lL"),s:x("x<h>"),k:x("v<jW>"),j:x("v<@>"),P:x("aa<h,@>"),f:x("aa<@,@>"),N:x("h"),A:x("fY"),z:x("@"),T:x("h?"),H:x("~")}})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cRh","a9_",()=>A.ej(new B.bVW(),A.I("aBM")))})()};
-(a=>{a["mrmTvDjWz9P+9MYPXrnSmABU8YU="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["lOj4y5ih006ql3ZPmEilO1HXckE="]=a.current})($__dart_deferred_initializers__);
