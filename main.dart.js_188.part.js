@@ -165,7 +165,7 @@ if(e!=null){r.v(new B.bGy(r,e))
 x=1
 break}r.v(new B.bGz(r))
 u=4
-f=r.gal()
+f=r.gam()
 p=f.W($.Rf(),y.R)
 m=m.a.a
 k=k.a.a
@@ -174,7 +174,7 @@ o=r.ax
 x=7
 return A.d(p.Z4(i,m,o,o!=r.ay,k),$async$Se)
 case 7:r.ay=r.ax
-f.by($.BY())
+f.by($.BX())
 if(r.c!=null)r.v(new B.bGA(r))
 s.push(6)
 x=5
@@ -199,10 +199,10 @@ PT(){var x=0,w=A.n(y.H),v=1,u=[],t=this,s,r,q,p
 var $async$PT=A.j(function(d,e){if(d===1){u.push(e)
 x=v}for(;;)switch(x){case 0:t.v(new B.bGu(t))
 v=3
-r=t.gal()
+r=t.gam()
 x=6
 return A.d(r.W($.Rf(),y.R).By(),$async$PT)
-case 6:r.by($.BY())
+case 6:r.by($.BX())
 v=1
 x=5
 break
@@ -222,10 +222,10 @@ Sm(){var x=0,w=A.n(y.H),v=1,u=[],t=this,s,r,q,p
 var $async$Sm=A.j(function(d,e){if(d===1){u.push(e)
 x=v}for(;;)switch(x){case 0:t.v(new B.bGw(t))
 v=3
-r=t.gal()
+r=t.gam()
 x=6
 return A.d(r.W($.Rf(),y.R).FD(),$async$Sm)
-case 6:r.by($.BY())
+case 6:r.by($.BX())
 v=1
 x=5
 break
@@ -241,7 +241,7 @@ break
 case 5:return A.l(null,w)
 case 1:return A.k(u.at(-1),w)}})
 return A.m($async$Sm,w)},
-C(d){var x,w=null,v=A.e(d),u=this.gal(),t=u.V($.BY(),y.J)
+C(d){var x,w=null,v=A.e(d),u=this.gam(),t=u.V($.BX(),y.J)
 u=u.V($.dH(),y.K).gp()
 x=u==null?w:u.b
 if(x==null)x=""
@@ -263,7 +263,7 @@ B.a3M.prototype={
 Y(){return new B.a3N()}}
 B.a3N.prototype={
 ar(){this.aQ()
-this.w=A.Fh()},
+this.w=A.Fg()},
 b80(){this.v(new B.bEL(this))},
 Sd(){var x=0,w=A.n(y.H),v=this
 var $async$Sd=A.j(function(d,e){if(d===1)return A.k(e,w)
@@ -292,7 +292,7 @@ break}r.v(new B.bvj(r))
 u=5
 x=8
 return A.d(B.ajt(),$async$zf)
-case 8:o=r.gal()
+case 8:o=r.gam()
 x=9
 return A.d(o.W($.c_P(),y.g).FH(),$async$zf)
 case 9:x=10
@@ -339,7 +339,7 @@ return A.d(A.da(null,null,!0,null,new B.bER(),q,null,!0,y.y),$async$Hs)
 case 3:if(e!==!0||r.c==null){x=1
 break}r.v(new B.bES(r))
 u=4
-q=r.gal()
+q=r.gam()
 x=7
 return A.d(q.W($.Ra(),y.P).a0(0),$async$Hs)
 case 7:q.by($.a9h())
@@ -357,7 +357,7 @@ break
 case 6:case 1:return A.l(v,w)
 case 2:return A.k(t.at(-1),w)}})
 return A.m($async$Hs,w)},
-C(d){var x=null,w=A.e(d).ok,v=this.gal().V($.a9h(),y.o),u=w.x
+C(d){var x=null,w=A.e(d).ok,v=this.gam().V($.a9h(),y.o),u=w.x
 return A.a5(A.c([A.p("Offline cache",x,x,x,x,x,u==null?x:u.dD(C.ax),x,x,x),C.V,A.js(A.eP(v,new B.bEU(this,w,d),new B.bEV(),new B.bEW(),!1,!0,!1),x,x,C.ac,x,x)],y.p),C.S,x,C.r,C.w,0,C.A)}}
 var z=a.updateTypes(["M<~>()","h(iw?)","h(w<n4>)","M<w<n4>>(at)"])
 B.bGy.prototype={
@@ -439,7 +439,7 @@ w=A.p("Only join and create cases of this type. A niche is required.",j,j,j,j,j,
 p=x.ax
 o=A.c([],y.I)
 for(n=y.r,m=0;m<5;++m){l=C.DD[m]
-o.push(new A.eR(l.a,A.p(l.b,j,j,j,j,j,j,j,j,j),C.dD,j,n))}C.i.L(v,A.c([t,C.a0,s,C.a0,r,C.a0,q,C.bV,w,C.V,A.yn(C.Og,p,o,D.fyi,new B.bGF(x),j,y.N),C.bh],u))}else{t=d.b
+o.push(new A.eR(l.a,A.p(l.b,j,j,j,j,j,j,j,j,j),C.dD,j,n))}C.i.L(v,A.c([t,C.a0,s,C.a0,r,C.a0,q,C.bV,w,C.V,A.yn(C.Og,p,o,D.fyh,new B.bGF(x),j,y.N),C.bh],u))}else{t=d.b
 s=w.f
 u=A.c([A.p(t,j,j,j,j,j,s==null?j:s.dD(C.ax),j,j,j)],u)
 t=d.d
@@ -463,9 +463,9 @@ C.i.L(v,u)}v.push(new B.asP(j))
 v.push(C.cF)
 v.push(new B.a3M(d.a,j))
 v.push(C.cF)
-v.push(D.fBw)
+v.push(D.fBv)
 v.push(C.cF)
-v.push(D.fCr)
+v.push(D.fCq)
 return A.b5n(A.j6(v,j,C.bA,j,C.a7,!1),new B.bGG(x))},
 $S:z+1}
 B.bGG.prototype={
@@ -473,7 +473,7 @@ $0(){var x=0,w=A.n(y.H),v=this,u
 var $async$$0=A.j(function(d,e){if(d===1)return A.k(e,w)
 for(;;)switch(x){case 0:u=v.a
 u.at=!1
-u.gal().by($.BY())
+u.gam().by($.BX())
 return A.l(null,w)}})
 return A.m($async$$0,w)},
 $S:2}
@@ -485,7 +485,7 @@ B.bGD.prototype={
 $0(){return this.a.ax=this.b},
 $S:0}
 B.bEL.prototype={
-$0(){return this.a.w=A.Fh()},
+$0(){return this.a.w=A.Fg()},
 $S:0}
 B.bEJ.prototype={
 $0(){return this.a.x=!0},
@@ -538,7 +538,7 @@ $S:z+2}
 B.bvi.prototype={
 $1(d){var x=null,w=A.bC(C.bs,x,x,x,new B.bvg(d),x,x),v=this.a.c
 v.toString
-return A.dD(A.c([w,A.dl(D.a6T,x,new B.bvh(d),A.yv(A.e(v).ax.fy,x,x,x,x,x,x))],y.p),D.fsU,x,D.fsD)},
+return A.dD(A.c([w,A.dl(D.a6T,x,new B.bvh(d),A.yv(A.e(v).ax.fy,x,x,x,x,x,x))],y.p),D.fsT,x,D.fsD)},
 $S:13}
 B.bvg.prototype={
 $0(){return A.au(this.a,!1).b0(!1)},
@@ -554,7 +554,7 @@ $0(){return this.a.w=!1},
 $S:0}
 B.bER.prototype={
 $1(d){var x=null
-return A.dD(A.c([A.bC(C.bs,x,x,x,new B.bEP(d),x,x),A.dl(F.FY,D.fyp,new B.bEQ(d),x)],y.p),D.ft6,x,D.ftm)},
+return A.dD(A.c([A.bC(C.bs,x,x,x,new B.bEP(d),x,x),A.dl(F.FY,D.fyo,new B.bEQ(d),x)],y.p),D.ft5,x,D.ftl)},
 $S:13}
 B.bEP.prototype={
 $0(){return A.au(this.a,!1).b0(!1)},
@@ -585,8 +585,8 @@ else w=w.X(A.e(this.c).ax.a===C.p?C.E:C.F)
 w=A.p(x,u,u,u,u,u,w,u,u,u)
 v=this.a
 if(v.w)t=C.eR
-else{v=A.bC(D.fr0,D.fx_,u,u,t&&d.a>0?v.gaPI():u,u,u)
-t=v}return A.el(!1,u,u,u,!0,u,u,u,!0,u,D.fy8,D.O_,u,u,u,u,u,!1,u,u,u,u,w,u,D.a6O,u,t,u)},
+else{v=A.bC(D.fr0,D.fwZ,u,u,t&&d.a>0?v.gaPI():u,u,u)
+t=v}return A.el(!1,u,u,u,!0,u,u,u,!0,u,D.fy7,D.O_,u,u,u,u,u,!1,u,u,u,u,w,u,D.a6O,u,t,u)},
 $S:1184}
 B.bY2.prototype={
 $1(d){return this.aAQ(d)},
@@ -615,7 +615,7 @@ w(B.au2,A.a3)
 w(B.asP,A.c0)})()
 A.d1(b.typeUniverse,JSON.parse('{"a3M":{"N":[],"h":[]},"a2i":{"N":[],"h":[]},"a3Q":{"N":[],"h":[]},"zM":{"N":[],"h":[]},"a4c":{"Y":["zM"]},"au2":{"a3":[],"h":[]},"a3N":{"Y":["a3M"]},"asP":{"c0":[],"N":[],"h":[]},"a2j":{"Y":["a2i"]},"a3R":{"Y":["a3Q"]}}'))
 var y=(function rtii(){var x=A.O
-return{o:x("aW<qg>"),G:x("aW<w<n4>>"),K:x("aW<hG?>"),J:x("aW<iw?>"),r:x("eR<f>"),g:x("D3"),P:x("va"),L:x("aG"),a:x("M<hG?>"),I:x("y<eR<f>>"),p:x("y<h>"),F:x("w<n4>"),R:x("wc"),Q:x("qT"),N:x("f"),O:x("L<f>"),l:x("h"),q:x("hz"),y:x("B"),S:x("iw?"),H:x("~")}})();(function constants(){D.frj=new A.a4("Not signed in.",null,null,null,null,null,null,null,null,null,null)
+return{o:x("aW<qg>"),G:x("aW<w<n4>>"),K:x("aW<hG?>"),J:x("aW<iw?>"),r:x("eR<f>"),g:x("D2"),P:x("va"),L:x("aG"),a:x("M<hG?>"),I:x("y<eR<f>>"),p:x("y<h>"),F:x("w<n4>"),R:x("wc"),Q:x("qT"),N:x("f"),O:x("L<f>"),l:x("h"),q:x("hz"),y:x("B"),S:x("iw?"),H:x("~")}})();(function constants(){D.frj=new A.a4("Not signed in.",null,null,null,null,null,null,null,null,null,null)
 D.afe=new A.fM(C.ai,null,null,D.frj,null)
 D.e_o=new A.ai(62004,"MaterialIcons",null,!1)
 D.e_p=new A.ai(62006,"MaterialIcons",null,!1)
@@ -646,15 +646,15 @@ D.fr0=new A.a4("Clear cache",null,null,null,null,null,null,null,null,null,null)
 D.fs5=new A.a4("Encryption identity",null,null,null,null,null,null,null,null,null,null)
 D.fsD=new A.a4("Reset encryption identity?",null,null,null,null,null,null,null,null,null,null)
 D.a6T=new A.a4("Reset",null,null,null,null,null,null,null,null,null,null)
-D.fsU=new A.a4("This generates a new encryption key on this device. You will lose access to encrypted evidence until the room owner re-shares the room keys with you.",null,null,null,null,null,null,null,null,null,null)
-D.ft6=new A.a4("Removes all cached evidence copies from this device. Items re-cache automatically the next time you open them while online.",null,null,null,null,null,null,null,null,null,null)
-D.ftm=new A.a4("Clear offline cache?",null,null,null,null,null,null,null,null,null,null)
-D.fx_=new A.L("cache-clear",y.O)
-D.fy8=new A.L("cache-section",y.O)
-D.fyi=new A.L("profile-niche-dropdown",y.O)
-D.fyp=new A.L("cache-clear-confirm",y.O)
-D.fBw=new B.a2i(null)
-D.fCr=new B.a3Q(null)})();(function lazyInitializers(){var x=a.lazyFinal
+D.fsT=new A.a4("This generates a new encryption key on this device. You will lose access to encrypted evidence until the room owner re-shares the room keys with you.",null,null,null,null,null,null,null,null,null,null)
+D.ft5=new A.a4("Removes all cached evidence copies from this device. Items re-cache automatically the next time you open them while online.",null,null,null,null,null,null,null,null,null,null)
+D.ftl=new A.a4("Clear offline cache?",null,null,null,null,null,null,null,null,null,null)
+D.fwZ=new A.L("cache-clear",y.O)
+D.fy7=new A.L("cache-section",y.O)
+D.fyh=new A.L("profile-niche-dropdown",y.O)
+D.fyo=new A.L("cache-clear-confirm",y.O)
+D.fBv=new B.a2i(null)
+D.fCq=new B.a3Q(null)})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cMM","ckR",()=>A.cf("^[a-z0-9_]{3,20}$",!0,!1))
-x($,"cSa","cnm",()=>A.DB(new B.bY2(),y.F))})()};
-(a=>{a["vkV0rYalaGvdpBmjv+ziKFfPF4w="]=a.current})($__dart_deferred_initializers__);
+x($,"cSa","cnm",()=>A.DA(new B.bY2(),y.F))})()};
+(a=>{a["HcKEjSnqgsuiFF2CEwyz3ZwrFu4="]=a.current})($__dart_deferred_initializers__);

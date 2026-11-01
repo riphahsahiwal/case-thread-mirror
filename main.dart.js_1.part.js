@@ -1,7 +1,7 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A,D={
-c3v(){return new D.Gx(null)},
-Gx:function Gx(d){this.a=d},
+c3v(){return new D.Gw(null)},
+Gw:function Gw(d){this.a=d},
 bhW:function bhW(d,e,f){this.a=d
 this.b=e
 this.c=f}},C,E,F,G,H
@@ -13,7 +13,7 @@ E=c[154]
 F=c[120]
 G=c[104]
 H=c[99]
-D.Gx.prototype={
+D.Gw.prototype={
 C(d){var x,w,v,u,t,s,r,q,p=this,o=null,n=B.e(d).ok,m=B.xT(o,o,o,C.fqH),l=(B.e(d).ax.a===A.p?A.aT:A.ab).aN(0.12),k=B.b3(18),j=B.bT(B.e(d).ax.a===A.p?A.aG:A.cZ,A.O,1)
 l=B.as(o,B.aS(A.p0,B.e(d).ax.a===A.p?A.aT:A.ab,o,o,32),A.C,o,o,new B.aC(l,o,j,k,o,o,A.X),o,64,o,o,o,o,o,64)
 k=B.p("Trust Center",o,o,o,o,o,n.e,o,o,o)
@@ -54,9 +54,9 @@ D.bhW.prototype={
 $1(d){var x=null,w=B.as(x,x,A.C,x,x,new B.aC(this.a.aN(0.7),x,x,x,x,x,A.bO),x,6,x,x,x,x,x,6),v=this.b.z
 return new B.a0(H.mn,B.am(B.c([new B.a0(C.aj0,w,x),A.bb,B.aN(B.p(d,x,x,x,x,x,v==null?x:v.X(B.e(this.c).ax.k3.aN(0.85)),x,x,x),1,x)],y.e),A.S,x,A.r,A.w,0,x),x)},
 $S:1214};(function inheritance(){var x=a.inherit
-x(D.Gx,B.a3)
+x(D.Gw,B.a3)
 x(D.bhW,B.cC)})()
-B.d1(b.typeUniverse,JSON.parse('{"Gx":{"a3":[],"h":[]}}'))
+B.d1(b.typeUniverse,JSON.parse('{"Gw":{"a3":[],"h":[]}}'))
 var y={h:B.O("y<f>"),e:B.O("y<h>"),a:B.O("L<f>")};(function constants(){var x=a.makeConstList
 C.aaQ=new B.aw(0,760,0,1/0)
 C.aj0=new B.ag(0,7,0,0)
@@ -72,4 +72,4 @@ C.ePO=x(["Security (CC6\u2013CC8): logical access is enforced by Row Level Secur
 C.eRo=x(["If we detect or are told about a security incident, we contain it first, then assess what data was affected using the append-only audit log.","Affected users are notified without undue delay with what happened, what data was involved, and what we did about it.",'To report a suspected vulnerability or incident, email abdullahhshafiquee@gmail.com with "SECURITY" in the subject line.'],y.h)
 C.eVx=x(["Encryption at rest: all data lives on Supabase\u2019s managed Postgres and Storage, which encrypt data at rest.","Encryption in transit: every connection to Supabase and the web app runs over TLS.","Row Level Security: enforced at the database on 46 tables, so users can only read or write rows they have a right to see \u2014 no matter what the client asks for.","Append-only audit log: every security-relevant action (membership changes, evidence uploads, exports, status transitions) is recorded in an audit_log table whose immutability is enforced by the database itself \u2014 UPDATE and DELETE are revoked even for privileged roles and blocked by a trigger.",'Evidence integrity: every evidence file carries a SHA-256 hash that can be re-verified at any time ("Verify hash") to prove it has not been altered.',"Evidence access logging: who viewed or downloaded each evidence item is recorded in an access audit trail visible to room members.","Authentication: Supabase Auth with session tokens; authorization is derived from membership and role, checked in database policies \u2014 never trusted from the client."],y.h)
 C.fqH=new B.a4("Trust Center",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["qOJsP2J7zffdU0djFx82F4Co+1s="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["/4aYPfB+uUDCHe+QAAukHtY8xNQ="]=a.current})($__dart_deferred_initializers__);

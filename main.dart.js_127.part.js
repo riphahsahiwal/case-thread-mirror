@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A,D,B={bs4:function bs4(){},a2y:function a2y(d,e){this.a=d
-this.b=e},Dp:function Dp(d,e,f,g,h,i,j,k){var _=this
+this.b=e},Do:function Do(d,e,f,g,h,i,j,k){var _=this
 _.c=d
 _.d=e
 _.y=f
@@ -64,7 +64,7 @@ B.bs4.prototype={
 j(d){return"<default FloatingActionButton tag>"}}
 B.a2y.prototype={
 H(){return"_FloatingActionButtonType."+this.b}}
-B.Dp.prototype={
+B.Do.prototype={
 C(a5){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1,a2=this,a3=null,a4=A.e(a5)
 a5.S(y.d)
 x=A.e(a5).aB
@@ -193,12 +193,12 @@ x(w=B.a4J.prototype,"gca","bG",0)
 x(w,"gcc","bF",0)})();(function inheritance(){var x=a.inherit
 x(B.bs4,A.D)
 x(B.a2y,A.hy)
-x(B.Dp,A.a3)
+x(B.Do,A.a3)
 x(B.aqj,A.a06)
 x(B.aoo,A.bF)
 x(B.a4J,A.Mk)
 x(B.byl,A.Ke)})()
-A.d1(b.typeUniverse,JSON.parse('{"Dp":{"a3":[],"h":[]},"aqj":{"eC":[],"cT":["eC"]},"aoo":{"bF":[],"aQ":[],"h":[]},"a4J":{"V":[],"bx":["V"],"U":[],"b4":[]},"crW":{"e6":[],"bK":[],"bv":[],"h":[]}}'))
+A.d1(b.typeUniverse,JSON.parse('{"Do":{"a3":[],"h":[]},"aqj":{"eC":[],"cT":["eC"]},"aoo":{"bF":[],"aQ":[],"h":[]},"a4J":{"V":[],"bx":["V"],"U":[],"b4":[]},"crW":{"e6":[],"bK":[],"bv":[],"h":[]}}'))
 var y={a:A.O("aw"),o:A.O("k2"),d:A.O("crW"),e:A.O("y<h>"),l:A.O("eC?")};(function constants(){C.Hv=new A.aw(40,40,40,40)
 C.Hw=new A.aw(56,56,56,56)
 C.Hx=new A.aw(96,96,96,96)
@@ -207,7 +207,7 @@ C.zL=new B.bs4()
 C.xJ=new A.bj(16,16)
 C.aam=new A.di(C.xJ,C.xJ,C.xJ,C.xJ)
 C.a4z=new A.eh(C.aam,D.a6)
-C.fBz=new B.a2y(0,"regular")
-C.fBA=new B.a2y(1,"small")
+C.fBy=new B.a2y(0,"regular")
+C.fBz=new B.a2y(1,"small")
 C.a8h=new B.a2y(3,"extended")})()};
-(a=>{a["VM0UPFNwWfNUR9s6NaOriWzixhU="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["l7Pj1f0iDmqSWqz4/qTWvWHPPxE="]=a.current})($__dart_deferred_initializers__);

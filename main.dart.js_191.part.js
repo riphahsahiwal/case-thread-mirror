@@ -1,5 +1,5 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,E,B={CW:function CW(d,e,f,g){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,E,B={CV:function CV(d,e,f,g){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -12,7 +12,7 @@ D=c[2]
 E=c[54]
 B=a.updateHolder(c[40],B)
 C=c[95]
-B.CW.prototype={
+B.CV.prototype={
 v9(){var x=0,w=A.n(y.g),v,u=this,t,s,r,q,p,o,n,m,l,k,j,i
 var $async$v9=A.j(function(d,e){if(d===1)return A.k(e,w)
 for(;;)switch(x){case 0:x=3
@@ -33,7 +33,7 @@ E.crr(r,"text/plain",p)
 o=new A.act()
 n=D.kW.kU(o)
 n.B(0,q)
-n.am()
+n.al()
 x=8
 return A.d(k.byb(new A.LX(r,"text/plain",q,p,A.BL(o.a.a)),i),$async$v9)
 case 8:case 6:++t
@@ -58,21 +58,21 @@ B.a1P.prototype={}
 B.OH.prototype={}
 var z=a.updateTypes([])
 B.bWM.prototype={
-$1(d){return new B.CW(d.V($.iW(),y.a),d.V($.jq(),y.d),d.V($.dM(),y.e),new B.bWL(d))},
+$1(d){return new B.CV(d.V($.iW(),y.a),d.V($.jq(),y.d),d.V($.dM(),y.e),new B.bWL(d))},
 $S:1181}
 B.bWL.prototype={
 $0(){return this.a.V($.c74(),y.f).NL()},
 $S:1182};(function inheritance(){var x=a.inheritMany,w=a.inherit
-x(A.D,[B.CW,B.a1P,B.OH])
+x(A.D,[B.CV,B.a1P,B.OH])
 w(B.bWM,A.cC)
 w(B.bWL,A.dz)})()
-var y={f:A.O("c0H"),d:A.O("Da"),e:A.O("Fz"),a:A.O("YE"),g:A.O("f")};(function constants(){var x=a.makeConstList
-C.fBh=new B.OH("02:14 \u2014 North-gate security camera goes offline (storm window).","fact")
-C.fBi=new B.OH("02:31 \u2014 Alarm triggered at the marina fuel dock; side gate found ajar.","fact")
-C.fBg=new B.OH("Witness: dark van seen leaving toward Harborview Rd ~02:47.","claim")
-C.eVR=x([C.fBh,C.fBi,C.fBg],A.O("y<OH>"))
-C.fBe=new B.a1P("demo-harborview-incident-summary.md","# Harborview Marina \u2014 Incident Summary\n\n**Case:** Demo: Harborview Heist\n**Reported:** 2026-10-09, 03:05 by marina night guard\n**What happened:** Sometime between 02:00 and 03:00, the marina office\nwas broken into. A safe containing the weekend's mooring fees\n(approx. $4,200) was forced open, and two handheld radios are missing.\n\n**Scene notes:**\n- Side gate found ajar; no sign of forced entry on the main door.\n- North-gate security camera went offline at 02:14 (storm in the area).\n- Alarm triggered at the fuel dock at 02:31.\n\n**Status:** Demo evidence \u2014 explore the vault, timeline and AI analysis\nto see how a CaseThread room works.\n")
-C.fBf=new B.a1P("demo-harborview-witness-statement.md",'# Witness Statement \u2014 R. Alvarez (dockhand)\n\n**Taken:** 2026-10-09, 07:40 by the night guard\n\n> "I was securing the lines on pier C around quarter to three when I\n> heard a van door slide shut near the north lot. Dark van, no plates\n> I could make out. It pulled out fast toward Harborview Road. I\n> didn\'t see faces \u2014 it was raining hard."\n\n**Investigator note (demo):** Statement is uncorroborated. Cross-check\nagainst the 02:14 camera outage and the 02:31 fuel-dock alarm on the\ntimeline.\n')
-C.f6q=x([C.fBe,C.fBf],A.O("y<a1P>"))})();(function lazyInitializers(){var x=a.lazyFinal
-x($,"cRA","cnh",()=>A.eX(new B.bWM(),A.O("CW")))})()};
-(a=>{a["UPO+kWP+quM6N0r5pd/EXecenug="]=a.current})($__dart_deferred_initializers__);
+var y={f:A.O("c0H"),d:A.O("D9"),e:A.O("Fy"),a:A.O("YE"),g:A.O("f")};(function constants(){var x=a.makeConstList
+C.fBg=new B.OH("02:14 \u2014 North-gate security camera goes offline (storm window).","fact")
+C.fBh=new B.OH("02:31 \u2014 Alarm triggered at the marina fuel dock; side gate found ajar.","fact")
+C.fBf=new B.OH("Witness: dark van seen leaving toward Harborview Rd ~02:47.","claim")
+C.eVR=x([C.fBg,C.fBh,C.fBf],A.O("y<OH>"))
+C.fBd=new B.a1P("demo-harborview-incident-summary.md","# Harborview Marina \u2014 Incident Summary\n\n**Case:** Demo: Harborview Heist\n**Reported:** 2026-10-09, 03:05 by marina night guard\n**What happened:** Sometime between 02:00 and 03:00, the marina office\nwas broken into. A safe containing the weekend's mooring fees\n(approx. $4,200) was forced open, and two handheld radios are missing.\n\n**Scene notes:**\n- Side gate found ajar; no sign of forced entry on the main door.\n- North-gate security camera went offline at 02:14 (storm in the area).\n- Alarm triggered at the fuel dock at 02:31.\n\n**Status:** Demo evidence \u2014 explore the vault, timeline and AI analysis\nto see how a CaseThread room works.\n")
+C.fBe=new B.a1P("demo-harborview-witness-statement.md",'# Witness Statement \u2014 R. Alvarez (dockhand)\n\n**Taken:** 2026-10-09, 07:40 by the night guard\n\n> "I was securing the lines on pier C around quarter to three when I\n> heard a van door slide shut near the north lot. Dark van, no plates\n> I could make out. It pulled out fast toward Harborview Road. I\n> didn\'t see faces \u2014 it was raining hard."\n\n**Investigator note (demo):** Statement is uncorroborated. Cross-check\nagainst the 02:14 camera outage and the 02:31 fuel-dock alarm on the\ntimeline.\n')
+C.f6q=x([C.fBd,C.fBe],A.O("y<a1P>"))})();(function lazyInitializers(){var x=a.lazyFinal
+x($,"cRA","cnh",()=>A.eX(new B.bWM(),A.O("CV")))})()};
+(a=>{a["IhjEm5bNbTZm6khfxBF+ABthzTs="]=a.current})($__dart_deferred_initializers__);

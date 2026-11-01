@@ -1,7 +1,7 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,H,F,I,K,C={bZN:function bZN(){},
-cxc(d){return new C.G3(d,null)},
-G3:function G3(d,e){this.e=d
+cxc(d){return new C.G2(d,null)},
+G2:function G2(d,e){this.e=d
 this.a=e},
 bc8:function bc8(){},
 bc7:function bc7(){},
@@ -76,10 +76,10 @@ N=c[119]
 O=c[114]
 G=c[57]
 E=c[161]
-C.G3.prototype={
+C.G2.prototype={
 cw(d,e){var w=null,v=e.V($.c_Z().$1(this.e),x.r),u=A.e(d),t=A.xT(w,w,w,B.a6S)
 u=A.eP(v,new C.bc6(this,u.ok,e),new C.bc7(),new C.bc8(),!1,!0,!1)
-return A.kj(t,w,u,w,new H.Dp(B.r1,"New signature request",F.zL,new C.bc9(this,d,e),!1,F.fBz,w,w))},
+return A.kj(t,w,u,w,new H.Do(B.r1,"New signature request",F.zL,new C.bc9(this,d,e),!1,F.fBy,w,w))},
 bcZ(d){var w
 switch(d.a){case 0:w=M.Ct
 break
@@ -206,8 +206,8 @@ return new A.nf(new C.bc1(w.a,w.b,w.c,w.d,w.e,w.f,w.r,w.w),null)},
 $S:71}
 C.bc1.prototype={
 $2(d,e){var w=this,v=null,u=x.u,t=A.c([A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.c,v,v,v,v,v,2,D.e2G,B.U,!0,v,!0,v,!1,v,B.aQ,v,v,v,v,v,v,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aP,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v),B.V],u),s=w.a,r=s.a
-if(r==null)t.push(A.io(D.e0L,D.fxd,D.fr4,new C.bbY(s,w.b,d,w.d,e),v))
-else t.push(I.caO(E.NW,v,D.fwR,A.p(r.c,v,v,B.az,v,v,v,v,v,v),new C.bbZ(s,e),v))
+if(r==null)t.push(A.io(D.e0L,D.fxc,D.fr4,new C.bbY(s,w.b,d,w.d,e),v))
+else t.push(I.caO(E.NW,v,D.fwQ,A.p(r.c,v,v,B.az,v,v,v,v,v,v),new C.bbZ(s,e),v))
 t.push(B.V)
 t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.e,v,v,v,v,v,2,D.e2H,B.U,!0,v,!0,v,!1,v,B.aQ,v,v,v,v,v,v,v,v,v,4,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aP,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
 t.push(B.V)
@@ -265,13 +265,13 @@ C.bbS.prototype={
 $0(){return A.au(this.a,!1).b0(this.b)},
 $S:0};(function inheritance(){var w=a.inheritMany,v=a.inherit
 w(A.dI,[C.bZN,C.bc7,C.bc5,C.bc1,C.bbU,C.bbT])
-v(C.G3,A.c0)
+v(C.G2,A.c0)
 w(A.dz,[C.bc8,C.bc3,C.bc4,C.bc9,C.bbP,C.bbQ,C.bbY,C.bbX,C.bbZ,C.bbW,C.bc_,C.bc0,C.bbS])
 w(A.cC,[C.bc6,C.bbR,C.bc2,C.bbV])})()
-A.d1(b.typeUniverse,JSON.parse('{"G3":{"c0":[],"N":[],"h":[]}}'))
+A.d1(b.typeUniverse,JSON.parse('{"G2":{"c0":[],"N":[],"h":[]}}'))
 var y={d:"https://case-thread-wine.vercel.app/#/sign/"}
 var x=(function rtii(){var w=A.O
-return{r:w("aW<w<ne>>"),d:w("Da"),u:w("y<h>"),A:w("w<ff>"),w:w("Ax"),x:w("L<f>"),m:w("ff"),v:w("hz"),e:w("B"),q:w("~")}})();(function constants(){var w=a.makeConstList
+return{r:w("aW<w<ne>>"),d:w("D9"),u:w("y<h>"),A:w("w<ff>"),w:w("Ax"),x:w("L<f>"),m:w("ff"),v:w("hz"),e:w("B"),q:w("~")}})();(function constants(){var w=a.makeConstList
 D.frq=new A.a4("Could not load requests.",null,null,null,null,null,null,null,null,null,null)
 D.afd=new A.fM(B.ai,null,null,D.frq,null)
 D.dZd=new A.ai(57569,"MaterialIcons",null,!1)
@@ -292,8 +292,8 @@ D.fsq=new A.a4("No vault documents in this room yet.",null,null,null,null,null,n
 D.fbu=new A.a0(B.bA,D.fsq,null)
 D.fs4=new A.a4("Title and signer name are required.",null,null,null,null,null,null,null,null,null,null)
 D.fk1=new A.du(D.fs4,null,null,null,null,null,null,null,null,null,null,null,null,B.a_,!1,null,null,null,B.D,null)
-D.fsZ=new A.a4("Request created. Signing link copied.",null,null,null,null,null,null,null,null,null,null)
-D.fka=new A.du(D.fsZ,null,null,null,null,null,null,null,null,null,null,null,null,B.a_,!1,null,null,null,B.D,null)
+D.fsY=new A.a4("Request created. Signing link copied.",null,null,null,null,null,null,null,null,null,null)
+D.fka=new A.du(D.fsY,null,null,null,null,null,null,null,null,null,null,null,null,B.a_,!1,null,null,null,B.D,null)
 D.frx=new A.a4("Signing link copied.",null,null,null,null,null,null,null,null,null,null)
 D.fkb=new A.du(D.frx,null,null,null,null,null,null,null,null,null,null,null,null,B.a_,!1,null,null,null,B.D,null)
 D.fq5=new A.a4("Cancel request",null,null,null,null,null,null,null,null,null,null)
@@ -301,7 +301,7 @@ D.fqK=new A.a4("Cancel request?",null,null,null,null,null,null,null,null,null,nu
 D.fr4=new A.a4("Attach vault document",null,null,null,null,null,null,null,null,null,null)
 D.fr5=new A.a4("New signature request",null,null,null,null,null,null,null,null,null,null)
 D.fr9=new A.a4("Keep",null,null,null,null,null,null,null,null,null,null)
-D.fwR=new A.L("esign-attached-doc",x.x)
-D.fxd=new A.L("esign-attach-vault",x.x)})();(function lazyInitializers(){var w=a.lazyFinal
+D.fwQ=new A.L("esign-attached-doc",x.x)
+D.fxc=new A.L("esign-attach-vault",x.x)})();(function lazyInitializers(){var w=a.lazyFinal
 w($,"cSU","c_Z",()=>B.bD.$2$1(new C.bZN(),A.O("w<ne>"),A.O("f")))})()};
-(a=>{a["5vkDMKw63Fx2FVtEc9KKBRv3X8A="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["bgbkaL2d0/JJ6bJsr42hkSHorUE="]=a.current})($__dart_deferred_initializers__);
