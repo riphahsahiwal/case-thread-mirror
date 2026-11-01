@@ -1,16 +1,16 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,B={zN:function zN(d){this.a=d},
 a8A(d){var w,v
-for(w=0;w<5;++w){v=D.DC[w]
-if(v.a===d)return v.b}return B.cDt(d)},
-cDt(d){var w,v=D.o.n1(d,A.cf("[_\\-\\s]+",!0,!1)),u=A.a7(v),t=u.i("dA<1,f>")
-v=A.J(new A.dA(new A.al(v,new B.bUC(),u.i("al<1>")),new B.bUD(),t),t.i("z.E"))
+for(w=0;w<5;++w){v=D.DD[w]
+if(v.a===d)return v.b}return B.cDu(d)},
+cDu(d){var w,v=D.o.n1(d,A.cf("[_\\-\\s]+",!0,!1)),u=A.a7(v),t=u.i("dA<1,f>")
+v=A.J(new A.dA(new A.al(v,new B.bUD(),u.i("al<1>")),new B.bUE(),t),t.i("z.E"))
 v.$flags=1
 w=v
 if(w.length===0)return"Unknown"
 return D.i.b3(w," ")},
-bUC:function bUC(){},
 bUD:function bUD(){},
+bUE:function bUE(){},
 amm(d){var w=A.Z(d.h(0,"id")),v=A.ab(d.h(0,"display_name"))
 if(v==null)v=""
 return new B.iw(w,v,A.ab(d.h(0,"avatar_url")),A.ab(d.h(0,"username")),A.ab(d.h(0,"bio")),A.ab(d.h(0,"niche")))},
@@ -21,12 +21,12 @@ _.c=f
 _.d=g
 _.e=h
 _.f=i},
-n3:function n3(d,e){this.b=d
+n4:function n4(d,e){this.b=d
 this.c=e},
 wc:function wc(d){this.a=d},
 b2k:function b2k(d){this.a=d},
 b2j:function b2j(){},
-bYo:function bYo(){}},C,E
+bYp:function bYp(){}},C,E
 J=c[1]
 A=c[0]
 D=c[2]
@@ -36,7 +36,7 @@ E=c[28]
 B.zN.prototype={}
 B.iw.prototype={
 gbP(){return this.a}}
-B.n3.prototype={}
+B.n4.prototype={}
 B.wc.prototype={
 O9(d,e){return this.aBD(d,e)},
 aBD(d,e){var w=0,v=A.n(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h
@@ -113,8 +113,8 @@ break
 case 6:case 1:return A.l(u,v)
 case 2:return A.k(s.at(-1),v)}})
 return A.m($async$O7,v)},
-Z4(d,e,f,g,h){return this.bxZ(d,e,f,g,h)},
-bxZ(d,e,a0,a1,a2){var w=0,v=A.n(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f
+Z4(d,e,f,g,h){return this.by_(d,e,f,g,h)},
+by_(d,e,a0,a1,a2){var w=0,v=A.n(x.i),u,t=2,s=[],r=this,q,p,o,n,m,l,k,j,i,h,g,f
 var $async$Z4=A.j(function(a3,a4){if(a3===1){s.push(a4)
 w=t}for(;;)switch(w){case 0:h=r.a
 g=h.gcv().e.a
@@ -164,14 +164,14 @@ k=a0==null?null:a0.a
 if(k==null)throw A.i(C.tJ)
 a2=A
 w=3
-return A.d(E.aPl(null,D.MW),$async$By)
+return A.d(E.aPl(null,D.MY),$async$By)
 case 3:j=a2.ii(a4)
-if(j==null)throw A.i(C.feS)
+if(j==null)throw A.i(C.feT)
 w=4
 return A.d(j.gNE().nY(),$async$By)
 case 4:q=a4
-if(J.aY(q)===0)throw A.i(C.feO)
-if(J.aY(q)>5242880)throw A.i(C.feQ)
+if(J.aY(q)===0)throw A.i(C.feP)
+if(J.aY(q)>5242880)throw A.i(C.feR)
 a0=j.gauI()
 if(a0==null)a0="jpg"
 i=a0.toLowerCase()
@@ -256,8 +256,8 @@ break
 case 6:case 1:return A.l(u,v)
 case 2:return A.k(s.at(-1),v)}})
 return A.m($async$FD,v)},
-Z5(d){return this.by_(d)},
-by_(d){var w=0,v=A.n(x.i),u,t=this,s,r,q,p,o
+Z5(d){return this.by0(d)},
+by0(d){var w=0,v=A.n(x.i),u,t=this,s,r,q,p,o
 var $async$Z5=A.j(function(e,f){if(e===1)return A.k(f,v)
 for(;;)switch(w){case 0:r=t.a
 q=r.gcv().e.a
@@ -309,14 +309,14 @@ return A.m($async$Oa,v)},
 b2o(d){var w,v=J.bl(d).toLowerCase()
 if(!D.o.n(v,"profiles_username_unique"))w=D.o.n(v,"duplicate key")&&D.o.n(v,"username")
 else w=!0
-if(w)return C.feP
-if(D.o.n(v,"profiles_username_format"))return C.feR
+if(w)return C.feQ
+if(D.o.n(v,"profiles_username_format"))return C.feS
 return A.aB(d)}}
-var z=a.updateTypes(["n3(af<f,@>)","wc(at)"])
-B.bUC.prototype={
+var z=a.updateTypes(["n4(af<f,@>)","wc(at)"])
+B.bUD.prototype={
 $1(d){return d.length!==0},
 $S:12}
-B.bUD.prototype={
+B.bUE.prototype={
 $1(d){var w=d.toLowerCase()
 return w[0].toUpperCase()+D.o.bX(w,1)},
 $S:17}
@@ -328,21 +328,21 @@ $1(d){var w=x.w,v=x.b,u=A.aU(d,w,v),t=A.aU(x.B.a(J.A(u,"case_rooms")),w,v)
 A.Z(J.A(u,"room_id"))
 v=A.ab(J.A(t,"name"))
 w=v==null?"Untitled room":v
-return new B.n3(w,A.Z(J.A(u,"role_id")))},
+return new B.n4(w,A.Z(J.A(u,"role_id")))},
 $S:z+0}
-B.bYo.prototype={
+B.bYp.prototype={
 $1(d){return new B.wc(d.V($.e1(),x.k))},
 $S:z+1};(function inheritance(){var w=a.inherit,v=a.inheritMany
 w(B.zN,A.ej)
-v(A.cC,[B.bUC,B.bUD,B.b2k,B.b2j,B.bYo])
-v(A.D,[B.iw,B.n3,B.wc])})()
+v(A.cC,[B.bUD,B.bUE,B.b2k,B.b2j,B.bYp])
+v(A.D,[B.iw,B.n4,B.wc])})()
 A.d1(b.typeUniverse,JSON.parse('{"zN":{"aG":[]}}'))
 var y={b:"id, display_name, avatar_url, username, bio, niche"}
-var x={f:A.O("y<n3>"),v:A.O("w<n3>"),B:A.O("af<@,@>"),a:A.O("n3"),w:A.O("f"),k:A.O("iO"),i:A.O("iw"),b:A.O("@"),r:A.O("iw?")};(function constants(){C.tJ=new A.q3("Not signed in.")
-C.feO=new B.zN("That image is empty.")
-C.feP=new B.zN("That username is taken \u2014 try another.")
-C.feQ=new B.zN("Pick an image under 5 MB.")
-C.feR=new B.zN("Usernames need 3\u201320 lowercase letters, numbers or _.")
-C.feS=new B.zN("No image selected.")})();(function lazyInitializers(){var w=a.lazyFinal
-w($,"cSr","Rf",()=>A.eX(new B.bYo(),A.O("wc")))})()};
-(a=>{a["8nf+RZ4XgE/uWxS3HTClFGYrVFA="]=a.current})($__dart_deferred_initializers__);
+var x={f:A.O("y<n4>"),v:A.O("w<n4>"),B:A.O("af<@,@>"),a:A.O("n4"),w:A.O("f"),k:A.O("iO"),i:A.O("iw"),b:A.O("@"),r:A.O("iw?")};(function constants(){C.tJ=new A.q3("Not signed in.")
+C.feP=new B.zN("That image is empty.")
+C.feQ=new B.zN("That username is taken \u2014 try another.")
+C.feR=new B.zN("Pick an image under 5 MB.")
+C.feS=new B.zN("Usernames need 3\u201320 lowercase letters, numbers or _.")
+C.feT=new B.zN("No image selected.")})();(function lazyInitializers(){var w=a.lazyFinal
+w($,"cSs","Rf",()=>A.eX(new B.bYp(),A.O("wc")))})()};
+(a=>{a["n5/2mbCiHoYqWrJjrx7HhMwDvAM="]=a.current})($__dart_deferred_initializers__);

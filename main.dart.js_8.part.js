@@ -1,12 +1,12 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B={bZL:function bZL(){},Ax:function Ax(d){this.a=d},
-cIK(d){var w
-A:{if("signed"===d){w=C.a5n
-break A}if("declined"===d){w=C.fi7
-break A}if("cancelled"===d){w=C.fi8
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B={bZM:function bZM(){},Ax:function Ax(d){this.a=d},
+cIL(d){var w
+A:{if("signed"===d){w=C.a5o
+break A}if("declined"===d){w=C.fi8
+break A}if("cancelled"===d){w=C.fi9
 break A}w=C.rW
 break A}return w},
-cjf(d){var w
+cjg(d){var w
 switch(d.a){case 0:w="Pending"
 break
 case 1:w="Signed"
@@ -16,7 +16,7 @@ break
 case 3:w="Cancelled"
 break
 default:w=null}return w},
-c31(d){var w,v,u,t,s,r,q=A.Z(d.h(0,"id")),p=A.ab(d.h(0,"room_id"))
+c32(d){var w,v,u,t,s,r,q=A.Z(d.h(0,"id")),p=A.ab(d.h(0,"room_id"))
 if(p==null)p=""
 w=A.Z(d.h(0,"title"))
 v=A.ab(d.h(0,"document_text"))
@@ -26,12 +26,12 @@ t=A.ab(d.h(0,"signer_email"))
 s=A.ab(d.h(0,"message"))
 if(s==null)s=""
 r=A.ab(d.h(0,"status"))
-r=B.cIK(r==null?"pending":r)
+r=B.cIL(r==null?"pending":r)
 A.ep(A.Z(d.h(0,"created_at")))
-return new B.nd(q,p,w,v,u,t,s,r,A.ab(d.h(0,"evidence_id")),A.ab(d.h(0,"evidence_filename")))},
+return new B.ne(q,p,w,v,u,t,s,r,A.ab(d.h(0,"evidence_id")),A.ab(d.h(0,"evidence_filename")))},
 MV:function MV(d,e){this.a=d
 this.b=e},
-nd:function nd(d,e,f,g,h,i,j,k,l,m){var _=this
+ne:function ne(d,e,f,g,h,i,j,k,l,m){var _=this
 _.a=d
 _.b=e
 _.c=f
@@ -47,8 +47,8 @@ A=c[0]
 B=a.updateHolder(c[57],B)
 C=c[161]
 B.Ax.prototype={
-jJ(d){return this.br7(d)},
-br7(d){var w=0,v=A.n(x.F),u,t=this,s,r,q,p,o,n,m,l
+jJ(d){return this.br8(d)},
+br8(d){var w=0,v=A.n(x.F),u,t=this,s,r,q,p,o,n,m,l
 var $async$jJ=A.j(function(e,f){if(e===1)return A.k(f,v)
 for(;;)switch(w){case 0:w=3
 return A.d(t.a.aL("signature_requests").bz(y.d).b7("room_id",d).hr("created_at",!1).k5(100),$async$jJ)
@@ -57,13 +57,13 @@ l=A.c([],x.n)
 for(s=J.aP(m),r=x.B,q=x.w,p=x.b;s.q();){o=A.aU(r.a(s.gI()),q,p)
 n=o.h(0,"evidence_items")
 if(r.b(n))o.l(0,"evidence_filename",A.ab(n.h(0,"filename")))
-l.push(B.c31(o))}u=l
+l.push(B.c32(o))}u=l
 w=1
 break
 case 1:return A.l(u,v)}})
 return A.m($async$jJ,v)},
-iW(d){return this.bkT(d)},
-bkT(d){var w=0,v=A.n(x.c),u,t=this,s,r,q,p,o,n,m,l
+iW(d){return this.bkU(d)},
+bkU(d){var w=0,v=A.n(x.c),u,t=this,s,r,q,p,o,n,m,l
 var $async$iW=A.j(function(e,f){if(e===1)return A.k(f,v)
 for(;;)switch(w){case 0:p=t.a
 o=p.gcv().e.a
@@ -86,13 +86,13 @@ m=B
 l=A
 w=3
 return A.d(p.ef(0,r).bz(y.d).hX(0),$async$iW)
-case 3:u=m.c31(l.aU(f,o,s))
+case 3:u=m.c32(l.aU(f,o,s))
 w=1
 break
 case 1:return A.l(u,v)}})
 return A.m($async$iW,v)},
-Up(d){return this.bil(d)},
-bil(d){var w=0,v=A.n(x.v),u=this,t
+Up(d){return this.bim(d)},
+bim(d){var w=0,v=A.n(x.v),u=this,t
 var $async$Up=A.j(function(e,f){if(e===1)return A.k(f,v)
 for(;;)switch(w){case 0:t=x.b
 w=2
@@ -112,7 +112,7 @@ if(p==null)p=[]
 s=J.av(p)
 if(s.gU(p)){u=null
 w=1
-break}u=B.c31(A.aU(x.B.a(s.ga9(p)),r,q))
+break}u=B.c32(A.aU(x.B.a(s.ga9(p)),r,q))
 w=1
 break
 case 1:return A.l(u,v)}})
@@ -132,22 +132,22 @@ case 1:return A.l(u,v)}})
 return A.m($async$P7,v)}}
 B.MV.prototype={
 H(){return"SignatureRequestStatus."+this.b}}
-B.nd.prototype={
+B.ne.prototype={
 gbP(){return this.a}}
 var z=a.updateTypes(["Ax(at)"])
-B.bZL.prototype={
+B.bZM.prototype={
 $1(d){return new B.Ax(d.V($.e1(),x.k))},
 $S:z+0};(function inheritance(){var w=a.inherit,v=a.inheritMany
-w(B.bZL,A.cC)
-v(A.D,[B.Ax,B.nd])
+w(B.bZM,A.cC)
+v(A.D,[B.Ax,B.ne])
 w(B.MV,A.hy)})()
 var y={d:"id, room_id, title, document_text, signer_name, signer_email, message, status, created_at, evidence_id, evidence_items(filename)"}
 var x=(function rtii(){var w=A.O
-return{n:w("y<nd>"),F:w("w<nd>"),B:w("af<@,@>"),c:w("nd"),w:w("f"),k:w("iO"),b:w("@"),d:w("w<@>?"),C:w("nd?"),v:w("~")}})();(function constants(){C.Na=new A.ai(57791,"MaterialIcons",null,!1)
-C.NV=new A.aM(C.Na,18,null,null,null)
+return{n:w("y<ne>"),F:w("w<ne>"),B:w("af<@,@>"),c:w("ne"),w:w("f"),k:w("iO"),b:w("@"),d:w("w<@>?"),C:w("ne?"),v:w("~")}})();(function constants(){C.Nc=new A.ai(57791,"MaterialIcons",null,!1)
+C.NW=new A.aM(C.Nc,18,null,null,null)
 C.rW=new B.MV(0,"pending")
-C.a5n=new B.MV(1,"signed")
-C.fi7=new B.MV(2,"declined")
-C.fi8=new B.MV(3,"cancelled")})();(function lazyInitializers(){var w=a.lazyFinal
-w($,"cSS","a9j",()=>A.eX(new B.bZL(),A.O("Ax")))})()};
-(a=>{a["ptCXx78RaYed2oIo09OSJ02u2Ws="]=a.current})($__dart_deferred_initializers__);
+C.a5o=new B.MV(1,"signed")
+C.fi8=new B.MV(2,"declined")
+C.fi9=new B.MV(3,"cancelled")})();(function lazyInitializers(){var w=a.lazyFinal
+w($,"cST","a9j",()=>A.eX(new B.bZM(),A.O("Ax")))})()};
+(a=>{a["oZX/NaCpIbeEQ79Mp217uDkp8e8="]=a.current})($__dart_deferred_initializers__);
