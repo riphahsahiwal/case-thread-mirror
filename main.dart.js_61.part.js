@@ -1,24 +1,24 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,E,F,A={aPn:function aPn(){},
-cgs(d,e){return new A.O2(d,C.G0,!0,e,null)},
-AQ:function AQ(){},
-O2:function O2(d,e,f,g,h){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,E,F,A={aPr:function aPr(){},
+cgI(d,e){return new A.O3(d,C.G6,!0,e,null)},
+AS:function AS(){},
+O3:function O3(d,e,f,g,h){var _=this
 _.e=d
 _.f=e
 _.r=f
 _.c=g
 _.a=h},
-VZ:function VZ(d,e,f,g,h){var _=this
+W_:function W_(d,e,f,g,h){var _=this
 _.e=d
 _.f=e
 _.r=f
 _.c=g
 _.a=h},
-cfj(d){return new A.YP(d,null)},
-chK(d,e,f){return new B.id(A.cCX(d,e,f),f.i("id<0>"))},
-cCX(d,e,f){return function(){var x=d,w=e,v=f
+cfz(d){return new A.YR(d,null)},
+ci_(d,e,f){return new B.id(A.cDc(d,e,f),f.i("id<0>"))},
+cDc(d,e,f){return function(){var x=d,w=e,v=f
 var u=0,t=1,s=[],r,q,p
-return function $async$chK(g,h,i){if(h===1){s.push(i)
+return function $async$ci_(g,h,i){if(h===1){s.push(i)
 u=t}for(;;)switch(u){case 0:r=x.length,q=0
 case 2:if(!(p=q<r,p)){u=4
 break}u=5
@@ -32,141 +32,141 @@ u=2
 break
 case 4:return 0
 case 1:return g.c=s.at(-1),3}}}},
-aEc:function aEc(d,e,f){this.c=d
+aEg:function aEg(d,e,f){this.c=d
 this.a=e
 this.b=f},
-YP:function YP(d,e){this.c=d
+YR:function YR(d,e){this.c=d
 this.a=e},
-aw2:function aw2(){var _=this
+aw6:function aw6(){var _=this
 _.d=null
 _.e=$
 _.f=!1
 _.c=_.a=null},
-bKB:function bKB(d){this.a=d},
+bKH:function bKH(d){this.a=d},
+bKG:function bKG(d){this.a=d},
 bKA:function bKA(d){this.a=d},
-bKu:function bKu(d){this.a=d},
-bKv:function bKv(d){this.a=d},
-bKt:function bKt(d){this.a=d},
-bKw:function bKw(d){this.a=d},
-bKx:function bKx(d,e){this.a=d
-this.b=e},
-bKr:function bKr(d){this.a=d},
-bKs:function bKs(d){this.a=d},
-bKo:function bKo(d){this.a=d},
-bKy:function bKy(d){this.a=d},
-bKq:function bKq(d){this.a=d},
+bKB:function bKB(d){this.a=d},
 bKz:function bKz(d){this.a=d},
-bKp:function bKp(d){this.a=d}},D,G,H
+bKC:function bKC(d){this.a=d},
+bKD:function bKD(d,e){this.a=d
+this.b=e},
+bKx:function bKx(d){this.a=d},
+bKy:function bKy(d){this.a=d},
+bKu:function bKu(d){this.a=d},
+bKE:function bKE(d){this.a=d},
+bKw:function bKw(d){this.a=d},
+bKF:function bKF(d){this.a=d},
+bKv:function bKv(d){this.a=d}},D,G,H
 B=c[0]
 C=c[2]
 E=c[31]
-F=c[147]
+F=c[146]
 A=a.updateHolder(c[60],A)
-D=c[180]
+D=c[179]
 G=c[70]
-H=c[127]
-A.aPn.prototype={}
-A.AQ.prototype={
+H=c[126]
+A.aPr.prototype={}
+A.AS.prototype={
 C(d){var x=null,w=this.c
-if(w==null)return this.a4p(d)
-return B.f1(x,B.lt(this.a4p(d),C.mM,x,x,x,x),C.T,!1,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,w,x,x,x,x,x,x,!1,C.bK)}}
-A.O2.prototype={
-a4p(d){var x=null,w=this.r?"\xa9 ":""
+if(w==null)return this.a4t(d)
+return B.f1(x,B.lt(this.a4t(d),C.mM,x,x,x,x),C.T,!1,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,w,x,x,x,x,x,x,!1,C.bK)}}
+A.O3.prototype={
+a4t(d){var x=null,w=this.r?"\xa9 ":""
 return B.p(w+this.e,x,x,x,x,x,this.f,x,x,x)}}
-A.VZ.prototype={
-a4p(d){var x=new B.aK(null,this.r,this.e,null)
-return B.pD(x,this.f)}}
-A.aEc.prototype={
+A.W_.prototype={
+a4t(d){var x=new B.aM(null,this.r,this.e,null)
+return B.pH(x,this.f)}}
+A.aEg.prototype={
 H(){return"AttributionAlignment."+this.b}}
-A.YP.prototype={
-Y(){return new A.aw2()}}
-A.aw2.prototype={
-gY9(){var x=this.e
+A.YR.prototype={
+Y(){return new A.aw6()}}
+A.aw6.prototype={
+gYc(){var x=this.e
 if(x===$){this.a.toString
 x=this.e=!1}return x},
 ar(){var x=this
-x.aQ()
-if(x.gY9()){x.a.toString
-B.jy(C.ag,new A.bKB(x),y.F)}},
+x.aR()
+if(x.gYc()){x.a.toString
+B.jy(C.ag,new A.bKH(x),y.F)}},
 m(){var x=this.d
 if(x!=null)x.aa()
 this.ap()},
-C(d){var x,w,v,u,t,s=this,r=null,q="flutter_map",p=y.l,o=B.eB(new B.d3(s.a.c,y.E),!1,p)
+C(d){var x,w,v,u,t,s=this,r=null,q="flutter_map",p=y.l,o=B.eB(new B.d5(s.a.c,y.E),!1,p)
 s.a.toString
-o=B.J(A.chK(o,new B.aK(16,r,r,r),p),p)
+o=B.J(A.ci_(o,new B.aM(16,r,r,r),p),p)
 s.a.toString
-o.push(new A.VZ(B.c3L("lib/assets/flutter_map_logo.png",r,r,q,r),q,24,r,r))
+o.push(new A.W_(B.c43("lib/assets/flutter_map_logo.png",r,r,q,r),q,24,r,r))
 s.a.toString
-o.push(new B.aK(2.4000000000000004,r,r,r))
+o.push(new B.aM(2.4000000000000004,r,r,r))
 s.a.toString
-x=s.gY9()
+x=s.gYc()
 w=s.a
 if(x){w.toString
-x=new A.bKu(s).$2(d,new A.bKv(s))}else{w.toString
-x=new A.bKw(s).$2(d,new A.bKx(s,d))}o.push(B.c2s(x,C.ak,B.c70(),C.l6,C.l6,B.c71()))
+x=new A.bKA(s).$2(d,new A.bKB(s))}else{w.toString
+x=new A.bKC(s).$2(d,new A.bKD(s,d))}o.push(B.c2M(x,C.ak,B.c7h(),C.l8,C.l8,B.c7i()))
 s.a.toString
-x=s.gY9()
+x=s.gYc()
 s.a.toString
 w=B.e(d)
-v=B.bU(C.a3,C.cT,0)
+v=B.bU(C.a2,C.cX,0)
 u=s.a
-t=new B.dg(D.EW,D.EW,D.EW,C.as)
-p=B.J(new B.d3(u.c,y.f),p)
+t=new B.dd(D.F0,D.F0,D.F0,C.aq)
+p=B.J(new B.d5(u.c,y.f),p)
 s.a.toString
-p.push(D.flX)
+p.push(D.flZ)
 s.a.toString
-p.push(new B.aK(r,32,r,r))
-p=B.JO(new B.a_(C.eF,B.a4(p,C.R,r,C.r,C.W,0,C.x),r),new B.aC(w.ax.k2,r,v,t,r,r,C.Z),C.no)
+p.push(new B.aM(r,32,r,r))
+p=B.JO(new B.a_(C.eH,B.a4(p,C.R,r,C.r,C.W,0,C.z),r),new B.aC(w.ax.k2,r,v,t,r,r,C.Z),C.nq)
 w=x?1:0
-v=x?C.eC:C.eB
-w=B.IB(B.nY(p,!x,r),v,C.ak,w)
-p=s.f||s.gY9()?1:0.5
+v=x?C.eE:C.eD
+w=B.IE(B.o_(p,!x,r),v,C.ak,w)
+p=s.f||s.gYc()?1:0.5
 s.a.toString
-return new B.eZ(C.oj,r,r,B.e_(C.oj,B.c([new B.a_(C.K1,w,r),B.lt(B.IB(new B.a_(C.qO,G.cc1(B.am(o,C.z,r,C.r,C.W,0,r),C.n6),r),C.l6,C.ak,p),C.mM,r,new A.bKy(s),new A.bKz(s),r)],y.u),C.B,C.bm,r),r)}}
-var z=a.updateTypes(["M<~>(h6)"])
-A.bKB.prototype={
+return new B.eZ(C.ol,r,r,B.e_(C.ol,B.c([new B.a_(C.K7,w,r),B.lt(B.IE(new B.a_(C.qU,G.cch(B.al(o,C.y,r,C.r,C.W,0,r),C.n7),r),C.l8,C.ak,p),C.mM,r,new A.bKE(s),new A.bKF(s),r)],y.u),C.B,C.bn,r),r)}}
+var z=a.updateTypes(["M<~>(h7)"])
+A.bKH.prototype={
 $0(){var x=this.a
-if(x.c!=null)x.v(new A.bKA(x))},
+if(x.c!=null)x.v(new A.bKG(x))},
 $S:11}
-A.bKA.prototype={
+A.bKG.prototype={
 $0(){return this.a.e=!1},
 $S:0}
-A.bKu.prototype={
+A.bKA.prototype={
 $2(d,e){var x=null,w=B.e(d).ok.x
 w=w==null?x:w.b
-if(w==null)w=C.a3
+if(w==null)w=C.a2
 this.a.a.toString
-return B.bN(x,x,x,B.aT(H.vo,w,x,x,24),x,x,e,x,x,x,x,x)},
+return B.bN(x,x,x,B.aT(H.vv,w,x,x,24),x,x,e,x,x,x,x,x)},
 $S:419}
-A.bKv.prototype={
+A.bKB.prototype={
 $0(){var x=this.a
-return x.v(new A.bKt(x))},
+return x.v(new A.bKz(x))},
 $S:0}
-A.bKt.prototype={
+A.bKz.prototype={
 $0(){return this.a.e=!1},
 $S:0}
-A.bKw.prototype={
+A.bKC.prototype={
 $2(d,e){var x=null
 this.a.a.toString
-return B.bN(x,x,x,B.aT(D.e_y,C.a3,x,x,24),x,x,e,x,x,x,"Attributions",x)},
+return B.bN(x,x,x,B.aT(D.e_D,C.a2,x,x,24),x,x,e,x,x,x,"Attributions",x)},
 $S:419}
-A.bKx.prototype={
+A.bKD.prototype={
 $0(){var x,w=this.a
-w.v(new A.bKr(w))
-x=E.vZ(this.b,F.a8s)
+w.v(new A.bKx(w))
+x=E.w_(this.b,F.a8x)
 x=x==null?null:x.b
 x=(x==null?B.ab(B.at("`MapController.of()` should not be called outside a `FlutterMap` and its children")):x).w
-w.d=new B.c1(x,B.t(x).i("c1<1>")).dv(new A.bKs(w))},
+w.d=new B.c1(x,B.t(x).i("c1<1>")).dv(new A.bKy(w))},
 $S:0}
-A.bKr.prototype={
+A.bKx.prototype={
 $0(){return this.a.e=!0},
 $S:0}
-A.bKs.prototype={
-$1(d){return this.aB2(d)},
-aB2(d){var x=0,w=B.m(y.v),v=this,u
+A.bKy.prototype={
+$1(d){return this.aB7(d)},
+aB7(d){var x=0,w=B.m(y.v),v=this,u
 var $async$$1=B.i(function(e,f){if(e===1)return B.j(f,w)
 for(;;)switch(x){case 0:u=v.a
-u.v(new A.bKo(u))
+u.v(new A.bKu(u))
 u=u.d
 u=u==null?null:u.aa()
 x=2
@@ -174,37 +174,37 @@ return B.d(y.w.b(u)?u:B.cu(u,y.v),$async$$1)
 case 2:return B.k(null,w)}})
 return B.l($async$$1,w)},
 $S:z+0}
-A.bKo.prototype={
+A.bKu.prototype={
 $0(){return this.a.e=!1},
 $S:0}
-A.bKy.prototype={
+A.bKE.prototype={
 $1(d){var x=this.a
-return x.v(new A.bKq(x))},
+return x.v(new A.bKw(x))},
 $S:74}
-A.bKq.prototype={
+A.bKw.prototype={
 $0(){return this.a.f=!0},
 $S:0}
-A.bKz.prototype={
+A.bKF.prototype={
 $1(d){var x=this.a
-return x.v(new A.bKp(x))},
-$S:57}
-A.bKp.prototype={
+return x.v(new A.bKv(x))},
+$S:56}
+A.bKv.prototype={
 $0(){return this.a.f=!1},
 $S:0};(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.aPn,B.D)
-x(A.AQ,B.a5)
-w(A.AQ,[A.O2,A.VZ])
-x(A.aEc,B.hp)
-x(A.YP,B.N)
-x(A.aw2,B.Y)
-w(B.dy,[A.bKB,A.bKA,A.bKv,A.bKt,A.bKx,A.bKr,A.bKo,A.bKq,A.bKp])
-w(B.dI,[A.bKu,A.bKw])
-w(B.cA,[A.bKs,A.bKy,A.bKz])})()
-B.cW(b.typeUniverse,JSON.parse('{"O2":{"AQ":[],"a5":[],"h":[]},"VZ":{"AQ":[],"a5":[],"h":[]},"AQ":{"a5":[],"h":[]},"YP":{"N":[],"h":[]},"aw2":{"Y":["YP"]}}'))
-var y={w:B.O("M<~>"),u:B.O("x<h>"),F:B.O("bh"),E:B.O("d3<VZ>"),f:B.O("d3<O2>"),l:B.O("h"),v:B.O("~")};(function constants(){D.fE3=new A.aEc(C.oj,1,"bottomRight")
-D.fEa=new A.aPn()
-D.e_y=new B.ah(61736,"MaterialIcons",null,!1)
-D.EW=new B.bi(10,10)
-D.fng=new B.a0(!0,null,null,null,null,null,null,null,C.nw,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.flX=new A.O2("Made with 'flutter_map'",D.fng,!1,null,null)})()};
-(a=>{a["ap6ZSQoPvDhgqy6+6tRJR5kviUc="]=a.current})($__dart_deferred_initializers__);
+x(A.aPr,B.D)
+x(A.AS,B.a5)
+w(A.AS,[A.O3,A.W_])
+x(A.aEg,B.hp)
+x(A.YR,B.N)
+x(A.aw6,B.Y)
+w(B.dz,[A.bKH,A.bKG,A.bKB,A.bKz,A.bKD,A.bKx,A.bKu,A.bKw,A.bKv])
+w(B.dI,[A.bKA,A.bKC])
+w(B.cA,[A.bKy,A.bKE,A.bKF])})()
+B.cX(b.typeUniverse,JSON.parse('{"O3":{"AS":[],"a5":[],"h":[]},"W_":{"AS":[],"a5":[],"h":[]},"AS":{"a5":[],"h":[]},"YR":{"N":[],"h":[]},"aw6":{"Y":["YR"]}}'))
+var y={w:B.O("M<~>"),u:B.O("x<h>"),F:B.O("bi"),E:B.O("d5<W_>"),f:B.O("d5<O3>"),l:B.O("h"),v:B.O("~")};(function constants(){D.fEa=new A.aEg(C.ol,1,"bottomRight")
+D.fEh=new A.aPr()
+D.e_D=new B.ah(61736,"MaterialIcons",null,!1)
+D.F0=new B.be(10,10)
+D.fni=new B.a0(!0,null,null,null,null,null,null,null,C.ny,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.flZ=new A.O3("Made with 'flutter_map'",D.fni,!1,null,null)})()};
+(a=>{a["ehmZxP8gSjdDTCUYkaslOpiaXas="]=a.current})($__dart_deferred_initializers__);

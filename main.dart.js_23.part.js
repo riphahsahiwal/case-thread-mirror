@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,D={
-b1k(d){var y
+b1o(d){var y
 switch(d.a){case 0:y="View case"
 break
 case 1:y="Edit case"
@@ -30,13 +30,13 @@ B=c[0]
 C=c[2]
 D=a.updateHolder(c[48],D)
 A=c[83]
-E=c[132]
+E=c[131]
 F=c[119]
-G=c[173]
+G=c[172]
 var z=a.updateTypes([]);(function constants(){var y=a.makeConstList
-A.xH=new B.kl("view_case",0,"viewCase")
-A.fdO=new B.kl("delete_evidence",8,"deleteEvidence")
-A.fdQ=new B.kl("view_billing",10,"viewBilling")
-A.fdP=new B.kl("invite_members",11,"inviteMembers")
-A.pf=y([A.xH,C.ea,E.xG,C.EK,F.a03,C.a05,C.a04,G.a07,A.fdO,C.a06,A.fdQ,A.fdP],B.O("x<kl>"))})()};
-(a=>{a["QNiNU8qVcVmQoLMh/1ncjT+1WTg="]=a.current})($__dart_deferred_initializers__);
+A.xP=new B.kl("view_case",0,"viewCase")
+A.fdS=new B.kl("delete_evidence",8,"deleteEvidence")
+A.fdU=new B.kl("view_billing",10,"viewBilling")
+A.fdT=new B.kl("invite_members",11,"inviteMembers")
+A.ph=y([A.xP,C.ec,E.xO,C.EP,F.a09,C.a0b,C.a0a,G.a0d,A.fdS,C.a0c,A.fdU,A.fdT],B.O("x<kl>"))})()};
+(a=>{a["5JwYNSFLlI1KDm3WJcnHrmiekWg="]=a.current})($__dart_deferred_initializers__);

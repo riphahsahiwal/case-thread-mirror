@@ -1,14 +1,16 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var A,B,D,C={
-ccT(d,e,f,g,h,i){return new C.afh(d,g,e,h,i,f)},
-afh:function afh(d,e,f,g,h,i){var _=this
+$__dart_deferred_initializers__.current=function(a,b,c,$){var A,C,B={
+c2B(d,e,f,g,h,i){return new B.a9Q(d,f,g,h,i,e)},
+bqN:function bqN(d,e){this.a=d
+this.b=e},
+a9Q:function a9Q(d,e,f,g,h,i){var _=this
 _.c=d
 _.d=e
-_.y=f
-_.z=g
-_.go=h
+_.e=f
+_.r=g
+_.cx=h
 _.a=i},
-bCF:function bCF(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4){var _=this
+bkV:function bkV(d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,a0,a1,a2,a3,a4){var _=this
 _.fr=d
 _.fx=e
 _.fy=f
@@ -36,69 +38,76 @@ _.cy=a1
 _.db=a2
 _.dx=a3
 _.dy=a4},
-bCG:function bCG(d){this.a=d}}
+bkW:function bkW(d){this.a=d}},D
 A=c[0]
-B=c[2]
-D=c[164]
-C=a.updateHolder(c[58],C)
-C.afh.prototype={
-C(d){var x,w=this,v=null
+C=c[2]
+B=a.updateHolder(c[64],B)
+D=c[182]
+B.bqN.prototype={
+H(){return"_ChipVariant."+this.b}}
+B.a9Q.prototype={
+C(d){var x,w,v=this,u=null
 A.e(d)
-x=w.y
-if(x==null){A.e(d)
-x=D.CK}return A.aiE(!1,w.c,B.lq,v,v,v,v,B.D,v,new C.bCF(d,!0,!1,v,v,v,v,v,v,v,v,v,!0,v,v,v,v,B.o2,v,v,v,0,v,v,v,v),v,x,v,v,v,v,v,v,!0,w.d,v,v,v,v,w.z,v,v,v,v,!1,v,v,v,v,v,v,v,!0,v,w.go)}}
-C.bCF.prototype={
-gz6(){var x,w=this,v=w.go
+x=v.r
+w=x!=null
+return A.aiI(!1,v.c,C.ls,u,u,u,u,C.E,u,new B.bkV(d,w,D.q_,u,u,u,u,u,u,u,u,u,!0,u,u,u,u,C.o4,u,u,u,u,u,u,u,u),u,u,u,u,u,u,u,u,w,v.d,u,v.e,u,u,u,x,u,u,u,!1,u,u,u,u,u,u,u,!0,u,v.cx)}}
+B.bkV.prototype={
+gts(){var x,w=this,v=w.go
 if(v===$){x=A.e(w.fr)
-w.go!==$&&A.aL()
+w.go!==$&&A.aN()
 v=w.go=x.ax}return v},
-ghe(){var x,w,v,u=this,t=u.id
-if(t===$){x=A.e(u.fr)
-u.id!==$&&A.aL()
-t=u.id=x.ok}x=t.as
+gdL(){if(this.fy===D.q_)var x=0
+else x=this.fx?1:0
+return x},
+gBb(){return 1},
+ghe(){var x,w=this,v=w.id
+if(v===$){x=A.e(w.fr)
+w.id!==$&&A.aN()
+v=w.id=x.ok}x=v.as
 if(x==null)x=null
-else{w=u.gz6()
-v=w.rx
-w=v==null?w.k3:v
-w=x.X(w)
-x=w}return x},
-gcO(){return new A.bb(new C.bCG(this),y.d)},
-gbX(){return B.aa},
-gcb(){return B.aa},
-gu2(){var x=this.gz6(),w=x.rx
-x=w==null?x.k3:w
+else x=x.X(w.fx?w.gts().k3:w.gts().k3)
 return x},
-gu8(){var x=this.gz6(),w=x.rx
-x=w==null?x.k3:w
-return x},
-geC(){var x=this.gz6(),w=x.to
+gcO(){return new A.b5(new B.bkW(this),y.d)},
+gbX(){if(this.fy===D.q_)var x=C.a9
+else{x=this.gts().x1
+if(x==null)x=C.a2}return x},
+gcb(){return C.a9},
+gu2(){return null},
+gu8(){return null},
+geC(){var x,w,v=this
+if(v.fy===D.q_)if(v.fx){x=v.gts()
+w=x.to
 if(w==null){w=x.D
 x=w==null?x.k3:w}else x=w
-x=new A.b0(x,1,B.O,-1)
+x=new A.aZ(x,1,C.O,-1)}else{x=v.gts().k3
+x=new A.aZ(A.az(31,x.A()>>>16&255,x.A()>>>8&255,x.A()&255),1,C.O,-1)}else x=C.tZ
 return x},
-ghO(){var x=null,w=this.gz6(),v=w.rx
-w=v==null?w.k3:v
-return new A.ei(18,x,x,x,x,w,x,x,x)},
-gct(){return B.eF},
+ghO(){var x=null
+return new A.ei(18,x,x,x,x,this.fx?this.gts().b:this.gts().k3,x,x,x)},
+gct(){return C.eH},
 guC(){var x=this.ghe(),w=x==null?null:x.r
 if(w==null)w=14
-x=A.bO(this.fr,B.bl)
-x=x==null?null:x.gci()
-x=A.qk(B.lD,B.dW,A.T((x==null?B.aY:x).b5(w)/14-1,0,1))
+x=A.bO(this.fr,C.bm)
+x=x==null?null:x.gcj()
+x=A.qn(C.lG,C.dW,A.T((x==null?C.aY:x).b5(w)/14-1,0,1))
 x.toString
 return x}}
 var z=a.updateTypes([])
-C.bCG.prototype={
+B.bkW.prototype={
 $1(d){var x,w
-if(d.n(0,B.a9)&&d.n(0,B.a4)){x=this.a.gz6().k3
-return A.az(31,x.A()>>>16&255,x.A()>>>8&255,x.A()&255)}if(d.n(0,B.a4))return null
-if(d.n(0,B.a9)){x=this.a.gz6()
-w=x.Q
-return w==null?x.y:w}return null},
+if(d.n(0,C.a4)){x=this.a
+if(x.fy===D.q_)x=null
+else{x=x.gts().k3
+x=A.az(31,x.A()>>>16&255,x.A()>>>8&255,x.A()&255)}return x}x=this.a
+if(x.fy===D.q_)x=null
+else{x=x.gts()
+w=x.p3
+x=w==null?x.k2:w}return x},
 $S:23};(function inheritance(){var x=a.inherit
-x(C.afh,A.a5)
-x(C.bCF,A.v1)
-x(C.bCG,A.cA)})()
-A.cW(b.typeUniverse,JSON.parse('{"afh":{"a5":[],"h":[]}}'))
-var y={d:A.O("bb<P?>")}};
-(a=>{a["4kwEe+nRDOyinDdYj8ZSvHExUVg="]=a.current})($__dart_deferred_initializers__);
+x(B.bqN,A.hp)
+x(B.a9Q,A.a5)
+x(B.bkV,A.v2)
+x(B.bkW,A.cA)})()
+A.cX(b.typeUniverse,JSON.parse('{"a9Q":{"a5":[],"h":[]}}'))
+var y={d:A.O("b5<P?>")};(function constants(){D.q_=new B.bqN(0,"flat")})()};
+(a=>{a["ESZkceoDLBXQD4nh3Azt9Tz3V2o="]=a.current})($__dart_deferred_initializers__);
