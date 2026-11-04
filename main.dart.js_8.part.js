@@ -1,5 +1,5 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B={bZX:function bZX(){},Ay:function Ay(d){this.a=d},
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B={bZX:function bZX(){},Az:function Az(d){this.a=d},
 cIY(d){var w
 A:{if("signed"===d){w=C.a5o
 break A}if("declined"===d){w=C.fib
@@ -46,7 +46,7 @@ J=c[1]
 A=c[0]
 B=a.updateHolder(c[57],B)
 C=c[161]
-B.Ay.prototype={
+B.Az.prototype={
 jJ(d){return this.bri(d)},
 bri(d){var w=0,v=A.n(x.F),u,t=this,s,r,q,p,o,n,m,l
 var $async$jJ=A.j(function(e,f){if(e===1)return A.k(f,v)
@@ -134,12 +134,12 @@ B.MX.prototype={
 H(){return"SignatureRequestStatus."+this.b}}
 B.ne.prototype={
 gbP(){return this.a}}
-var z=a.updateTypes(["Ay(at)"])
+var z=a.updateTypes(["Az(at)"])
 B.bZX.prototype={
-$1(d){return new B.Ay(d.W($.e2(),x.k))},
+$1(d){return new B.Az(d.W($.e2(),x.k))},
 $S:z+0};(function inheritance(){var w=a.inherit,v=a.inheritMany
 w(B.bZX,A.cC)
-v(A.D,[B.Ay,B.ne])
+v(A.D,[B.Az,B.ne])
 w(B.MX,A.hy)})()
 var y={d:"id, room_id, title, document_text, signer_name, signer_email, message, status, created_at, evidence_id, evidence_items(filename)"}
 var x=(function rtii(){var w=A.O
@@ -149,5 +149,5 @@ C.rW=new B.MX(0,"pending")
 C.a5o=new B.MX(1,"signed")
 C.fib=new B.MX(2,"declined")
 C.fic=new B.MX(3,"cancelled")})();(function lazyInitializers(){var w=a.lazyFinal
-w($,"cT5","a9o",()=>A.eX(new B.bZX(),A.O("Ay")))})()};
-(a=>{a["ocfmOgaz2S1sgHgXKR/ua+nu8LI="]=a.current})($__dart_deferred_initializers__);
+w($,"cT5","a9o",()=>A.eX(new B.bZX(),A.O("Az")))})()};
+(a=>{a["bArcceLqZxeuSPzC5nkaBs84GYY="]=a.current})($__dart_deferred_initializers__);

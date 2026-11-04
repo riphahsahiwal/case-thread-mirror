@@ -1,5 +1,5 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,B={zO:function zO(d){this.a=d},
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,D,B={zP:function zP(d){this.a=d},
 a8F(d){var w,v
 for(w=0;w<5;++w){v=D.DE[w]
 if(v.a===d)return v.b}return B.cDG(d)},
@@ -33,7 +33,7 @@ D=c[2]
 B=a.updateHolder(c[70],B)
 C=c[176]
 E=c[28]
-B.zO.prototype={}
+B.zP.prototype={}
 B.iw.prototype={
 gbP(){return this.a}}
 B.n4.prototype={}
@@ -185,7 +185,7 @@ t=6
 d=d.ay
 d===$&&A.b()
 w=9
-return A.d(d.aL("avatars").xJ(o,q,new A.yu(!0,p)),$async$By)
+return A.d(d.aL("avatars").xJ(o,q,new A.yv(!0,p)),$async$By)
 case 9:d=d.aL("avatars")
 h=d.QR(o)
 g="object"
@@ -333,16 +333,16 @@ $S:z+0}
 B.bYA.prototype={
 $1(d){return new B.we(d.W($.e2(),x.k))},
 $S:z+1};(function inheritance(){var w=a.inherit,v=a.inheritMany
-w(B.zO,A.e3)
+w(B.zP,A.e3)
 v(A.cC,[B.bUO,B.bUP,B.b2o,B.b2n,B.bYA])
 v(A.D,[B.iw,B.n4,B.we])})()
-A.d1(b.typeUniverse,JSON.parse('{"zO":{"aG":[]}}'))
+A.d1(b.typeUniverse,JSON.parse('{"zP":{"aG":[]}}'))
 var y={b:"id, display_name, avatar_url, username, bio, niche"}
 var x={f:A.O("y<n4>"),v:A.O("w<n4>"),B:A.O("af<@,@>"),a:A.O("n4"),w:A.O("f"),k:A.O("iO"),i:A.O("iw"),b:A.O("@"),r:A.O("iw?")};(function constants(){C.tJ=new A.q3("Not signed in.")
-C.feS=new B.zO("That image is empty.")
-C.feT=new B.zO("That username is taken \u2014 try another.")
-C.feU=new B.zO("Pick an image under 5 MB.")
-C.feV=new B.zO("Usernames need 3\u201320 lowercase letters, numbers or _.")
-C.feW=new B.zO("No image selected.")})();(function lazyInitializers(){var w=a.lazyFinal
+C.feS=new B.zP("That image is empty.")
+C.feT=new B.zP("That username is taken \u2014 try another.")
+C.feU=new B.zP("Pick an image under 5 MB.")
+C.feV=new B.zP("Usernames need 3\u201320 lowercase letters, numbers or _.")
+C.feW=new B.zP("No image selected.")})();(function lazyInitializers(){var w=a.lazyFinal
 w($,"cSF","Rg",()=>A.eX(new B.bYA(),A.O("we")))})()};
-(a=>{a["IPebfh6Jy6VpMvYOIOBrkl8s1lU="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["1GiS0RCqN1soz58AnVmLAgnQ10k="]=a.current})($__dart_deferred_initializers__);

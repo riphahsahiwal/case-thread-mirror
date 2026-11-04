@@ -19,7 +19,7 @@ l=B.as(o,B.aQ(A.p2,B.e(d).ax.a===A.p?A.aS:A.ab,o,o,32),A.C,o,o,new B.aC(l,o,j,k,
 k=B.p("Trust Center",o,o,o,o,o,n.e,o,o,o)
 j=n.y
 x=y.e
-j=B.a5(B.c([l,A.a_,k,A.U,B.p("How CaseThread protects your data \u2014 stated plainly, verified against our actual architecture.",o,o,o,o,o,j==null?o:j.X(B.e(d).ax.k3.aN(0.7)),A.aQ,o,o)],x),A.y,o,A.r,A.w,0,A.z)
+j=B.a5(B.c([l,A.a_,k,A.U,B.p("How CaseThread protects your data \u2014 stated plainly, verified against our actual architecture.",o,o,o,o,o,j==null?o:j.X(B.e(d).ax.k3.aN(0.7)),A.aO,o,o)],x),A.y,o,A.r,A.w,0,A.z)
 l=B.e(d).ax.a===A.p?A.eh:A.ei
 l=p.a4u(d,n,l,p.ahe(d,n,"Honest limits: chat messages are not end-to-end encrypted \u2014 they are protected in transit and at rest by Supabase. If you transcribe or run AI analysis on an encrypted file, your device decrypts it and sends the plaintext to the processor over TLS. Our servers never store the raw bytes, but the derived transcript text and AI summaries are kept as plaintext so they stay searchable."),C.eOi,E.NB,"Encryption")
 k=p.D3(d,n,B.e(d).ax.a===A.p?A.aS:A.ab,C.eVz,A.p2,"Security posture")
@@ -31,7 +31,7 @@ t=p.D3(d,n,B.e(d).ax.a===A.p?A.cd:A.ab,C.eOe,C.e_r,"Data residency")
 s=p.D3(d,n,B.e(d).ax.a===A.p?A.l_:A.l3,C.eRq,C.e_F,"Incident response")
 r=p.D3(d,n,B.e(d).ax.a===A.p?A.uk:A.ba,C.eMW,A.el,"Data Processing Agreement (DPA)")
 q=n.Q
-return B.kj(m,o,B.bQ(B.em(new B.eI(C.aaP,B.a5(B.c([j,A.ye,l,A.cF,k,A.cF,w,A.cF,v,A.cF,u,A.cF,t,A.cF,s,A.cF,r,A.ye,B.p("This page is informational and is not legal advice. Last reviewed October 2026.",o,o,o,o,o,q==null?o:q.X(B.e(d).ax.k3.aN(0.6)),A.aQ,o,o),A.cF],x),A.bd,o,A.r,A.w,0,A.z),o),o,A.V,A.cW,o,o,A.a7),o,o),o,o)},
+return B.kj(m,o,B.bQ(B.em(new B.eI(C.aaP,B.a5(B.c([j,A.ye,l,A.cF,k,A.cF,w,A.cF,v,A.cF,u,A.cF,t,A.cF,s,A.cF,r,A.ye,B.p("This page is informational and is not legal advice. Last reviewed October 2026.",o,o,o,o,o,q==null?o:q.X(B.e(d).ax.k3.aN(0.6)),A.aO,o,o),A.cF],x),A.bd,o,A.r,A.w,0,A.z),o),o,A.V,A.cW,o,o,A.a7),o,o),o,o)},
 ahe(d,e,f){var x=null,w=(B.e(d).ax.a===A.p?A.l_:A.l3).aN(0.1),v=B.b3(12),u=B.bT((B.e(d).ax.a===A.p?A.l_:A.l3).aN(0.4),A.O,1),t=B.aQ(A.Ng,B.e(d).ax.a===A.p?A.l_:A.l3,x,x,20),s=e.Q
 return B.as(x,B.am(B.c([t,A.bc,B.aN(B.p(f,x,x,x,x,x,s==null?x:s.X(B.e(d).ax.k3),x,x,x),1,x)],y.e),A.S,x,A.r,A.w,0,x),A.C,x,x,new B.aC(w,x,u,v,x,x,A.X),x,x,x,G.AU,A.aW,x,x,x)},
 a4u(d,e,f,g,h,i,j){var x,w,v,u,t,s,r=null,q=B.cf("[^a-z0-9]+",!0,!1)
@@ -72,4 +72,4 @@ C.ePQ=x(["Security (CC6\u2013CC8): logical access is enforced by Row Level Secur
 C.eRq=x(["If we detect or are told about a security incident, we contain it first, then assess what data was affected using the append-only audit log.","Affected users are notified without undue delay with what happened, what data was involved, and what we did about it.",'To report a suspected vulnerability or incident, email abdullahhshafiquee@gmail.com with "SECURITY" in the subject line.'],y.h)
 C.eVz=x(["Encryption at rest: all data lives on Supabase\u2019s managed Postgres and Storage, which encrypt data at rest.","Encryption in transit: every connection to Supabase and the web app runs over TLS.","Row Level Security: enforced at the database on 46 tables, so users can only read or write rows they have a right to see \u2014 no matter what the client asks for.","Append-only audit log: every security-relevant action (membership changes, evidence uploads, exports, status transitions) is recorded in an audit_log table whose immutability is enforced by the database itself \u2014 UPDATE and DELETE are revoked even for privileged roles and blocked by a trigger.",'Evidence integrity: every evidence file carries a SHA-256 hash that can be re-verified at any time ("Verify hash") to prove it has not been altered.',"Evidence access logging: who viewed or downloaded each evidence item is recorded in an access audit trail visible to room members.","Authentication: Supabase Auth with session tokens; authorization is derived from membership and role, checked in database policies \u2014 never trusted from the client."],y.h)
 C.fqK=new B.a4("Trust Center",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["mASoRsqZZjrg8ZFAt7ttm9UhY3U="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["z7/5lmtPl2OSamIL7W1CXen6Xno="]=a.current})($__dart_deferred_initializers__);

@@ -1,8 +1,8 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,A,C={bYV:function bYV(){},
-cBz(){return new C.BD()},
+cBz(){return new C.BE()},
 cxQ(d,e){return new C.Ge(e,d,null)},
-BD:function BD(){this.x=!1
+BE:function BE(){this.x=!1
 this.b=null},
 Ge:function Ge(d,e,f){this.e=d
 this.f=e
@@ -41,7 +41,7 @@ C=a.updateHolder(c[24],C)
 D=c[144]
 E=c[118]
 F=c[104]
-C.BD.prototype={
+C.BE.prototype={
 d_(){return null}}
 C.Ge.prototype={
 cw(a1,a2){var x,w,v,u,t,s,r,q,p,o,n,m,l,k,j,i=this,h=null,g=a2.W($.c7y().$1(i.e),y.x),f=a2.W($.jV(),y.N),e=B.e(a1).ok,d=f instanceof B.tT?B.ii(J.dT(f.a,new C.bdW(i))):h,a0=d==null
@@ -173,8 +173,8 @@ q=B.p(w.d,v,v,v,v,v,q,v,v,v)
 x=u.Q
 if(x==null)x=v
 else x=x.X(B.e(d).ax.a===A.p?A.E:A.F)
-return B.as(v,B.a5(B.c([p,A.bQ,q,A.bQ,B.p(w.c,v,1,A.az,v,v,x,A.aQ,v,v)],y.p),A.y,v,A.eP,A.w,0,A.z),A.C,v,v,new B.aC(r,v,s,t,v,v,A.X),v,v,v,v,A.d8,v,v,v)}}
-var z=a.updateTypes(["aT?()","BD()"])
+return B.as(v,B.a5(B.c([p,A.bQ,q,A.bQ,B.p(w.c,v,1,A.az,v,v,x,A.aO,v,v)],y.p),A.y,v,A.eP,A.w,0,A.z),A.C,v,v,new B.aC(r,v,s,t,v,v,A.X),v,v,v,v,A.d8,v,v,v)}}
+var z=a.updateTypes(["aT?()","BE()"])
 C.bYV.prototype={
 $2(d,e){d.W($.dH(),y.L)
 return d.W($.c_Y(),y.l).Uz(e)},
@@ -209,7 +209,7 @@ q=w.z
 if(q==null)x=o
 else{q=q.X(B.e(x).ax.a===A.p?A.E:A.F)
 x=q}q=y.p
-x=B.c([s,A.a_,r,A.ao,B.p("When this investigation is closed, a point-in-time summary is generated automatically \u2014 it will not change even if the underlying data does.",o,o,o,o,o,x,A.aQ,o,o)],q)
+x=B.c([s,A.a_,r,A.ao,B.p("When this investigation is closed, a point-in-time summary is generated automatically \u2014 it will not change even if the underlying data does.",o,o,o,o,o,x,A.aO,o,o)],q)
 A.i.K(x,B.c([A.a_,B.bz(D.fsK,D.fzD,o,o,p.a.f,o,o)],q))
 return B.as(o,B.a5(x,A.y,o,A.r,A.w,0,A.z),A.C,o,o,new B.aC(t,o,u,v,o,o,A.X),o,o,o,o,A.cW,o,o,o)}x=p.a
 v=p.b
@@ -235,16 +235,16 @@ C.bdV.prototype={
 $1(d){return B.r(d.a)!=="id"},
 $S:1211};(function installTearOffs(){var x=a._static_0,w=a._instance_0u
 x(C,"cJ8","cBz",1)
-w(C.BD.prototype,"gjX","d_",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
+w(C.BE.prototype,"gjX","d_",0)})();(function inheritance(){var x=a.inheritMany,w=a.inherit
 x(B.dI,[C.bYV,C.be_,C.bdU])
-w(C.BD,B.fs)
+w(C.BE,B.fs)
 w(C.Ge,B.c0)
 x(B.cC,[C.bdW,C.bdZ,C.bdS,C.bdR,C.bdT,C.bdV])
 x(B.dz,[C.bdX,C.bdY,C.be0])
 w(C.HC,B.a3)})()
-B.d1(b.typeUniverse,JSON.parse('{"BD":{"fs":["aT?"]},"Ge":{"c0":[],"N":[],"h":[]},"HC":{"a3":[],"h":[]}}'))
+B.d1(b.typeUniverse,JSON.parse('{"BE":{"fs":["aT?"]},"Ge":{"c0":[],"N":[],"h":[]},"HC":{"a3":[],"h":[]}}'))
 var y=(function rtii(){var x=B.O
-return{Q:x("aW<w<dG>>"),L:x("aW<hG?>"),x:x("aW<q7?>"),l:x("c1a"),I:x("aG"),k:x("M<q7?>"),O:x("y<P>"),p:x("y<h>"),j:x("w<@>"),f:x("af<@,@>"),N:x("r_"),q:x("hz"),y:x("BD"),X:x("aT?"),H:x("~")}})();(function constants(){D.e_2=new B.ai(61296,"MaterialIcons",null,!1)
+return{Q:x("aW<w<dG>>"),L:x("aW<hG?>"),x:x("aW<q7?>"),l:x("c1a"),I:x("aG"),k:x("M<q7?>"),O:x("y<P>"),p:x("y<h>"),j:x("w<@>"),f:x("af<@,@>"),N:x("r_"),q:x("hz"),y:x("BE"),X:x("aT?"),H:x("~")}})();(function constants(){D.e_2=new B.ai(61296,"MaterialIcons",null,!1)
 D.e_h=new B.ai(61748,"MaterialIcons",null,!1)
 D.NM=new B.ai(984737,"MaterialIcons",null,!1)
 D.fbw=new B.a0(A.cW,A.bq,null)
@@ -255,4 +255,4 @@ D.fsP=new B.a4("\u2022  ",null,null,null,null,null,null,null,null,null,null)
 D.fzD=new B.L("summary-open-overview-link",B.O("L<f>"))})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cSP","c7y",()=>A.bD.$2$1(new C.bYV(),B.O("q7?"),B.O("f")))
 x($,"cT8","c7B",()=>B.tD(C.cJ8(),y.y,y.X))})()};
-(a=>{a["3mygeECBqG1qzg3TIwjP2CnqOsM="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["SXOtOTpVxLw7jGz2oW3KWhaoVgc="]=a.current})($__dart_deferred_initializers__);

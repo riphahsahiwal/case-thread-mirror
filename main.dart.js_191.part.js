@@ -35,7 +35,7 @@ n=D.kW.kU(o)
 n.B(0,q)
 n.am()
 x=8
-return A.d(k.byo(new A.LZ(r,"text/plain",q,p,A.BM(o.a.a)),i),$async$va)
+return A.d(k.byo(new A.LZ(r,"text/plain",q,p,A.BN(o.a.a)),i),$async$va)
 case 8:case 6:++t
 x=5
 break
@@ -75,4 +75,4 @@ C.fBl=new B.a1U("demo-harborview-incident-summary.md","# Harborview Marina \u201
 C.fBm=new B.a1U("demo-harborview-witness-statement.md",'# Witness Statement \u2014 R. Alvarez (dockhand)\n\n**Taken:** 2026-10-09, 07:40 by the night guard\n\n> "I was securing the lines on pier C around quarter to three when I\n> heard a van door slide shut near the north lot. Dark van, no plates\n> I could make out. It pulled out fast toward Harborview Road. I\n> didn\'t see faces \u2014 it was raining hard."\n\n**Investigator note (demo):** Statement is uncorroborated. Cross-check\nagainst the 02:14 camera outage and the 02:31 fuel-dock alarm on the\ntimeline.\n')
 C.f6s=x([C.fBl,C.fBm],A.O("y<a1U>"))})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cRN","cns",()=>A.eX(new B.bWX(),A.O("CY")))})()};
-(a=>{a["9OoEaTN9N4jjnc5Rm7a7yBFYnQE="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["3DWhk1+VFFmIDy6Ki9TTI6k/lgY="]=a.current})($__dart_deferred_initializers__);

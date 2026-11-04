@@ -291,7 +291,7 @@ $0(){return A.tc(this.b,"/rooms/"+this.a.e+"/entities/"+this.c.a,y.X)},
 $S:0}
 C.bUd.prototype={
 $1(d){var x=null,w=A.p('"'+this.a.c+'" and all its relationships will be permanently removed.',x,x,x,x,x,x,x,x,x)
-return A.dD(A.c([A.bz(B.bs,x,x,x,new C.bUb(d),x,x),A.dl(L.tc,x,new C.bUc(d),A.yv(A.e(this.b).ax.fy,x,x,x,x,x,x))],y.p),w,x,D.fs1)},
+return A.dD(A.c([A.bz(B.bs,x,x,x,new C.bUb(d),x,x),A.dl(L.tc,x,new C.bUc(d),A.yw(A.e(this.b).ax.fy,x,x,x,x,x,x))],y.p),w,x,D.fs1)},
 $S:13}
 C.bUb.prototype={
 $0(){return A.au(this.a,!1).b0(!1)},
@@ -325,4 +325,4 @@ D.fs1=new A.a4("Delete entity?",null,null,null,null,null,null,null,null,null,nul
 D.fsI=new A.a4("Entity details",null,null,null,null,null,null,null,null,null,null)
 D.fz2=new A.L("entity-edit",y.O)
 D.fzy=new A.L("entity-delete",y.O)})()};
-(a=>{a["TSuVweKFNaj+wJkFn0aQft6AkJo="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["LiWa5kUKhaL8VuqQ25NLIn8cMYA="]=a.current})($__dart_deferred_initializers__);

@@ -264,17 +264,17 @@ r=s?v:u
 q=f.b
 if(s)v=u
 u=new C.b5k()
-return new C.zX(u.$1(t/p),u.$1(r/q),u.$1(w/p),u.$1(v/q))},
+return new C.zY(u.$1(t/p),u.$1(r/q),u.$1(w/p),u.$1(v/q))},
 cdb(d){var w,v,u,t=J.h3(d,x.x)
-for(w=x.X,v=x.l,u=0;u<d;++u)t[u]=new C.zW(A.c([],w),A.c([],v))
+for(w=x.X,v=x.l,u=0;u<d;++u)t[u]=new C.zX(A.c([],w),A.c([],v))
 return new C.b5e(t)},
-zX:function zX(d,e,f,g){var _=this
+zY:function zY(d,e,f,g){var _=this
 _.a=d
 _.b=e
 _.c=f
 _.d=g},
 b5k:function b5k(){},
-zW:function zW(d,e){this.a=d
+zX:function zX(d,e){this.a=d
 this.b=null
 this.c=e},
 b5e:function b5e(d){this.a=d},
@@ -832,7 +832,7 @@ w.push(B.U)
 e=a5.as||a2.as===!0
 if(a5.at||a2.as===!1){t=a2.c
 t.toString
-d=A.e(t).ax.a===B.p?B.aT:B.aO
+d=A.e(t).ax.a===B.p?B.aT:B.aP
 a0="Hash MISMATCH \u2014 possible tampering"
 a1=B.vo}else{t=a2.c
 if(e){t.toString
@@ -852,7 +852,7 @@ l=a2.Q
 if(l!=null){if(p)i=a3
 else{i=a2.c
 i.toString
-g=m.X(A.e(i).ax.a===B.p?B.aT:B.aO)
+g=m.X(A.e(i).ax.a===B.p?B.aT:B.aP)
 i=g}s.push(A.p(l,a3,a3,a3,a3,a3,i,a3,a3,a3))}s=A.aN(A.a5(s,B.S,a3,B.r,B.w,0,B.z),1,a3)
 l=a2.z
 i=l?a3:a2.gbgk()
@@ -903,7 +903,7 @@ if(a7!=null){if(p)t=a3
 else t=m.X(A.e(a9).ax.a===B.p?B.bj:B.ba)
 v.push(new A.a0(N.eE,A.p(a7,D.fA3,a3,a3,a3,a3,t,a3,a3,a3),a3))}a7=a2.y
 if(a7!=null){if(p)t=a3
-else t=m.X(A.e(a9).ax.a===B.p?B.aT:B.aO)
+else t=m.X(A.e(a9).ax.a===B.p?B.aT:B.aP)
 v.push(new A.a0(N.eE,A.p(a7,a3,a3,a3,a3,a3,t,a3,a3,a3),a3))}B.i.K(w,v)}w.push(B.bf)
 if(k)a7=a3
 else a7=n.iV(A.e(a9).ax.a===B.p?B.E:B.F,B.ax,1.2)
@@ -990,7 +990,7 @@ f=x.p
 v=A.c([],f)
 w=A.e(d).ax.a===B.p?B.bj:B.ba
 t=A.e(d).ax.a===B.p?B.bn:B.bm
-s=A.e(d).ax.a===B.p?B.aT:B.aO
+s=A.e(d).ax.a===B.p?B.aT:B.aP
 r=A.e(d).ax.a===B.p?B.bW:B.aV
 r=[new A.fl(B.q8,"Verified",w),new A.fl(B.tB,"Partial",t),new A.fl(B.tC,"Conflict",s),new A.fl(B.tD,"Insufficient",r)]
 s=l.d
@@ -1171,7 +1171,7 @@ C.aiC.prototype={}
 C.Ml.prototype={
 j(d){return"RedactionExportException: "+this.a},
 $iaG:1}
-C.zX.prototype={
+C.zY.prototype={
 gawJ(){var w=this
 return w.c-w.a<0.005||w.d-w.b<0.005},
 azK(d,e){var w=this
@@ -1180,12 +1180,12 @@ azG(d){var w=this,v=d.a,u=d.b
 return new A.W(w.a*v,w.b*u,w.c*v,w.d*u)},
 k(d,e){var w=this
 if(e==null)return!1
-return e instanceof C.zX&&e.a===w.a&&e.b===w.b&&e.c===w.c&&e.d===w.d},
+return e instanceof C.zY&&e.a===w.a&&e.b===w.b&&e.c===w.c&&e.d===w.d},
 gt(d){var w=this
 return A.aa(w.a,w.b,w.c,w.d,B.b,B.b,B.b,B.b,B.b,B.b,B.b,B.b,B.b,B.b,B.b,B.b,B.b,B.b,B.b,B.b)},
 j(d){var w=this
 return"RedactionRect(l:"+A.r(w.a)+", t:"+A.r(w.b)+", r:"+A.r(w.c)+", b:"+A.r(w.d)+")"}}
-C.zW.prototype={
+C.zX.prototype={
 a4G(){var w=this.c,v=A.J(this.a,x.R)
 w.push(v)
 if(w.length>50)B.i.eg(w,0)},
@@ -1410,15 +1410,15 @@ n.push(new A.aL(1/0,q,A.oV(u,D.fwi,A.p(v?"Preparing\u2026":"Export redacted copy
 m=p.Q
 if(m==null)m=q
 else m=m.X(A.e(d).ax.a===B.p?B.E:B.F)
-n.push(new A.a0(I.uP,A.p("Drag over sensitive areas to black them out. Tap a bar to select it.",q,q,q,q,q,m,B.aQ,q,q),q))
+n.push(new A.a0(I.uP,A.p("Drag over sensitive areas to black them out. Tap a bar to select it.",q,q,q,q,q,m,B.aO,q,q),q))
 n=A.f3(!0,new A.a0(D.ajr,A.a5(n,B.y,q,B.r,B.W,0,B.z),q),!0,B.ac,!0,!0)}return A.kj(o,q,w,n,q)},
 aO5(d){var w,v,u,t,s=this,r=null
 if(s.as!=null){w=s.c
 w.toString
-v=A.aQ(B.oZ,A.e(w).ax.a===B.p?B.aT:B.aO,r,r,40)
+v=A.aQ(B.oZ,A.e(w).ax.a===B.p?B.aT:B.aP,r,r,40)
 u=s.as
 u.toString
-return A.bQ(new A.a0(B.bA,A.a5(A.c([v,B.U,A.p(u,r,r,r,r,r,d.z,B.aQ,r,r),B.a_,A.io(B.CJ,r,B.eV,new C.bHS(s),r)],x.p),B.y,r,B.r,B.W,0,B.z),r),r,r)}if(s.z==null)return D.af5
+return A.bQ(new A.a0(B.bA,A.a5(A.c([v,B.U,A.p(u,r,r,r,r,r,d.z,B.aO,r,r),B.a_,A.io(B.CJ,r,B.eV,new C.bHS(s),r)],x.p),B.y,r,B.r,B.W,0,B.z),r),r,r)}if(s.z==null)return D.af5
 if(B.o.aK(s.a.e.r.toLowerCase())==="application/pdf"){t=s.y[s.Q]
 A.E("printing.1")
 return A.em(s.amW(t.a/t.b,A0.csW(B.tQ,L.cuV(t),r)),r,B.V,B.aW,r,r,B.a7)}w=s.x
@@ -1724,7 +1724,7 @@ Tk(d,e){return this.beL(d,e)},
 beL(d,e){var w=0,v=A.n(x.H),u,t=2,s=[],r=this,q,p,o,n,m
 var $async$Tk=A.j(function(f,g){if(f===1){s.push(g)
 w=t}for(;;)switch(w){case 0:n=A.ez(e,x.r)
-if(!J.C1(n,d))J.dq(n,d)
+if(!J.C2(n,d))J.dq(n,d)
 r.v(new C.bRn(r,n))
 t=4
 p=r.gal()
@@ -1753,7 +1753,7 @@ if(!v.gaP5()){w=t.Q
 if(w==null)w=u
 else w=w.X(A.e(d).ax.a===B.p?B.E:B.F)
 return A.p("Transcripts need view_privileged permission.",u,u,u,u,u,w,u,u,u)}return A.eP(v.gal().W($.a9p().$1(v.a.e),x.w),new C.bRq(v,t,d),new C.bRr(t,d),new C.bRs(),!1,!0,!1)}}
-var z=a.updateTypes(["M<~>()","Fo(K)","DQ(nL)","v(v,zW)","B(zW)","~(t0)","NA(at)","M<ve?>(at,f)","kF(ve?)"])
+var z=a.updateTypes(["M<~>()","Fo(K)","DQ(nL)","v(v,zX)","B(zX)","~(t0)","NA(at)","M<ve?>(at,f)","kF(ve?)"])
 C.aOD.prototype={
 $1(d){return A.DA(B.ai,new C.U5(this.a,this.b,null),0.85,null)},
 $S:139}
@@ -1785,7 +1785,7 @@ C.bx7.prototype={
 $0(){return this.a.w=!1},
 $S:0}
 C.bxf.prototype={
-$1(d){var w=null,v=this.c,u=x.p,t=A.a5(A.c([A.p('Mark "'+this.a.f+'" as '+C.cfw(this.b)+"? A reason is required \u2014 the audit trail records it.",w,w,w,w,w,w,w,w,w),B.U,A.d6(w,B.ay,!1,w,!0,B.D,w,A.db(),v,w,w,w,w,w,2,D.e2F,B.V,!0,w,!0,w,!1,w,B.aR,w,w,w,D.fwp,w,w,w,w,w,2,w,w,!1,"\u2022",w,w,w,w,w,!1,w,w,!1,w,!0,w,B.aP,w,w,w,w,w,w,w,w,w,w,w,w,!0,B.ag,w,B.aJ,w,w,w,w)],u),B.y,w,B.r,B.W,0,B.z)
+$1(d){var w=null,v=this.c,u=x.p,t=A.a5(A.c([A.p('Mark "'+this.a.f+'" as '+C.cfw(this.b)+"? A reason is required \u2014 the audit trail records it.",w,w,w,w,w,w,w,w,w),B.U,A.d6(w,B.ay,!1,w,!0,B.D,w,A.db(),v,w,w,w,w,w,2,D.e2F,B.V,!0,w,!0,w,!1,w,B.aR,w,w,w,D.fwp,w,w,w,w,w,2,w,w,!1,"\u2022",w,w,w,w,w,!1,w,w,!1,w,!0,w,B.aQ,w,w,w,w,w,w,w,w,w,w,w,w,!0,B.ag,w,B.aJ,w,w,w,w)],u),B.y,w,B.r,B.W,0,B.z)
 return A.dD(A.c([A.bz(B.bs,w,w,w,new C.bxd(d),w,w),A.dl(D.fqJ,D.fzj,new C.bxe(v,d),w)],u),t,w,D.ft_)},
 $S:13}
 C.bxd.prototype={
@@ -1910,7 +1910,7 @@ $S:32}
 C.bxy.prototype={
 $2(d,e){var w=null,v=A.r(d),u=this.a.Q
 if(u==null)u=w
-else u=u.X(A.e(this.b).ax.a===B.p?B.aT:B.aO)
+else u=u.X(A.e(this.b).ax.a===B.p?B.aT:B.aP)
 return A.p("Could not load alibis: "+v,w,w,w,w,w,u,w,w,w)},
 $S:65}
 C.bxx.prototype={
@@ -1931,7 +1931,7 @@ C.bwW.prototype={
 $1(d){var w=null,v=this.a,u=A.p('"'+v.a.e.ga7A()+'" will be permanently deleted, including its stored file, custody trail, and transcript. This cannot be undone.',w,w,w,w,w,w,w,w,w),t=A.bz(B.bs,w,w,w,new C.bwU(d),w,w)
 v=v.c
 v.toString
-return A.dD(A.c([t,A.dl(A2.tc,w,new C.bwV(d),A.yv(A.e(v).ax.fy,w,w,w,w,w,w))],x.p),u,w,D.fr5)},
+return A.dD(A.c([t,A.dl(A2.tc,w,new C.bwV(d),A.yw(A.e(v).ax.fy,w,w,w,w,w,w))],x.p),u,w,D.fr5)},
 $S:13}
 C.bwU.prototype={
 $0(){return A.au(this.a,!1).b0(!1)},
@@ -1961,7 +1961,7 @@ u=A.e(u).ok.Q
 if(u==null)v=w
 else{v=v.c
 v.toString
-u=u.X(A.e(v).ax.a===B.p?B.aT:B.aO)
+u=u.X(A.e(v).ax.a===B.p?B.aT:B.aP)
 v=u}return A.p("Could not load custody trail.",w,w,w,w,w,v,w,w,w)},
 $S:65}
 C.bwR.prototype={
@@ -2004,7 +2004,7 @@ u=A.e(u).ok.Q
 if(u==null)v=w
 else{v=v.c
 v.toString
-u=u.X(A.e(v).ax.a===B.p?B.aT:B.aO)
+u=u.X(A.e(v).ax.a===B.p?B.aT:B.aP)
 v=u}return A.p("Could not load access history.",w,w,w,w,w,v,w,w,w)},
 $S:65}
 C.bwH.prototype={
@@ -2041,7 +2041,7 @@ u=A.e(u).ok.Q
 if(u==null)v=w
 else{v=v.c
 v.toString
-u=u.X(A.e(v).ax.a===B.p?B.aT:B.aO)
+u=u.X(A.e(v).ax.a===B.p?B.aT:B.aP)
 v=u}return A.p("Could not load version history.",w,w,w,w,w,v,w,w,w)},
 $S:65}
 C.bxo.prototype={
@@ -2290,7 +2290,7 @@ $S:32}
 C.bRr.prototype={
 $2(d,e){var w=null,v=this.a.Q
 if(v==null)v=w
-else v=v.X(A.e(this.b).ax.a===B.p?B.aT:B.aO)
+else v=v.X(A.e(this.b).ax.a===B.p?B.aT:B.aP)
 return A.p("Could not load the transcript.",w,w,w,w,w,v,w,w,w)},
 $S:65}
 C.bRq.prototype={
@@ -2330,7 +2330,7 @@ v.push(A.oV(t,D.fzw,A.p(u?"Generate transcript":"Regenerate",d,d,d,d,d,D.flT,d,d
 u=a0.x
 if(u!=null){t=e.b.Q
 if(t==null)t=d
-else t=t.X(A.e(e.c).ax.a===B.p?B.aT:B.aO)
+else t=t.X(A.e(e.c).ax.a===B.p?B.aT:B.aP)
 v.push(new A.a0(I.uP,A.p(u,d,d,d,d,d,t,d,d,d),d))}a0=a0.y
 if(a0!=null){a0=a0==="processing"?"Transcribing your file\u2026":"Queued for transcription\u2026"
 u=e.b.Q
@@ -2362,7 +2362,7 @@ v(u=C.a4K.prototype,"gb4y","b4z",5)
 w(u,"gaQt","Q3",0)
 w(u,"gb96","vS",0)
 w(C.a6D.prototype,"gaVf","yV",0)})();(function inheritance(){var w=a.inheritMany
-w(A.D,[C.a9H,C.aiC,C.Ml,C.zX,C.zW,C.b5e,C.alY,C.ve,C.alZ,C.NA])
+w(A.D,[C.a9H,C.aiC,C.Ml,C.zY,C.zX,C.b5e,C.alY,C.ve,C.alZ,C.NA])
 w(A.hY,[C.U5,C.WG,C.Fo,C.a_L])
 w(A.cC,[C.aOD,C.bwK,C.bwO,C.bxf,C.bxD,C.bxA,C.bxB,C.bxC,C.bx9,C.bxa,C.bx1,C.bxu,C.bxt,C.bxs,C.bxx,C.bxr,C.bwW,C.bwM,C.bwR,C.bwH,C.bxo,C.b5h,C.b5k,C.b5f,C.bHV,C.bHZ,C.bIc,C.bIb,C.aOJ,C.c_d,C.bRf,C.bRd,C.bRq])
 w(A.hJ,[C.a2v,C.a3U,C.a4K,C.a6D])
@@ -2372,7 +2372,7 @@ w(A.a3,[C.anb,C.aox,C.an0,C.ayW,C.api])})()
 A.d1(b.typeUniverse,JSON.parse('{"U5":{"N":[],"h":[]},"a2v":{"Y":["U5"]},"anb":{"a3":[],"h":[]},"aox":{"a3":[],"h":[]},"an0":{"a3":[],"h":[]},"ayW":{"a3":[],"h":[]},"api":{"a3":[],"h":[]},"WG":{"N":[],"h":[]},"a3U":{"Y":["WG"]},"Ml":{"aG":[]},"Fo":{"N":[],"h":[]},"a4K":{"Y":["Fo"]},"NA":{"ceH":[]},"a_L":{"N":[],"h":[]},"a6D":{"Y":["a_L"]}}'))
 var y={d:'Using "ref" when a widget is about to or has been unmounted is unsafe.\nRef relies on BuildContext, and BuildContext is unsafe to use when the widget is deactivated.\nTo safely refer to the state of providers inside State.dispose(), save the provider state in a field of your State class.'}
 var x=(function rtii(){var w=A.O
-return{n:w("aCd"),u:w("aCJ"),v:w("aW<w<nA>>"),M:w("aW<w<f6>>"),g:w("aW<w<nN>>"),c:w("aW<w<nR>>"),Q:w("aW<w<dG>>"),K:w("aW<fH>"),I:w("aW<hG?>"),w:w("aW<ve?>"),U:w("qi"),B:w("Dc"),L:w("aG"),J:w("vI"),l:w("y<w<zX>>"),T:w("y<aiC>"),X:w("y<zX>"),s:w("y<f>"),W:w("y<alY>"),p:w("y<h>"),S:w("y<ow>"),t:w("w<f6>"),j:w("w<@>"),f:w("af<@,@>"),a:w("bh"),C:w("D"),E:w("wi"),x:w("zW"),R:w("zX"),G:w("dG"),P:w("fH"),N:w("f"),A:w("iO"),m:w("ceH"),D:w("e_"),O:w("L<f>"),q:w("hz"),y:w("B"),z:w("@"),r:w("v"),o:w("ve?"),V:w("w<@>?"),F:w("alZ?"),H:w("~")}})();(function constants(){var w=a.makeConstList
+return{n:w("aCd"),u:w("aCJ"),v:w("aW<w<nA>>"),M:w("aW<w<f6>>"),g:w("aW<w<nN>>"),c:w("aW<w<nR>>"),Q:w("aW<w<dG>>"),K:w("aW<fH>"),I:w("aW<hG?>"),w:w("aW<ve?>"),U:w("qi"),B:w("Dc"),L:w("aG"),J:w("vI"),l:w("y<w<zY>>"),T:w("y<aiC>"),X:w("y<zY>"),s:w("y<f>"),W:w("y<alY>"),p:w("y<h>"),S:w("y<ow>"),t:w("w<f6>"),j:w("w<@>"),f:w("af<@,@>"),a:w("bh"),C:w("D"),E:w("wi"),x:w("zX"),R:w("zY"),G:w("dG"),P:w("fH"),N:w("f"),A:w("iO"),m:w("ceH"),D:w("e_"),O:w("L<f>"),q:w("hz"),y:w("B"),z:w("@"),r:w("v"),o:w("ve?"),V:w("w<@>?"),F:w("alZ?"),H:w("~")}})();(function constants(){var w=a.makeConstList
 D.fbm=new A.a0(B.d8,B.mg,null)
 D.tZ=new A.fM(B.ai,null,null,D.fbm,null)
 D.fsL=new A.a4("Preparing file for redaction\u2026",null,null,null,null,null,null,null,null,null,null)
@@ -2407,7 +2407,7 @@ D.eUp=w([],A.O("y<f6>"))
 D.eUo=w([],x.W)
 D.fgt=new C.Ml("No pages to export \u2014 the PDF could not be rendered.")
 D.a4u=new C.Ml("Could not decode the image for redaction.")
-D.fgu=new C.zX(0,0,0,0)
+D.fgu=new C.zY(0,0,0,0)
 D.a58=new A.f8(B.cC,0,A.O("f8<v>"))
 D.a5V=new A.aL(12,12,B.mg,null)
 D.ftq=new A.a4("Text extracted. See the transcript below.",null,null,null,null,null,null,null,null,null,null)
@@ -2456,4 +2456,4 @@ w($,"cTj","a9p",()=>B.bD.$2$1(new C.c_c(),x.o,x.N))
 w($,"cRE","c_X",()=>B.bD.$2$1(new C.bWK(),A.O("w<nN>"),x.N))
 w($,"cR4","aBE",()=>B.bD.$2$1(new C.bVS(),A.O("w<nA>"),x.N))
 w($,"cTo","c7D",()=>B.bD.$2$1(new C.c_l(),A.O("w<nR>"),x.N))})()};
-(a=>{a["TYCrbTQt1AwXgAFArhutgwtf61E="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["HDFPfShPEIVvoggLyh+kEDIU8Gs="]=a.current})($__dart_deferred_initializers__);

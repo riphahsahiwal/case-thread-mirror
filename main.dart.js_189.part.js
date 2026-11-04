@@ -1,7 +1,7 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var A,C,E,F,G,B={
-c12(){return new B.yf(null)},
-yf:function yf(d){this.a=d},
+c12(){return new B.yg(null)},
+yg:function yg(d){this.a=d},
 a1n:function a1n(d,e,f){var _=this
 _.w=d
 _.x=e
@@ -29,7 +29,7 @@ F=c[112]
 G=c[125]
 B=a.updateHolder(c[26],B)
 D=c[126]
-B.yf.prototype={
+B.yg.prototype={
 Y(){var x=$.ae()
 return new B.a1n(new A.bt(null,y.o),new A.bX(C.aL,x),new A.bX(C.aL,x))}}
 B.a1n.prototype={
@@ -40,7 +40,7 @@ x=this.y
 x.P$=w
 x.N$=0
 this.ap()},
-C(d){var x,w,v,u,t=this,s=null,r=t.gal().W($.BZ(),y.D),q=r.gp(),p=q==null?s:q.f,o=r.gkp()!=null
+C(d){var x,w,v,u,t=this,s=null,r=t.gal().W($.C_(),y.D),q=r.gp(),p=q==null?s:q.f,o=r.gkp()!=null
 q=A.e(d)
 x=t.as==null
 w=A.p(x?"New case room":"Room created",s,s,s,s,s,s,s,s,s)
@@ -61,7 +61,7 @@ s.push(A.p("Case type: "+x+" (from your niche)",D.fA1,u,u,u,u,A.e(w).ok.z,u,u,u)
 x=v.Q
 if(x!=null){w=v.c
 w.toString
-C.i.K(s,A.c([C.U,A.p(x,u,u,u,u,u,A.d_(u,u,A.e(w).ax.fy,u,u,u,u,u,u,u,u,u,u,u,u,u,u,!0,u,u,u,u,u,u,u,u),u,u,u)],t))}return A.yB(u,A.a5(s,C.bd,u,C.r,C.W,0,C.z),v.w)},
+C.i.K(s,A.c([C.U,A.p(x,u,u,u,u,u,A.d_(u,u,A.e(w).ax.fy,u,u,u,u,u,u,u,u,u,u,u,u,u,u,!0,u,u,u,u,u,u,u,u),u,u,u)],t))}return A.yC(u,A.a5(s,C.bd,u,C.r,C.W,0,C.z),v.w)},
 bdu(d){var x,w,v,u,t=this,s=null,r=d.z,q=A.p("Share this code with the people you want in the room. You can rotate it anytime.",s,s,s,s,s,r,s,s,s),p=t.c
 p.toString
 p=A.e(p)
@@ -72,13 +72,13 @@ w=A.bT(A.e(w).ax.b,C.O,1)
 v=t.as.b
 u=t.c
 u.toString
-x=A.as(s,A.p(v,D.a7K,s,s,s,s,A.d_(s,s,A.e(u).ax.b,s,s,s,s,s,"JetBrainsMono",s,s,28,s,s,C.c3,s,s,!0,s,6,s,s,s,s,s,s),C.aQ,s,s),C.C,s,s,new A.aC(p.ax.k2,s,w,x,s,s,C.X),s,s,s,s,C.aW,s,s,s)
+x=A.as(s,A.p(v,D.a7K,s,s,s,s,A.d_(s,s,A.e(u).ax.b,s,s,s,s,s,"JetBrainsMono",s,s,28,s,s,C.c3,s,s,!0,s,6,s,s,s,s,s,s),C.aO,s,s),C.C,s,s,new A.aC(p.ax.k2,s,w,x,s,s,C.X),s,s,s,s,C.aW,s,s,s)
 w=A.bQ(A.ml(C.CB,D.fyW,C.G_,new B.bqM(t),s),s,s)
 if(r==null)r=s
 else{p=r.b
 p=p==null?s:p.aN(0.6)
 p=r.X(p)
-r=p}return A.a5(A.c([q,C.a_,x,C.ao,w,A.p("This code is shown only once \u2014 copy it now.",s,s,s,s,s,r,C.aQ,s,s)],y.u),C.bd,s,C.r,C.W,0,C.z)},
+r=p}return A.a5(A.c([q,C.a_,x,C.ao,w,A.p("This code is shown only once \u2014 copy it now.",s,s,s,s,s,r,C.aO,s,s)],y.u),C.bd,s,C.r,C.W,0,C.z)},
 aPZ(){var x=null
 return A.bz(C.bs,x,x,x,this.z?x:new B.bqD(this),x,x)},
 aT3(){return A.nQ(C.fpZ,null,new B.bqE(this))},
@@ -86,7 +86,7 @@ Qa(){var x=0,w=A.n(y.r),v,u=2,t=[],s=[],r=this,q,p,o,n,m,l,k,j
 var $async$Qa=A.j(function(d,e){if(d===1){t.push(e)
 x=u}for(;;)switch(x){case 0:if(!r.w.gaf().o3()){x=1
 break}n=r.gal()
-m=n.V($.BZ(),y.D).gp()
+m=n.V($.C_(),y.D).gp()
 q=m==null?null:m.f
 if(q==null){r.v(new B.bqH(r))
 x=1
@@ -167,12 +167,12 @@ B.bqL.prototype={
 $0(){return this.a.z=!1},
 $S:0};(function installTearOffs(){var x=a._instance_0u
 x(B.a1n.prototype,"gaRh","Qa",0)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(B.yf,A.hY)
+x(B.yg,A.hY)
 x(B.a1n,A.hJ)
 w(A.cC,[B.bqF,B.bqG])
 w(A.dz,[B.bqM,B.bqD,B.bqE,B.bqH,B.bqI,B.bqJ,B.bqK,B.bqL])})()
-A.d1(b.typeUniverse,JSON.parse('{"yf":{"N":[],"h":[]},"a1n":{"Y":["yf"]}}'))
-var y={D:A.O("aW<iw?>"),g:A.O("aG"),u:A.O("y<h>"),o:A.O("bt<yC>"),f:A.O("YJ"),q:A.O("L<f>"),v:A.O("hz"),r:A.O("~")};(function constants(){D.e2q=new A.cn(null,null,null,"Access code (optional)",null,null,null,null,null,null,"Leave empty to auto-generate \xb7 e.g. ROBBERY2",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"",null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+A.d1(b.typeUniverse,JSON.parse('{"yg":{"N":[],"h":[]},"a1n":{"Y":["yg"]}}'))
+var y={D:A.O("aW<iw?>"),g:A.O("aG"),u:A.O("y<h>"),o:A.O("bt<yD>"),f:A.O("YJ"),q:A.O("L<f>"),v:A.O("hz"),r:A.O("~")};(function constants(){D.e2q=new A.cn(null,null,null,"Access code (optional)",null,null,null,null,null,null,"Leave empty to auto-generate \xb7 e.g. ROBBERY2",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,"",null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 D.e2G=new A.cn(null,null,null,"Room name",null,null,null,null,null,null,"e.g. Contract dispute \u2014 Q3",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
 D.flb=new A.NL(2,"characters")
 D.fvY=new A.L("create-room-name",y.q)
@@ -181,4 +181,4 @@ D.fxr=new A.L("create-room-niche-missing",y.q)
 D.a7K=new A.L("create-room-code",y.q)
 D.fyW=new A.L("create-room-copy-code",y.q)
 D.fA1=new A.L("create-room-type-from-niche",y.q)})()};
-(a=>{a["aFF633RQB5jhmDWnb/FqO2LytFo="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["JJSGcIHsVnh8SG4pw4fZncx4UIA="]=a.current})($__dart_deferred_initializers__);

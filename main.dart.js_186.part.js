@@ -166,7 +166,7 @@ $2(d,e){return D.af6},
 $S:51}
 C.bca.prototype={
 $1(d){var w=null,v=J.av(d)
-if(v.gU(d))return A.bQ(new A.a0(B.bA,A.p("No signature requests yet.\nCreate one for engagement letters, fee agreements, or client authorizations \u2014 the signer gets a link, no account needed.",w,w,w,w,w,this.b.z,B.aQ,w,w),w),w,w)
+if(v.gU(d))return A.bQ(new A.a0(B.bA,A.p("No signature requests yet.\nCreate one for engagement letters, fee agreements, or client authorizations \u2014 the signer gets a link, no account needed.",w,w,w,w,w,this.b.z,B.aO,w,w),w),w,w)
 return A.lp(w,new C.bc9(this.a,d,this.c),v.gu(d),B.aW,B.a7,!1)},
 $S:z+1}
 C.bc9.prototype={
@@ -205,17 +205,17 @@ $1(d){var w=this
 return new A.nf(new C.bc5(w.a,w.b,w.c,w.d,w.e,w.f,w.r,w.w),null)},
 $S:71}
 C.bc5.prototype={
-$2(d,e){var w=this,v=null,u=x.u,t=A.c([A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.c,v,v,v,v,v,2,D.e2C,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,v,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aP,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v),B.U],u),s=w.a,r=s.a
+$2(d,e){var w=this,v=null,u=x.u,t=A.c([A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.c,v,v,v,v,v,2,D.e2C,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,v,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aQ,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v),B.U],u),s=w.a,r=s.a
 if(r==null)t.push(A.io(D.e0H,D.fxi,D.fr7,new C.bc1(s,w.b,d,w.d,e),v))
 else t.push(I.caZ(E.NU,v,D.fwW,A.p(r.c,v,v,B.az,v,v,v,v,v,v),new C.bc2(s,e),v))
 t.push(B.U)
-t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.e,v,v,v,v,v,2,D.e2D,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,v,v,v,v,4,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aP,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
+t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.e,v,v,v,v,v,2,D.e2D,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,v,v,v,v,4,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aQ,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
 t.push(B.U)
-t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.f,v,v,v,v,v,2,D.e2l,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,v,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aP,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
+t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.f,v,v,v,v,v,2,D.e2l,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,v,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aQ,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
 t.push(B.U)
-t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.r,v,v,v,v,v,2,D.e1U,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,B.tb,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aP,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
+t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.r,v,v,v,v,v,2,D.e1U,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,B.tb,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aQ,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
 t.push(B.U)
-t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.w,v,v,v,v,v,2,D.e2z,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,v,v,v,v,2,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aP,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
+t.push(A.d6(v,B.ay,!1,v,!0,B.D,v,A.db(),w.w,v,v,v,v,v,2,D.e2z,B.V,!0,v,!0,v,!1,v,B.aR,v,v,v,v,v,v,v,v,v,2,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aQ,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.ag,v,B.aJ,v,v,v,v))
 t=A.em(A.a5(t,B.y,v,B.r,B.W,0,B.z),v,B.V,v,v,v,B.a7)
 return A.dD(A.c([A.bz(B.bs,v,v,v,new C.bc3(d),v,v),A.dl(L.a6L,v,new C.bc4(d),v)],u),t,v,D.fr8)},
 $S:110}
@@ -271,7 +271,7 @@ w(A.cC,[C.bca,C.bbV,C.bc6,C.bbZ])})()
 A.d1(b.typeUniverse,JSON.parse('{"G4":{"c0":[],"N":[],"h":[]}}'))
 var y={d:"https://case-thread-wine.vercel.app/#/sign/"}
 var x=(function rtii(){var w=A.O
-return{r:w("aW<w<ne>>"),d:w("Dc"),u:w("y<h>"),A:w("w<ff>"),w:w("Ay"),x:w("L<f>"),m:w("ff"),v:w("hz"),e:w("B"),q:w("~")}})();(function constants(){var w=a.makeConstList
+return{r:w("aW<w<ne>>"),d:w("Dc"),u:w("y<h>"),A:w("w<ff>"),w:w("Az"),x:w("L<f>"),m:w("ff"),v:w("hz"),e:w("B"),q:w("~")}})();(function constants(){var w=a.makeConstList
 D.frt=new A.a4("Could not load requests.",null,null,null,null,null,null,null,null,null,null)
 D.af6=new A.fM(B.ai,null,null,D.frt,null)
 D.dZ8=new A.ai(57569,"MaterialIcons",null,!1)
@@ -304,4 +304,4 @@ D.frc=new A.a4("Keep",null,null,null,null,null,null,null,null,null,null)
 D.fwW=new A.L("esign-attached-doc",x.x)
 D.fxi=new A.L("esign-attach-vault",x.x)})();(function lazyInitializers(){var w=a.lazyFinal
 w($,"cT6","c09",()=>B.bD.$2$1(new C.bZY(),A.O("w<ne>"),A.O("f")))})()};
-(a=>{a["L2I1LAjCaz4gAynZfEXPUOxXPR4="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["UL4GMNTA3WFOTkDnKqIXSd5tbLI="]=a.current})($__dart_deferred_initializers__);
