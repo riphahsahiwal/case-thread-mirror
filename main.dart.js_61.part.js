@@ -1,8 +1,8 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,C,E,F,A={aPn:function aPn(){},
-cgv(d,e){return new A.O1(d,C.G_,!0,e,null)},
+cgv(d,e){return new A.O2(d,C.G0,!0,e,null)},
 AQ:function AQ(){},
-O1:function O1(d,e,f,g,h){var _=this
+O2:function O2(d,e,f,g,h){var _=this
 _.e=d
 _.f=e
 _.r=f
@@ -60,22 +60,22 @@ bKq:function bKq(d){this.a=d}},D,G,H
 B=c[0]
 C=c[2]
 E=c[31]
-F=c[146]
+F=c[147]
 A=a.updateHolder(c[60],A)
-D=c[179]
+D=c[180]
 G=c[71]
-H=c[126]
+H=c[127]
 A.aPn.prototype={}
 A.AQ.prototype={
 C(d){var x=null,w=this.c
 if(w==null)return this.a4q(d)
 return B.f1(x,B.lt(this.a4q(d),C.mM,x,x,x,x),C.T,!1,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,w,x,x,x,x,x,x,!1,C.bK)}}
-A.O1.prototype={
+A.O2.prototype={
 a4q(d){var x=null,w=this.r?"\xa9 ":""
 return B.p(w+this.e,x,x,x,x,x,this.f,x,x,x)}}
 A.VZ.prototype={
 a4q(d){var x=new B.aK(null,this.r,this.e,null)
-return B.pE(x,this.f)}}
+return B.pD(x,this.f)}}
 A.aEc.prototype={
 H(){return"AttributionAlignment."+this.b}}
 A.YP.prototype={
@@ -110,19 +110,19 @@ s.a.toString
 w=B.e(d)
 v=B.bU(C.a3,C.cT,0)
 u=s.a
-t=new B.dl(D.EV,D.EV,D.EV,C.as)
+t=new B.dg(D.EW,D.EW,D.EW,C.as)
 p=B.J(new B.d3(u.c,y.f),p)
 s.a.toString
-p.push(D.flW)
+p.push(D.flX)
 s.a.toString
 p.push(new B.aK(r,32,r,r))
-p=B.JN(new B.a_(C.eF,B.a4(p,C.R,r,C.r,C.W,0,C.x),r),new B.aC(w.ax.k2,r,v,t,r,r,C.Z),C.nm)
+p=B.JO(new B.a_(C.eF,B.a4(p,C.R,r,C.r,C.W,0,C.x),r),new B.aC(w.ax.k2,r,v,t,r,r,C.Z),C.no)
 w=x?1:0
 v=x?C.eC:C.eB
-w=B.IA(B.nY(p,!x,r),v,C.ak,w)
+w=B.IB(B.nY(p,!x,r),v,C.ak,w)
 p=s.f||s.gYa()?1:0.5
 s.a.toString
-return new B.eZ(C.oh,r,r,B.e_(C.oh,B.c([new B.a_(C.JY,w,r),B.lt(B.IA(new B.a_(C.qO,G.cc4(B.am(o,C.z,r,C.r,C.W,0,r),C.n6),r),C.l6,C.ak,p),C.mM,r,new A.bKz(s),new A.bKA(s),r)],y.u),C.B,C.bm,r),r)}}
+return new B.eZ(C.oj,r,r,B.e_(C.oj,B.c([new B.a_(C.K1,w,r),B.lt(B.IB(new B.a_(C.qO,G.cc4(B.am(o,C.z,r,C.r,C.W,0,r),C.n6),r),C.l6,C.ak,p),C.mM,r,new A.bKz(s),new A.bKA(s),r)],y.u),C.B,C.bm,r),r)}}
 var z=a.updateTypes(["M<~>(h6)"])
 A.bKC.prototype={
 $0(){var x=this.a
@@ -148,12 +148,12 @@ $S:0}
 A.bKx.prototype={
 $2(d,e){var x=null
 this.a.a.toString
-return B.bN(x,x,x,B.aT(D.e_v,C.a3,x,x,24),x,x,e,x,x,x,"Attributions",x)},
+return B.bN(x,x,x,B.aT(D.e_y,C.a3,x,x,24),x,x,e,x,x,x,"Attributions",x)},
 $S:420}
 A.bKy.prototype={
 $0(){var x,w=this.a
 w.v(new A.bKs(w))
-x=E.w_(this.b,F.a8n)
+x=E.w_(this.b,F.a8s)
 x=x==null?null:x.b
 x=(x==null?B.ab(B.at("`MapController.of()` should not be called outside a `FlutterMap` and its children")):x).w
 w.d=new B.c1(x,B.t(x).i("c1<1>")).dv(new A.bKt(w))},
@@ -193,18 +193,18 @@ $0(){return this.a.f=!1},
 $S:0};(function inheritance(){var x=a.inherit,w=a.inheritMany
 x(A.aPn,B.D)
 x(A.AQ,B.a5)
-w(A.AQ,[A.O1,A.VZ])
+w(A.AQ,[A.O2,A.VZ])
 x(A.aEc,B.hp)
 x(A.YP,B.N)
 x(A.aw2,B.Y)
 w(B.dy,[A.bKC,A.bKB,A.bKw,A.bKu,A.bKy,A.bKs,A.bKp,A.bKr,A.bKq])
 w(B.dH,[A.bKv,A.bKx])
 w(B.cA,[A.bKt,A.bKz,A.bKA])})()
-B.cW(b.typeUniverse,JSON.parse('{"O1":{"AQ":[],"a5":[],"h":[]},"VZ":{"AQ":[],"a5":[],"h":[]},"AQ":{"a5":[],"h":[]},"YP":{"N":[],"h":[]},"aw2":{"Y":["YP"]}}'))
-var y={w:B.O("M<~>"),u:B.O("x<h>"),F:B.O("bh"),E:B.O("d3<VZ>"),f:B.O("d3<O1>"),l:B.O("h"),v:B.O("~")};(function constants(){D.fE2=new A.aEc(C.oh,1,"bottomRight")
-D.fE9=new A.aPn()
-D.e_v=new B.ah(61736,"MaterialIcons",null,!1)
-D.EV=new B.bj(10,10)
-D.fnf=new B.a0(!0,null,null,null,null,null,null,null,C.nu,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.flW=new A.O1("Made with 'flutter_map'",D.fnf,!1,null,null)})()};
-(a=>{a["G7EKbKp8bQjozgAl8lrTBn+xgAw="]=a.current})($__dart_deferred_initializers__);
+B.cW(b.typeUniverse,JSON.parse('{"O2":{"AQ":[],"a5":[],"h":[]},"VZ":{"AQ":[],"a5":[],"h":[]},"AQ":{"a5":[],"h":[]},"YP":{"N":[],"h":[]},"aw2":{"Y":["YP"]}}'))
+var y={w:B.O("M<~>"),u:B.O("x<h>"),F:B.O("bh"),E:B.O("d3<VZ>"),f:B.O("d3<O2>"),l:B.O("h"),v:B.O("~")};(function constants(){D.fE3=new A.aEc(C.oj,1,"bottomRight")
+D.fEa=new A.aPn()
+D.e_y=new B.ah(61736,"MaterialIcons",null,!1)
+D.EW=new B.bi(10,10)
+D.fng=new B.a0(!0,null,null,null,null,null,null,null,C.nw,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.flX=new A.O2("Made with 'flutter_map'",D.fng,!1,null,null)})()};
+(a=>{a["uJ8CXugGbnawvJU/gDtgEwXnEss="]=a.current})($__dart_deferred_initializers__);

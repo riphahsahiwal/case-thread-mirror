@@ -42,11 +42,11 @@ _.d=f
 _.a=g}},D,H,F,E
 A=c[0]
 C=c[2]
-G=c[113]
+G=c[114]
 B=a.updateHolder(c[5],B)
-D=c[168]
+D=c[169]
 H=c[59]
-F=c[167]
+F=c[168]
 E=c[70]
 B.AM.prototype={
 Y(){return new B.a60(new A.bQ(C.aL,$.af()),A.c([],y.n),A.c([],y.g))}}
@@ -111,11 +111,11 @@ break
 case 6:case 1:return A.k(v,w)
 case 2:return A.j(t.at(-1),w)}})
 return A.l($async$T3,w)},
-C(d){var x,w=this,v=null,u=A.e(d).ok,t=A.y3(v,v,v,D.a6V)
+C(d){var x,w=this,v=null,u=A.e(d).ok,t=A.y3(v,v,v,D.a7_)
 if(w.x)x=C.bi
 else{x=w.y
 if(x!=null)x=A.bR(new A.a_(C.bB,A.p(x,v,v,v,v,v,v,C.aO,v,v),v),v,v)
-else x=w.ay?A.bR(new A.a_(C.bB,A.a4(A.c([D.e1J,C.Y,A.p("Signed.",v,v,v,v,v,u.f,v,v,v),C.S,A.p("Your signature has been recorded with a tamper-evident audit trail.",v,v,v,v,v,u.z,C.aO,v,v)],y.p),C.z,v,C.r,C.W,0,C.x),v),v,v):w.bd_(u)}return A.kp(t,v,x,v,v)},
+else x=w.ay?A.bR(new A.a_(C.bB,A.a4(A.c([D.e1M,C.Y,A.p("Signed.",v,v,v,v,v,u.f,v,v,v),C.S,A.p("Your signature has been recorded with a tamper-evident audit trail.",v,v,v,v,v,u.z,C.aO,v,v)],y.p),C.z,v,C.r,C.W,0,C.x),v),v,v):w.bd_(u)}return A.kp(t,v,x,v,v)},
 bd_(d){var x,w,v=this,u=null,t=v.w,s=d.z,r=y.p,q=A.c([A.p(t.c,u,u,u,u,u,d.f,u,u,u),C.S,A.p("Signer: "+t.e,u,u,u,u,u,s,u,u,u)],r),p=t.r
 if(p.length!==0)C.i.J(q,A.c([C.S,A.p(p,u,u,u,u,u,s,u,u,u)],r))
 p=t.d
@@ -123,11 +123,11 @@ if(p.length!==0){x=v.c
 x.toString
 x=A.bU(A.e(x).ch,C.O,1)
 w=A.b3(8)
-C.i.J(q,A.c([C.Y,A.au(u,A.p(p,u,u,u,u,u,s,u,u,u),C.E,u,u,new A.aC(u,u,x,w,u,u,C.Z),u,u,u,u,C.aM,u,u,u)],r))}s=t.z
-if(s!=null&&s.length!==0)C.i.J(q,A.c([C.S,A.am(A.c([F.NY,C.b3,A.aI(A.p("Attached vault document: "+s,u,u,C.az,u,u,d.Q,u,u,u),1,u)],r),C.z,u,C.r,C.w,0,u)],r))
+C.i.J(q,A.c([C.Y,A.au(u,A.p(p,u,u,u,u,u,s,u,u,u),C.D,u,u,new A.aC(u,u,x,w,u,u,C.Z),u,u,u,u,C.aM,u,u,u)],r))}s=t.z
+if(s!=null&&s.length!==0)C.i.J(q,A.c([C.S,A.am(A.c([F.O1,C.b3,A.aI(A.p("Attached vault document: "+s,u,u,C.az,u,u,d.Q,u,u,u),1,u)],r),C.z,u,C.r,C.w,0,u)],r))
 q.push(C.bf)
 s=y.y
-q.push(E.c55(new B.bOk(v),D.f6Q,A.dp([v.z],s),s))
+q.push(E.c55(new B.bOk(v),D.f6R,A.dp([v.z],s),s))
 q.push(C.Y)
 if(v.z){s=v.c
 s.toString
@@ -137,17 +137,17 @@ x=v.at
 w=v.c
 w.toString
 w=A.e(w).ax.a===C.p?C.P:C.a3
-C.i.J(q,A.c([A.au(u,A.f1(u,A.hw(u,u,u,new B.ax3(v.as,x,w,u),C.a5Y),C.T,!1,u,u,u,u,u,u,u,u,u,u,u,u,new B.bOl(v),new B.bOm(v),new B.bOn(v),u,u,u,u,u,u,u,u,u,u,u,u,u,u,!1,C.bK),C.E,u,u,new A.aC(u,u,s,p,u,u,C.Z),u,200,u,u,u,u,u,u),new A.eZ(C.dS,u,u,A.by(G.G2,u,u,u,new B.bOo(v),u,u),u)],r))}else q.push(A.cS(u,C.at,!1,u,!0,C.B,u,A.d0(),v.Q,u,u,u,u,u,2,D.e2C,C.T,!0,u,!0,u,!1,u,C.aP,u,u,u,u,u,u,u,u,u,1,u,u,!1,"\u2022",u,new B.bOp(v),u,u,u,!1,u,u,!1,u,!0,u,C.aN,u,u,u,u,u,u,u,u,u,u,u,D.fov,!0,C.af,u,C.aF,u,u,u,u))
+C.i.J(q,A.c([A.au(u,A.f1(u,A.hw(u,u,u,new B.ax3(v.as,x,w,u),C.a62),C.T,!1,u,u,u,u,u,u,u,u,u,u,u,u,new B.bOl(v),new B.bOm(v),new B.bOn(v),u,u,u,u,u,u,u,u,u,u,u,u,u,u,!1,C.bK),C.D,u,u,new A.aC(u,u,s,p,u,u,C.Z),u,200,u,u,u,u,u,u),new A.eZ(C.dS,u,u,A.by(G.G3,u,u,u,new B.bOo(v),u,u),u)],r))}else q.push(A.cS(u,C.at,!1,u,!0,C.B,u,A.d0(),v.Q,u,u,u,u,u,2,D.e2C,C.T,!0,u,!0,u,!1,u,C.aP,u,u,u,u,u,u,u,u,u,1,u,u,!1,"\u2022",u,new B.bOp(v),u,u,u,!1,u,u,!1,u,!0,u,C.aN,u,u,u,u,u,u,u,u,u,u,u,D.fow,!0,C.af,u,C.aG,u,u,u,u))
 q.push(C.bf)
 s=v.gakq()&&!v.ax?v.gbd0():u
-q.push(A.d7(v.ax?C.er:D.a6V,u,s,u))
+q.push(A.d7(v.ax?C.er:D.a7_,u,s,u))
 q.push(C.S)
 q.push(A.p("By signing you agree to the document above. Your signature, name, and timestamp are recorded in a tamper-evident log.",u,u,u,u,u,d.Q,C.aO,u,u))
 return A.en(A.bR(new A.eJ(C.zF,A.a4(q,C.bd,u,C.r,C.w,0,C.x),u),u,u),u,C.T,C.bB,u,u,C.a5)}}
 B.ax3.prototype={
 aX(d,e){var x,w,v,u,t,s,r,q,p,o
 $.ap()
-x=A.bi()
+x=A.bj()
 x.r=this.d.gp()
 x.c=2.5
 x.d=C.lW
@@ -242,17 +242,17 @@ x(B.ax3,A.ys)})()
 A.cW(b.typeUniverse,JSON.parse('{"AM":{"N":[],"h":[]},"a60":{"Y":["AM"]},"ax3":{"aD":[]}}'))
 var y=(function rtii(){var x=A.O
 return{M:x("kI<B>"),e:x("x<w<w<f>>>"),n:x("x<w<y>>"),E:x("x<w<f>>"),g:x("x<y>"),S:x("x<f>"),p:x("x<h>"),s:x("AL"),q:x("hr"),y:x("B"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.e1J=new A.aN(C.oX,64,C.po,null,null)
-D.e2C=new A.cf(null,null,null,"Type your full name",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,C.c0,!0,null,null,null,null)
-D.e_T=new A.ah(984307,"MaterialIcons",null,!1)
-D.e1F=new A.aN(D.e_T,null,null,null,null)
-D.ftQ=new A.a3("Draw",null,null,null,null,null,null,null,null,null,null)
-D.abM=new E.kI(!0,D.e1F,D.ftQ,y.M)
-D.e_0=new A.ah(58953,"MaterialIcons",null,!1)
-D.e13=new A.aN(D.e_0,null,null,null,null)
-D.fsa=new A.a3("Type",null,null,null,null,null,null,null,null,null,null)
-D.abI=new E.kI(!1,D.e13,D.fsa,y.M)
-D.f6Q=x([D.abM,D.abI],A.O("x<kI<B>>"))
-D.fov=new A.a0(!0,null,null,"cursive",null,null,28,null,C.nu,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-D.a6V=new A.a3("Sign document",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["GssNcibqDMC2H1QvIUdAPuNKCdY="]=a.current})($__dart_deferred_initializers__);
+D.e1M=new A.aN(C.oX,64,C.po,null,null)
+D.e2C=new A.ci(null,null,null,"Type your full name",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,C.ch,!0,null,null,null,null)
+D.e_W=new A.ah(984307,"MaterialIcons",null,!1)
+D.e1I=new A.aN(D.e_W,null,null,null,null)
+D.ftR=new A.a3("Draw",null,null,null,null,null,null,null,null,null,null)
+D.abR=new E.kI(!0,D.e1I,D.ftR,y.M)
+D.e_2=new A.ah(58953,"MaterialIcons",null,!1)
+D.e16=new A.aN(D.e_2,null,null,null,null)
+D.fsb=new A.a3("Type",null,null,null,null,null,null,null,null,null,null)
+D.abN=new E.kI(!1,D.e16,D.fsb,y.M)
+D.f6R=x([D.abR,D.abN],A.O("x<kI<B>>"))
+D.fow=new A.a0(!0,null,null,"cursive",null,null,28,null,C.nw,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+D.a7_=new A.a3("Sign document",null,null,null,null,null,null,null,null,null,null)})()};
+(a=>{a["8Vjp/jXFAP4IBCiEfbIf9wxAfxI="]=a.current})($__dart_deferred_initializers__);

@@ -1,7 +1,7 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,B,C,G,H,I,K,E,L,F,A={
-cA9(d){return new A.Gt(d)},
-Gt:function Gt(d){var _=this
+cA9(d){return new A.Gu(d)},
+Gu:function Gu(d){var _=this
 _.as=d
 _.at=null
 _.x=!1
@@ -50,7 +50,7 @@ bQd:function bQd(d){this.a=d},
 bQc:function bQc(d,e,f){this.a=d
 this.b=e
 this.c=f},
-Qr:function Qr(d,e,f,g){var _=this
+Qs:function Qs(d,e,f,g){var _=this
 _.d=d
 _.e=e
 _.f=f
@@ -121,20 +121,20 @@ B=c[0]
 C=c[2]
 G=c[52]
 H=c[78]
-I=c[110]
-K=c[153]
-E=c[124]
-L=c[152]
+I=c[111]
+K=c[154]
+E=c[125]
+L=c[153]
 F=c[51]
 A=a.updateHolder(c[19],A)
-D=c[151]
-M=c[84]
+D=c[152]
+M=c[85]
 N=c[62]
-A.Gt.prototype={
+A.Gu.prototype={
 gaxX(){return!1},
 EA(d,e){return B.dW(this).T($.dO(),y.e).Ot(this.as,d,e)},
 VK(){return this.EA(null,null)},
-KL(d){return new B.Q_(d.a,d.Q)},
+KL(d){return new B.Q0(d.a,d.Q)},
 a_J(){var x=this
 x.at=B.dW(x).T($.dO(),y.e).bzs(x.as).dv(new A.bgM(x))
 return new A.bgN(x)}}
@@ -142,11 +142,11 @@ A.AT.prototype={
 Y(){return new A.axV()}}
 A.axV.prototype={
 C(d){var x=this,w=null,v=x.gag(),u=$.cpM(),t=v.T(u.$1(x.a.d),y.D),s=v.V(u.$1(x.a.d).gbU(),y.S),r=B.cm(v.T($.jt().$1(x.a.d),y.K),new A.bQh(),new A.bQi(),y.P,y.y),q=v.T($.jW().$1(x.a.d),y.Q)
-v=r?G.cc6(D.e0l,D.fAy,D.fqs,new A.bQj(x,d,q)):w
-return B.kp(w,C.aa,new B.ee(new A.bQk(x,t,s,r,q),w),w,v)},
+v=r?G.cc6(D.e0o,D.fAz,D.fqt,new A.bQj(x,d,q)):w
+return B.kp(w,C.aa,new B.ef(new A.bQk(x,t,s,r,q),w),w,v)},
 aoZ(d,e){var x=null
 B.eu(x,new A.bQc(this,e,x),d,!0,x,x,!1,y.H)}}
-A.Qr.prototype={
+A.Qs.prototype={
 Y(){return new A.a6u()}}
 A.a6u.prototype={
 ar(){var x,w,v,u,t=this,s=null
@@ -156,14 +156,14 @@ w=x==null
 v=w?s:x.c
 if(v==null)v=""
 u=$.af()
-v=new B.bQ(new B.di(v,C.cM,C.bH),u)
+v=new B.bQ(new B.dj(v,C.cM,C.bH),u)
 v.ab(t.gb5S())
 t.w!==$&&B.b8()
 t.w=v
 v=w?s:x.r
 if(v==null)v=""
 t.x!==$&&B.b8()
-t.x=new B.bQ(new B.di(v,C.cM,C.bH),u)
+t.x=new B.bQ(new B.dj(v,C.cM,C.bH),u)
 t.y=w?s:x.d
 v=w?s:x.w
 t.z=v==null?"medium":v
@@ -206,7 +206,7 @@ i===$&&B.b()
 h=r.z
 h===$&&B.b()
 x=10
-return B.d(B.I8(f,m,"task_update",B.Q(["task_id",l,"title",q,"description",k,"assignee_id",j,"status",i,"priority",h],y.N,y.z),new A.bPS(r,o,q,p)),$async$Dq)
+return B.d(B.I9(f,m,"task_update",B.Q(["task_id",l,"title",q,"description",k,"assignee_id",j,"status",i,"priority",h],y.N,y.z),new A.bPS(r,o,q,p)),$async$Dq)
 case 10:x=8
 break
 case 9:f=r.gag()
@@ -216,8 +216,8 @@ k=J.aY(p)===0?null:p
 j=r.z
 j===$&&B.b()
 x=11
-return B.d(B.I8(f,m,"task_create",B.Q(["title",q,"assignee_id",l,"description",k,"priority",j],y.N,y.z),new A.bPT(r,q,p)),$async$Dq)
-case 11:case 8:r.gag().br($.Ii().$1(r.a.d))
+return B.d(B.I9(f,m,"task_create",B.Q(["title",q,"assignee_id",l,"description",k,"priority",j],y.N,y.z),new A.bPT(r,q,p)),$async$Dq)
+case 11:case 8:r.gag().br($.Ij().$1(r.a.d))
 f=r.c
 if(f!=null)B.as(f,!1).bP()
 s.push(6)
@@ -244,26 +244,26 @@ C(d){var x,w,v,u,t,s,r,q,p=this,o=null,n=B.e(d),m=p.a.f==null,l=!m?"Edit task":"
 n=B.p(l,o,o,o,o,o,n.ok.f,o,o,o)
 l=p.w
 l===$&&B.b()
-m=B.cS(o,C.at,m,o,!0,C.B,o,B.d0(),l,o,o,o,o,o,2,B.m9(o,o,o,o,o,o,o,o,!0,o,o,o,o,o,p.as&&C.n.aI(l.a.a).length===0?"Give the task a title":o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,"e.g. Interview the witness",o,o,o,o,o,o,o,o,"Title",!0,!0,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o),C.T,!0,o,!0,o,!1,o,C.aP,o,o,o,D.fzS,o,o,o,o,o,1,o,o,!1,"\u2022",o,new A.bPZ(p),o,new A.bQ_(p),o,!1,o,o,!1,o,!0,o,C.aN,o,o,o,o,o,o,o,o,o,o,o,o,!0,C.af,o,C.aF,o,o,o,o)
+m=B.cS(o,C.at,m,o,!0,C.B,o,B.d0(),l,o,o,o,o,o,2,B.m9(o,o,o,o,o,o,o,o,!0,o,o,o,o,o,p.as&&C.n.aI(l.a.a).length===0?"Give the task a title":o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,"e.g. Interview the witness",o,o,o,o,o,o,o,o,"Title",!0,!0,!1,o,o,o,o,o,o,o,o,o,o,o,o,o,o),C.T,!0,o,!0,o,!1,o,C.aP,o,o,o,D.fzT,o,o,o,o,o,1,o,o,!1,"\u2022",o,new A.bPZ(p),o,new A.bQ_(p),o,!1,o,o,!1,o,!0,o,C.aN,o,o,o,o,o,o,o,o,o,o,o,o,!0,C.af,o,C.aG,o,o,o,o)
 x=p.x
 x===$&&B.b()
-x=B.cS(o,C.at,!1,o,!0,C.B,o,B.d0(),x,o,o,o,o,o,2,D.e2H,C.T,!0,o,!0,o,!1,o,C.aP,o,o,o,D.fxD,o,o,o,o,o,3,o,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,C.aN,o,o,o,o,o,o,o,o,o,o,o,o,!0,C.af,o,C.aF,o,o,o,o)
+x=B.cS(o,C.at,!1,o,!0,C.B,o,B.d0(),x,o,o,o,o,o,2,D.e2I,C.T,!0,o,!0,o,!1,o,C.aP,o,o,o,D.fxE,o,o,o,o,o,3,o,o,!1,"\u2022",o,o,o,o,o,!1,o,o,!1,o,!0,o,C.aN,o,o,o,o,o,o,o,o,o,o,o,o,!0,C.af,o,C.aG,o,o,o,o)
 w=p.z
 w===$&&B.b()
 v=y.v
 u=v.i("ai.E")
-t=B.J(new B.a9(D.eYB,new A.bQ0(),v),u)
+t=B.J(new B.a9(D.eYC,new A.bQ0(),v),u)
 s=y.N
-t=B.yz(D.e2x,w,t,D.fxV,new A.bQ1(p),o,s)
+t=B.yz(D.e2z,w,t,D.fxW,new A.bQ1(p),o,s)
 w=p.y
-r=B.c([D.aib],y.I)
+r=B.c([D.aie],y.I)
 C.i.J(r,J.c2(p.a.e,new A.bQ2(),y.r))
 q=y.p
-r=B.c([n,C.Y,m,C.Y,x,C.Y,t,C.Y,B.yz(D.e2l,w,r,D.fzK,new A.bQ3(p),o,s)],q)
+r=B.c([n,C.Y,m,C.Y,x,C.Y,t,C.Y,B.yz(D.e2o,w,r,D.fzL,new A.bQ3(p),o,s)],q)
 if(p.a.f!=null){n=p.Q
 n===$&&B.b()
-m=B.J(new B.a9(D.f_L,new A.bQ4(),v),u)
-C.i.J(r,B.c([C.Y,B.yz(D.e2L,n,m,D.fAm,new A.bQ5(p),o,s)],q))}r.push(C.bf)
+m=B.J(new B.a9(D.f_M,new A.bQ4(),v),u)
+C.i.J(r,B.c([C.Y,B.yz(D.e2M,n,m,D.fAn,new A.bQ5(p),o,s)],q))}r.push(C.bf)
 n=p.a.f!=null
 m=n?"tasks-edit-submit":"tasks-create-submit"
 l=C.n.aI(l.a.a).length!==0&&!p.at?p.gbeo():o
@@ -271,7 +271,7 @@ if(p.at)n=C.er
 else{x=B.p(n?"Save":"Create",o,o,o,o,o,o,o,o,o)
 n=x}r.push(B.nS(n,new B.K(m,y.O),l))
 if(p.a.f!=null){n=p.at?o:new A.bQ6(p,d)
-C.i.J(r,B.c([C.S,B.mq(I.CL,D.fxt,D.fqU,n,B.mr(o,o,o,o,o,o,o,o,o,B.e(d).ax.fy,o,o,o,o,o,o,o,o,o,o,o))],q))}return B.a4(r,C.bd,o,C.r,C.W,0,C.x)},
+C.i.J(r,B.c([C.S,B.mq(I.CM,D.fxu,D.fqV,n,B.mr(o,o,o,o,o,o,o,o,o,B.e(d).ax.fy,o,o,o,o,o,o,o,o,o,o,o))],q))}return B.a4(r,C.bd,o,C.r,C.W,0,C.x)},
 HR(d){return this.aSD(d)},
 aSD(d){var x=0,w=B.m(y.H),v,u=2,t=[],s=[],r=this,q,p,o,n,m
 var $async$HR=B.i(function(e,f){if(e===1){t.push(f)
@@ -286,7 +286,7 @@ u=5
 n=r.gag()
 x=8
 return B.d(n.V($.dO(),y.e).Vi(r.a.d,q.a),$async$HR)
-case 8:n.br($.Ii().$1(r.a.d))
+case 8:n.br($.Ij().$1(r.a.d))
 if(r.c!=null)B.as(d,!1).bP()
 s.push(7)
 x=6
@@ -309,7 +309,7 @@ case 2:return B.j(t.at(-1),w)}})
 return B.l($async$HR,w)}}
 A.asy.prototype={
 C(d){var x=null
-return new B.a_(E.uS,B.bR(this.c?C.er:B.mq(L.CG,x,E.yx,this.d,x),x,x),x)}}
+return new B.a_(E.uS,B.bR(this.c?C.er:B.mq(L.CH,x,E.yx,this.d,x),x,x),x)}}
 A.axU.prototype={
 aNP(){var x,w,v=this.e,u=v.d
 if(u==null)return null
@@ -325,8 +325,8 @@ r=t.e
 q=r.b
 p=f===!0?"done":"open"
 x=6
-return B.d(B.I8(d,q,"task_status",B.Q(["task_id",r.a,"status",p],y.N,y.z),new A.bQ8(t,d,f)),$async$Ts)
-case 6:d.br($.Ii().$1(q))
+return B.d(B.I9(d,q,"task_status",B.Q(["task_id",r.a,"status",p],y.N,y.z),new A.bQ8(t,d,f)),$async$Ts)
+case 6:d.br($.Ij().$1(q))
 v=1
 x=5
 break
@@ -344,7 +344,7 @@ case 1:return B.j(u.at(-1),w)}})
 return B.l($async$Ts,w)},
 b6a(d){B.eu(null,new A.bQ7(this),d,!0,null,null,!1,y.H)},
 cr(d,e){var x,w,v,u=this,t=null,s=B.e(d).ok,r=u.aNP(),q=u.e,p=q.a,o=q.x==="done",n=N.caG(t,!1,t,t,t,!1,t,t,new A.bQ9(u,e,d),t,t,t,t,t,!1,o),m=s.y
-if(o)o=m==null?t:m.bk1(C.a6t)
+if(o)o=m==null?t:m.bk1(C.a6y)
 else o=m
 o=B.p(q.c,t,t,t,t,t,o,t,t,t)
 m=B.c([],y.p)
@@ -365,12 +365,12 @@ if(w==null)w=t
 else{v=w.b
 v=v==null?t:v.aN(0.75)
 v=w.X(v)
-w=v}m.push(new B.a_(K.JN,B.p(x,t,2,C.az,t,t,w,t,t,t),t))}if(q.as)m.push(F.caW(q.at,p,"task"))
+w=v}m.push(new B.a_(K.JQ,B.p(x,t,2,C.az,t,t,w,t,t,t),t))}if(q.as)m.push(F.caW(q.at,p,"task"))
 q=B.a4(m,C.R,t,C.r,C.w,0,C.x)
-m=B.bN(t,t,t,D.e0w,t,t,new A.bQa(u,d),t,t,t,"Version history",t)
+m=B.bN(t,t,t,D.e0z,t,t,new A.bQa(u,d),t,t,t,"Version history",t)
 x=u.r?new A.bQb(u,d):t
-return B.hM(B.ei(!1,t,t,t,!0,t,t,t,!0,t,new B.K("task-"+p,y.O),n,t,t,t,t,x,!1,t,t,t,t,q,t,o,t,m,t),t,t,C.mr,t,t)}}
-var z=a.updateTypes(["~()","M<~>()","Gt(f)"])
+return B.hM(B.ej(!1,t,t,t,!0,t,t,t,!0,t,new B.K("task-"+p,y.O),n,t,t,t,t,x,!1,t,t,t,t,q,t,o,t,m,t),t,t,C.mr,t,t)}}
+var z=a.updateTypes(["~()","M<~>()","Gu(f)"])
 A.bgM.prototype={
 $1(d){return this.a.t_()},
 $S:231}
@@ -398,7 +398,7 @@ w=s.a
 x=w.length
 if(x===0){s=u.d
 x=s?"Add task":t
-return B.adb(x,D.e_h,"Break the investigation into trackable tasks.",s?new A.bQf(u.a,d,u.e):t,t,!1,t,"No tasks yet")}v=s.b||s.d?1:0
+return B.adb(x,D.e_j,"Break the investigation into trackable tasks.",s?new A.bQf(u.a,d,u.e):t,t,!1,t,"No tasks yet")}v=s.b||s.d?1:0
 return B.kh(t,new A.bQg(w,u.e,u.d,s,u.c),x+v,t,C.a5,!1)},
 $S:18}
 A.bQe.prototype={
@@ -420,7 +420,7 @@ A.bQd.prototype={
 $0(){return this.a.xd()},
 $S:0}
 A.bQc.prototype={
-$1(d){return new B.a_(new B.ag(24,24,24,B.aA(d,null,y.w).w.f.d+24),new A.Qr(this.a.a.d,this.b,this.c,null),null)},
+$1(d){return new B.a_(new B.ag(24,24,24,B.aA(d,null,y.w).w.f.d+24),new A.Qs(this.a.a.d,this.b,this.c,null),null)},
 $S:59}
 A.bPP.prototype={
 $0(){},
@@ -501,7 +501,7 @@ $0(){return this.a.HR(this.b)},
 $S:0}
 A.bPM.prototype={
 $1(d){var x=null,w=B.p('"'+this.a.c+'" will be permanently deleted.',x,x,x,x,x,x,x,x,x)
-return B.dw(B.c([B.by(C.bn,x,x,x,new A.bPK(d),x,x),B.d7(M.pQ,x,new A.bPL(d),B.qr(B.e(this.b).ax.fy,x,x,x,x,x,x))],y.p),w,x,D.fs7)},
+return B.dw(B.c([B.by(C.bn,x,x,x,new A.bPK(d),x,x),B.d7(M.pQ,x,new A.bPL(d),B.qq(B.e(this.b).ax.fy,x,x,x,x,x,x))],y.p),w,x,D.fs8)},
 $S:13}
 A.bPK.prototype={
 $0(){return B.as(this.a,!1).aZ(!1)},
@@ -521,7 +521,7 @@ return x.Zx(w.b,v,w.a)},
 $S:2}
 A.bQ7.prototype={
 $1(d){var x=this.a,w=x.e
-return new B.a_(new B.ag(24,24,24,B.aA(d,null,y.w).w.f.d+24),new A.Qr(w.b,x.f,w,null),null)},
+return new B.a_(new B.ag(24,24,24,B.aA(d,null,y.w).w.f.d+24),new A.Qs(w.b,x.f,w,null),null)},
 $S:59}
 A.bQ9.prototype={
 $1(d){return this.a.Ts(this.b,this.c,d)},
@@ -537,39 +537,39 @@ x(A,"cKr","cA9",2)
 var v
 w(v=A.a6u.prototype,"gb5S","b5T",0)
 w(v,"gbeo","Dq",1)})();(function inheritance(){var x=a.inherit,w=a.inheritMany
-x(A.Gt,H.iO)
+x(A.Gu,H.iO)
 w(B.cA,[A.bgM,A.bQh,A.bQk,A.bQc,A.bPZ,A.bQ_,A.bQ0,A.bQ1,A.bQ2,A.bQ3,A.bQ4,A.bQ5,A.bPM,A.bQ7,A.bQ9])
 w(B.dy,[A.bgN,A.bQi,A.bQj,A.bQe,A.bQf,A.bQd,A.bPP,A.bPQ,A.bPR,A.bPS,A.bPT,A.bPU,A.bPY,A.bPX,A.bPW,A.bPV,A.bQ6,A.bPK,A.bPL,A.bPN,A.bPO,A.bQ8,A.bQa,A.bQb])
-w(B.hN,[A.AT,A.Qr])
+w(B.hN,[A.AT,A.Qs])
 w(B.hu,[A.axV,A.a6u])
 x(A.bQg,B.dH)
 x(A.asy,B.a5)
 x(A.axU,B.bV)})()
-B.cW(b.typeUniverse,JSON.parse('{"Gt":{"iO":["rj"],"fs":["kT<rj>"],"iO.T":"rj"},"Qr":{"N":[],"h":[]},"AT":{"N":[],"h":[]},"axV":{"Y":["AT"]},"a6u":{"Y":["Qr"]},"asy":{"a5":[],"h":[]},"axU":{"bV":[],"N":[],"h":[]}}'))
+B.cW(b.typeUniverse,JSON.parse('{"Gu":{"iO":["ri"],"fs":["kT<ri>"],"iO.T":"ri"},"Qs":{"N":[],"h":[]},"AT":{"N":[],"h":[]},"axV":{"Y":["AT"]},"a6u":{"Y":["Qs"]},"asy":{"a5":[],"h":[]},"axU":{"bV":[],"N":[],"h":[]}}'))
 var y=(function rtii(){var x=B.O
-return{Q:x("aM<w<dK>>"),K:x("aM<fI>"),r:x("eS<f>"),I:x("x<eS<f>>"),s:x("x<f>"),p:x("x<h>"),v:x("a9<f,eS<f>>"),w:x("i2"),D:x("kT<rj>"),e:x("FM"),P:x("fI"),N:x("f"),S:x("Gt"),O:x("K<f>"),q:x("hr"),y:x("B"),z:x("@"),H:x("~")}})();(function constants(){var x=a.makeConstList
-D.fqA=new B.a3("Unassigned",null,null,null,null,null,null,null,null,null,null)
-D.aib=new B.eS(null,D.fqA,C.dD,null,y.r)
-D.e_h=new B.ah(61258,"MaterialIcons",null,!1)
-D.dZi=new B.ah(57435,"MaterialIcons",null,!1)
-D.e0l=new B.aN(D.dZi,null,null,null,null)
-D.dZD=new B.ah(58132,"MaterialIcons",null,!1)
-D.e0w=new B.aN(D.dZD,null,null,null,null)
-D.e2l=new B.cf(null,null,null,"Assignee",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-D.e2x=new B.cf(null,null,null,"Priority",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-D.e2H=new B.cf(null,null,null,"Description (optional)",null,null,null,null,null,null,"What needs to be done, context, links\u2026",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-D.e2L=new B.cf(null,null,null,"Status",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
-D.eYB=x(["low","medium","high"],y.s)
-D.f_L=x(["open","in_progress","done"],y.s)
-D.fqs=new B.a3("New task",null,null,null,null,null,null,null,null,null,null)
-D.fqU=new B.a3("Delete task",null,null,null,null,null,null,null,null,null,null)
-D.fs7=new B.a3("Delete this task?",null,null,null,null,null,null,null,null,null,null)
-D.fxt=new B.K("tasks-delete",y.O)
-D.fxD=new B.K("tasks-description-field",y.O)
-D.fxV=new B.K("tasks-priority-field",y.O)
-D.fzK=new B.K("tasks-assignee-field",y.O)
-D.fzS=new B.K("tasks-title-field",y.O)
-D.fAm=new B.K("tasks-status-field",y.O)
-D.fAy=new B.K("tasks-new",y.O)})();(function lazyInitializers(){var x=a.lazyFinal
+return{Q:x("aM<w<dK>>"),K:x("aM<fI>"),r:x("eS<f>"),I:x("x<eS<f>>"),s:x("x<f>"),p:x("x<h>"),v:x("a9<f,eS<f>>"),w:x("i2"),D:x("kT<ri>"),e:x("FN"),P:x("fI"),N:x("f"),S:x("Gu"),O:x("K<f>"),q:x("hr"),y:x("B"),z:x("@"),H:x("~")}})();(function constants(){var x=a.makeConstList
+D.fqB=new B.a3("Unassigned",null,null,null,null,null,null,null,null,null,null)
+D.aie=new B.eS(null,D.fqB,C.dD,null,y.r)
+D.e_j=new B.ah(61258,"MaterialIcons",null,!1)
+D.dZk=new B.ah(57435,"MaterialIcons",null,!1)
+D.e0o=new B.aN(D.dZk,null,null,null,null)
+D.dZF=new B.ah(58132,"MaterialIcons",null,!1)
+D.e0z=new B.aN(D.dZF,null,null,null,null)
+D.e2o=new B.ci(null,null,null,"Assignee",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+D.e2z=new B.ci(null,null,null,"Priority",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+D.e2I=new B.ci(null,null,null,"Description (optional)",null,null,null,null,null,null,"What needs to be done, context, links\u2026",null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+D.e2M=new B.ci(null,null,null,"Status",null,null,null,null,null,null,null,null,null,null,null,null,!0,!0,!1,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,!0,null,null,null,null)
+D.eYC=x(["low","medium","high"],y.s)
+D.f_M=x(["open","in_progress","done"],y.s)
+D.fqt=new B.a3("New task",null,null,null,null,null,null,null,null,null,null)
+D.fqV=new B.a3("Delete task",null,null,null,null,null,null,null,null,null,null)
+D.fs8=new B.a3("Delete this task?",null,null,null,null,null,null,null,null,null,null)
+D.fxu=new B.K("tasks-delete",y.O)
+D.fxE=new B.K("tasks-description-field",y.O)
+D.fxW=new B.K("tasks-priority-field",y.O)
+D.fzL=new B.K("tasks-assignee-field",y.O)
+D.fzT=new B.K("tasks-title-field",y.O)
+D.fAn=new B.K("tasks-status-field",y.O)
+D.fAz=new B.K("tasks-new",y.O)})();(function lazyInitializers(){var x=a.lazyFinal
 x($,"cVt","cpM",()=>C.na.$3$1(A.cKr(),y.S,y.D,y.N))})()};
-(a=>{a["1He1CL3Q8INhKbz2ujFcuYBSGsg="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["X3aOiL9k7tW9RkBgo94ZcBY5TMo="]=a.current})($__dart_deferred_initializers__);

@@ -1,9 +1,9 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B={c0P:function c0P(){},AL:function AL(d){this.a=d},
 cLa(d){var w
-A:{if("signed"===d){w=C.a5t
-break A}if("declined"===d){w=C.fiw
-break A}if("cancelled"===d){w=C.fix
+A:{if("signed"===d){w=C.a5y
+break A}if("declined"===d){w=C.fix
+break A}if("cancelled"===d){w=C.fiy
 break A}w=C.rZ
 break A}return w},
 cls(d){var w
@@ -29,7 +29,7 @@ r=A.a8(d.h(0,"status"))
 r=B.cLa(r==null?"pending":r)
 A.eq(A.Z(d.h(0,"created_at")))
 return new B.ng(q,p,w,v,u,t,s,r,A.a8(d.h(0,"evidence_id")),A.a8(d.h(0,"evidence_filename")))},
-N7:function N7(d,e){this.a=d
+N8:function N8(d,e){this.a=d
 this.b=e},
 ng:function ng(d,e,f,g,h,i,j,k,l,m){var _=this
 _.a=d
@@ -45,7 +45,7 @@ _.z=m}},C
 J=c[1]
 A=c[0]
 B=a.updateHolder(c[59],B)
-C=c[167]
+C=c[168]
 B.AL.prototype={
 jJ(d){return this.brR(d)},
 brR(d){var w=0,v=A.m(x.F),u,t=this,s,r,q,p,o,n,m,l
@@ -130,7 +130,7 @@ w=1
 break
 case 1:return A.k(u,v)}})
 return A.l($async$Pf,v)}}
-B.N7.prototype={
+B.N8.prototype={
 H(){return"SignatureRequestStatus."+this.b}}
 B.ng.prototype={
 gbQ(){return this.a}}
@@ -140,14 +140,14 @@ $1(d){return new B.AL(d.T($.dV(),x.k))},
 $S:z+0};(function inheritance(){var w=a.inherit,v=a.inheritMany
 w(B.c0P,A.cA)
 v(A.D,[B.AL,B.ng])
-w(B.N7,A.hp)})()
+w(B.N8,A.hp)})()
 var y={d:"id, room_id, title, document_text, signer_name, signer_email, message, status, created_at, evidence_id, evidence_items(filename)"}
 var x=(function rtii(){var w=A.O
-return{n:w("x<ng>"),F:w("w<ng>"),B:w("ae<@,@>"),c:w("ng"),w:w("f"),k:w("iS"),b:w("@"),d:w("w<@>?"),C:w("ng?"),v:w("~")}})();(function constants(){C.Ne=new A.ah(57791,"MaterialIcons",null,!1)
-C.NY=new A.aN(C.Ne,18,null,null,null)
-C.rZ=new B.N7(0,"pending")
-C.a5t=new B.N7(1,"signed")
-C.fiw=new B.N7(2,"declined")
-C.fix=new B.N7(3,"cancelled")})();(function lazyInitializers(){var w=a.lazyFinal
+return{n:w("x<ng>"),F:w("w<ng>"),B:w("ae<@,@>"),c:w("ng"),w:w("f"),k:w("iS"),b:w("@"),d:w("w<@>?"),C:w("ng?"),v:w("~")}})();(function constants(){C.Nj=new A.ah(57791,"MaterialIcons",null,!1)
+C.O1=new A.aN(C.Nj,18,null,null,null)
+C.rZ=new B.N8(0,"pending")
+C.a5y=new B.N8(1,"signed")
+C.fix=new B.N8(2,"declined")
+C.fiy=new B.N8(3,"cancelled")})();(function lazyInitializers(){var w=a.lazyFinal
 w($,"cVo","a9E",()=>A.eN(new B.c0P(),A.O("AL")))})()};
-(a=>{a["w8TdgPCO7Oq4xRHTqfJlM/MUNKM="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["+wCyA8zZuaESli+i2SPeFfjASSk="]=a.current})($__dart_deferred_initializers__);
