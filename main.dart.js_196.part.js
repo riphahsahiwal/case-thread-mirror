@@ -1,6 +1,6 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
-$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,H,F,I,K,C={c0Q:function c0Q(){},
-czu(d){return new C.Gg(d,null)},
+$__dart_deferred_initializers__.current=function(a,b,c,$){var J,A,B,H,F,I,K,C={c0P:function c0P(){},
+czs(d){return new C.Gg(d,null)},
 Gg:function Gg(d,e){this.e=d
 this.a=e},
 bcB:function bcB(){},
@@ -77,10 +77,10 @@ O=c[122]
 G=c[59]
 E=c[168]
 C.Gg.prototype={
-cr(d,e){var w=null,v=e.T($.c23().$1(this.e),x.r),u=A.e(d),t=A.y3(w,w,w,B.a71)
+cr(d,e){var w=null,v=e.T($.c22().$1(this.e),x.r),u=A.e(d),t=A.y3(w,w,w,B.a71)
 u=A.ee(v,new C.bcz(this,u.ok,e),new C.bcA(),new C.bcB(),!1,!0,!1)
 return A.kp(t,w,u,w,new H.DF(B.r4,"New signature request",F.zR,new C.bcC(this,d,e),!1,F.fCk,w,w))},
-bdD(d){var w
+bdC(d){var w
 switch(d.a){case 0:w=M.Cz
 break
 case 1:w=B.oX
@@ -90,25 +90,25 @@ break
 case 3:w=D.dZp
 break
 default:w=null}return w},
-bdC(d,e){var w
+bdB(d,e){var w
 A:{if(E.rZ===e){w=O.Ej
 break A}if(E.a5y===e){w=B.po
 break A}w=A.e(d).ay
 break A}return w},
-HD(d,e,f){return this.aQP(d,e,f)},
-aQP(d,e,f){var w=0,v=A.m(x.q),u=this
+HD(d,e,f){return this.aQO(d,e,f)},
+aQO(d,e,f){var w=0,v=A.m(x.q),u=this
 var $async$HD=A.i(function(g,h){if(g===1)return A.j(h,v)
 for(;;)switch(w){case 0:w=4
 return A.d(A.d5(null,null,!0,null,new C.bcj(f),d,null,!0,x.e),$async$HD)
 case 4:w=h===!0&&d.e!=null?2:3
 break
 case 2:w=5
-return A.d(e.V($.a9E(),x.w).UA(f.a),$async$HD)
-case 5:e.br($.c23().$1(u.e))
+return A.d(e.V($.a9E(),x.w).Uz(f.a),$async$HD)
+case 5:e.br($.c22().$1(u.e))
 case 3:return A.k(null,v)}})
 return A.l($async$HD,v)},
-JE(d,e){return this.bcO(d,e)},
-bcO(a2,a3){var w=0,v=A.m(x.q),u,t=this,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1
+JE(d,e){return this.bcN(d,e)},
+bcN(a2,a3){var w=0,v=A.m(x.q),u,t=this,s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,a0,a1
 var $async$JE=A.i(function(a4,a5){if(a4===1)return A.j(a5,v)
 for(;;)switch(w){case 0:h={}
 g=$.af()
@@ -149,28 +149,28 @@ j=k?null:h.a
 w=4
 return A.d(g.iW(new G.ng("",m,r,p,q,l,n,E.rZ,j,k?null:h.c)),$async$JE)
 case 4:i=a5
-a3.br($.c23().$1(m))
+a3.br($.c22().$1(m))
 if(a2.e!=null){A.qh(new A.nJ(y.d+i.a))
 a2.R(x.v).f.aS(D.fkz)}case 1:return A.k(u,v)}})
 return A.l($async$JE,v)},
-b8_(d,e){return A.eu(null,new C.bcn(this,e),d,!1,null,!0,!1,x.m)}}
+b7Z(d,e){return A.eu(null,new C.bcn(this,e),d,!1,null,!0,!1,x.m)}}
 var z=a.updateTypes(["M<w<ng>>(ao,f)","h(w<ng>)"])
-C.c0Q.prototype={
+C.c0P.prototype={
 $2(d,e){return d.T($.a9E(),x.w).jJ(e)},
 $S:z+0}
 C.bcB.prototype={
 $0(){return B.bi},
-$S:28}
+$S:29}
 C.bcA.prototype={
 $2(d,e){return D.afk},
-$S:52}
+$S:54}
 C.bcz.prototype={
 $1(d){var w=null,v=J.av(d)
 if(v.gW(d))return A.bR(new A.a_(B.bB,A.p("No signature requests yet.\nCreate one for engagement letters, fee agreements, or client authorizations \u2014 the signer gets a link, no account needed.",w,w,w,w,w,this.b.z,B.aO,w,w),w),w,w)
 return A.kh(w,new C.bcy(this.a,d,this.c),v.gu(d),B.aM,B.a5,!1)},
 $S:z+1}
 C.bcy.prototype={
-$2(d,e){var w=null,v=J.A(this.b,e),u=this.a,t=v.w,s=A.aT(u.bdD(t),u.bdC(d,t),w,w,w),r=A.p(v.c,w,w,w,w,w,w,w,w,w),q=G.cls(t),p=v.z
+$2(d,e){var w=null,v=J.A(this.b,e),u=this.a,t=v.w,s=A.aT(u.bdC(t),u.bdB(d,t),w,w,w),r=A.p(v.c,w,w,w,w,w,w,w,w,w),q=G.clp(t),p=v.z
 p=p!=null&&p.length!==0?" \u2022 \ud83d\udcce "+p:""
 p=A.p(v.e+" \u2022 "+q+p,w,w,w,w,w,w,w,w,w)
 q=A.c([],x.u)
@@ -178,7 +178,7 @@ t=t===E.rZ
 if(t)q.push(A.bN(w,w,w,D.e1K,w,w,new C.bcw(v,d),w,w,w,"Copy signing link",w))
 if(t)q.push(A.bN(w,w,w,D.e0C,w,w,new C.bcx(u,d,this.c,v),w,w,w,"Cancel",w))
 return A.hM(A.ej(!1,w,w,w,!0,w,w,w,!0,w,w,s,w,w,w,w,w,!1,w,w,w,w,p,w,r,w,A.am(q,B.z,w,B.r,B.W,0,w),w),w,w,w,w,w)},
-$S:229}
+$S:220}
 C.bcw.prototype={
 $0(){A.qh(new A.nJ(y.d+this.a.a))
 this.b.R(x.v).f.aS(D.fkA)},
@@ -203,11 +203,11 @@ $S:0}
 C.bcv.prototype={
 $1(d){var w=this
 return new A.nh(new C.bcu(w.a,w.b,w.c,w.d,w.e,w.f,w.r,w.w),null)},
-$S:75}
+$S:72}
 C.bcu.prototype={
 $2(d,e){var w=this,v=null,u=x.u,t=A.c([A.cS(v,B.at,!1,v,!0,B.B,v,A.d0(),w.c,v,v,v,v,v,2,D.e2X,B.T,!0,v,!0,v,!1,v,B.aP,v,v,v,v,v,v,v,v,v,1,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aN,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.af,v,B.aG,v,v,v,v),B.S],u),s=w.a,r=s.a
 if(r==null)t.push(A.i5(D.e10,D.fxU,D.frx,new C.bcq(s,w.b,d,w.d,e),v))
-else t.push(I.ccW(E.O1,v,D.fxv,A.p(r.c,v,v,B.az,v,v,v,v,v,v),new C.bcr(s,e),v))
+else t.push(I.ccT(E.O1,v,D.fxv,A.p(r.c,v,v,B.az,v,v,v,v,v,v),new C.bcr(s,e),v))
 t.push(B.S)
 t.push(A.cS(v,B.at,!1,v,!0,B.B,v,A.d0(),w.e,v,v,v,v,v,2,D.e2Y,B.T,!0,v,!0,v,!1,v,B.aP,v,v,v,v,v,v,v,v,v,4,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aN,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.af,v,B.aG,v,v,v,v))
 t.push(B.S)
@@ -218,12 +218,12 @@ t.push(B.S)
 t.push(A.cS(v,B.at,!1,v,!0,B.B,v,A.d0(),w.w,v,v,v,v,v,2,D.e2U,B.T,!0,v,!0,v,!1,v,B.aP,v,v,v,v,v,v,v,v,v,2,v,v,!1,"\u2022",v,v,v,v,v,!1,v,v,!1,v,!0,v,B.aN,v,v,v,v,v,v,v,v,v,v,v,v,!0,B.af,v,B.aG,v,v,v,v))
 t=A.en(A.a4(t,B.z,v,B.r,B.W,0,B.x),v,B.T,v,v,v,B.a5)
 return A.dw(A.c([A.by(B.bn,v,v,v,new C.bcs(d),v,v),A.d7(L.a6V,v,new C.bct(d),v)],u),t,v,D.fry)},
-$S:117}
+$S:121}
 C.bcq.prototype={
 $0(){var w=0,v=A.m(x.q),u=this,t
 var $async$$0=A.i(function(d,e){if(d===1)return A.j(e,v)
 for(;;)switch(w){case 0:w=2
-return A.d(u.b.b8_(u.c,u.d),$async$$0)
+return A.d(u.b.b7Z(u.c,u.d),$async$$0)
 case 2:t=e
 if(t!=null)u.e.$1(new C.bcp(u.a,t))
 return A.k(null,v)}})
@@ -246,7 +246,7 @@ $0(){return A.as(this.a,!1).aZ(!0)},
 $S:0}
 C.bcn.prototype={
 $1(d){return A.f3(!0,A.a4(A.c([D.fbP,new A.fP(1,B.cx,A.ka(new C.bcm(),this.b.V($.js(),x.d).pb(this.a.e),x.A),null)],x.u),B.z,null,B.r,B.W,0,B.x),!0,B.ac,!0,!0)},
-$S:84}
+$S:80}
 C.bcm.prototype={
 $2(d,e){var w,v
 if(e.a===B.qG)return B.bi
@@ -255,16 +255,16 @@ if(w==null)w=D.eUC
 v=J.av(w)
 if(v.gW(w))return D.fbT
 return A.kh(null,new C.bcl(w),v.gu(w),null,B.a5,!0)},
-$S:1235}
+$S:1234}
 C.bcl.prototype={
 $2(d,e){var w=null,v=J.A(this.a,e),u=A.p(v.c,w,w,B.az,w,w,w,w,w,w),t=v.y
 t=t!=null?A.p("by "+t,w,w,B.az,w,w,w,w,w,w):w
 return A.ej(!1,w,w,w,!0,w,w,w,!0,w,w,D.e0v,w,w,w,w,new C.bck(d,v),!1,w,w,w,w,t,w,u,w,w,w)},
-$S:118}
+$S:120}
 C.bck.prototype={
 $0(){return A.as(this.a,!1).aZ(this.b)},
 $S:0};(function inheritance(){var w=a.inheritMany,v=a.inherit
-w(A.dH,[C.c0Q,C.bcA,C.bcy,C.bcu,C.bcm,C.bcl])
+w(A.dI,[C.c0P,C.bcA,C.bcy,C.bcu,C.bcm,C.bcl])
 v(C.Gg,A.bV)
 w(A.dy,[C.bcB,C.bcw,C.bcx,C.bcC,C.bch,C.bci,C.bcq,C.bcp,C.bcr,C.bco,C.bcs,C.bct,C.bck])
 w(A.cA,[C.bcz,C.bcj,C.bcv,C.bcn])})()
@@ -303,5 +303,5 @@ D.fry=new A.a3("New signature request",null,null,null,null,null,null,null,null,n
 D.frC=new A.a3("Keep",null,null,null,null,null,null,null,null,null,null)
 D.fxv=new A.K("esign-attached-doc",x.x)
 D.fxU=new A.K("esign-attach-vault",x.x)})();(function lazyInitializers(){var w=a.lazyFinal
-w($,"cVp","c23",()=>B.bE.$2$1(new C.c0Q(),A.O("w<ng>"),A.O("f")))})()};
-(a=>{a["vT3DSXRLaxsPcg6TYRmGuId2PUM="]=a.current})($__dart_deferred_initializers__);
+w($,"cVn","c22",()=>B.bE.$2$1(new C.c0P(),A.O("w<ng>"),A.O("f")))})()};
+(a=>{a["hgqgojDxo4VYOmcdEE3mQN2nVYs="]=a.current})($__dart_deferred_initializers__);

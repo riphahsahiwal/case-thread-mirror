@@ -1,8 +1,8 @@
 ((a,b)=>{a[b]=a[b]||{}})(self,"$__dart_deferred_initializers__")
 $__dart_deferred_initializers__.current=function(a,b,c,$){var B,A,D={
-c5C(){return new D.GK(null)},
+c5A(){return new D.GK(null)},
 GK:function GK(d){this.a=d},
-biC:function biC(d,e,f){this.a=d
+biB:function biB(d,e,f){this.a=d
 this.b=e
 this.c=f}},C,E,F,G,H
 B=c[0]
@@ -21,10 +21,10 @@ j=n.y
 x=y.e
 j=B.a4(B.c([l,A.Y,k,A.S,B.p("How CaseThread protects your data \u2014 stated plainly, verified against our actual architecture.",o,o,o,o,o,j==null?o:j.X(B.e(d).ax.k3.aN(0.7)),A.aO,o,o)],x),A.z,o,A.r,A.w,0,A.x)
 l=B.e(d).ax.a===A.p?A.eh:A.ei
-l=p.a4N(d,n,l,p.ahv(d,n,"Honest limits: chat messages are not end-to-end encrypted \u2014 they are protected in transit and at rest by Supabase. If you transcribe or run AI analysis on an encrypted file, your device decrypts it and sends the plaintext to the processor over TLS. Our servers never store the raw bytes, but the derived transcript text and AI summaries are kept as plaintext so they stay searchable."),C.eOE,E.NK,"Encryption")
+l=p.a4M(d,n,l,p.ahu(d,n,"Honest limits: chat messages are not end-to-end encrypted \u2014 they are protected in transit and at rest by Supabase. If you transcribe or run AI analysis on an encrypted file, your device decrypts it and sends the plaintext to the processor over TLS. Our servers never store the raw bytes, but the derived transcript text and AI summaries are kept as plaintext so they stay searchable."),C.eOE,E.NK,"Encryption")
 k=p.Da(d,n,B.e(d).ax.a===A.p?A.aT:A.ab,C.eVV,A.p2,"Security posture")
 w=B.e(d).ax.a===A.p?A.Aw:A.Af
-w=p.a4N(d,n,w,p.ahv(d,n,"Important: this is our own self-assessment against the AICPA Trust Services Criteria. CaseThread has NOT undergone a third-party SOC 2 audit and holds NO SOC 2 certification. We publish this mapping so you can see exactly where we stand."),C.eQc,F.CD,"SOC 2 Type 1 self-assessment")
+w=p.a4M(d,n,w,p.ahu(d,n,"Important: this is our own self-assessment against the AICPA Trust Services Criteria. CaseThread has NOT undergone a third-party SOC 2 audit and holds NO SOC 2 certification. We publish this mapping so you can see exactly where we stand."),C.eQc,F.CD,"SOC 2 Type 1 self-assessment")
 v=p.Da(d,n,B.e(d).ax.a===A.p?A.uo:A.ba,C.eAX,C.e_J,"GDPR / CCPA checklist")
 u=p.Da(d,n,B.e(d).ax.a===A.p?A.AC:A.Az,C.emJ,A.nE,"Subprocessors")
 t=p.Da(d,n,B.e(d).ax.a===A.p?A.cd:A.ab,C.eOA,C.e_K,"Data residency")
@@ -32,9 +32,9 @@ s=p.Da(d,n,B.e(d).ax.a===A.p?A.l_:A.l3,C.eRN,C.e_Y,"Incident response")
 r=p.Da(d,n,B.e(d).ax.a===A.p?A.uo:A.ba,C.eNh,A.el,"Data Processing Agreement (DPA)")
 q=n.Q
 return B.kp(m,o,B.bR(B.en(new B.eJ(C.ab2,B.a4(B.c([j,A.yj,l,A.cG,k,A.cG,w,A.cG,v,A.cG,u,A.cG,t,A.cG,s,A.cG,r,A.yj,B.p("This page is informational and is not legal advice. Last reviewed October 2026.",o,o,o,o,o,q==null?o:q.X(B.e(d).ax.k3.aN(0.6)),A.aO,o,o),A.cG],x),A.bd,o,A.r,A.w,0,A.x),o),o,A.T,A.cI,o,o,A.a5),o,o),o,o)},
-ahv(d,e,f){var x=null,w=(B.e(d).ax.a===A.p?A.l_:A.l3).aN(0.1),v=B.b3(12),u=B.bU((B.e(d).ax.a===A.p?A.l_:A.l3).aN(0.4),A.O,1),t=B.aT(A.Np,B.e(d).ax.a===A.p?A.l_:A.l3,x,x,20),s=e.Q
+ahu(d,e,f){var x=null,w=(B.e(d).ax.a===A.p?A.l_:A.l3).aN(0.1),v=B.b3(12),u=B.bU((B.e(d).ax.a===A.p?A.l_:A.l3).aN(0.4),A.O,1),t=B.aT(A.Np,B.e(d).ax.a===A.p?A.l_:A.l3,x,x,20),s=e.Q
 return B.au(x,B.am(B.c([t,A.bc,B.aI(B.p(f,x,x,x,x,x,s==null?x:s.X(B.e(d).ax.k3),x,x,x),1,x)],y.e),A.R,x,A.r,A.w,0,x),A.D,x,x,new B.aC(w,x,u,v,x,x,A.Z),x,x,x,G.AZ,A.aM,x,x,x)},
-a4N(d,e,f,g,h,i,j){var x,w,v,u,t,s,r=null,q=B.cf("[^a-z0-9]+",!0,!1)
+a4M(d,e,f,g,h,i,j){var x,w,v,u,t,s,r=null,q=B.cf("[^a-z0-9]+",!0,!1)
 q=B.dl(j.toLowerCase(),q,"-")
 x=B.e(d).ax.a===A.p?A.ds:A.P
 w=B.b3(16)
@@ -46,16 +46,16 @@ u=e.r
 s=y.e
 u=B.c([B.am(B.c([t,A.lU,B.aI(B.p(j,r,r,r,r,r,u==null?r:u.d1(A.aV),r,r,r),1,r)],s),A.z,r,A.r,A.w,0,r),A.Y],s)
 if(g!=null)A.i.J(u,B.c([g],s))
-A.i.J(u,new B.a9(h,new D.biC(f,e,d),B.a6(h).i("a9<1,h>")))
+A.i.J(u,new B.a9(h,new D.biB(f,e,d),B.a6(h).i("a9<1,h>")))
 return B.au(r,B.a4(u,A.R,r,A.r,A.w,0,A.x),A.D,r,r,new B.aC(x,r,v,w,r,r,A.Z),r,r,new B.K("trust-section-"+q,y.a),r,A.bB,r,r,r)},
-Da(d,e,f,g,h,i){return this.a4N(d,e,f,null,g,h,i)}}
+Da(d,e,f,g,h,i){return this.a4M(d,e,f,null,g,h,i)}}
 var z=a.updateTypes([])
-D.biC.prototype={
+D.biB.prototype={
 $1(d){var x=null,w=B.au(x,x,A.D,x,x,new B.aC(this.a.aN(0.7),x,x,x,x,x,A.bP),x,6,x,x,x,x,x,6),v=this.b.z
 return new B.a_(H.mo,B.am(B.c([new B.a_(C.aj9,w,x),A.bc,B.aI(B.p(d,x,x,x,x,x,v==null?x:v.X(B.e(this.c).ax.k3.aN(0.85)),x,x,x),1,x)],y.e),A.R,x,A.r,A.w,0,x),x)},
-$S:1236};(function inheritance(){var x=a.inherit
+$S:1235};(function inheritance(){var x=a.inherit
 x(D.GK,B.a5)
-x(D.biC,B.cA)})()
+x(D.biB,B.cA)})()
 B.cW(b.typeUniverse,JSON.parse('{"GK":{"a5":[],"h":[]}}'))
 var y={h:B.O("x<f>"),e:B.O("x<h>"),a:B.O("K<f>")};(function constants(){var x=a.makeConstList
 C.ab2=new B.aw(0,760,0,1/0)
@@ -72,4 +72,4 @@ C.eQc=x(["Security (CC6\u2013CC8): logical access is enforced by Row Level Secur
 C.eRN=x(["If we detect or are told about a security incident, we contain it first, then assess what data was affected using the append-only audit log.","Affected users are notified without undue delay with what happened, what data was involved, and what we did about it.",'To report a suspected vulnerability or incident, email abdullahhshafiquee@gmail.com with "SECURITY" in the subject line.'],y.h)
 C.eVV=x(["Encryption at rest: all data lives on Supabase\u2019s managed Postgres and Storage, which encrypt data at rest.","Encryption in transit: every connection to Supabase and the web app runs over TLS.","Row Level Security: enforced at the database on 46 tables, so users can only read or write rows they have a right to see \u2014 no matter what the client asks for.","Append-only audit log: every security-relevant action (membership changes, evidence uploads, exports, status transitions) is recorded in an audit_log table whose immutability is enforced by the database itself \u2014 UPDATE and DELETE are revoked even for privileged roles and blocked by a trigger.",'Evidence integrity: every evidence file carries a SHA-256 hash that can be re-verified at any time ("Verify hash") to prove it has not been altered.',"Evidence access logging: who viewed or downloaded each evidence item is recorded in an access audit trail visible to room members.","Authentication: Supabase Auth with session tokens; authorization is derived from membership and role, checked in database policies \u2014 never trusted from the client."],y.h)
 C.fr8=new B.a3("Trust Center",null,null,null,null,null,null,null,null,null,null)})()};
-(a=>{a["ePZ/oe6Pqu/btaPZpEFhnMcpkNo="]=a.current})($__dart_deferred_initializers__);
+(a=>{a["5b5K6OrwMGIhG4cve6ZBMKVcrdk="]=a.current})($__dart_deferred_initializers__);
